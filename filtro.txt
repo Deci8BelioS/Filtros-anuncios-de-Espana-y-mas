@@ -503,6 +503,12 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.eg
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
 
+! ------ fayerwayer.com ------ 
+fayerwayer.com##.slide-down.
+fayerwayer.com##.notification-subs
+fayerwayer.com##[id^="arcad-"]
+fayerwayer.com##.right-article-section
+
 ! ------ Forocoches ------ 
 forocoches.com###h1
 forocoches.com###fcthread
