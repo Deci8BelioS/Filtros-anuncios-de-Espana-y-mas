@@ -639,6 +639,8 @@ pccomponentes.com##.title-module-class
 pccomponentes.com###seo-bottom-container
 pccomponentes.com##.slider-module-class
 pccomponentes.com##.title-container
+pccomponentes.com##.carousel-brand-module-class
+||cdn.pccomponentes.com/img/repositorio/banner/dfp-pccomponentes-default-*.png
 
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
