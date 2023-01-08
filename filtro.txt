@@ -660,6 +660,7 @@ profesionalreview.com##.__lxG__double
 profesionalreview.com###ez-toc-container
 profesionalreview.com##.theiaStickySidebar
 profesionalreview.com##.sidebar
+profesionalreview.com##.shadow
 
 ! ------ pspstation.org ------ 
 pspstation.org##.code-block
