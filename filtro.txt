@@ -463,6 +463,7 @@ eldiario.es##.embed-container
 eldiario.es##.news-know-more
 eldiario.es##.cmp-footer
 eldiario.es##.become-partner
+eldiario.es##.focus-header
 
 ! ------ elotrolado ------ 
 elotrolado.net##.anno
