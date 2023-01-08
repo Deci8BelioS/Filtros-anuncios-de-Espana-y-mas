@@ -235,12 +235,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
-*##.header-ad
-*##.header-adds
-*##.header-links
-*##[id^="ad_container_"]
-*##.dailymotion-library
-*##.news-outlook
+###credential_picker_container
 *##script:inject(bab-defuser.js)
 *#@#.ad-300x250
 *#@#.ad-left
@@ -452,6 +447,18 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###text-23
 ||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
+
+! ------ eldiario.es ------ 
+eldiario.es##.header-ad
+eldiario.es##.header-adds
+eldiario.es##.header-links
+eldiario.es##[id^="ad_container_"]
+eldiario.es##.dailymotion-library
+eldiario.es##.news-outlook
+eldiario.es##.bbnx-module
+eldiario.es##.bulletin-subscription
+eldiario.es##.edi-advertising
+eldiario.es##.branded-content
 
 ! ------ elotrolado ------ 
 elotrolado.net##.anno
