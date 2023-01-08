@@ -251,7 +251,52 @@ _publicitario.
 *##.ad_unit:not(.text-ad)
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 ##.adsbox
+@@||seur.com^$document
+@@/publicidad.$domain=tn.com.ar
+@@||ads.e-planning.net^*/PreRoll?
+@@||ads.globo.com/RealMedia/ads/adstream_jx.ads/g1/*videos
+@@||ads.globo.com/RealMedia/ads/adstream_mjx.ads/g1/home/
+@@||ads.globo.com/RealMedia/ads/adstream_nx.ads/g1/home/
+@@||ads.smowtion.com/ad.js
+@@||ads.telecinco.es^*/PM_test_video/crossdomain.xml
+@@||adserver.cl/crossdomain.xml$domain=cooperativa.cl
+@@||adserver.cl/videos.xml?$domain=cooperativa.cl
+@@||adserver.ig.com.br/crossdomain.xml$domain=ig.com.br
+@@||adswizz.com/www/components/$domain=esradio.fm
+@@||adswizz.com/www/delivery/swfIndex.php?$domain=esradio.fm
+@@||antena3.com/adserver/flv2/$domain=larazon.es
+@@||autoscout24.es^*/adbanner.css
+@@||avisooportunoexpress.mx/ajax_core.php*&adtype?$domain=avisooportunoexpress.mx
+@@||cdn.smartclip.net/easyroll/player.swf
+@@||ads.e-planning.net^$domain=ole.com.ar,object
+@@||diariosigloxxi.com/banners/logo_
+@@||e-planning.net/esb/*.swf?clickTag$domain=ole.com.ar
+@@||extraconfidencial.com/js/*$object
+@@||f.i.uol.com.br/folha/publicidade/images/$domain=folha.uol.com.br
+@@||forolockerz.com/advertisement.js
+@@||freelibros.com/wp-content/plugins/no-adblock/$script
+@@||izigo.pt/*/adsearch?
+@@||izigo.pt/AdPictures/
+@@||lanacion.com.ar^*/publicidad/
+@@||larazon.es/videos/publicidad_
+@@||prisacom.com/RealMedia/ads/*/eplayer/$domain=as.com
+@@||punch-fansub.com.br/banners/
+@@||t26.net/ads/yahooads.css
+@@||tvn.cl/include/ads/zona.js
+@@||zpag.es/ads/$xmlhttprequest
 !------------------------------------------------------------------
+
+! ------ 20minutos ------
+20minutos.es##+js(abort-on-property-read, hb_now)
+20minutos.es#$##axds-Top { min-height: 0 !important; }
+20minutos.es##.banner-header
+20minutos.es##.axds > div.henneoHB
+metropoles.com,20minutos.es##.OUTBRAIN
+20minutos.es##.axds-lane
+20minutos.es##.ad-fixed
+20minutos.es##.editorial-banner
+
+
 ! ------ Amazon ------
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 
@@ -363,23 +408,43 @@ computerhoy.com##.lazyload-wrapper
 computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
 
 ! ------ elmundo.es y compañia ------ 
-elmundo.es,expansion.com,marca.com##.Bloque-anuncios-shadow
-elmundo.es,expansion.com,marca.com##.Bloque-anuncios
-elmundo.es,expansion.com,marca.com##.disabled-vscroll:style(overflow: auto !important; position: initial !important;)
-elmundo.es,expansion.com,marca.com##+js(aopr, adUnits)
-elmundo.es,expansion.com,marca.com##.ad-item-bt-cont
-elmundo.es,expansion.com,marca.com##.banner-sticky
-elmundo.es,expansion.com,marca.com##a[href="http://www.caixabank.es"] > img
-elmundo.es,expansion.com,marca.com##img[class="ue-c-widget__sponsor"]
-elmundo.es,expansion.com,marca.com##main > div.ue-l-cover-grid[data-flex-name="row_headline"]:has(> div.ue-l-cover-grid__inner > div.ue-l-cover-grid__body > div.ue-l-cover-grid__block > div.ue-l-cover-grid__row > div.ue-l-cover-grid__unit:only-child > div.ue-c-ad)
-elmundo.es,expansion.com,marca.com##.ue-c-ad
-elmundo.es,expansion.com,marca.com##.publicidad
-elmundo.es,expansion.com,marca.com##.banda_suscripcion
-elmundo.es,expansion.com,marca.com##.ue-c-article__newsletter-widget
-elmundo.es,expansion.com,marca.com##.ue-l-article__secondary-column > div.ue-l-article__secondary-column-item:has(> div.ue-c-ad)
-elmundo.es,expansion.com,marca.com##main > div.ue-l-article + div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__row > div.ue-l-article__secondary-column-extra > div.ue-l-article__secondary-column-item > div.ue-c-ad)
-elmundo.es,expansion.com,marca.com##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__mega > div.ue-c-ad)
-elmundo.es,expansion.com,marca.com##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__row > div.ue-l-article__main-column-extra div[id^="taboola"] )
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.disabled-vscroll:style(overflow: auto !important; position: initial !important;)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##+js(aopr, adUnits)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-item-bt-cont
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.banner-sticky
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##a[href="http://www.caixabank.es"] > img
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##img[class="ue-c-widget__sponsor"]
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##main > div.ue-l-cover-grid[data-flex-name="row_headline"]:has(> div.ue-l-cover-grid__inner > div.ue-l-cover-grid__body > div.ue-l-cover-grid__block > div.ue-l-cover-grid__row > div.ue-l-cover-grid__unit:only-child > div.ue-c-ad)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-c-ad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.publicidad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.banda_suscripcion
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-c-article__newsletter-widget
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-l-article__secondary-column > div.ue-l-article__secondary-column-item:has(> div.ue-c-ad)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##main > div.ue-l-article + div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__row > div.ue-l-article__secondary-column-extra > div.ue-l-article__secondary-column-item > div.ue-c-ad)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__mega > div.ue-c-ad)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__row > div.ue-l-article__main-column-extra div[id^="taboola"] )
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.news-item ~ section.row-layout:empty
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.content-ad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.aside-outbrain
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.aside-ad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.gallery-slide-ad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.publicidad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###publi_sup
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.modulo_orbyt
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.publi
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.publi-resultados
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.publi_630_noticia
+||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
+@@||b.scorecardresearch.com^$domain=impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com
+
+! ------ elotrolado ------ 
+elotrolado.net##.anno
+elotrolado.net##.dfp-queue
+elotrolado.net##div.news-ad
+aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
+||elotrolado.net/styles/estiloeol/imageset/banner_
 
 ! ------ diariodenavarra ------ 
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
@@ -389,6 +454,10 @@ diariodenavarra.es##.sticky_roba
 
 ! ------ elchapuzasinformatico ------ 
 elchapuzasinformatico.com##.ad-area
+elchapuzasinformatico.com#$#body { background-image: none !important; }
+||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
+||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
+elchapuzasinformatico.com##.bg-ad
 
 ! ------ facebook.com ------ 
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
@@ -450,12 +519,12 @@ muycomputer.com##.mrf-scrollViewContainer
 muycomputer.com##.mrf-todayInHome
 
 ! ------ mediaset ------ 
-cuatro.com,telecinco.es###megaSuperior_multisite
-cuatro.com,telecinco.es##.cards__card_ad-3gZy
-cuatro.com,telecinco.es##div[class^="adsGroupTop"]
-cuatro.com,telecinco.es##div[class^="ads__ad_"]
-cuatro.com,telecinco.es##div[class^="cards__card_ad-"]
-cuatro.com,telecinco.es##.alertTop
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es###megaSuperior_multisite
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##.cards__card_ad-3gZy
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##div[class^="adsGroupTop"]
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##div[class^="ads__ad_"]
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##div[class^="cards__card_ad-"]
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##.alertTop
 mitele.es##div[class^="coreCarousel__advertisementBox-"]
 @@||mdsrwdassets-a.akamaihd.net^$script,xhr,domain=mediaset.es|yasss.es
 @@||mediaset.es^$ghide
