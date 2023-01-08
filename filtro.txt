@@ -302,7 +302,6 @@ metropoles.com,20minutos.es##.OUTBRAIN
 20minutos.es##.ad-fixed
 20minutos.es##.editorial-banner
 
-
 ! ------ Amazon ------
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 
@@ -491,6 +490,7 @@ elchapuzasinformatico.com#$#body { background-image: none !important; }
 ||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
 ||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 elchapuzasinformatico.com##.bg-ad
+elchapuzasinformatico.com##.widget
 
 ! ------ facebook.com ------ 
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
