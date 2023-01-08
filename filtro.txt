@@ -647,8 +647,16 @@ pccomponentes.com##.dfp-module-class
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
-profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
-profesionalreview.com##.__lxG__size_fixed.__lxG__geo_es.__lxG__loading_block.__lxG__bsticky_lx_684195.__lxG__bsticky.__lxG__multi_lx_684195.__lxG__multi
+profesionalreview.com##.__lxG__size_fixed
+profesionalreview.com##.__lxG__geo_es
+profesionalreview.com##.__lxG__loading_block
+profesionalreview.com##.__lxG__bsticky
+profesionalreview.com##.__lxG__multi
+profesionalreview.com##.stream-item
+profesionalreview.com##.widget-ad-image
+profesionalreview.com###cl-consent
+profesionalreview.com##body:style(background-image:none!important;)
+profesionalreview.com##.__lxG__double
 
 ! ------ pspstation.org ------ 
 pspstation.org##.code-block
