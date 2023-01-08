@@ -235,6 +235,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+###cookies-modal
 ###cmplz-cookiebanner-container
 ###credential_picker_container
 *##script:inject(bab-defuser.js)
@@ -624,6 +625,10 @@ pccomponentes.com##.notificacion-cookies
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=pccomponentes.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=ivoox.com|pccomponentes.com
+pccomponentes.com##.recommended-articles__reserved-space
+pccomponentes.com##.pack-mini__reserved-space
+pccomponentes.com##.similar-articles__reserved-space
+pccomponentes.com##.carousel-adobe__reserved-space
 
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
