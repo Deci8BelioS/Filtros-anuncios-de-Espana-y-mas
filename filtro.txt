@@ -572,7 +572,10 @@ motor.es##.modulo-suscripcion
 motor.es##.megabanner
 motor.es###relacionadas_section
 motor.es##.hueco-publicidad
-
+motor.es##.relacionado-noticia
+motor.es##.modulo-lo-mas
+motor.es##.divisor
+motor.es##.hueco-modulo
 
 ! ------ pccomponentes ------ 
 ||doubleclick.net^$domain=pccomponentes.com,important
