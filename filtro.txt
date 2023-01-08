@@ -497,6 +497,17 @@ reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 reddit.com##div[class][data-before-content="advertisement"]:not([id])
 reddit.com##[id^="t3"].promotedlink:upward(.rpBJOHq2PR60pnwJlUyP0 > div)
 reddit.com##.adLinkBar:upward(article[style="z-index: 1;"])
+reddit.com,new.reddit.com##div[data-redditstyle=true]:has-text(Reddit Premium)
+reddit.com,new.reddit.com##button#COIN_PURCHASE_DROPDOWN_ID:has-text(Get Coins)
+reddit.com,new.reddit.com##button:has-text(Award)
+reddit.com,new.reddit.com##a[href^="/rpan/r/"][href$="?related=home"]:upward(5)
+reddit.com,new.reddit.com##div[role=menu] > a:has-text(Reddit Coins)
+reddit.com,new.reddit.com##div[role=menu] > a:has-text(Reddit Premium)
+reddit.com,new.reddit.com###TrendingPostsContainer:upward(4)
+reddit.com,new.reddit.com##a[aria-label=Advertise]
+reddit.com,new.reddit.com##button:has-text(Shop Avatars)
+reddit.com,new.reddit.com##a[href="/now"]
+reddit.com,new.reddit.com##a[href="/now"] + div:has-text(Find live chats)
 
 ! ------ Twitter ------ 
 twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
