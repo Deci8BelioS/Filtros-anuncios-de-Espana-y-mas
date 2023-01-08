@@ -564,6 +564,16 @@ megaup.net##.metaRedirectWrapperBottomAds
 ! ------ mgnetu.com ------ 
 mgnetu.com##p
 
+! ------ motor.es ------ 
+motor.es##.robapaginas-portada
+motor.es##.secundaria
+motor.es##.arriba.herramientas
+motor.es##.modulo-suscripcion
+motor.es##.megabanner
+motor.es###relacionadas_section
+motor.es##.hueco-publicidad
+
+
 ! ------ pccomponentes ------ 
 ||doubleclick.net^$domain=pccomponentes.com,important
 ||googlesyndication.com^$domain=pccomponentes.com,important
