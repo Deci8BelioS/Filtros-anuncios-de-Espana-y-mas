@@ -459,6 +459,7 @@ eldiario.es##.bbnx-module
 eldiario.es##.bulletin-subscription
 eldiario.es##.edi-advertising
 eldiario.es##.branded-content
+eldiario.es##.embed-container
 
 ! ------ elotrolado ------ 
 elotrolado.net##.anno
