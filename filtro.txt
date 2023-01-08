@@ -235,6 +235,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+###cmplz-cookiebanner-container
 ###credential_picker_container
 *##script:inject(bab-defuser.js)
 *#@#.ad-300x250
@@ -624,12 +625,15 @@ pccomponentes.com##.notificacion-cookies
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=ivoox.com|pccomponentes.com
 
-
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
 profesionalreview.com##.__lxG__size_fixed.__lxG__geo_es.__lxG__loading_block.__lxG__bsticky_lx_684195.__lxG__bsticky.__lxG__multi_lx_684195.__lxG__multi
+
+! ------ pspstation.org ------ 
+pspstation.org##.code-block
+pspstation.org##.floating
 
 ! ------ reddit ------ 
 reddit.com##.XPromoBlockingModal
@@ -659,7 +663,6 @@ speedtest.net##.privacy-update
 speedtest.net##div[data-view-name="privacy-updated-notice"]
 speedtest.net###zdcFloatingBtn
 
-
 ! ------ twitch.tv ------ 
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
@@ -674,8 +677,9 @@ twitter.com##[data-focusable="true"]:has-text(/Promoted|Promocionado/)
 
 ! ------ xda-developers ------ 
 xda-developers.com##+js(rc, twig-body)
-forum.xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
-xda-developers-forum.*##+js(nobab)
+xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
+xda-developers.com##+js(abort-current-script, document.createElement, admiral)
+xda-developers.com###xdadevelopers_leaderboard_atf
 
 ! ------ Youtube ------ 
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
