@@ -1,2 +1,2 @@
-# Filtros-anuncios-de-Espa-a
+# Filtros anuncios de España
 Filtros ublock, adguard, adblock para paginas Españolas (genbeta, xataka, motorpasion etc...) personal
