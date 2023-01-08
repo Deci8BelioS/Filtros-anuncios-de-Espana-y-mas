@@ -404,12 +404,19 @@ computerhoy.com###mega_3
 computerhoy.com###mega_4
 computerhoy.com###mega_5
 computerhoy.com###mega_6
+computerhoy.com###mega_7
+computerhoy.com###mega_8
+computerhoy.com###mega_9
 computerhoy.com###roba_1
 computerhoy.com###roba_2
 computerhoy.com###roba_3
 computerhoy.com###roba_4
 computerhoy.com###roba_5
 computerhoy.com###roba_6
+computerhoy.com###roba_7
+computerhoy.com###roba_8
+computerhoy.com###roba_9
+computerhoy.com###mega_desktop
 computerhoy.com##.lazyload-wrapper
 computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
 
