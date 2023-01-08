@@ -444,25 +444,7 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.widget_newsletterwidget
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###text-23
 ||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
-@@||b.scorecardresearch.com^$domain=impactoespananoticias.com
-@@||b.scorecardresearch.com^$domain=meteorologiaenred.com
-@@||b.scorecardresearch.com^$domain=desdelinux.net
-@@||b.scorecardresearch.com^$domain=lawebdelprogramador.com
-@@||b.scorecardresearch.com^$domain=soydemac.com
-@@||b.scorecardresearch.com^$domain=as.com
-@@||b.scorecardresearch.com^$domain=cadenaser.com
-@@||b.scorecardresearch.com^$domain=cincodias.com
-@@||b.scorecardresearch.com^$domain=destinia.co
-@@||b.scorecardresearch.com^$domain=elpais.com
-@@||b.scorecardresearch.com^$domain=lavozlibre.com
-@@||b.scorecardresearch.com^$domain=elmundo.es
-@@||b.scorecardresearch.com^$domain=abc.es
-@@||b.scorecardresearch.com^$domain=expansion.com
-@@||b.scorecardresearch.com^$domain=mp3xd.mom
-@@||b.scorecardresearch.com^$domain=escuchasmusica.com
-@@||b.scorecardresearch.com^$domain=goomusica.com
-@@||b.scorecardresearch.com^$domain=marca.com
-
+@@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 
 ! ------ elotrolado ------ 
 elotrolado.net##.anno
@@ -572,7 +554,14 @@ mgnetu.com##p
 ||googlesyndication.com^$domain=pccomponentes.com,important
 ||googletagservices.com^$domain=pccomponentes.com,important
 ||omtrdc.net^$xhr,domain=pccomponentes.com,important
-pccomponentes.com##div[id^="div-gpt-ad-"]
+pccomponentes.com#@#[id^="div-gpt-ad"]
+pccomponentes.com#@#[id^="google_ads_iframe"]
+pccomponentes.com##.notificacion-cookies
+@@||g.doubleclick.net/gampad/ads?$domain=pccomponentes.com
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=pccomponentes.com
+@@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
+@@||googletagservices.com/tag/js/gpt.js$domain=ivoox.com|pccomponentes.com
+
 
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
