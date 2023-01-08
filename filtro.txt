@@ -232,6 +232,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+*##script:inject(bab-defuser.js)
 *#@#.ad-300x250
 *#@#.ad-left
 *#@#.ad-link
@@ -333,10 +334,16 @@ audiotools.in##.active.chp_ads_blocker-overlay
 audiotools.in##.chp_ads_blocker_detector-show.chp_ads_blocker_detector
 audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
 
+! ------ audioz ------ 
+audioz.download###PromoHead
+
 ! ------ chomikuj.pl ------ 
 chomikuj.pl###aPlaceHolder
 chomikuj.pl##[href="/action/Products/SliderIndex"]
 chomikuj.pl##.pp_download_frame.pp_frame
+
+! ------ coinbase.com ------ 
+coinbase.com##.cds-1-_qem5ui.cds-4-_aw0v8j.cds-3-_9w3lns.cds-column-ci8mx7v.cds-flex-f1g67tkn
 
 ! ------ Computerhoy ------ 
 computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > main.main-layout_mainContent__lUOxW.main-container:nth-child(7) > div.region-section-aside_content__SIp6d.region-section-aside_width--300__yVTwX.container-region-aside:last-child > section.region-section-aside_section__pPhsA:first-child > div.default_content___ctRp > div.body_bodyStyles__yoWJg.false:nth-child(n) > div.ad-slot_wrapperRobaOutstream__aLfim:nth-child(n)
@@ -416,6 +423,9 @@ forocoches.com##[id*="adslot"]:upward(ul > li)
 forocoches.com##div.optidigital-wrapper-div:nth-child(n)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
 
+! ------ flaticon.com ------ 
+flaticon.com###bn-icon-list
+
 ! ------ instagram ------ 
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
@@ -423,6 +433,10 @@ instagram.com#?#main > div > section div[style*="flex-direction: column;"] > art
 ! ------ instatecno ------ 
 instatecno.com###ai-adb-overlay
 instatecno.com###ai-adb-message
+
+! ------ ios-repo-updates.com ------ 
+ios-repo-updates.com##.adsbygoogle
+ios-repo-updates.com##.blockads.text-center
 
 ! ------ muycomputer ------ 
 muycomputer.com##.mrf-adv
@@ -453,6 +467,12 @@ mitele.es##div[class^="coreCarousel__advertisementBox-"]
 @@||cuatro.com^$ghide
 @@||telecinco.es^$ghide
 
+! ------ megaup.net ------ 
+megaup.net##.metaRedirectWrapperBottomAds
+
+! ------ mgnetu.com ------ 
+mgnetu.com##p
+
 ! ------ pccomponentes ------ 
 ||doubleclick.net^$domain=pccomponentes.com,important
 ||googlesyndication.com^$domain=pccomponentes.com,important
@@ -464,6 +484,7 @@ pccomponentes.com##div[id^="div-gpt-ad-"]
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
+profesionalreview.com##.__lxG__size_fixed.__lxG__geo_es.__lxG__loading_block.__lxG__bsticky_lx_684195.__lxG__bsticky.__lxG__multi_lx_684195.__lxG__multi
 
 ! ------ reddit ------ 
 reddit.com##.XPromoBlockingModal
@@ -499,6 +520,8 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com###masthead-ad
+youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
 
 ! ------ Varios ------ 
 browser.sentry-cdn.com
@@ -517,3 +540,102 @@ supportmetrics.apple.com
 ||ads.pinterest.com^$xhr,redirect-rule=noop.txt
 ||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
 elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.org,rojadirectaonlinetv.com##+js(aopr, open)
+||ibaillanos.tv/^
+||inuuhtznjglmm.com^
+||szxjygbabily.com^
+||dismantlepenantiterrorist.com^
+||visitsviolatedifficult.com^
+||blockadsnot.com^
+||addresseepaper.com^
+||local-finders.com
+||mediawhirl.net
+||om.elvenar.com
+||spanishdating.me
+||es1n1.local-finders.com
+||i9ur3243.ru/
+||avtonoja.xyz
+||sporthero.thewhizmarketing.com
+||thewhizmarketing.com
+||bet365.es
+||gogamego.thewhizproducts.com
+||thewhizproducts.com
+||sportsaddict.thewhizproducts.com
+||1kdailyprofit.biz
+||kistr.club
+||d3bnpen5c46yz4.cloudfront.net
+||104.197.207.200
+||elmagoarcano.com
+||coolio.stream
+||104.198.61.40
+||c.codeonclick.com
+||35.184.169.188
+||coin-hive.com/lib/coinhive.min.js
+||coin-hive.com/
+||microsoft.com.latin.pcsafer7.bid
+||rszzpjttufuw.bid
+||qblpxxcjusgmq.bid
+||toepisterk.com/17QRA?src=popads&uid=macmain.2207969
+||toepisterk.com
+||eac0823ca94e3c07.com
+||akk.li
+||wty46.com
+||pan.whathyx.com
+||164.132.200.121
+||superimad.com
+||whathyx.com
+||btzoo.eu
+||195.22.28.198
+||topsuccessnews.com
+||ssraju3n.com
+||prtnsrc.com
+||webmine.pro
+||http://pon.ewtuyytdf45.com
+||35.188.59.75
+||http://35.184.188.211
+||http://screenwatch.yournewtab.com/
+||http://apps0157.buythemprize43.loan
+||vidcpm.com
+||oyi9f1kbaj.com
+||pimmuter.com
+||firrectly.top
+||p8.firrectly.top
+||embed.torrents-time.com
+||zontent.powvideo.net/
+||adstean.com
+||65mjvw6i1z.com
+||http://65mjvw6i1z.com/fa/5b/49/fa5b499573648ce23e4e5c3340fea03d.js
+||your24football.com
+||poogriry.click
+||wqkpadciw.com
+||hehraybryciyls.com
+||money-maker-script.info/main.js
+||service4refresh.info/index.html
+||money-maker-default.info/
+||store.hp.com/SpainStore/Merch/offer.aspx?p=c-gaming-gateway&jumpid=ba_5ehyf9avmz&utm_source=twitch&utm_medium=display&utm_campaign=es_q4_fy18_ps_cps_gaming_omen&utm_content=es003
+||fftmsr0842rh.com
+||adskpak.com
+||iskkrmwivxfmdjwxme.bid
+||getlnk1.com
+||getawesome1.com
+||track.special-promotions.online
+||http://35.226.75.50
+||43yagowe3y.com
+||65mjvw6i1z.com
+||follamigos.com
+||newaprads.com
+||butheptesitrew.pro
+||tryhardnow.com
+||dedating.online
+||tibacta.com
+||notification-list.com
+||pnrtscr.com/video.mp4
+||assets.msn.com
+||geolocation.onetrust.com
+||img-s-msn-com.akamaized.net
+||ntp.msn.com
+||bing.com
+||msn.com
+||api.taboola.com
+||a.msn.com
+||img-prod-cms-rt-microsoft-com.akamaized.net
+||ntp.msn.com/edge/ntp/service-worker.js
