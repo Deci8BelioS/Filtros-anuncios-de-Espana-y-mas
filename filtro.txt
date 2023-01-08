@@ -443,3 +443,6 @@ muycomputer.com##.mrf-todayInHome
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
+jugandojuegosymas.com###pbt
+jugandojuegosymas.com###fixedban
+elchapuzasinformatico.com##.ad-area
