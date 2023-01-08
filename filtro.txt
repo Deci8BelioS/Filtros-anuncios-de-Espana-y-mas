@@ -515,7 +515,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
 
 ! ------ fayerwayer.com ------ 
-fayerwayer.com##.slide-down.
+fayerwayer.com##.slide-down
 fayerwayer.com##.notification-subs
 fayerwayer.com##[id^="arcad-"]
 fayerwayer.com##.right-article-section
