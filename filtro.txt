@@ -1,4 +1,4 @@
-![Adblock Plus 2.0]
+! Homepage: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas
 ! Title: Filtros anuncios de España y mas por DeciBelioS
 ! Description: Filtros ublock, adguard, adblock para paginas Españolas (genbeta, xataka, motorpasion etc...) y mas por DeciBelioS
 !------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!
