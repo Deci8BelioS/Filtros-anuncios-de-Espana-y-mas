@@ -515,6 +515,10 @@ instatecno.com###ai-adb-message
 ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
 
+! ------ mediavida ------ 
+mediavida.com##._p-ft
+mediavida.com##._p-tp
+
 ! ------ muycomputer ------ 
 muycomputer.com##.mrf-adv
 muycomputer.com##.mrf-adDensityBodySentinel
@@ -534,6 +538,16 @@ bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##div[class^="cards__card_ad-"]
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##.alertTop
 mitele.es##div[class^="coreCarousel__advertisementBox-"]
+mitele.es##.ad-wrapper
+mitele.es##.titleList.DestacadoBox.clearfix.ModuleSimple:last-child
+mitele.es##A[href="http://www.premiercasino.es/redirect?provenanceCode=CONECTA5CASINO"]
+mitele.es##a[href="http://www.eltiempohoy.es/"]
+mitele.es##a[href="http://www.tiendagranhermano.com"]
+@@||imasdk.googleapis.com/js/sdkloader/$script,domain=libremercado.com|mitele.es|mundoprimaria.com|shares.enetres.net|vodgc.net
+@@||mdsrwdassets-a.akamaihd.net^$script,domain=mitele.es
+@@||akamaihd.net/*/defaultview/*/fuckadblock.js$script,third-party,xmlhttprequest,domain=mitele.es
+@@||akamaihd.net/defaultview/adjs.js$script,third-party,xmlhttprequest,domain=mitele.es
+@@||akamaihd.net/dist/assets/nonAdBlock/$script,third-party,xmlhttprequest,domain=mitele.es
 @@||mdsrwdassets-a.akamaihd.net^$script,xhr,domain=mediaset.es|yasss.es
 @@||mediaset.es^$ghide
 @@||yasss.es^$ghide
