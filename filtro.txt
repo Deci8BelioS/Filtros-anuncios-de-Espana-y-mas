@@ -637,6 +637,8 @@ pccomponentes.com##.mkt-module-class
 pccomponentes.com##.grid-module-class
 pccomponentes.com##.title-module-class
 pccomponentes.com###seo-bottom-container
+pccomponentes.com##.slider-module-class
+pccomponentes.com##.title-container
 
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
