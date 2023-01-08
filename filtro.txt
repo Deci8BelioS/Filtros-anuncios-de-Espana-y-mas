@@ -461,6 +461,7 @@ eldiario.es##.edi-advertising
 eldiario.es##.branded-content
 eldiario.es##.embed-container
 eldiario.es##.news-know-more
+eldiario.es##.cmp-footer
 
 ! ------ elotrolado ------ 
 elotrolado.net##.anno
