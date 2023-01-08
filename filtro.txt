@@ -530,6 +530,7 @@ forocoches.com##div.title-forum-display-destacado
 forocoches.com##[id*="adslot"]:upward(ul > li)
 forocoches.com##div.optidigital-wrapper-div:nth-child(n)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
+forocoches.com###social-networks
 
 ! ------ flaticon.com ------ 
 flaticon.com###bn-icon-list
