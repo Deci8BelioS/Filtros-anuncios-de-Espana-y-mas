@@ -443,6 +443,12 @@ muycomputer.com##.mrf-todayInHome
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
-jugandojuegosymas.com###pbt
 jugandojuegosymas.com###fixedban
 elchapuzasinformatico.com##.ad-area
+cuatro.com,telecinco.es###megaSuperior_multisite
+cuatro.com,telecinco.es##.cards__card_ad-3gZy
+cuatro.com,telecinco.es##div[class^="adsGroupTop"]
+cuatro.com,telecinco.es##div[class^="ads__ad_"]
+cuatro.com,telecinco.es##div[class^="cards__card_ad-"]
+cuatro.com,telecinco.es##.alertTop
+mitele.es##div[class^="coreCarousel__advertisementBox-"]
