@@ -232,47 +232,34 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+*#@#.ad-300x250
+*#@#.ad-left
+*#@#.ad-link
+*#@#.ad-loading
+*#@#.ad-marker
+*#@#.ad-refresh
+*##.ad-300x250:not(.ads)
+*##.ad-left:not(.adsbox)
+*##.ad-link:not(.adsbox)
+*##.ad-loading:not(.adsbox)
+*##.ad-marker:not(.adsbox)
+*##.ad-refresh:not(.adsbox)
+*#@#.ad-unit
+*#@#.ad_unit
+*##.ad-unit:not(.text-ad)
+*##.ad_unit:not(.text-ad)
+*##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+##.adsbox
 !------------------------------------------------------------------
+! ------ Amazon ------
+||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 
-forocoches.com###h1
-forocoches.com###fcthread
-forocoches.com###td_post_
-forocoches.com##div.fixed_adslot:nth-child(n)
-forocoches.com##div.page-margin:nth-child(n) > div.page:first-child > div > div.block > div.threads-list.optidigital-autoinread.posts_publi_bg:nth-child(n) > div.optidigital-wrapper-div:nth-child(n)
-forocoches.com###posts > div.optidigital-wrapper-div:nth-child(n)
-forocoches.com###notices
-forocoches.com###vbnotices
-forocoches.com##+js(aopr, pbjsChunk)
-forocoches.com##div.title-forum-display-destacado
-forocoches.com##[id*="adslot"]:upward(ul > li)
-forocoches.com##div.optidigital-wrapper-div:nth-child(n)
-||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
+! ------ Adslzone ------
 adslzone.net###main > section.article-full > div:first-child > article.post-content > div.content-aside:nth-child(2) > div.first-contain:first-child > div.full-text:nth-child(3) > div.ad-block.visibility-auto:nth-child(2)
 adslzone.net###main > section.article-full > div:last-child > ul.comments-social-share-mobile
 adslzone.net###main > section.article-full > div:first-child > article.post-content > div.content-aside:nth-child(2) > div.first-contain:first-child > div.full-text:nth-child(3) > div.content.visibility-auto.content-p-406888:last-child > div.ad-block.visibility-auto:nth-child(2)
-computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > main.main-layout_mainContent__lUOxW.main-container:nth-child(7) > div.region-section-aside_content__SIp6d.region-section-aside_width--300__yVTwX.container-region-aside:last-child > section.region-section-aside_section__pPhsA:first-child > div.default_content___ctRp > div.body_bodyStyles__yoWJg.false:nth-child(n) > div.ad-slot_wrapperRobaOutstream__aLfim:nth-child(n)
-computerhoy.com###mega_1
-computerhoy.com###mega_2
-computerhoy.com###mega_3
-computerhoy.com###mega_4
-computerhoy.com###mega_5
-computerhoy.com###mega_6
-computerhoy.com###roba_1
-computerhoy.com###roba_2
-computerhoy.com###roba_3
-computerhoy.com###roba_4
-computerhoy.com###roba_5
-computerhoy.com###roba_6
-computerhoy.com##.lazyload-wrapper
-computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
-browser.sentry-cdn.com
-app.getsentry.com
-ads.facebook.com
-advertising.twitter.com
-widgets.pinterest.com
-supportmetrics.apple.com
-*##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
-##.adsbox
+
+! ------ applesfera y compañia ------ 
 applesfera.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com##.desvio
 applesfera.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com###editorialRecommendedPosts
 applesfera.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com##.js-foot.foot
@@ -334,44 +321,59 @@ motorpasion.com##.m-motorpasion-futuro-movimiento.section-cross
 motorpasion.com##.m-motorpasion-compra-coches.section-cross
 motorpasion.com##.m-category-motorpasion-basics.section-pinned-container
 motorpasion.com##.m-motorpasion-seleccion.section-cross
+
+! ------ Atresmedia ------ 
+||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
+@@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
+||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
+
+! ------ audiotools ------ 
+audiotools.in##.active.chp_ads_blocker-overlay
+audiotools.in##.chp_ads_blocker_detector-show.chp_ads_blocker_detector
+audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
+
+! ------ chomikuj.pl ------ 
+chomikuj.pl###aPlaceHolder
+chomikuj.pl##[href="/action/Products/SliderIndex"]
+chomikuj.pl##.pp_download_frame.pp_frame
+
+! ------ Computerhoy ------ 
+computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > main.main-layout_mainContent__lUOxW.main-container:nth-child(7) > div.region-section-aside_content__SIp6d.region-section-aside_width--300__yVTwX.container-region-aside:last-child > section.region-section-aside_section__pPhsA:first-child > div.default_content___ctRp > div.body_bodyStyles__yoWJg.false:nth-child(n) > div.ad-slot_wrapperRobaOutstream__aLfim:nth-child(n)
+computerhoy.com###mega_1
+computerhoy.com###mega_2
+computerhoy.com###mega_3
+computerhoy.com###mega_4
+computerhoy.com###mega_5
+computerhoy.com###mega_6
+computerhoy.com###roba_1
+computerhoy.com###roba_2
+computerhoy.com###roba_3
+computerhoy.com###roba_4
+computerhoy.com###roba_5
+computerhoy.com###roba_6
+computerhoy.com##.lazyload-wrapper
+computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
+
+! ------ elmundo.es y compañia ------ 
+elmundo.es,expansion.com,marca.com##.Bloque-anuncios-shadow
+elmundo.es,expansion.com,marca.com##.Bloque-anuncios
+elmundo.es,expansion.com,marca.com##.disabled-vscroll:style(overflow: auto !important; position: initial !important;)
+elmundo.es,expansion.com,marca.com##+js(aopr, adUnits)
+elmundo.es,expansion.com,marca.com##.ad-item-bt-cont
+elmundo.es,expansion.com,marca.com##.banner-sticky
+
+! ------ diariodenavarra ------ 
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
 @@||diariodenavarra.es^$ghide
 diariodenavarra.es###AdSlot_megabanner
 diariodenavarra.es##.sticky_roba
-||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
-@@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
-||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
-@@||mediaset.es^$ghide
-@@||yasss.es^$ghide
-@@||mdsrwdassets-a.akamaihd.net^$script,xhr,domain=mediaset.es|yasss.es
-xda-developers.com##+js(rc, twig-body)
-forum.xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
-xda-developers-forum.*##+js(nobab)
-@@||mdsrwdassets-a.akamaihd.net^$xhr,script,other,domain=telecinco.es|cuatro.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=telecinco.es|cuatro.com
-@@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=telecinco.es|cuatro.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=telecinco.es|cuatro.com
-@@||cuatro.com^$ghide
-@@||telecinco.es^$ghide
-elmundo.es,expansion.com,marca.com##+js(aopr, adUnits)
-marca.com##.ad-item-bt-cont
-marca.com##.banner-sticky
-elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.org,rojadirectaonlinetv.com##+js(aopr, open)
-||doubleclick.net^$domain=pccomponentes.com,important
-||googlesyndication.com^$domain=pccomponentes.com,important
-||googletagservices.com^$domain=pccomponentes.com,important
-||omtrdc.net^$xhr,domain=pccomponentes.com,important
-pccomponentes.com##div[id^="div-gpt-ad-"]
-||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
-||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
-instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
-instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
-elmundo.es##.Bloque-anuncios-shadow
-elmundo.es##.Bloque-anuncios
-elmundo.es##.disabled-vscroll:style(overflow: auto !important; position: initial !important;)
-twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet)$/):upward(3)
+
+! ------ elchapuzasinformatico ------ 
+elchapuzasinformatico.com##.ad-area
+
+! ------ facebook.com ------ 
+facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
+facebook.com##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
 touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,mobile.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
@@ -386,39 +388,68 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:has(a[href*="campaign_id"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
-*#@#.ad-300x250
-*#@#.ad-left
-*#@#.ad-link
-*#@#.ad-loading
-*#@#.ad-marker
-*#@#.ad-refresh
-*##.ad-300x250:not(.ads)
-*##.ad-left:not(.adsbox)
-*##.ad-link:not(.adsbox)
-*##.ad-loading:not(.adsbox)
-*##.ad-marker:not(.adsbox)
-*##.ad-refresh:not(.adsbox)
-*#@#.ad-unit
-*#@#.ad_unit
-*##.ad-unit:not(.text-ad)
-*##.ad_unit:not(.text-ad)
-||doubleclick.net^$xhr,redirect-rule=noop.txt
-||media.fastclick.net^$xhr,redirect-rule=noop.txt
-||ads.facebook.com^$xhr,redirect-rule=noop.txt
-||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
-||ads.youtube.com^$xhr,redirect-rule=noop.txt
-||ads.reddit.com^$xhr,redirect-rule=noop.txt
-||ads-api.twitter.com^$xhr,redirect-rule=nooptext,3p
-||ads.pinterest.com^$xhr,redirect-rule=noop.txt
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-youtube.com###promotion-shelf
-*_ad_$media,domain=youtube.com,3p
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+
+! ------ Forocoches ------ 
+forocoches.com###h1
+forocoches.com###fcthread
+forocoches.com###td_post_
+forocoches.com##div.fixed_adslot:nth-child(n)
+forocoches.com##div.page-margin:nth-child(n) > div.page:first-child > div > div.block > div.threads-list.optidigital-autoinread.posts_publi_bg:nth-child(n) > div.optidigital-wrapper-div:nth-child(n)
+forocoches.com###posts > div.optidigital-wrapper-div:nth-child(n)
+forocoches.com###notices
+forocoches.com###vbnotices
+forocoches.com##+js(aopr, pbjsChunk)
+forocoches.com##div.title-forum-display-destacado
+forocoches.com##[id*="adslot"]:upward(ul > li)
+forocoches.com##div.optidigital-wrapper-div:nth-child(n)
+||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
+
+! ------ instagram ------ 
+instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
+instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+
+! ------ muycomputer ------ 
+muycomputer.com##.mrf-adv
+muycomputer.com##.mrf-adDensityBodySentinel
+muycomputer.com###mrf-deepLinkingHomepage
+muycomputer.com##.mrf-adv__wrapper
+muycomputer.com##.mrf-footer
+muycomputer.com##.mrf-shareOptions
+muycomputer.com##.mrf-item-related-links
+muycomputer.com##.mrf-scrollViewContainer
+muycomputer.com##.mrf-todayInHome
+
+! ------ mediaset ------ 
+cuatro.com,telecinco.es###megaSuperior_multisite
+cuatro.com,telecinco.es##.cards__card_ad-3gZy
+cuatro.com,telecinco.es##div[class^="adsGroupTop"]
+cuatro.com,telecinco.es##div[class^="ads__ad_"]
+cuatro.com,telecinco.es##div[class^="cards__card_ad-"]
+cuatro.com,telecinco.es##.alertTop
+mitele.es##div[class^="coreCarousel__advertisementBox-"]
+@@||mdsrwdassets-a.akamaihd.net^$script,xhr,domain=mediaset.es|yasss.es
+@@||mediaset.es^$ghide
+@@||yasss.es^$ghide
+@@||mdsrwdassets-a.akamaihd.net^$xhr,script,other,domain=telecinco.es|cuatro.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=telecinco.es|cuatro.com
+@@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=telecinco.es|cuatro.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=telecinco.es|cuatro.com
+@@||cuatro.com^$ghide
+@@||telecinco.es^$ghide
+
+! ------ pccomponentes ------ 
+||doubleclick.net^$domain=pccomponentes.com,important
+||googlesyndication.com^$domain=pccomponentes.com,important
+||googletagservices.com^$domain=pccomponentes.com,important
+||omtrdc.net^$xhr,domain=pccomponentes.com,important
+pccomponentes.com##div[id^="div-gpt-ad-"]
+
+! ------ profesionalreview ------ 
+profesionalreview.com###footer-widgets-container
+profesionalreview.com###share-buttons-bottom
+profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
+
+! ------ reddit ------ 
 reddit.com##.XPromoBlockingModal
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
@@ -429,26 +460,42 @@ reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 reddit.com##div[class][data-before-content="advertisement"]:not([id])
 reddit.com##[id^="t3"].promotedlink:upward(.rpBJOHq2PR60pnwJlUyP0 > div)
 reddit.com##.adLinkBar:upward(article[style="z-index: 1;"])
-facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
-facebook.com##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
-muycomputer.com##.mrf-adv
-muycomputer.com##.mrf-adDensityBodySentinel
-muycomputer.com###mrf-deepLinkingHomepage
-muycomputer.com##.mrf-adv__wrapper
-muycomputer.com##.mrf-footer
-muycomputer.com##.mrf-shareOptions
-muycomputer.com##.mrf-item-related-links
-muycomputer.com##.mrf-scrollViewContainer
-muycomputer.com##.mrf-todayInHome
-profesionalreview.com###footer-widgets-container
-profesionalreview.com###share-buttons-bottom
-profesionalreview.com###main-content-row > div.main-content.tie-col-md-8.tie-col-xs-12 > div.post-components:last-child > div.container-wrapper:first-child
-jugandojuegosymas.com###fixedban
-elchapuzasinformatico.com##.ad-area
-cuatro.com,telecinco.es###megaSuperior_multisite
-cuatro.com,telecinco.es##.cards__card_ad-3gZy
-cuatro.com,telecinco.es##div[class^="adsGroupTop"]
-cuatro.com,telecinco.es##div[class^="ads__ad_"]
-cuatro.com,telecinco.es##div[class^="cards__card_ad-"]
-cuatro.com,telecinco.es##.alertTop
-mitele.es##div[class^="coreCarousel__advertisementBox-"]
+
+! ------ Twitter ------ 
+twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet)$/):upward(3)
+
+! ------ xda-developers ------ 
+xda-developers.com##+js(rc, twig-body)
+forum.xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
+xda-developers-forum.*##+js(nobab)
+
+! ------ Youtube ------ 
+youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
+youtube.com###promotion-shelf
+*_ad_$media,domain=youtube.com,3p
+youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+
+! ------ Varios ------ 
+browser.sentry-cdn.com
+app.getsentry.com
+ads.facebook.com
+advertising.twitter.com
+widgets.pinterest.com
+supportmetrics.apple.com
+||doubleclick.net^$xhr,redirect-rule=noop.txt
+||media.fastclick.net^$xhr,redirect-rule=noop.txt
+||ads.facebook.com^$xhr,redirect-rule=noop.txt
+||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
+||ads.youtube.com^$xhr,redirect-rule=noop.txt
+||ads.reddit.com^$xhr,redirect-rule=noop.txt
+||ads-api.twitter.com^$xhr,redirect-rule=nooptext,3p
+||ads.pinterest.com^$xhr,redirect-rule=noop.txt
+||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
+elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.org,rojadirectaonlinetv.com##+js(aopr, open)
