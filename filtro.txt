@@ -412,6 +412,14 @@ computerhoy.com###roba_6
 computerhoy.com##.lazyload-wrapper
 computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
 
+! ------ cordopolis.es ------ 
+cordopolis.es##.header-ad
+cordopolis.es##.header-adds
+cordopolis.es##.header-links
+cordopolis.es##[id^="ad_container_"]
+cordopolis.es##.dailymotion-library
+cordopolis.es##.news-outlook
+
 ! ------ elmundo.es y compañia ------ 
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios
