@@ -629,6 +629,12 @@ pccomponentes.com##.recommended-articles__reserved-space
 pccomponentes.com##.pack-mini__reserved-space
 pccomponentes.com##.similar-articles__reserved-space
 pccomponentes.com##.carousel-adobe__reserved-space
+pccomponentes.com##.ficha-producto__redes-sociales
+pccomponentes.com##.table-responsive
+pccomponentes.com##.slider-card-class
+pccomponentes.com##.carousel-post-module-class
+pccomponentes.com##.mkt-module-class
+pccomponentes.com##.grid-module-class
 
 ! ------ profesionalreview ------ 
 profesionalreview.com###footer-widgets-container
