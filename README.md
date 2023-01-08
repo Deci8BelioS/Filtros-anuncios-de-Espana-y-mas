@@ -1,4 +1,4 @@
-# Filtros anuncios de España
+# Filtros anuncios de España y mas
 
 Filtros ublock, adguard, adblock para paginas Españolas (genbeta, xataka, motorpasion etc...) por DeciBelioS
 
