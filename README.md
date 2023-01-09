@@ -6,11 +6,11 @@ Filtros ublock, adguard, adblock para paginas Españolas (genbeta, xataka, motor
 
 Esta lista está siendo probada en los siguientes sistemas operativos y navegadores web
 
-|    Sistema Operativo   |       Navegador       | 
-| ---------------------- | --------------------- |
-|          iOS           |  Safari en iOS 14.8   |
-|         iPadOS         | Safari en iPadOS 14.8 |
-|        Windows 11      |    Edge Chromium      |
+| Sistema Operativo | Navegador | 
+| -- | -- |
+| iOS |Safari en iOS 14.8 |
+| iPadOS | Safari en iPadOS 14.8 |
+| Windows 11 | Microsoft Edge Chromium |
 
 
 ## Como añadir la lista de filtros en:
