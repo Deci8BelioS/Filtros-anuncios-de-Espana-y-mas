@@ -2320,6 +2320,11 @@ animeflv.net#?#.Container section.WdgtCn:has(> .OUTBRAIN)
 animeflv.net##[class*="facebook"],[class*="twitter"],[class*="youtube"],[class*="WdgtCn"],[class*="FollowUs"],[class*="publi"],[class*="pub_"],[class*="WdgtCn"],[class*="fa-share-alt"]
 animeflv.net##[id*="fb-root"]
 animeflv.net##[href*="twitch"],[href*="bit"]
+animeflv.net/js/*.js
+animeflv-net.disqus.com/*.js
+privacymanager.io
+somoskudasai.com
+eiorwithitofsti.com*
 ||animeflv.net/assets/animeflv/img/*.jpg
 ||animeflv.net/img/*.png
 ||animeflv.net/assets/animeflv/img/fb*.png
