@@ -2446,8 +2446,6 @@ elespanol.com##[class*="publiportada"]
 elespanol.com##[class*="publimobil"]
 elespanol.com###publifooter
 elespanol.com##[class*="publi_"]
-elespanol.com##[id*="publi_"]
-elespanol.com##[id*="publi"]
 elespanol.com##[class*="publi"]
 elespanol.com##[id*="contenido_ofertas_"]
 elespanol.com##[class*="contenido_ofertas_"]
@@ -2458,6 +2456,7 @@ elespanol.com##[class*="imagennoticia_"]
 elespanol.com##[class*="anchor"]
 elespanol.com##[class*="seccionesjuego_wrapper"]
 elespanol.com##[id*="placeholderpubli"]
+elespanol.com##[id*="placeholderheadermovil"]
 ! esto no mostrará el banner para suscribirte, la noticia aparecerá incompleta si no eres suscriptor
 elespanol.com##.full-suscriptor-container
 !
