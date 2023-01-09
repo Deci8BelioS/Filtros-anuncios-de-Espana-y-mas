@@ -2316,6 +2316,20 @@ computerhoy.com##[class*="region-section-aside_spacingTop"]
 computerhoy.com##[class*="region-section-aside_aside"]
 computerhoy.com##[class*="ad-slot_"]
 !
+! ------ deepl.com ------
+!
+deepl.com###dl_cookieBanner
+deepl.com##div[class^="cookieBanner-"]
+deepl.com###dl_app_banner_popup
+deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
+deepl.com##.lmt_targetToolbar__appPromotion_container
+deepl.com##aside[aria-labelledby="customer-quotes-heading"]
+deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
+deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
+deepl.com###lmt_pro_ad_container
+deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
+
+!
 ! ------ elmundo.es y compañia ------
 !
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
