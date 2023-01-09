@@ -2425,6 +2425,9 @@ elchapuzasinformatico.com#$#body { background-image: none !important; }
 ||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 elchapuzasinformatico.com##.bg-ad
 elchapuzasinformatico.com##.widget
+elchapuzasinformatico.com##footer.footer
+elchapuzasinformatico.com###pagination
+elchapuzasinformatico.com##[class*="addtoany_"]
 !
 ! ------ facebook.com ------
 !
