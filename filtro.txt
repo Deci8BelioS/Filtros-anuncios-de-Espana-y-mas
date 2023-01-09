@@ -2293,6 +2293,33 @@ audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
 !
 audioz.download###PromoHead
 !
+! ------ Axel Springer España ------
+!
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="roba_"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="roba_"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="mega_"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="mega_"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="lazyload-wrapper"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="ad-catfish_container"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="home_containerAdSlot"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="region-section-aside_spacingTop"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="region-section-aside_aside"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="ad-slot_"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="ad-container"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="background-ads"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="ad-background"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="content-aside"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="column-right"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="embed-card_card__"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="block-newsletter"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="newsletter-block"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="block-as-sunmedia-block"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="outbrain_container__"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="river_gridPosition__"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="pager__"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="sidebar"]
+||cmpsp.
+!
 ! ------ chomikuj.pl ------
 !
 chomikuj.pl###aPlaceHolder
@@ -2301,20 +2328,7 @@ chomikuj.pl##.pp_download_frame.pp_frame
 !
 ! ------ coinbase.com ------
 !
-coinbase.com##.cds-1-_qem5ui.cds-4-_aw0v8j.cds-3-_9w3lns.cds-column-ci8mx7v.cds-flex-f1g67tkn
-!
-! ------ Computerhoy ------
-!
-computerhoy.com##[id*="roba_"]
-computerhoy.com##[class*="roba_"]
-computerhoy.com##[id*="mega_"]
-computerhoy.com##[class*="mega_"]
-computerhoy.com##.lazyload-wrapper
-computerhoy.com##[class*="ad-catfish_container"]
-computerhoy.com##[class*="home_containerAdSlot"]
-computerhoy.com##[class*="region-section-aside_spacingTop"]
-computerhoy.com##[class*="region-section-aside_aside"]
-computerhoy.com##[class*="ad-slot_"]
+! vacío de momento
 !
 ! ------ deepl.com ------
 !
@@ -2392,6 +2406,10 @@ elotrolado.net##div.news-ad
 aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
 ||elotrolado.net/styles/estiloeol/imageset/banner_
 !
+! ------ videos dailymotion ------
+!
+||dailymotion.com
+!
 ! ------ diariodenavarra ------
 !
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
@@ -2453,14 +2471,6 @@ forocoches.com###social-networks
 !
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
-!
-! ------ hobbyconsolas.com ------
-!
-hobbyconsolas.com##.ad-background
-hobbyconsolas.com##.content-aside
-hobbyconsolas.com##.article-aside
-hobbyconsolas.com##.wrapper-editorial
-hobbyconsolas.com##.lazyload-wrapper
 !
 ! ------ instagram ------
 !
