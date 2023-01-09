@@ -308,9 +308,8 @@ metropoles.com,20minutos.es##.OUTBRAIN
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 
 ! ------ Adslzone ------
-adslzone.net###main > section.article-full > div:first-child > article.post-content > div.content-aside:nth-child(2) > div.first-contain:first-child > div.full-text:nth-child(3) > div.ad-block.visibility-auto:nth-child(2)
-adslzone.net###main > section.article-full > div:last-child > ul.comments-social-share-mobile
-adslzone.net###main > section.article-full > div:first-child > article.post-content > div.content-aside:nth-child(2) > div.first-contain:first-child > div.full-text:nth-child(3) > div.content.visibility-auto.content-p-406888:last-child > div.ad-block.visibility-auto:nth-child(2)
+adslzone.net####.ad-block
+adslzone.net##.leaderboard
 
 ! ------ applesfera y compañia ------ 
 applesfera.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com##.desvio
@@ -400,28 +399,12 @@ chomikuj.pl##.pp_download_frame.pp_frame
 coinbase.com##.cds-1-_qem5ui.cds-4-_aw0v8j.cds-3-_9w3lns.cds-column-ci8mx7v.cds-flex-f1g67tkn
 
 ! ------ Computerhoy ------ 
-computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > main.main-layout_mainContent__lUOxW.main-container:nth-child(7) > div.region-section-aside_content__SIp6d.region-section-aside_width--300__yVTwX.container-region-aside:last-child > section.region-section-aside_section__pPhsA:first-child > div.default_content___ctRp > div.body_bodyStyles__yoWJg.false:nth-child(n) > div.ad-slot_wrapperRobaOutstream__aLfim:nth-child(n)
-computerhoy.com###mega_1
-computerhoy.com###mega_2
-computerhoy.com###mega_3
-computerhoy.com###mega_4
-computerhoy.com###mega_5
-computerhoy.com###mega_6
-computerhoy.com###mega_7
-computerhoy.com###mega_8
-computerhoy.com###mega_9
-computerhoy.com###roba_1
-computerhoy.com###roba_2
-computerhoy.com###roba_3
-computerhoy.com###roba_4
-computerhoy.com###roba_5
-computerhoy.com###roba_6
-computerhoy.com###roba_7
-computerhoy.com###roba_8
-computerhoy.com###roba_9
-computerhoy.com###mega_desktop
+computerhoy.com##[id*="roba_"]
+computerhoy.com##[class*="roba_"]
+computerhoy.com##[id*="mega_"]
+computerhoy.com##[class*="mega_"]
 computerhoy.com##.lazyload-wrapper
-computerhoy.com###__next > div.__variable_67f74f.__variable_896110.__variable_2a12ae:first-child > div.ad-catfish_container__XhLuR.ad-catfish_show__vyTZM:nth-child(10)
+computerhoy.com##[class*="ad-catfish_container"]
 
 ! ------ elmundo.es y compañia ------ 
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
@@ -538,6 +521,13 @@ forocoches.com###social-networks
 
 ! ------ flaticon.com ------ 
 flaticon.com###bn-icon-list
+
+! ------ hobbyconsolas.com ------ 
+hobbyconsolas.com##.ad-background
+hobbyconsolas.com##.content-aside
+hobbyconsolas.com##.article-aside
+hobbyconsolas.com##.wrapper-editorial
+hobbyconsolas.com##.lazyload-wrapper
 
 ! ------ instagram ------ 
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
