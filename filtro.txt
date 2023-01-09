@@ -2428,6 +2428,7 @@ elchapuzasinformatico.com##.widget
 elchapuzasinformatico.com##footer.footer
 elchapuzasinformatico.com###pagination
 elchapuzasinformatico.com##[class*="addtoany_"]
+elchapuzasinformatico.com##colophon > .wrap
 !
 ! ------ facebook.com ------
 !
