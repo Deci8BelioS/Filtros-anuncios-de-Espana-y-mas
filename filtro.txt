@@ -239,6 +239,7 @@ _publicitario.
 ###cmplz-cookiebanner-container
 ###credential_picker_container
 *##script:inject(bab-defuser.js)
+*##[id*="pixel"]
 *#@#.ad-300x250
 *#@#.ad-left
 *#@#.ad-link
@@ -309,7 +310,9 @@ metropoles.com,20minutos.es##.OUTBRAIN
 
 ! ------ Adslzone ------
 adslzone.net##.ad-block
-adslzone.net##.leaderboard
+adslzone.net##[class*="leaderboard"]
+adslzone.net##[class*="skyscraper-"]
+adslzone.net##[class*="fixed-sites"]
 
 ! ------ applesfera y compañia ------ 
 applesfera.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com##.desvio
