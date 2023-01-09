@@ -2430,6 +2430,18 @@ elchapuzasinformatico.com###pagination
 elchapuzasinformatico.com##[class*="addtoany_"]
 elchapuzasinformatico.com##colophon > .wrap
 !
+! ------ elespanol.com ------
+!
+elespanol.com##.msg-middle
+elespanol.com##.comments-adv
+elespanol.com##.article-adv
+elespanol.com##.container__outbrain
+elespanol.com##div[class^="article-inline"]
+elespanol.com##.article-body__adv
+elespanol.com##.adv_inline
+elespanol.com##.adv
+elespanol.com##.heading__sponsor
+!
 ! ------ facebook.com ------
 !
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
