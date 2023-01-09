@@ -514,9 +514,8 @@ fayerwayer.com##.right-article-section
 forocoches.com###h1
 forocoches.com###fcthread
 forocoches.com###td_post_
-forocoches.com##div.fixed_adslot:nth-child(n)
-forocoches.com##div.page-margin:nth-child(n) > div.page:first-child > div > div.block > div.threads-list.optidigital-autoinread.posts_publi_bg:nth-child(n) > div.optidigital-wrapper-div:nth-child(n)
-forocoches.com###posts > div.optidigital-wrapper-div:nth-child(n)
+forocoches.com###sidebar > section:has(.fixed_adslot)
+forocoches.com###sidebar > div > section:has(.fixed_adslot)
 forocoches.com###notices
 forocoches.com###vbnotices
 forocoches.com##+js(aopr, pbjsChunk)
@@ -525,6 +524,7 @@ forocoches.com##[id*="adslot"]:upward(ul > li)
 forocoches.com##div.optidigital-wrapper-div:nth-child(n)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
 forocoches.com###social-networks
+
 
 ! ------ flaticon.com ------ 
 flaticon.com###bn-icon-list
