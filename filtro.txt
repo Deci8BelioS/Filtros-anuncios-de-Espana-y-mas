@@ -2291,6 +2291,7 @@ antena3.com##[class*="publi"]
 /googleAdServer.$script,domain=antena3.com|lasexta.com
 antena3.com,lasexta.com,atresmedia.com##+js(addEventListener-defuser, contextmenu)
 atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
+cdnjs.atresmedia.com
 !
 ! ------animeflv ------
 !
