@@ -2313,14 +2313,16 @@ animeflv.co##.episodeList > div > div[style="float: left;"]
 animeflv.net##a[href^="http://bit.ly/"] > img
 animeflv.net##div[style="width:300px;height:600px"]
 animeflv.net##div[style="width:728px;height:90px"]
-||animeflv.net/assets/animeflv/img/triviataku.jpg
 animeflv.net##div[style^="width:300px"][style*="height:600px"]
 animeflv.net#?#.Container section.WdgtCn:has(> center > a[href="https://www.patreon.com/somoskudasai"] > img)
 animeflv.net#?#.Container div.WdgtCn:has(> div[style] > center > script[src^="//server.cpmstar.com/"])
 animeflv.net#?#.Container section.WdgtCn:has(> .OUTBRAIN)
-animeflv.net##.FollowUs
-animeflv.net##[class*="publi"]
-animeflv.net##[class*="pub_"]
+animeflv.net##[class*="facebook"],[class*="twitter"],[class*="youtube"],[class*="WdgtCn"],[class*="FollowUs"],[class*="publi"],[class*="pub_"],[class*="WdgtCn"],[class*="fa-share-alt"]
+animeflv.net##[id*="fb-root"]
+animeflv.net##[href*="twitch"],[href*="bit"]
+||animeflv.net/assets/animeflv/img/*.jpg
+||animeflv.net/img/*.png
+||animeflv.net/assets/animeflv/img/fb*.png
 !
 ! ------ audiotools ------
 !
