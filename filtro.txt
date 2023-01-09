@@ -2031,7 +2031,7 @@ forocoches.com##div.title-forum-display-destacado
 forocoches.com##[id*="adslot"]:upward(ul > li)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
 forocoches.com###social-networks
-||forocoches.com/image/new_icons/bg_publi.png
+||forocoches.com/image/new_icons/bg_publi.png$image
 !
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
