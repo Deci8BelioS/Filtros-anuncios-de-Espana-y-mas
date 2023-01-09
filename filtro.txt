@@ -2522,6 +2522,8 @@ flaticon.com###bn-icon-list
 hhgroups.com##[class*="pc_pub"]
 hhgroups.com###content-bottom-solapa
 hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
+hhgroups.com##[class*="mob_pub_"]
+hhgroups.com##[class*="home_rrss"]
 !
 ! ------ instagram ------
 !
