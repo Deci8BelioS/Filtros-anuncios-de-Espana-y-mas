@@ -405,11 +405,10 @@ computerhoy.com##[id*="mega_"]
 computerhoy.com##[class*="mega_"]
 computerhoy.com##.lazyload-wrapper
 computerhoy.com##[class*="ad-catfish_container"]
-computerhoy.com##[id*="ad-catfish_container"]
 computerhoy.com##[class*="home_containerAdSlot"]
-computerhoy.com##[id*="home_containerAdSlot"]
 computerhoy.com##[class*="region-section-aside_spacingTop"]
-computerhoy.com##[id*="region-section-aside_spacingTop"]
+computerhoy.com##[class*="region-section-aside_aside"]
+computerhoy.com##[class*="ad-slot_"]
 
 ! ------ elmundo.es y compañia ------ 
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
