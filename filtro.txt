@@ -2285,6 +2285,41 @@ motorpasion.com##.m-motorpasion-seleccion.section-cross
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 ||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
 ||statics.atresmedia.com/atresplayer/webapp/bundle.bf8cfecf79.js
+@@||antena3.com/adserver/flv2/$domain=larazon.es
+antena3.com##[class*="publi"]
+/freewheel-adManager-$script,domain=antena3.com|lasexta.com
+/googleAdServer.$script,domain=antena3.com|lasexta.com
+antena3.com,lasexta.com,atresmedia.com##+js(addEventListener-defuser, contextmenu)
+atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
+!
+! ------animeflv ------
+!
+@@||animeflv.net/js/adsbygoogle.js
+@@||animeflv.ru/assets/animeflv/js/ads.js
+@@||animeflv.net/efire.php^
+||animeflv.net/cpm.html
+||animeflv.net/cpm728.html
+||animeflv.net/cpx.html
+||animeflv.net/publi.php
+animeflv.net##.adspl
+animeflv.net,animeid.com##.a160
+animeflv.net##.a300x250
+animeflv.net,animeid.com##.a728
+elanimeflv.com##.a728
+animeflv.co##.avm
+animeflv.co##.episodeList > div > div:empty
+animeflv.co##.episodeList > div > div[style="float: left;"]
+animeflv.net##a[href^="http://bit.ly/"] > img
+animeflv.net##div[style="width:300px;height:600px"]
+animeflv.net##div[style="width:728px;height:90px"]
+||animeflv.net/assets/animeflv/img/triviataku.jpg
+animeflv.net##div[style^="width:300px"][style*="height:600px"]
+animeflv.net#?#.Container section.WdgtCn:has(> center > a[href="https://www.patreon.com/somoskudasai"] > img)
+animeflv.net#?#.Container div.WdgtCn:has(> div[style] > center > script[src^="//server.cpmstar.com/"])
+animeflv.net#?#.Container section.WdgtCn:has(> .OUTBRAIN)
+animeflv.net##.FollowUs
+animeflv.net##[class*="publi"]
+animeflv.net##[class*="pub_"]
 !
 ! ------ audiotools ------
 !
