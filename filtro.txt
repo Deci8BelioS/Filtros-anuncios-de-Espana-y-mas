@@ -2432,6 +2432,7 @@ elchapuzasinformatico.com##colophon > .wrap
 !
 ! ------ elespanol.com ------
 !
+elespanol.com###bannerarriba
 elespanol.com##.msg-middle
 elespanol.com##.comments-adv
 elespanol.com##.article-adv
@@ -2443,13 +2444,16 @@ elespanol.com##.adv
 elespanol.com##.heading__sponsor
 elespanol.com##[class*="publiportada"]
 elespanol.com##[class*="publimobil"]
-elespanol.com##[id*="publi_"]
 elespanol.com###publifooter
 elespanol.com##[class*="mb"]
 elespanol.com##[class*="publi_"]
+elespanol.com##[id*="publi_"]
+elespanol.com##[id*="publi"]
+elespanol.com##[class*="publi"]
 elespanol.com##[id*="contenido_ofertas_"]
 elespanol.com##[class*="contenido_ofertas_"]
 elespanol.com##[class*="carril_"]
+elespanol.com##[id*="carril_"]
 elespanol.com##[class*="migaja"]
 elespanol.com##[class*="imagennoticia_"]
 elespanol.com##[class*="anchor"]
