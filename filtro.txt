@@ -514,6 +514,7 @@ fayerwayer.com##.right-article-section
 forocoches.com###h1
 forocoches.com###fcthread
 forocoches.com###td_post_
+forocoches.com##.fixed_adslot
 forocoches.com###sidebar > section:has(.fixed_adslot)
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 forocoches.com###notices
@@ -523,6 +524,7 @@ forocoches.com##div.title-forum-display-destacado
 forocoches.com##[id*="adslot"]:upward(ul > li)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
 forocoches.com###social-networks
+||forocoches.com/image/new_icons/bg_publi.png
 
 
 ! ------ flaticon.com ------ 
