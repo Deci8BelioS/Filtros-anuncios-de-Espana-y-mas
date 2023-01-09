@@ -308,7 +308,7 @@ metropoles.com,20minutos.es##.OUTBRAIN
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 
 ! ------ Adslzone ------
-adslzone.net####.ad-block
+adslzone.net##.ad-block
 adslzone.net##.leaderboard
 
 ! ------ applesfera y compañia ------ 
