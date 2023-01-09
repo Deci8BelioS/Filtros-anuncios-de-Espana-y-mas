@@ -2457,6 +2457,7 @@ elespanol.com##[class*="anchor"]
 elespanol.com##[class*="seccionesjuego_wrapper"]
 elespanol.com##[id*="placeholderpubli"]
 elespanol.com##[id*="placeholderheadermovil"]
+elespanol.com###sticky_container
 ! esto no mostrará el banner para suscribirte, la noticia aparecerá incompleta si no eres suscriptor
 elespanol.com##.full-suscriptor-container
 !
