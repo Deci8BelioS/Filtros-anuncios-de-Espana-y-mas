@@ -2310,6 +2310,11 @@ chomikuj.pl##[class*="recommend_panel collapsed"]
 !
 ! vacío de momento
 !
+! ------ cotilleando.com ------
+!
+cotilleando.com###fixedban
+cotilleando.com##.samCodeUnit
+!
 ! ------ deepl.com ------
 !
 deepl.com###dl_cookieBanner
@@ -2322,7 +2327,6 @@ deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
 deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
-
 !
 ! ------ elmundo.es y compañia ------
 !
@@ -2501,6 +2505,15 @@ hhgroups.com###content-bottom-solapa
 hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
 hhgroups.com##[class*="mob_pub_"]
 hhgroups.com##[class*="home_rrss"]
+
+! ------ hispasonic.com ------
+!
+hispasonic.com##.banner-top
+hispasonic.com##.sidebar
+hispasonic.com##[class*="offersforum"]
+hispasonic.com##[class*="banner-"]
+hispasonic.com##[style*="border-bottom"]
+hispasonic.com##div.block:nth-of-type(2) > .header
 !
 ! ------ instagram ------
 !
