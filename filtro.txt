@@ -258,6 +258,8 @@ _publicitario.
 *##.ad_unit:not(.text-ad)
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 ##.adsbox
+##.robapaginas
+##.envoltorio_publi
 @@||seur.com^$document
 @@/publicidad.$domain=tn.com.ar
 @@||ads.e-planning.net^*/PreRoll?
@@ -2361,6 +2363,12 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.widget_abn_admanager_sidestealer
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.widget_newsletterwidget
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###text-23
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###flotante-pie
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.popup-newsletter
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##+js(set-constant, canRunAds, true)
+impactoespananoticias.com##.aside
+impactoespananoticias.com##.footer
+impactoespananoticias.com##.extra2
 ||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 !
@@ -2506,14 +2514,26 @@ hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="cont
 hhgroups.com##[class*="mob_pub_"]
 hhgroups.com##[class*="home_rrss"]
 
-! ------ hispasonic.com ------
+! ------ Sonic Network y DISPLAY CONNECTORS ------
 !
-hispasonic.com##.banner-top
-hispasonic.com##.sidebar
-hispasonic.com##[class*="offersforum"]
-hispasonic.com##[class*="banner-"]
-hispasonic.com##[style*="border-bottom"]
-hispasonic.com##div.block:nth-of-type(2) > .header
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="playbuzz"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.faldon-suscriptores
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="robapaginas"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.destacados-top
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.social
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.article-comments
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.share-links
+hispasonic.com,publico.es,guitarristas.info,batacas.com##script[typ*="didomi"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="megabanner"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.relacionadas
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.banner-top
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.sidebar
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="offersforum"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
 !
 ! ------ instagram ------
 !
@@ -2597,6 +2617,7 @@ motor.es##.relacionado-noticia
 motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
+
 !
 ! ------ okdiario ------
 !
