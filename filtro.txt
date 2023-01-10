@@ -2513,7 +2513,7 @@ hhgroups.com###content-bottom-solapa
 hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
 hhgroups.com##[class*="mob_pub_"]
 hhgroups.com##[class*="home_rrss"]
-
+!
 ! ------ Sonic Network y DISPLAY CONNECTORS ------
 !
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
