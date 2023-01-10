@@ -2598,6 +2598,22 @@ motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
 !
+! ------ okdiario ------
+!
+okdiario.com##.publicidad
+okdiario.com##.ad-slot-ph
+okdiario.com##[id*="okd-catfish"]
+okdiario.com##[id*="sky-publi"]
+okdiario.com##[class*="mega"]
+okdiario.com##[id*="ok-club"]
+okdiario.com##aside[class*="publicidad"]
+okdiario.com##aside[class*="ad-"]
+okdiario.com##.support_button
+okdiario.com###disqus_recommendations
+okdiario.com##.aux-col
+okdiario.com###main-video-anchor
+okdiario.com###native-addthis
+!
 ! ------ pccomponentes ------
 !
 ||doubleclick.net^$domain=pccomponentes.com,important
