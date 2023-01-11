@@ -2641,6 +2641,9 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[cl
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="river_gridPosition__"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="pager__"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="sidebar"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.i-amphtml-layout-fixed
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##div.amp-ad
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[data-widgetids*="AMP_"]
 ||cmpsp.
 !
 ! birdcpm
