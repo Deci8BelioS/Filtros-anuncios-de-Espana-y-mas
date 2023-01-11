@@ -2955,6 +2955,8 @@ hhgroups.com###content-bottom-solapa
 hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
 hhgroups.com##[class*="mob_pub_"]
 hhgroups.com##[class*="home_rrss"]
+hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
+hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
 !
 ! ------ Sonic Network y DISPLAY CONNECTORS ------
 !
