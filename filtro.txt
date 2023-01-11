@@ -2646,6 +2646,7 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##div
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[data-widgetids*="AMP_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.i-amphtml-layout-fixed
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="i-amphtml-svc"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.jTGLve
 ||cmpsp.
 !
 ! birdcpm
