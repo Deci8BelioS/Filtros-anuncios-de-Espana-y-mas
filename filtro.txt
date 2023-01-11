@@ -115,6 +115,7 @@ ads3.
 adserveredirect
 adserving.
 advertising.
+ads.
 awrz.net
 banner*&rand
 banner?
@@ -237,7 +238,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
-###credential_picker_container
+*###credential_picker_container
 *##script:inject(bab-defuser.js)
 *##[id*="pixel"]
 *#@#.ad-300x250
@@ -257,9 +258,12 @@ _publicitario.
 *##.ad-unit:not(.text-ad)
 *##.ad_unit:not(.text-ad)
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
-##.adsbox
-##.robapaginas
-##.envoltorio_publi
+*##.adsbox
+*##.robapaginas
+*##.roba-container
+*##.envoltorio_publi
+*##.publi
+*##.grecaptcha-badge
 @@||seur.com^$document
 @@/publicidad.$domain=tn.com.ar
 @@||ads.e-planning.net^*/PreRoll?
@@ -2205,12 +2209,20 @@ metropoles.com,20minutos.es##.OUTBRAIN
 !
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
 !
-! ------ Adslzone ------
+! ------ Adslzone y demás ------
 !
-adslzone.net##.ad-block
-adslzone.net##[class*="leaderboard"]
-adslzone.net##[class*="skyscraper-"]
-adslzone.net##[class*="fixed-sites"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="skyscraper-"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="leaderboard"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.ad-block
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="social-share"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.np-featured
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="fixed-sites"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.video-embed-container
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.aside
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="gallery swipe"]
+testdevelocidad.es##[class*="white-container"]
+testdevelocidad.es##[class*="ads-col"]
+testdevelocidad.es##[class*="site-menu"]
 !
 ! ------ Atresmedia ------
 !
@@ -2299,6 +2311,12 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[cl
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="sidebar"]
 ||cmpsp.
 !
+! birdcpm
+!
+birdcpm.*##.text-left
+birdcpm.*##.banner
+birdcpm.*##center
+!
 ! ------ chomikuj.pl ------
 !
 chomikuj.pl###aPlaceHolder
@@ -2312,10 +2330,47 @@ chomikuj.pl##[class*="recommend_panel collapsed"]
 !
 ! vacío de momento
 !
+!
+! clubvanguardia
+!
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.ad-slot
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.fc-card-container
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.article-module-sponsored
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.module-box-ads
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="content-ad-module"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="main-video"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com###pushNotification-disclaimer
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com###camus-cookie-disclaimer
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="ad-medium"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="ad-leaderboard"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[id*="nota-carrusel"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="nd-related-"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.ad
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.column-left
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.social-network
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.nd-comments
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.sign
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.newsletter
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.advertising
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.footer__social
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.affiliated-warning
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.pages__left
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.board-article-sidebar
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##a[href^="http://online.caliente.mx/promoRedirect?"]
+!
 ! ------ cotilleando.com ------
 !
 cotilleando.com###fixedban
 cotilleando.com##.samCodeUnit
+!
+! cultura-informatica.com
+!
+cultura-informatica.com##.amp-ad-wrap
+cultura-informatica.com##.single-left-section
+cultura-informatica.com##.single-bottom-share
+cultura-informatica.com##section
+cultura-informatica.com##.banner-wrap
+cultura-informatica.com##.sidebar-sticky
 !
 ! ------ deepl.com ------
 !
@@ -2329,6 +2384,38 @@ deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
 deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
+!
+! ------ dzoom.org ------
+!
+dzoom.org.es###cookie-law-info-bar
+dzoom.org.es##.sidebar
+dzoom.org.es##.dz-pub-sky
+dzoom.org.es##.fancybox-overlay
+dzoom.org.es##[class*="fancybox"]
+dzoom.org.es##.dzoom-post-up
+dzoom.org.es##.dzoom-post-down
+dzoom.org.es##.dz-social-share-buttons
+!
+! ------ Grupo Joly ------
+!
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-h
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.adv-intext
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[class*="ad-sticker-"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[id*="suscripciones"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
+!
+! ------ diariosanitario ------
+!
+diariosanitario.com##.bannersubheader
+diariosanitario.com##.cabecera
+diariosanitario.com##.e3lan-bottom
+diariosanitario.com##.e3lan-post
+diariosanitario.com##.home-ads
+diariosanitario.com##.sidebar-narrow
+diariosanitario.com##.sidebar
+diariosanitario.com##[class*="addtoany"]
 !
 ! ------ elmundo.es y compañia ------
 !
@@ -2540,6 +2627,7 @@ hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
 !
 ! ------ instatecno ------
 !
@@ -2551,14 +2639,45 @@ instatecno.com###ai-adb-message
 ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
 !
+! lacasadeel.net
+!
+lacasadeel.net###webpushr-prompt-wrapper
+lacasadeel.net##.td-a-rec
+lacasadeel.net##.td-is-sticky
+lacasadeel.net##.td-post-sharing
+lacasadeel.net##[class*="td_block_social"]
+lacasadeel.net##[class*="clickio_hvh"]
+lacasadeel.net##[class*="td_separator_center"]
+!
+! larazon.es
+!
+larazon.es##.article-body section aside
+larazon.es##.content__ad
+larazon.es##.ad
+larazon.es##.ads
+larazon.es###outbrain-id
+larazon.es##.floorad__container
+!
+! mediafire
+!
+mediafire.com##[id*="gpt-ad"]
+mediafire.com##+js(no-setTimeout-if, scan, 500)
+mediafire.com###cookie-accept-footer
+mediafire.com##.fc-consent-root
+mediafire.com##.DLExtraInfo-wrap
+!
+! megacloud
+!
+megacloud.la##.sidebar
+!
 ! ------ mediavida ------
+!
 mediavida.com##._p-ft
 mediavida.com##._p-tp
 !
 ! ------ muycomputer ------
 !
 muycomputer.com##.mrf-adv
-muycomputer.com##.mrf-adDensityBodySentinel
 muycomputer.com###mrf-deepLinkingHomepage
 muycomputer.com##.mrf-adv__wrapper
 muycomputer.com##.mrf-footer
@@ -2667,6 +2786,83 @@ pccomponentes.com##.carousel-brand-module-class
 pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
 !
+! pelis/series online o torrents
+!
+pelisplus.*##.adsuppervideo
+pelisplus.*##.cuadre_comments
+pelisplus.*##.adx
+pelisplus.*##.ads_header
+pelisplus.*##.adsbelowvideo
+peliculas24.*##.content-kuss-ads
+peliculas24.*##div[itemprop="description"] h3
+pelis-123.*##.head-main-nav i
+pelis24.*##.post a[rel="noopener"]
+pelis24.*##.post footer
+pelisflix.*##.notes
+pelispedia.*##.cpa.front-content
+pelispedia.*##div.tab-content-block center
+mejortorrentes.*###sec_main > table[border="0"]
+mejortorrentes.*###main_table_center_center2 > table:first-child, #main_table_center_center2 > table:first-child + br
+mejortorrentes.*###sec_main > center, #main_td_center_center > center
+!
+! pivigames y adxgames
+!
+pivigames.*,adxgames.*##[class*="oferta"],[class*="promo"]
+pivigames.*,adxgames.*##.gp-sidebar .widget_text
+pivigames.*,adxgames.*##.wpb_raw_html
+pivigames.*,adxgames.*##a[href*=".php"]
+pivigames.*,adxgames.*##[class*="gp_hubs-ads"]
+!
+! playpaste.com
+!
+playpaste.com##.step.section
+playpaste.com##.flex-center > p
+playpaste.com##a[href^="https://track.wg-aff.com/"]
+!
+! Porno
+!
+pornhub.com###vpContentContainer #hd-rightColVideoPage
+pornhub.com###welcome
+pornhub.com##.sniperModeEngaged
+pornhub.com##.video-wrapper .clear
+pornhub.com##.video-wrapper .underplayerAd
+pornhub.com##iframe[data-embeddedads="true"]
+pornhub.com##li[class="sniperModeEngaged alpha"]
+pornhub.com##video-element #pb_template
+pornhub.com,es.redtube.com##.abovePlayer
+pornhub.com##.cookiesBanner
+redtube.com###below_footer_ad_content
+redtube.com###block_hottest_videos_by_country li:first-child
+redtube.com###video_right_col
+redtube.com##.ads_under_player
+redtube.com##iframe[data-spot-id]
+redtube.com###eu_cookie_disclaimer
+xhamster.com##.wio-xspa
+xhamster.com##.wio-xspot-container
+xhamster.com##.cookie-announce
+!
+! ------ Prensa Ibérica Media ------
+!
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.add
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.enportada
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##[class*="minHeightLong"]
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##[class*="_mo_recs_cti"]
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##._mo_recs
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.bottom-nav
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.DestacadoConBoton
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.RRSS
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.rrss
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.ContendorCreatividad
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.banner
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.banner_sup
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.no-baldomero
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.botonNuevoAnuncio
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.publicidad
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.publi
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##body:style(overflow: visible!important;)
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com###contactPlan
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.blackep
+!
 ! ------ profesionalreview ------
 !
 profesionalreview.com###footer-widgets-container
@@ -2714,12 +2910,27 @@ reddit.com,new.reddit.com##a[aria-label=Advertise]
 reddit.com,new.reddit.com##button:has-text(Shop Avatars)
 reddit.com,new.reddit.com##a[href="/now"]
 reddit.com,new.reddit.com##a[href="/now"] + div:has-text(Find live chats)
+reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
+reddit.com##.XPromoPopupRpl
 !
 ! ------ speedtest ------
 !
 speedtest.net##.privacy-update
 speedtest.net##div[data-view-name="privacy-updated-notice"]
 speedtest.net###zdcFloatingBtn
+!
+! salamanca24horas
+!
+salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
+salamanca24horas.com##.c-banner
+salamanca24horas.com##.cscontent .row-top-banners
+!
+! ------ tiktok.tv ------
+!
+tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
+tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+
 !
 ! ------ twitch.tv ------
 !
@@ -2831,6 +3042,18 @@ youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com###masthead-ad
 youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
+youtube.com##.video-ads
+youtube.com##ytd-carousel-ad-renderer
+youtube.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-promoted-video-renderer
+!
+! zona-leros
+!
+zona-leros.*##.content_store
+zona-leros.*##.iframeDiv
+zona-leros.*##.Comprar
+zona-leros.*##[class*="Anime alt B"] > [title*="Comprar"]
 !
 ! ------ Varios ------
 !
