@@ -2610,7 +2610,9 @@ eiorwithitofsti.com*
 !
 audiotools.in##.active.chp_ads_blocker-overlay
 audiotools.in##.chp_ads_blocker_detector-show.chp_ads_blocker_detector
+audiotools.in##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
 audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
+audiotools.in###sidebar > #custom_html-6
 !
 ! ------ audioz ------
 !
