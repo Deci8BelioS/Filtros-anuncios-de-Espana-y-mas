@@ -2786,6 +2786,8 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com###flotante-pie
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.popup-newsletter
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##+js(set-constant, canRunAds, true)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-box-fl
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-box
 impactoespananoticias.com##.aside
 impactoespananoticias.com##.footer
 impactoespananoticias.com##.extra2
