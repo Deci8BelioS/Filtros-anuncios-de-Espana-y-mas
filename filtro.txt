@@ -2928,6 +2928,18 @@ forocoches.com###social-networks
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
 !
+! ------ hd-tecnologia.com ------
+!
+hd-tecnologia.com##.i-amphtml-layout-fixed
+hd-tecnologia.com##.a-wrap
+hd-tecnologia.com##[class*="bg-custom-class-"]
+hd-tecnologia.com##.heateor_sss_sharing_container
+hd-tecnologia.com##.widget-social-b
+hd-tecnologia.com##.wp_bannerize_banner_box
+hd-tecnologia.com##.spc-newsletter
+hd-tecnologia.com##.post-share-float
+hd-tecnologia.com##.block-posts-small
+!
 ! ------ hhgroups.com ------
 !
 hhgroups.com##[class*="pc_pub"]
