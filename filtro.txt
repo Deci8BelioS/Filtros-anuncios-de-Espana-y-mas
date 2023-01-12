@@ -3252,6 +3252,23 @@ playpaste.com##a[href^="https://track.wg-aff.com/"]
 !
 ! Porno
 !
+pornhub.*###js-abContainterMain
+pornhub.*###singleFeedSection > .alpha
+pornhub.*##[src*="data:image/png;base64,"]
+pornhub.*##[src*="data:image/jpeg;base64,"]
+pornhub.*##[src*="data:video/mp4;base64,"]
+pornhub.*##[src*="bloB"]
+pornhub.*###hotVideosSection > .alpha
+pornhub.*###videoCategory > .alpha
+pornhub.*##.clear.hd
+pornhub.*##+js(remove-class, hasAdAlert, header)
+pornhub.*##bbdfg
+||googletagmanager.com/gtm.js?id=GTM-5M97TMJ$script,domain=pornhub.*
+pornhub.*##.realsex
+pornhub.*##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+pornhub.*##.sniperModeEngaged
+pornhub.*##div.container:style(margin-top: 0px !important)
+*##.adsbytrafficjunky
 pornhub.com###vpContentContainer #hd-rightColVideoPage
 pornhub.com###welcome
 pornhub.com##.sniperModeEngaged
@@ -3297,7 +3314,20 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
-
+/ht.js?site_
+pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+pornhub.com##+js(set-constant, page_params.holiday_promo, true)
+pornhub.com##+js(set-constant, abp1, 0)
+pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
+pornhub.*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
+pornhub.*##+js(window.open-defuser)
+pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
+pornhub.*###pb_block
+pornhub.com###hd-rightColVideoPage > .clearfix:first-child
+pornhub.com##.playerFlvContainer > div#pb_template[style]
+pornhub.com##.video-wrapper > div#player~div[class$=" hd clear"]:style(position: absolute!important; left: -3000px!important;)
+pornhub.*##.video-wrapper > #player ~ .hd.clear
 !
 ! ------ Prensa Ibérica Media ------
 !
