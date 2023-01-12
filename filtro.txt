@@ -3328,6 +3328,8 @@ pornhub.com###hd-rightColVideoPage > .clearfix:first-child
 pornhub.com##.playerFlvContainer > div#pb_template[style]
 pornhub.com##.video-wrapper > div#player~div[class$=" hd clear"]:style(position: absolute!important; left: -3000px!important;)
 pornhub.*##.video-wrapper > #player ~ .hd.clear
+||phncdn.com/pre_videos*
+||etahub.com^
 !
 ! ------ Prensa Ibérica Media ------
 !
