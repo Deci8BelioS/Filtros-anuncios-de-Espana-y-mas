@@ -3337,6 +3337,7 @@ pspstation.org##.floating
 !
 ! ------ reddit ------
 !
+reddit.com##[class*="XPromoBottomBar"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##xpromo-new-nsfw-blocking-modal
