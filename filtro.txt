@@ -2672,32 +2672,36 @@ chomikuj.pl##[class*="recommend_panel collapsed"]
 ! vacío de momento
 !
 !
-! clubvanguardia
+! ------ ¿Difoosion? ------
 !
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.ad-slot
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.fc-card-container
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.article-module-sponsored
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.module-box-ads
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="content-ad-module"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="main-video"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com###pushNotification-disclaimer
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com###camus-cookie-disclaimer
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="ad-medium"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="ad-leaderboard"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[id*="nota-carrusel"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##[class*="nd-related-"]
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.ad
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.column-left
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.social-network
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.nd-comments
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.sign
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.newsletter
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.advertising
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.footer__social
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.affiliated-warning
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.pages__left
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##.board-article-sidebar
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com##a[href^="http://online.caliente.mx/promoRedirect?"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ad-slot
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.visible
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="ad-div"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.fc-card-container
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.article-module-sponsored
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.module-box-ads
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="content-ad-module"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="main-video"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com###pushNotification-disclaimer
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com###camus-cookie-disclaimer
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="ad-medium"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="ad-leaderboard"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[id*="nota-carrusel"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="nd-related-"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ad
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.column-left
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.social-network
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.nd-comments
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.sign
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.newsletter
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.advertising
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.footer__social
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.affiliated-warning
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.pages__left
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.board-article-sidebar
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##a[href^="http://online.caliente.mx/promoRedirect?"]
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ads-sticky
+mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##li > ul > li.module-box:has(> div.modulo-container > span.ad-unit)
 !
 ! ------ cotilleando.com ------
 !
