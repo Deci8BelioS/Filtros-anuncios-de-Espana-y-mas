@@ -1,6 +1,6 @@
 # Filtros anuncios de España y mas
 
-Filtros ublock, adguard, adblock para paginas Españolas (genbeta, xataka, motorpasion etc...) por DeciBelioS
+Filtros  de publicidad y elementos molestas para las extensiones ublock, adguard para paginas Españolas y mas (ejemplo: genbeta, xataka, motorpasion, reddit etc...) por DeciBelioS
 
 ## AVISO: Esta lista de filtros no ha sido creada para su uso en archivos HOSTS 
 
