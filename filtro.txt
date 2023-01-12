@@ -2802,6 +2802,14 @@ diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
 !
+! ------ elamigos-games ------
+!
+elamigos-games.com##.content_store
+elamigos-games.com##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
+elamigos-games.com##+js(abort-on-property-read, CryptoJS)
+elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
+elamigos-games.com##.iframeDiv
+!
 ! ------ elmundo.es y compañia ------
 !
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
@@ -2979,6 +2987,7 @@ forocoches.com###social-networks
 ||forocoches.com/image/new_icons/bg_publi.png$image
 forocoches.com###AutoNumber30
 forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[id^="optidigital-adslot-"])
+forocoches.com##table.cajasprin:nth-of-type(2)
 !
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
@@ -3393,6 +3402,7 @@ tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##.follow-prompt
+twitch.tv##+js(window.open-defuser, amazon-adsystem)
 !
 ! ------ Twitter ------
 !
