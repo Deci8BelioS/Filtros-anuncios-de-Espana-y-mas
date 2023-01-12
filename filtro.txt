@@ -3338,6 +3338,8 @@ pspstation.org##.floating
 ! ------ reddit ------
 !
 reddit.com##.XPromoBlockingModal
+reddit.com##.XPromoPopupRpl
+reddit.com##[class*="XPromoBottomBar"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##xpromo-new-nsfw-blocking-modal
@@ -3359,7 +3361,6 @@ reddit.com,new.reddit.com##button:has-text(Shop Avatars)
 reddit.com,new.reddit.com##a[href="/now"]
 reddit.com,new.reddit.com##a[href="/now"] + div:has-text(Find live chats)
 reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
-reddit.com##.XPromoPopupRpl
 !
 ! ------ speedtest ------
 !
