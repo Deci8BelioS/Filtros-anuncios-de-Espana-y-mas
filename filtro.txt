@@ -2663,10 +2663,9 @@ birdcpm.*##center
 chomikuj.pl###aPlaceHolder
 chomikuj.pl##[href="/action/Products/SliderIndex"]
 chomikuj.pl##.pp_download_frame.pp_frame
-chomikuj.pl##[class*="recommend_panel collapsed"]
 chomikuj.pl##[id*="fbPromo""]
 chomikuj.pl##.ebooksSearchBox
-chomikuj.pl##[class*="recommend_panel collapsed"]
+chomikuj.pl##.recommend_panel
 !
 ! ------ coinbase.com ------
 !
