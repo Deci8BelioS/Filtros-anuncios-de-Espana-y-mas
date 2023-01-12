@@ -2802,13 +2802,14 @@ diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
 !
-! ------ elamigos-games ------
+! ------ elamigos-games mas gamefull ------
 !
 elamigos-games.com##.content_store
 elamigos-games.com##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
 elamigos-games.com##+js(abort-on-property-read, CryptoJS)
 elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
+gamesfull.*##.ads
 !
 ! ------ elmundo.es y compañia ------
 !
