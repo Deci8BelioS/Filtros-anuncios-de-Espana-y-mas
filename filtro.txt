@@ -238,6 +238,46 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+/google-ad-
+/google-ad?
+/Google-Ads-
+/google-ads/*
+/google-adsense-$domain=~webst8.com
+/google-adsense.
+/google-adverts-
+/google-afc-
+/google-afc.
+/google-dfp-
+/google/ad?
+/google_ad.
+/google_ad_
+/google_ads/*
+/google_ads_
+/google_adsense-
+/google_adv/*
+/google_afc.
+/google_afc_
+/google_afs.
+/google_afs_widget/*
+/google_caf.js?
+/googlead-
+/googlead.$~script
+/googlead/*
+/googlead_
+/googleads-$domain=~github.com|~github.io
+/googleads/*$domain=~github.com|~github.io
+/googleads_
+/googleadsafc_
+/googleadsafs_
+/googleAdScripts.
+/GoogleAdSense-
+/googleadsense.
+/googleadservices/*
+/googleadsmodule.
+/googleadunit?
+/googleafc.
+/googleafs.
+/googleleads.
 *##amp-ad
 ##.publicidad
 ###ad-230x100-1
@@ -2937,6 +2977,8 @@ forocoches.com##[id*="adslot"]:upward(ul > li)
 ||forocoches.com/lwa/forocoches/fc_promo.html$subdocument
 forocoches.com###social-networks
 ||forocoches.com/image/new_icons/bg_publi.png$image
+forocoches.com###AutoNumber30
+forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[id^="optidigital-adslot-"])
 !
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
@@ -2990,6 +3032,11 @@ instagram.com#?#main > div > section div[style*="flex-direction: column;"] > art
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
+instagram.com##nav > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class] > div[class^=" _"][style="width: 100%;"]:only-child
+instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has(button[type="button"] > div > svg[aria-label][width="18"][height="18"][viewBox*="48"]))
+!#if env_mobile
+instagram.com##.xZ2Xk:has-text(/App/)
+!#endif
 !
 ! ------ instatecno ------
 !
@@ -3166,6 +3213,19 @@ mejortorrentes.*###sec_main > table[border="0"]
 mejortorrentes.*###main_table_center_center2 > table:first-child, #main_table_center_center2 > table:first-child + br
 mejortorrentes.*###sec_main > center, #main_td_center_center > center
 !
+! pinterest
+!
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Anzeige von)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Gesponsord door)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Promocionado por)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Promoted by)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Promowane przez)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Publicidade de)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsor:)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorisée par)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorizzato da)
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Рекламодатель:)
+!
 ! pivigames y adxgames
 !
 pivigames.*,adxgames.*##[class*="oferta"],[class*="promo"]
@@ -3201,6 +3261,33 @@ redtube.com###eu_cookie_disclaimer
 xhamster.com##.wio-xspa
 xhamster.com##.wio-xspot-container
 xhamster.com##.cookie-announce
+pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
+pornhub.com###singleFeedSection > .emptyBlockSpace
+babesandstars.com,pornhubpremium.com##.join
+pornhub.com##.sniperModeEngaged
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
+pornhub.com##[href^="https://weedmaps.com"]
+pornhub.com##[srcdoc]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
+4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
+pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
+pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
+f95zone.to,pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+pornhub.com,youporngay.com##div[onclick*="bp1.com"]
+pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##img[src*="blob:" i]:not(video)
+mature.community,mature.mom,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy,pornhub.com,sports.sexy##img[width="300"]
+pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
+pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
+pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
+@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
+
 !
 ! ------ Prensa Ibérica Media ------
 !
@@ -3304,6 +3391,14 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[dat
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet)$/):upward(3)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Promocionado/)
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Promocionado/)
+twitter.com##html:style(overflow:auto!important)
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###layers div[class="css-1dbjc4n r-l5o3uw r-97e31f"]
+twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
+twitter.com##.js-signup-call-out
+mobile.twitter.com##div[data-testid="sidebarColumn"] section[aria-label][role="region"]:upward(1)
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
+mobile.twitter.com#?#.tweet:-abp-has(.promo)
+||twitter.com/1.1/jot
 !
 ! ------ webmedia ------
 !
