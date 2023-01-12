@@ -3337,9 +3337,6 @@ pspstation.org##.floating
 !
 ! ------ reddit ------
 !
-reddit.com##[class*="XPromoBlockingModal"]
-reddit.com##[class*="XPromoPopupRpl"]
-reddit.com##[class*="XPromoBottomBar"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##xpromo-new-nsfw-blocking-modal
@@ -3361,6 +3358,17 @@ reddit.com,new.reddit.com##button:has-text(Shop Avatars)
 reddit.com,new.reddit.com##a[href="/now"]
 reddit.com,new.reddit.com##a[href="/now"] + div:has-text(Find live chats)
 reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
+amp.reddit.com##div[class*="__Ad"]
+reddit.com##article[id] > a[href^="https://alb.reddit.com/"] ~ *
+amp-reddit-com.cdn.ampproject.org##.TopPosts__Ad
+reddit.com#?#div[data-testid="frontpage-sidebar"] > div[class]:has(> div[data-before-content])
+reddit.com#?#div[style="margin-left:24px;margin-top:0"][class] > div[class] > div[class^="_"]:not([data-redditstyle]):has(div[data-before-content="advertisement"])
+reddit.com#?#div[data-redditstyle] > div[style] > div[data-slot] > div[data-before-content]:upward(div[data-redditstyle])
+reddit.com#?#div[style="margin-left:24px;margin-top:0"][class] > div[class] > div[class^="_"]:not([data-redditstyle]):has(> div[class] div[class] > div[class] > div[data-before-content="advertisement"])
+reddit.com#?#.ListingLayout-outerContainer > div[class] > div[style][class] > div[style][class] > div[class] div[class]:not([data-redditstyle]):has(> div[class] > div[class] > .SidebarAd)
+reddit.com#?#div[style*="fakelightbox-overlay-"] ~ div[tabindex] > div >  div > div > div[data-redditstyle="false"]:has(> div > div > div[data-before-content="advertisement"])
+reddit.com##div[data-before-content]
+reddit.com###ad_main_top
 !
 ! ------ speedtest ------
 !
