@@ -238,6 +238,7 @@ _publicidad_
 _publicidade.
 _publicidade_
 _publicitario.
+*##amp-ad
 ##.publicidad
 ###ad-230x100-1
 ###ad-300x40-5
