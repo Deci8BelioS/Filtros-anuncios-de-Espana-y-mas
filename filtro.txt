@@ -3005,6 +3005,23 @@ hd-tecnologia.com##.spc-newsletter
 hd-tecnologia.com##.post-share-float
 hd-tecnologia.com##.block-posts-small
 !
+! ------ hipertextual.com ------
+!
+hipertextual.com##.newspack_global_ad
+hipertextual.com##[class*="ads-widget"]
+hipertextual.com##.widget_text
+hipertextual.com##[class*="social"]
+hipertextual.com##.comments-area
+hipertextual.com##.wp-block-columns.wp-container-4.is-layout-flex > div.wp-block-column.is-layout-flow:nth-of-type(2)
+hipertextual.com##.wp-block-columns.wp-container-8.is-layout-flex > div.wp-block-column.is-layout-flow:nth-of-type(2)
+hipertextual.com##.wp-block-columns.wp-container-12.is-layout-flex > div.wp-block-column.is-layout-flow:nth-of-type(2)
+hipertextual.com##.has-primary-variation-color.has-text-color.has-text-align-center.is-landscape.is-1.ts-3.image-alignbehind.show-image.colgap-1.columns-4.is-grid.wpnbha.wp-block-newspack-blocks-homepage-articles
+hipertextual.com##.has-primary-color.has-text-align-center
+hipertextual.com##.wp-block-columns.wp-container-18.is-layout-flex > div.wp-block-column.is-layout-flow:nth-of-type(2)
+hipertextual.com##.footer-branding
+hipertextual.com##.footer-widgets
+hipertextual.com##div.has-text-align-left.is-landscape.is-3.ts-3.image-aligntop.show-image.colgap-3.columns-4.is-grid.wpnbha.is-style-default.wp-block-newspack-blocks-homepage-articles:nth-of-type(8) > div
+!
 ! ------ hhgroups.com ------
 !
 hhgroups.com##[class*="pc_pub"]
