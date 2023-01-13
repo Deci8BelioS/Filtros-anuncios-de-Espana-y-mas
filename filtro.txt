@@ -3021,6 +3021,7 @@ hipertextual.com##.wp-block-columns.wp-container-18.is-layout-flex > div.wp-bloc
 hipertextual.com##.footer-branding
 hipertextual.com##.footer-widgets
 hipertextual.com##div.has-text-align-left.is-landscape.is-3.ts-3.image-aligntop.show-image.colgap-3.columns-4.is-grid.wpnbha.is-style-default.wp-block-newspack-blocks-homepage-articles:nth-of-type(8) > div
+hipertextual.com##.jp-relatedposts
 !
 ! ------ hhgroups.com ------
 !
