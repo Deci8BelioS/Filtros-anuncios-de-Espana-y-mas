@@ -3706,3 +3706,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||img-prod-cms-rt-microsoft-com.akamaized.net
 ||ntp.msn.com/edge/ntp/service-worker.js
 ||doubleclick.net^
+||doubleclick.com^
+||doubleclick.de^
