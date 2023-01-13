@@ -2668,7 +2668,6 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="roba_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="mega_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="mega_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="lazyload-wrapper"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="ad-catfish_container"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="home_containerAdSlot"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="region-section-aside_spacingTop"]
