@@ -2907,6 +2907,7 @@ elchapuzasinformatico.com###pagination
 elchapuzasinformatico.com##[class*="addtoany_"]
 elchapuzasinformatico.com##colophon > .wrap
 elchapuzasinformatico.com##.social-links
+elchapuzasinformatico.com##[id*="post-"][class*=-noticia-patrocinada]
 !
 ! ------ elespanol.com ------
 !
