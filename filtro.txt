@@ -278,6 +278,8 @@ _publicitario.
 /googleafc.
 /googleafs.
 /googleleads.
+googletagmanager_gtm.js
+
 *##amp-ad
 ##.publicidad
 ###ad-230x100-1
@@ -519,9 +521,6 @@ _publicitario.
 ##.publitop
 ##.pubslider
 ##.rmsads
-##.roba-container
-##.robapagina
-##.robapaginas
 ##.spub
 ##.story-patrocinio
 ##.td-g-rec-id-custom_ad_3
@@ -631,12 +630,16 @@ _publicitario.
 *##.ad-unit:not(.text-ad)
 *##.ad_unit:not(.text-ad)
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+*##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 *##.adsbox
 *##.robapaginas
+*##.robapagina
 *##.roba-container
 *##.envoltorio_publi
 *##.publi
 *##.grecaptcha-badge
+##.newspack_global_ad
+##.widget_newspack-ads-widget
 @@||seur.com^$document
 @@/publicidad.$domain=tn.com.ar
 @@||ads.e-planning.net^*/PreRoll?
@@ -3007,7 +3010,6 @@ hd-tecnologia.com##.block-posts-small
 !
 ! ------ hipertextual.com ------
 !
-hipertextual.com##.newspack_global_ad
 hipertextual.com##[class*="ads-widget"]
 hipertextual.com##.widget_text
 hipertextual.com##[class*="social"]
@@ -3592,6 +3594,9 @@ ads.facebook.com
 advertising.twitter.com
 widgets.pinterest.com
 supportmetrics.apple.com
+||parsely.com^$3p
+||events.newsroom.bi^
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
 ||media.fastclick.net^$xhr,redirect-rule=noop.txt
 ||ads.facebook.com^$xhr,redirect-rule=noop.txt
