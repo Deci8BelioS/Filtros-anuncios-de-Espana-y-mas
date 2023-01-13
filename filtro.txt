@@ -2993,6 +2993,16 @@ forocoches.com###AutoNumber30
 forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[id^="optidigital-adslot-"])
 forocoches.com##table.cajasprin:nth-of-type(2)
 !
+! ------ forococheselectricos.com ------
+!
+forococheselectricos.com##[class*="ads"]
+forococheselectricos.com##.megabanner
+forococheselectricos.com##.sidebar
+forococheselectricos.com##.botones-sociales-wrapper
+forococheselectricos.com##.bloque-relacionadas
+forococheselectricos.com##.rrss-container
+forococheselectricos.com##.site-footer
+!
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
 !
@@ -3708,3 +3718,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||doubleclick.net^
 ||doubleclick.com^
 ||doubleclick.de^
+||sunmedia.tv^$3p
