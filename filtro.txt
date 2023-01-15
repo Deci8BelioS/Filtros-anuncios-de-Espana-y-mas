@@ -2692,6 +2692,9 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[da
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.i-amphtml-layout-fixed
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="i-amphtml-svc"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.jTGLve
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="dailymotion"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="dailymotion"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.wrapper-editorial
 ||cmpsp.
 !
 ! birdcpm
