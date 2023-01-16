@@ -2584,6 +2584,14 @@ metropoles.com,20minutos.es##.OUTBRAIN
 ! ------ Amazon ------
 !
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
+||amazon-adsystem.com
+||alexa-sitestats.s3.amazonaws.com
+||assoc-amazon.com
+||entrecard.s3.amazonaws.com
+||interactive-assets.s3.amazonaws.com
+||yab-adimages.s3.amazonaws.com
+||admarvel.s3.amazonaws.com
+||adzerk.s3.amazonaws.com
 !
 ! ------ Adslzone y demás ------
 !
