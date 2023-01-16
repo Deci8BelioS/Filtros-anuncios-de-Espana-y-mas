@@ -2584,6 +2584,7 @@ metropoles.com,20minutos.es,heraldo.es##.top_ads_container
 metropoles.com,20minutos.es,heraldo.es##.module1colAds
 metropoles.com,20minutos.es,heraldo.es##.module-coupons
 metropoles.com,20minutos.es,heraldo.es##.axds
+metropoles.com,20minutos.es,heraldo.es##.free-content
 !
 ! ------ Amazon ------
 !
