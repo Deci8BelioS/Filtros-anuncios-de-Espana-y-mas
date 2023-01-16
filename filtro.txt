@@ -2572,19 +2572,25 @@ _europecookielaw.
 !
 ! ------ 20minutos ------
 !
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##+js(abort-on-property-read, hb_now)
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es#$##axds-Top { min-height: 0 !important; }
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.banner-header
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.OUTBRAIN
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.axds-lane
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.ad-fixed
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.editorial-banner
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.taboola_container
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.top_ads_container
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.module1colAds
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.module-coupons
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.axds
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es##.free-content
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, hb_now)
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es#$##axds-Top { min-height: 0 !important; }
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.banner-header
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.OUTBRAIN
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds-lane
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.ad-fixed
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.editorial-banner
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.taboola_container
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.top_ads_container
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.module1colAds
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.module-coupons
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.free-content
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="adspace"]
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[role*="dialog"]
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="form-nl"]
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="sidebar"],[id*="sidebar"]
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
 !
 ! ------ Amazon ------
 !
