@@ -3475,12 +3475,19 @@ salamanca24horas.com##.cscontent .row-top-banners
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 !
+! ------ trakt.tv ------
+!
+trakt.tv###cc--main
+trakt.tv##div[id]:has(> div[id] > a[href="/vip/ads"])
+trakt.tv##:xpath("//*[(text()='Advertisement')]"):upward(1)
+!
 ! ------ twitch.tv ------
 !
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##.follow-prompt
 twitch.tv##+js(window.open-defuser, amazon-adsystem)
+twitch.tv##+js(twitch-videoad)
 !
 ! ------ Twitter ------
 !
@@ -3734,3 +3741,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||doubleclick.com^
 ||doubleclick.de^
 ||sunmedia.tv^$3p
+||scorecardresearch.com^
+||cdn.snigelweb.com^
