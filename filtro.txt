@@ -2572,14 +2572,18 @@ _europecookielaw.
 !
 ! ------ 20minutos ------
 !
-20minutos.es##+js(abort-on-property-read, hb_now)
-20minutos.es#$##axds-Top { min-height: 0 !important; }
-20minutos.es##.banner-header
-20minutos.es##.axds > div.henneoHB
-metropoles.com,20minutos.es##.OUTBRAIN
-20minutos.es##.axds-lane
-20minutos.es##.ad-fixed
-20minutos.es##.editorial-banner
+metropoles.com,20minutos.es,heraldo.es##+js(abort-on-property-read, hb_now)
+metropoles.com,20minutos.es,heraldo.es#$##axds-Top { min-height: 0 !important; }
+metropoles.com,20minutos.es,heraldo.es##.banner-header
+metropoles.com,20minutos.es,heraldo.es##.OUTBRAIN
+metropoles.com,20minutos.es,heraldo.es##.axds-lane
+metropoles.com,20minutos.es,heraldo.es##.ad-fixed
+metropoles.com,20minutos.es,heraldo.es##.editorial-banner
+metropoles.com,20minutos.es,heraldo.es##.taboola_container
+metropoles.com,20minutos.es,heraldo.es##.top_ads_container
+metropoles.com,20minutos.es,heraldo.es##.module1colAds
+metropoles.com,20minutos.es,heraldo.es##.module-coupons
+metropoles.com,20minutos.es,heraldo.es##.axds
 !
 ! ------ Amazon ------
 !
