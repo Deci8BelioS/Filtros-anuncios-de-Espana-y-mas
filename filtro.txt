@@ -3230,6 +3230,7 @@ muycomputer.com##.mrf-shareOptions
 muycomputer.com##.mrf-item-related-links
 muycomputer.com##.mrf-scrollViewContainer
 muycomputer.com##.mrf-todayInHome
+muycomputer.com##div[class*="lxG"]:matches-attr(class="/lxG/")
 !
 ! ------ mediaset ------
 !
