@@ -3010,8 +3010,6 @@ elchapuzasinformatico.com#$#body { background-image: none !important; }
 ||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 elchapuzasinformatico.com##.bg-ad
 elchapuzasinformatico.com##[class*="widget-"]
-elchapuzasinformatico.com##footer.footer
-elchapuzasinformatico.com###pagination
 elchapuzasinformatico.com##[class*="addtoany_"]
 elchapuzasinformatico.com###colophon > .wrap
 elchapuzasinformatico.com##.social-links
@@ -3019,6 +3017,10 @@ elchapuzasinformatico.com##[id*="post-"][class*=-noticia-patrocinada]
 elchapuzasinformatico.com##.single-ad
 elchapuzasinformatico.com##[class*="size_fixed"]
 elchapuzasinformatico.com##div[id*="lx"]:matches-attr(class="/lxG/")
+elchapuzasinformatico.com##.amp-ad-wrapper
+elchapuzasinformatico.com##.sp-rt > .amp-wp-content
+elchapuzasinformatico.com##.r-pf
+elchapuzasinformatico.com##[class*="fsp"]:has-text(Noticia Patrocinada)
 !
 ! ------ elespanol.com ------
 !
