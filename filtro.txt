@@ -280,6 +280,19 @@ _publicitario.
 /googleleads.
 googletagmanager_gtm.js
 
+##.sponsorAd
+##.small-ad
+##.sidebar-ad
+##.rectad
+##.promoad
+##.hasads
+##.native-ad
+##.NavBarAd
+##.googads
+##.adsense-ads
+##.ad-medium
+##.PostFooter__share
+##.HeaderAd
 ##.sponsorPost
 ##.AdBox
 ##.post-ads
@@ -2836,6 +2849,27 @@ google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href
 google.*##:matches-path(/travel/hotels/) div[data-is-promoted="true"]
 google.*###tads
 google.*##+js(set-constant, rwt, noopFunc)
+google.*##.commercial-unit-desktop-rhs:not(.mnr-c)
+google.*##.cu-container
+! ------ Youtube ------
+youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
+youtube.com###promotion-shelf
+*_ad_$media,domain=youtube.com,3p
+youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com###masthead-ad
+youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
+youtube.com##.video-ads
+youtube.com##ytd-carousel-ad-renderer
+youtube.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-promoted-video-renderer
+youtube.com##.ytp-ad-progress-list
+##.ytp-share-button
 !
 ! ------ Grupo Joly ------
 !
@@ -3540,6 +3574,24 @@ reddit.com#?#.ListingLayout-outerContainer > div[class] > div[style][class] > di
 reddit.com#?#div[style*="fakelightbox-overlay-"] ~ div[tabindex] > div >  div > div > div[data-redditstyle="false"]:has(> div > div > div[data-before-content="advertisement"])
 reddit.com##div[data-before-content]
 reddit.com###ad_main_top
+reddit.com##body:style(pointer-events:auto !important;)
+reddit.com##.promotedlink
+reddit.com##body,html.scroll-is-blocked:style(overflow: auto !important;)
+reddit.com##+js(set-constant, Object.prototype.allowClickTracking, false)
+reddit.com##+js(remove-class, m-blurred, .m-blurred)
+reddit.com##.XPromoPopupRpl
+reddit.com##.TopNav__promoButton
+reddit.com##+js(addEventListener-defuser, block-body-scrolling)
+reddit.com##+js(remove-class, scroll-disabled, body)
+reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
+reddit.com##body.scroll-disabled:style(overflow: visible !important; position: static !important;)
+reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
+reddit.com##.PostsList > div article:has(> .Post__header-wrapper .PostHeader__post-descriptor-line-overflow > span > .PostHeader__promoted-post-descriptor)
+reddit.com##.PostsList > div:not([class]):not([id]) > div:not([class]):not([id]) > article.Post:has(> .adLinkBar)
+reddit.com##article.Post:has(a[rel="nofollow noopener sponsored"])
+reddit.com##.TopButton
+reddit.com##.XPromoPopupRpl.m-active
+reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 !
 ! ------ speedtest ------
 !
@@ -3688,25 +3740,6 @@ xda-developers.com##+js(rc, twig-body)
 xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
 xda-developers.com##+js(abort-current-script, document.createElement, admiral)
 xda-developers.com###xdadevelopers_leaderboard_atf
-!
-! ------ Youtube ------
-!
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-youtube.com###promotion-shelf
-*_ad_$media,domain=youtube.com,3p
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-youtube.com###masthead-ad
-youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
-youtube.com##.video-ads
-youtube.com##ytd-carousel-ad-renderer
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-promoted-video-renderer
 !
 ! zona-leros
 !
