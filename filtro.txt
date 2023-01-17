@@ -2805,6 +2805,34 @@ dzoom.org.es##.dzoom-post-up
 dzoom.org.es##.dzoom-post-down
 dzoom.org.es##.dz-social-share-buttons
 !
+! ------ google ------
+!
+google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
+google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
+google.*###topstuff > #tads
+google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci
+google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci
+google.*##.commercial-unit-mobile-top > .v7hl4d
+google.*##.commercial-unit-mobile-top > div[data-pla="1"]
+google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
+google.*##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
+google.*##div[data-flt-ve="sponsored_search_ads"]
+google.*##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
+google.*##div[role="navigation"] + c-wiz > div > .kxhcC
+google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
+google.*##.ads-ad
+google.*###sqh
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) a[href*="/aclk?"][data-al]:upward(2)
+google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
+google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3
+google.*##.sh-sr__shop-result-group[data-hveid] .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
+google.*##c-wiz div[data-hveid] > div > div > ul:has(> li[style="max-width:200px;"] > div > div[data-hveid] > a[href*="/aclk"]):upward(3)
+google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
+google.*##:matches-path(/travel/hotels/) div[data-is-promoted="true"]
+google.*###tads
+google.*##+js(set-constant, rwt, noopFunc)
+!
 ! ------ Grupo Joly ------
 !
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
@@ -2887,6 +2915,12 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##+js(set-constant, canRunAds, true)
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-box-fl
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-box
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ad-giga
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.leaderboard
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##div[id^="ad-"]
+cincodias.elpais.com##section.sumario_html > .sumario__interior
+cincodias.elpais.com##.widget
 impactoespananoticias.com##.aside
 impactoespananoticias.com##.footer
 impactoespananoticias.com##.extra2
