@@ -2979,9 +2979,12 @@ elchapuzasinformatico.com##[class*="widget-"]
 elchapuzasinformatico.com##footer.footer
 elchapuzasinformatico.com###pagination
 elchapuzasinformatico.com##[class*="addtoany_"]
-elchapuzasinformatico.com##colophon > .wrap
+elchapuzasinformatico.com###colophon > .wrap
 elchapuzasinformatico.com##.social-links
 elchapuzasinformatico.com##[id*="post-"][class*=-noticia-patrocinada]
+elchapuzasinformatico.com##.single-ad
+elchapuzasinformatico.com##[class*="size_fixed"]
+elchapuzasinformatico.com##div[id*="lx"]:matches-attr(class="/lxG/")
 !
 ! ------ elespanol.com ------
 !
