@@ -3021,6 +3021,7 @@ elchapuzasinformatico.com##.amp-ad-wrapper
 elchapuzasinformatico.com##.sp-rt > .amp-wp-content
 elchapuzasinformatico.com##.r-pf
 elchapuzasinformatico.com##[class*="fsp"]:has-text(Noticia Patrocinada)
+elchapuzasinformatico.com###.sp-lt
 !
 ! ------ elespanol.com ------
 !
