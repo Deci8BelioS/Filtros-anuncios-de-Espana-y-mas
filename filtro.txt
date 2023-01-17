@@ -2835,6 +2835,20 @@ elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 gamesfull.*##.ads
 !
+! ------ elconfidencial ------
+!
+elconfidencial.com##.revUnit--placeholder
+elconfidencial.com##.articleAside__module--isSticky
+!
+! ------ elblogdecineespanol ------
+!
+elblogdecineespanol.com###header
+elblogdecineespanol.com###wrapper-content > [href]
+elblogdecineespanol.com###right-sidebar
+elblogdecineespanol.com###featured-category-box
+elblogdecineespanol.com##center
+elblogdecineespanol.com##.widget-area
+!
 ! ------ elmundo.es y compañia ------
 !
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
@@ -3475,11 +3489,25 @@ speedtest.net##.privacy-update
 speedtest.net##div[data-view-name="privacy-updated-notice"]
 speedtest.net###zdcFloatingBtn
 !
-! salamanca24horas
+! ------ salamanca24horas ------
 !
 salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
 salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
+!
+! ------ televisa ------
+!
+televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##.ads-container
+televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##.Ads
+televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##div[class*="sc-"]:has-text(cookies)
+televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##[data-widget-type="Outbrain"]
+televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##div[id^="ad_"]
+tudn.com,univision.com##[class*="_1lxjP"]:has-text(Publicidad)
+tudn.com,univision.com##[class*="ad"],[id*="ad"]
+tudn.com,univision.com##.guFemk
+tudn.com,univision.com##[data-element-name="CivicScience"]
+univision.com##[class="gatsbyMainBody"]
+univision.com##[data-widget-type="AllExternalEmbed"]
 !
 ! ------ tiktok.tv ------
 !
