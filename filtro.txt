@@ -280,6 +280,20 @@ _publicitario.
 /googleleads.
 googletagmanager_gtm.js
 
+##.stream-item-widget
+##img[width="728"][height="90"]
+##iframe[width="100%"][height="90"]
+##.stream-item-widget
+###background-ad-cover
+##[data-revive-zoneid]
+##.c-ads
+##.ad-text
+##.adBlock
+##.adSense
+##.adContent
+###adchoicesBtn
+##.ads-left
+##.ads-right
 ##.sponsorAd
 ##.small-ad
 ##.sidebar-ad
@@ -296,6 +310,7 @@ googletagmanager_gtm.js
 ##.sponsorPost
 ##.AdBox
 ##.post-ads
+##.post-ad
 *##amp-ad
 *##amp-dailymotion
 ##.publicidad
@@ -317,6 +332,7 @@ googletagmanager_gtm.js
 ##.google-ads-obj
 ##.google-ads-rodape
 ##.googleAdFoot
+##.googleAd
 ##.main-ads
 ##.publicidade-dotted
 ##.standard-ad
@@ -627,6 +643,8 @@ googletagmanager_gtm.js
 ##.publicidadright
 ##.publicidadSuperior
 ##.publicidadtxt
+###link-view > a[href][target="_blank"] > img
+##a[href^="https://taghaugh.com/"]
 *###credential_picker_container
 *##script:inject(bab-defuser.js)
 *##[id*="pixel"]
@@ -2810,6 +2828,7 @@ deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
 deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
+deepl.com##+js(addEventListener-defuser, copy)
 !
 ! ------ dzoom.org ------
 !
@@ -3196,27 +3215,6 @@ hhgroups.com##[class*="home_rrss"]
 hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
 hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
 !
-! ------ Sonic Network y DISPLAY CONNECTORS ------
-!
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="playbuzz"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.faldon-suscriptores
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="robapaginas"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.destacados-top
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.social
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.article-comments
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.share-links
-hispasonic.com,publico.es,guitarristas.info,batacas.com##script[typ*="didomi"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="megabanner"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.relacionadas
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.banner-top
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.sidebar
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="offersforum"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
-hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
-hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
-!
 ! ------ instagram ------
 !
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
@@ -3353,6 +3351,18 @@ okdiario.com###disqus_recommendations
 okdiario.com##.aux-col
 okdiario.com###main-video-anchor
 okdiario.com###native-addthis
+!
+! ------ oko.sh ------
+!
+oko.sh##+js(set-constant, app_vars.force_disable_adblock, undefined)
+oko.sh##+js(no-fetch-if, pagead2.googlesyndication.com)
+oko.sh##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
+oko.sh##+js(abort-on-property-read, zfgformats)
+oko.sh##+js(window.open-defuser)
+oko.sh##+js(abort-on-property-read, app_vars.force_disable_adblock)
+oko.sh##+js(nowebrtc)
+oko.sh##+js(set-constant, blurred, false)
+oko.sh##+js(abort-current-script, Math, zfgloaded)
 !
 ! ------ pccomponentes ------
 !
@@ -3614,17 +3624,45 @@ reddit.com##.TopButton
 reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 !
-! ------ speedtest ------
-!
-speedtest.net##.privacy-update
-speedtest.net##div[data-view-name="privacy-updated-notice"]
-speedtest.net###zdcFloatingBtn
-!
 ! ------ salamanca24horas ------
 !
 salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
 salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
+salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
+!
+! ------ speedtest ------
+!
+speedtest.net##.privacy-update
+speedtest.net##div[data-view-name="privacy-updated-notice"]
+speedtest.net###zdcFloatingBtn
+speedtest.net##+js(set-constant, isBlocked, false)
+speedtest.net##+js(abort-on-property-read, _sp_)
+speedtest.net##.eot-box-wrapper > div.pure-g
+speedtest.net##.pure-u-custom-ad-rectangle
+speedtest.net##.top-placeholder
+speedtest.net##div[data-ad-placeholder]
+!
+! ------ Sonic Network y DISPLAY CONNECTORS ------
+!
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="playbuzz"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.faldon-suscriptores
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="robapaginas"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.destacados-top
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.social
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.article-comments
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.share-links
+hispasonic.com,publico.es,guitarristas.info,batacas.com##script[typ*="didomi"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="megabanner"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.relacionadas
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.banner-top
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.sidebar
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="offersforum"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
+hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
+hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
 !
 ! ------ televisa ------
 !
