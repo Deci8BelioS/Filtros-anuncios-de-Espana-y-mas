@@ -2876,6 +2876,7 @@ youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han vi
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
 youtube.com##ytd-search ytd-shelf-renderer:has-text(De búsquedas relacionadas)
 youtube.com##ytd-search ytd-video-renderer:has-text(SHORTS)
+youtube.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
 youtube.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Contenido relacionado con el aprendizaje)
 youtube.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHORTS)
