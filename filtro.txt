@@ -2870,6 +2870,24 @@ youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-promoted-video-renderer
 youtube.com##.ytp-ad-progress-list
 ##.ytp-share-button
+! Bloqueo de publicaciones Shorts en la pagina de suscripciones y en el resultado de busquedas: Para ti, Los usuarios también han visto, Vistos anteriormente, De búsquedas relacionadas, Otras personas también buscan.
+youtube.com##[id*="dismissible"]:has-text(Para ti)
+youtube.com##[id*="dismissible"]:has-text(Los usuarios también han visto)
+youtube.com##[id*="dismissible"]:has-text(Vistos anteriormente)
+youtube.com##[id*="dismissible"]:has-text(De búsquedas relacionadas)
+youtube.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
+youtube.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
+
+youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
+youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+youtube.com##ytd-browse[page-subtype="channels"] #contents.ytd-reel-shelf-renderer:upward(ytd-item-section-renderer)
 !
 ! ------ Grupo Joly ------
 !
