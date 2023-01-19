@@ -3027,6 +3027,19 @@ elotrolado.net##div.news-ad
 aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
 ||elotrolado.net/styles/estiloeol/imageset/banner_
 !
+! ------ Europa Press ------
+!
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.columna3
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.subnavegacion-fixed
+europapress.es,culturaocio.com,infosalus.com,notimerica.com###contenidopersonalizado
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.ContenidoColumnaDerecha
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.adv-container-principal
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.adv-container
+europapress.es,culturaocio.com,infosalus.com,notimerica.com##.centrado
+europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloquePatrociniosHome
+europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloqueLenguasHome
+europapress.es,culturaocio.com,infosalus.com,notimerica.com###BannerCabecera
+!
 ! ------ videos dailymotion ------
 !
 ||dailymotion.com
