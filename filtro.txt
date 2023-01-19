@@ -3273,18 +3273,6 @@ megacloud.la##.sidebar
 mediavida.com##._p-ft
 mediavida.com##._p-tp
 !
-! ------ muycomputer ------
-!
-muycomputer.com##.mrf-adv
-muycomputer.com###mrf-deepLinkingHomepage
-muycomputer.com##.mrf-adv__wrapper
-muycomputer.com##.mrf-footer
-muycomputer.com##.mrf-shareOptions
-muycomputer.com##.mrf-item-related-links
-muycomputer.com##.mrf-scrollViewContainer
-muycomputer.com##.mrf-todayInHome
-muycomputer.com##div[class*="lxG"]:matches-attr(class="/lxG/")
-!
 ! ------ mediaset ------
 !
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es###megaSuperior_multisite
@@ -3682,6 +3670,27 @@ univision.com##[data-widget-type="AllExternalEmbed"]
 !
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+!
+! ------ tpnet ------
+!
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com###mrf-deepLinkingHomepage
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv__wrapper
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-shareOptions
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-item-related-links
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-scrollViewContainer
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-todayInHome
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##div[class*="lxG"]:matches-attr(class="/lxG/")
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.page-sidebar > .widget-area
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.after-post-widget-area
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.et_social_inline_bottom.et_social_mobile_on.et_social_inline
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.tag-links
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.theiaStickySidebar
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mvp-cont-read-wrap
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com###mvp-post-more-wrap
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.relative.right.mvp-post-soc-out > .mvp-soc-mob-up
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.relative.left.mvp-main-blog-cont
 !
 ! ------ trakt.tv ------
 !
