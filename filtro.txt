@@ -279,7 +279,18 @@ _publicitario.
 /googleafs.
 /googleleads.
 googletagmanager_gtm.js
-
+##.adsbygoogle
+##AMP-AD
+##.ad-area:not(.text-ad)
+##.ad-div
+##.ad-small
+##.aside-ad
+##.bottom-ad
+##.f-ad
+##.m-ad
+##.sticky-ad
+##.dfp_unit
+##.reviews-display-ad
 ##.stream-item-widget
 ##img[width="728"][height="90"]
 ##iframe[width="100%"][height="90"]
@@ -2638,6 +2649,23 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-
 ||yab-adimages.s3.amazonaws.com
 ||admarvel.s3.amazonaws.com
 ||adzerk.s3.amazonaws.com
+amazon.*###nav-swmslot
+amazon.*##div[id^="sp_detail"]
+amazon.*##div[cel_widget_id^="multi-brand-"]
+amazon.*##div[cel_widget_id^="adplacements:"]
+amazon.*##div[cel_widget_id="sims-consolidated-5_csm_instrumentation_wrapper"]
+amazon.*##div[cel_widget_id*="desktop-dp-"]
+amazon.*###sponsoredProducts2_feature_div
+amazon.*##div[cel_widget_id*="_ad-placements-"]
+amazon.*##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
+amazon.*##.s-search-results > div[data-asin]:has(> div[class] > div[cel_widget_id] > div[data-component-props*="Sponsored"])
+amazon.*##.s-search-results > div[data-asin] div[data-component-props*="Sponsored"]
+amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.*##.amzn-safe-frame-container
+amazon.*##.AdHolder
+amazon.*##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
+amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
+amazon.*##div[cel_widget_id="sp_phone_detail_thematic"]
 !
 ! ------ Adslzone y demás ------
 !
@@ -2667,6 +2695,12 @@ antena3.com##[class*="publi"]
 antena3.com,lasexta.com,atresmedia.com##+js(addEventListener-defuser, contextmenu)
 atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
 cdnjs.atresmedia.com
+lasexta.com##.mod-ligatus
+lasexta.com##aside[class^="mod-ad-top"]
+lasexta.com##.mod-ad-middle
+atresplayer.com##+js(no-setTimeout-if, _creatBait)
+atresplayer.com##+js(nofab)
+atresplayer.com##+js(no-fetch-if, /conversion_async.js)
 !
 ! ------animeflv ------
 !
@@ -2873,6 +2907,11 @@ google.*##.cu-container
 google.*###tadsb
 google.*##.commercial-unit-mobile-bottom
 google.*##.commercial-unit-mobile-top
+google.*###tadsb[aria-label]
+google.*##[data-text-ad]
+google.*##.uEierd
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
+google.*##.gws-product_ads__close-button
 ! ------ Youtube ------
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
@@ -2909,6 +2948,13 @@ youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Sh
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
 youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
 youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-paid-content-overlay
+youtube.com###player-ads
+youtube.com##.video-annotations
+youtube.com##.ytd-companion-slot-renderer
+youtube.com###offer-module
+youtube.com###ticker.ytd-masthead
 !
 ! ------ Grupo Joly ------
 !
@@ -3111,6 +3157,7 @@ elespanol.com##.sticky_container
 elespanol.com##.stickycontainer
 elespanol.com##.article__footer-nav
 elespanol.com##[id*="div-gpt-ad-"]
+elespanol.com##+js(set-constant, tieneAdblock, 0)
 ! esto no mostrará el banner para suscribirte, la noticia aparecerá incompleta si no eres suscriptor
 elespanol.com##.full-suscriptor-container
 !
@@ -3242,6 +3289,7 @@ instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:ha
 !#if env_mobile
 instagram.com##.xZ2Xk:has-text(/App/)
 !#endif
+instagram.com##body:style(overflow: visible!important;)
 !
 ! ------ instatecno ------
 !
@@ -3737,6 +3785,9 @@ mobile.twitter.com##div[data-testid="sidebarColumn"] section[aria-label][role="r
 twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
 ||twitter.com/1.1/jot
+twitter.com##html:style(overflow: auto !important; padding-right: 0 !important; overscroll-behavior-y: auto !important;)
+twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
+twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 !
 ! ------ webmedia ------
 !
