@@ -294,6 +294,8 @@ googletagmanager_gtm.js
 ##.stream-item-widget
 ##img[width="728"][height="90"]
 ##iframe[width="100%"][height="90"]
+##iframe[id^="google_ads_frame"]
+###adBanner:not([style^="position: absolute; left: -5000px"]):not([data-testid="adBlockTest"])
 ##.stream-item-widget
 ###background-ad-cover
 ##[data-revive-zoneid]
@@ -2912,6 +2914,7 @@ google.*##[data-text-ad]
 google.*##.uEierd
 google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
 google.*##.gws-product_ads__close-button
+google.*##+js(set-constant, rwt, noopFunc)
 ! ------ Youtube ------
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
@@ -2955,6 +2958,10 @@ youtube.com##.video-annotations
 youtube.com##.ytd-companion-slot-renderer
 youtube.com###offer-module
 youtube.com###ticker.ytd-masthead
+youtube.com###merch-shelf
+youtube.com##.ytd-ad-slot-renderer
+youtube.com##[layout*="display-ad-"]
+youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
 !
 ! ------ Grupo Joly ------
 !
@@ -3278,6 +3285,13 @@ hhgroups.com##[class*="home_rrss"]
 hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
 hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
 !
+! ------ htcmania.com + kimovil ------
+!
+htcmania.com##.afterlogo
+kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
+kimovil.com##.kau
+kimovil.com###user-sidebar div.kau
+!
 ! ------ instagram ------
 !
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
@@ -3447,6 +3461,7 @@ pccomponentes.com##.carousel-brand-module-class
 ||cdn.pccomponentes.com/img/repositorio/banner/dfp-pccomponentes-default-*.png
 pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
+pccomponentes.com##div[id^="div-gpt-ad-"]
 !
 ! pelis/series online o torrents
 !
@@ -3455,6 +3470,38 @@ pelisplus.*##.cuadre_comments
 pelisplus.*##.adx
 pelisplus.*##.ads_header
 pelisplus.*##.adsbelowvideo
+pelisplus.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
+pelisplus.*##+js(remove-attr, href, #opfk)
+pelisplus.*##+js(abort-on-property-write, _pop)
+pelisplus.*##+js(abort-on-property-write, smrtSB)
+pelisplus.*##+js(abort-on-property-write, smrtSP)
+pelisplus.*##+js(abort-on-property-write, adcashMacros)
+pelisplus.*##+js(abort-on-property-read, AaDetector)
+pelisplus.*##+js(abort-current-script, Math, delete window)
+pelisplus.*##+js(abort-on-property-read, __clientAHV)
+pelisplus.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*##+js(window.open-defuser)
+hdfull.*##+js(nano-setTimeout-booster)
+hdfull.*##+js(addEventListener-defuser, mousedown, !!{});)
+hdfull.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*###oly
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, JSON.parse, Promise)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(nano-setTimeout-booster, counter)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(remove-attr, target, #downloadvideo)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, Math, /emZnbG9hZGVk|break;case \$\./)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, _pop)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, googleAd, true)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock, 700)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, adblock)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(addEventListener-defuser, contextmenu)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, doSecondPop)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, arrvast)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, sadbl, false)
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[onclick="openAuc();"]
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[title="Free money easy"]
+streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, mm)
+disqus.com###placement-top
 peliculas24.*##.content-kuss-ads
 peliculas24.*##div[itemprop="description"] h3
 pelis-123.*##.head-main-nav i
@@ -3715,6 +3762,12 @@ hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
 hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
+!
+! ------ techpowerup.com ------
+!
+techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
+techpowerup.com##:matches-path(/download/) body:not([data-template]) a:not([href^="/download/"]) img:not([src^="https://tpucdn.com/download/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
 !
 ! ------ televisa ------
 !
