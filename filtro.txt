@@ -2709,7 +2709,7 @@ atresplayer.com##+js(no-setTimeout-if, _creatBait)
 atresplayer.com##+js(nofab)
 atresplayer.com##+js(no-fetch-if, /conversion_async.js)
 !
-! ------animeflv ------
+! ------ animeflv ------
 !
 @@||animeflv.net/js/adsbygoogle.js
 @@||animeflv.ru/assets/animeflv/js/ads.js
@@ -2792,7 +2792,7 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[cl
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##.wrapper-editorial
 ||cmpsp.
 !
-! birdcpm
+! ------ birdcpm ------
 !
 birdcpm.*##.text-left
 birdcpm.*##.banner
@@ -2848,7 +2848,7 @@ mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ip
 cotilleando.com###fixedban
 cotilleando.com##.samCodeUnit
 !
-! cultura-informatica.com
+! ------ cultura-informatica.com ------
 !
 cultura-informatica.com##.amp-ad-wrap
 cultura-informatica.com##.single-left-section
@@ -2881,110 +2881,6 @@ dzoom.org.es##[class*="fancybox"]
 dzoom.org.es##.dzoom-post-up
 dzoom.org.es##.dzoom-post-down
 dzoom.org.es##.dz-social-share-buttons
-!
-! ------ google ------
-!
-google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
-google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
-google.*###topstuff > #tads
-google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci
-google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci
-google.*##.commercial-unit-mobile-top > .v7hl4d
-google.*##.commercial-unit-mobile-top > div[data-pla="1"]
-google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
-google.*##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
-google.*##div[data-flt-ve="sponsored_search_ads"]
-google.*##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
-google.*##div[role="navigation"] + c-wiz > div > .kxhcC
-google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
-google.*##.ads-ad
-google.*###sqh
-google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) a[href*="/aclk?"][data-al]:upward(2)
-google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
-google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
-google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3
-google.*##.sh-sr__shop-result-group[data-hveid] .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
-google.*##c-wiz div[data-hveid] > div > div > ul:has(> li[style="max-width:200px;"] > div > div[data-hveid] > a[href*="/aclk"]):upward(3)
-google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
-google.*##:matches-path(/travel/hotels/) div[data-is-promoted="true"]
-google.*###tads
-google.*##+js(set-constant, rwt, noopFunc)
-google.*##.commercial-unit-desktop-rhs:not(.mnr-c)
-google.*##.cu-container
-google.*###tadsb
-google.*##.commercial-unit-mobile-bottom
-google.*##.commercial-unit-mobile-top
-google.*###tadsb[aria-label]
-google.*##[data-text-ad]
-google.*##.uEierd
-google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
-google.*##.gws-product_ads__close-button
-google.*##+js(set-constant, rwt, noopFunc)
-! ------ Youtube ------
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-youtube.com###promotion-shelf
-*_ad_$media,domain=youtube.com,3p
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-youtube.com###masthead-ad
-youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
-youtube.com##.video-ads
-youtube.com##ytd-carousel-ad-renderer
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-promoted-video-renderer
-youtube.com##.ytp-ad-progress-list
-youtube.com##.ytp-share-button
-! Bloqueo de publicaciones Shorts en la pagina de suscripciones y en el resultado de busquedas: Para ti, Los usuarios también han visto, Vistos anteriormente, De búsquedas relacionadas, Otras personas también buscan.
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(De búsquedas relacionadas)
-youtube.com##ytd-search ytd-video-renderer:has-text(SHORTS)
-youtube.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
-youtube.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Contenido relacionado con el aprendizaje)
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has-text(SHORTS)
-youtube.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHORTS)
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(SHORTS)
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Últimas noticias)
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Shorts)
-youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
-youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
-youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-paid-content-overlay
-youtube.com###player-ads
-youtube.com##.video-annotations
-youtube.com##.ytd-companion-slot-renderer
-youtube.com###offer-module
-youtube.com###ticker.ytd-masthead
-youtube.com###merch-shelf
-youtube.com##.ytd-ad-slot-renderer
-youtube.com##[layout*="display-ad-"]
-youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
-!
-! ------ Grupo Joly ------
-!
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-h
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.adv-intext
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[class*="ad-sticker-"]
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[id*="suscripciones"]
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
-!
-! ------ Grupo Taldea ------
-!
-noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.ad
-noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.no-baldomero
-noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.commercial-up-full
-noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com###billboard-wrapper
-noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.has-sponsor
 !
 ! ------ diariosanitario ------
 !
@@ -3259,6 +3155,110 @@ forococheselectricos.com##.site-footer
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
 !
+! ------ google ------
+!
+google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
+google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
+google.*###topstuff > #tads
+google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci
+google.*##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci
+google.*##.commercial-unit-mobile-top > .v7hl4d
+google.*##.commercial-unit-mobile-top > div[data-pla="1"]
+google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
+google.*##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
+google.*##div[data-flt-ve="sponsored_search_ads"]
+google.*##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
+google.*##div[role="navigation"] + c-wiz > div > .kxhcC
+google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
+google.*##.ads-ad
+google.*###sqh
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) a[href*="/aclk?"][data-al]:upward(2)
+google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
+google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3
+google.*##.sh-sr__shop-result-group[data-hveid] .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
+google.*##c-wiz div[data-hveid] > div > div > ul:has(> li[style="max-width:200px;"] > div > div[data-hveid] > a[href*="/aclk"]):upward(3)
+google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
+google.*##:matches-path(/travel/hotels/) div[data-is-promoted="true"]
+google.*###tads
+google.*##+js(set-constant, rwt, noopFunc)
+google.*##.commercial-unit-desktop-rhs:not(.mnr-c)
+google.*##.cu-container
+google.*###tadsb
+google.*##.commercial-unit-mobile-bottom
+google.*##.commercial-unit-mobile-top
+google.*###tadsb[aria-label]
+google.*##[data-text-ad]
+google.*##.uEierd
+google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
+google.*##.gws-product_ads__close-button
+google.*##+js(set-constant, rwt, noopFunc)
+! ------ Youtube ------
+youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
+youtube.com###promotion-shelf
+*_ad_$media,domain=youtube.com,3p
+youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com###masthead-ad
+youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
+youtube.com##.video-ads
+youtube.com##ytd-carousel-ad-renderer
+youtube.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-promoted-video-renderer
+youtube.com##.ytp-ad-progress-list
+youtube.com##.ytp-share-button
+! Bloqueo de publicaciones Shorts en la pagina de suscripciones y en el resultado de busquedas: Para ti, Los usuarios también han visto, Vistos anteriormente, De búsquedas relacionadas, Otras personas también buscan.
+youtube.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
+youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
+youtube.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
+youtube.com##ytd-search ytd-shelf-renderer:has-text(De búsquedas relacionadas)
+youtube.com##ytd-search ytd-video-renderer:has-text(SHORTS)
+youtube.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
+youtube.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
+youtube.com##ytd-search ytd-shelf-renderer:has-text(Contenido relacionado con el aprendizaje)
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has-text(SHORTS)
+youtube.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHORTS)
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(SHORTS)
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Últimas noticias)
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Shorts)
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
+youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
+youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-paid-content-overlay
+youtube.com###player-ads
+youtube.com##.video-annotations
+youtube.com##.ytd-companion-slot-renderer
+youtube.com###offer-module
+youtube.com###ticker.ytd-masthead
+youtube.com###merch-shelf
+youtube.com##.ytd-ad-slot-renderer
+youtube.com##[layout*="display-ad-"]
+youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
+!
+! ------ Grupo Joly ------
+!
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-h
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.adv-intext
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[class*="ad-sticker-"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[id*="suscripciones"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
+!
+! ------ Grupo Taldea ------
+!
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.ad
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.no-baldomero
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.commercial-up-full
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com###billboard-wrapper
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.has-sponsor
+!
 ! ------ hd-tecnologia.com ------
 !
 hd-tecnologia.com##.i-amphtml-layout-fixed
@@ -3328,7 +3328,7 @@ instatecno.com###ai-adb-message
 ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
 !
-! lacasadeel.net
+! ------ lacasadeel.net ------
 !
 lacasadeel.net###webpushr-prompt-wrapper
 lacasadeel.net##.td-a-rec
@@ -3338,7 +3338,7 @@ lacasadeel.net##[class*="td_block_social"]
 lacasadeel.net##[class*="clickio_hvh"]
 lacasadeel.net##[class*="td_separator_center"]
 !
-! larazon.es
+! ------ larazon.es ------
 !
 larazon.es##.article-body section aside
 larazon.es##.content__ad
@@ -3347,7 +3347,7 @@ larazon.es##.ads
 larazon.es###outbrain-id
 larazon.es##.floorad__container
 !
-! mediafire
+! ------ mediafire ------
 !
 mediafire.com##[id*="gpt-ad"]
 mediafire.com##+js(no-setTimeout-if, scan, 500)
@@ -3355,7 +3355,7 @@ mediafire.com###cookie-accept-footer
 mediafire.com##.fc-consent-root
 mediafire.com##.DLExtraInfo-wrap
 !
-! megacloud
+! ------ megacloud ------
 !
 megacloud.la##.sidebar
 !
@@ -3476,7 +3476,7 @@ pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
 pccomponentes.com##div[id^="div-gpt-ad-"]
 !
-! pelis/series online o torrents
+! ------ pelis/series online o torrents ------
 !
 pelisplus.*##.adsuppervideo
 pelisplus.*##.cuadre_comments
@@ -3527,7 +3527,7 @@ mejortorrentes.*###sec_main > table[border="0"]
 mejortorrentes.*###main_table_center_center2 > table:first-child, #main_table_center_center2 > table:first-child + br
 mejortorrentes.*###sec_main > center, #main_td_center_center > center
 !
-! pinterest
+! ------ pinterest ------
 !
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Anzeige von)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Gesponsord door)
@@ -3540,7 +3540,7 @@ pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorizzato da)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Рекламодатель:)
 !
-! pivigames y adxgames
+! ------ pivigames y adxgames ------
 !
 pivigames.*,adxgames.*##[class*="oferta"],[class*="promo"]
 pivigames.*,adxgames.*##.gp-sidebar .widget_text
@@ -3548,13 +3548,13 @@ pivigames.*,adxgames.*##.wpb_raw_html
 pivigames.*,adxgames.*##a[href*=".php"]
 pivigames.*,adxgames.*##[class*="gp_hubs-ads"]
 !
-! playpaste.com
+! ------ playpaste.com ------
 !
 playpaste.com##.step.section
 playpaste.com##.flex-center > p
 playpaste.com##a[href^="https://track.wg-aff.com/"]
 !
-! Porno
+! ------ Porno ------
 !
 pornhub.*###js-abContainterMain
 pornhub.*###singleFeedSection > .alpha
@@ -3944,7 +3944,7 @@ xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor 
 xda-developers.com##+js(abort-current-script, document.createElement, admiral)
 xda-developers.com###xdadevelopers_leaderboard_atf
 !
-! zona-leros
+! ------ zona-leros ------
 !
 zona-leros.*##.content_store
 zona-leros.*##.iframeDiv
