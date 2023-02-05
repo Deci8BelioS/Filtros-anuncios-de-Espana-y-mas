@@ -2984,6 +2984,7 @@ noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenava
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.no-baldomero
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.commercial-up-full
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com###billboard-wrapper
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.has-sponsor
 !
 ! ------ diariosanitario ------
 !
