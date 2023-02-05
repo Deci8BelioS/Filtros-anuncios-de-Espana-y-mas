@@ -456,6 +456,11 @@ googletagmanager_gtm.js
 ##.adsforsearch_roba
 ##.adsmovie
 ##.advertisingLeft
+##.ad-row
+##.ad--sticky
+###pc-div-gpt-ad_728-3
+##.skyscrapper-ads-container
+##.ad-slots-wrapper
 ##.app-container > .questions-container-banner
 ##.bg-ad-left
 ##.bg-ad-right
@@ -2973,6 +2978,13 @@ diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordo
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
 !
+! ------ Grupo Taldea ------
+!
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.ad
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.no-baldomero
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.commercial-up-full
+noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com###billboard-wrapper
+!
 ! ------ diariosanitario ------
 !
 diariosanitario.com##.bannersubheader
@@ -4063,3 +4075,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||sunmedia.tv^$3p
 ||scorecardresearch.com^
 ||cdn.snigelweb.com^
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5
