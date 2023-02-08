@@ -388,6 +388,7 @@ googletagmanager_gtm.js
 ##.voc-article--sponsored
 ##.voc-sponsored
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
+##[class~="mailpoet_form_popup_overlay"]
 ###PubMiddle1
 ###PubMiddle2
 ###PubRight
@@ -2902,11 +2903,6 @@ elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 gamesfull.*##.ads
 !
-! ------ elconfidencial ------
-!
-elconfidencial.com##.revUnit--placeholder
-elconfidencial.com##.articleAside__module--isSticky
-!
 ! ------ elblogdecineespanol ------
 !
 elblogdecineespanol.com###header
@@ -2915,6 +2911,60 @@ elblogdecineespanol.com###right-sidebar
 elblogdecineespanol.com###featured-category-box
 elblogdecineespanol.com##center
 elblogdecineespanol.com##.widget-area
+!
+! ------ elconfidencial ------
+!
+elconfidencial.com##.revUnit--placeholder
+elconfidencial.com##.articleAside__module--isSticky
+!
+! ------ eleconomista.es ------
+!
+eleconomista.es##.railContainer1
+eleconomista.es##.banners-superiores2
+eleconomista.es##.bannerIntermedio
+eleconomista.es##.bannerInferior
+eleconomista.es##.b300
+eleconomista.es##.adsLinicom
+eleconomista.es##.AD_Content
+!
+! ------ eldiario.es ------
+!
+eldiario.es##.header-ad
+eldiario.es##.header-adds
+eldiario.es##.header-links
+eldiario.es##[id^="ad_container_"]
+eldiario.es##.dailymotion-library
+eldiario.es##.news-outlook
+eldiario.es##.bbnx-module
+eldiario.es##.bulletin-subscription
+eldiario.es##.edi-advertising
+eldiario.es##.branded-content
+eldiario.es##.embed-container
+eldiario.es##.news-know-more
+eldiario.es##.cmp-footer
+eldiario.es##.become-partner
+eldiario.es##.focus-header
+!
+! ------ eldigitaldealbacete ------
+!
+eldigitaldealbacete.com##.adv-link
+eldigitaldealbacete.com##.stream-item
+eldigitaldealbacete.com##.share-buttons
+eldigitaldealbacete.com##.code-block
+
+!
+! ------ elindependiente.com ------
+!
+elindependiente.com##.top-desktop
+elindependiente.com##.social-share
+elindependiente.com###skyder
+elindependiente.com##.sidebar
+elindependiente.com###skyizq
+elindependiente.com##.footer__header
+elindependiente.com##.wp-has-aspect-ratio
+elindependiente.com##.bloque-masvisto
+elindependiente.com##.bloque-relacionadas
+elindependiente.com##.henneoHB
 !
 ! ------ elmundo.es y compañia ------
 !
@@ -2966,24 +3016,6 @@ impactoespananoticias.com##.extra2
 ||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 !
-! ------ eldiario.es ------
-!
-eldiario.es##.header-ad
-eldiario.es##.header-adds
-eldiario.es##.header-links
-eldiario.es##[id^="ad_container_"]
-eldiario.es##.dailymotion-library
-eldiario.es##.news-outlook
-eldiario.es##.bbnx-module
-eldiario.es##.bulletin-subscription
-eldiario.es##.edi-advertising
-eldiario.es##.branded-content
-eldiario.es##.embed-container
-eldiario.es##.news-know-more
-eldiario.es##.cmp-footer
-eldiario.es##.become-partner
-eldiario.es##.focus-header
-!
 ! ------ elotrolado ------
 !
 elotrolado.net##.anno
@@ -2991,6 +3023,15 @@ elotrolado.net##.dfp-queue
 elotrolado.net##div.news-ad
 aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
 ||elotrolado.net/styles/estiloeol/imageset/banner_
+!
+! ------ elplural ------
+!
+elplural.com##.banner
+elplural.com##.row-sky-banners
+elplural.com###sn-social-share
+elplural.com##.c-banner__mobile
+elplural.com##.subscribe-block
+elplural.com###Player_Playoncontent_footer
 !
 ! ------ Europa Press ------
 !
@@ -3346,6 +3387,11 @@ larazon.es##.ad
 larazon.es##.ads
 larazon.es###outbrain-id
 larazon.es##.floorad__container
+larazon.es##.henneoHB
+larazon.es##.prometeo-reserved-space
+larazon.es##.article-aside-bottom
+larazon.es##.container__sticky--left
+larazon.es##.container__sticky--right
 !
 ! ------ mediafire ------
 !
@@ -3526,6 +3572,19 @@ pelispedia.*##div.tab-content-block center
 mejortorrentes.*###sec_main > table[border="0"]
 mejortorrentes.*###main_table_center_center2 > table:first-child, #main_table_center_center2 > table:first-child + br
 mejortorrentes.*###sec_main > center, #main_td_center_center > center
+!
+! ------ periodistadigital ------
+!
+periodistadigital.com###mailpoet_form_iframe
+periodistadigital.com##.cta-center.call-to-action
+periodistadigital.com##.m4p-position-down.m4p-post-meta
+periodistadigital.com##.fluid-width-video-wrapper
+periodistadigital.com##.overlay
+periodistadigital.com##.pos_relative.bgImg.cta2-banner
+periodistadigital.com##.mrf-adv__wrapper
+periodistadigital.com##.mrf-page.stickyPage
+periodistadigital.com###mrf-footer
+periodistadigital.com##.mrf-widget
 !
 ! ------ pinterest ------
 !
@@ -3735,6 +3794,17 @@ reddit.com##article.Post:has(a[rel="nofollow noopener sponsored"])
 reddit.com##.TopButton
 reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
+!
+! ------ religiondigital ------
+!
+religiondigital.org##.ad-holder
+religiondigital.org##.sharebar
+religiondigital.org##aside
+religiondigital.org##center
+religiondigital.org##.bg-wrapper
+religiondigital.org##div.mce
+religiondigital.org##.opt-subscriber
+religiondigital.org##.onsite-social
 !
 ! ------ salamanca24horas ------
 !
