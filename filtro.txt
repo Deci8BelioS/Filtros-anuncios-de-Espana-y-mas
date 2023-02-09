@@ -2917,6 +2917,13 @@ elblogdecineespanol.com##.widget-area
 elconfidencial.com##.revUnit--placeholder
 elconfidencial.com##.articleAside__module--isSticky
 !
+! ------ elconfidencialdigital ------
+!
+elconfidencialdigital.com##.ad-slot
+elconfidencialdigital.com##.sidebar-col
+elconfidencialdigital.com##.onm-fixed-banner
+elconfidencialdigital.com##.mobile-sharetools
+!
 ! ------ eleconomista.es ------
 !
 eleconomista.es##.railContainer1
