@@ -3046,6 +3046,14 @@ europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloquePatrociniosH
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloqueLenguasHome
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###BannerCabecera
 !
+! ------ estrelladigital ------
+!
+estrelladigital.es##.fixedShare
+estrelladigital.es##.td-block
+estrelladigital.es##.form-preview
+estrelladigital.es##.tdm-social-wrapper
+estrelladigital.es##.tdi_122
+!
 ! ------ videos dailymotion ------
 !
 ||dailymotion.com
