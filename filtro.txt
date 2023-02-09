@@ -2919,6 +2919,7 @@ elconfidencial.com##.articleAside__module--isSticky
 !
 ! ------ elconfidencialdigital ------
 !
+elconfidencialdigital.com##.ads
 elconfidencialdigital.com##.ad-slot
 elconfidencialdigital.com##.sidebar-col
 elconfidencialdigital.com##.onm-fixed-banner
