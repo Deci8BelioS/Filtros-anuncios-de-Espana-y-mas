@@ -3249,7 +3249,6 @@ google.*##[data-text-ad]
 google.*##.uEierd
 google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
 google.*##.gws-product_ads__close-button
-google.*##+js(set-constant, rwt, noopFunc)
 ! ------ Youtube ------
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
@@ -3550,42 +3549,64 @@ pccomponentes.com##div[id^="div-gpt-ad-"]
 !
 ! ------ pelis/series online o torrents ------
 !
-pelisplus.*##.adsuppervideo
-pelisplus.*##.cuadre_comments
-pelisplus.*##.adx
-pelisplus.*##.ads_header
-pelisplus.*##.adsbelowvideo
-pelisplus.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
-pelisplus.*##+js(remove-attr, href, #opfk)
-pelisplus.*##+js(abort-on-property-write, _pop)
-pelisplus.*##+js(abort-on-property-write, smrtSB)
-pelisplus.*##+js(abort-on-property-write, smrtSP)
-pelisplus.*##+js(abort-on-property-write, adcashMacros)
-pelisplus.*##+js(abort-on-property-read, AaDetector)
-pelisplus.*##+js(abort-current-script, Math, delete window)
-pelisplus.*##+js(abort-on-property-read, __clientAHV)
-pelisplus.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*##+js(window.open-defuser)
-hdfull.*##+js(nano-setTimeout-booster)
-hdfull.*##+js(addEventListener-defuser, mousedown, !!{});)
-hdfull.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*###oly
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, JSON.parse, Promise)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(nano-setTimeout-booster, counter)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(remove-attr, target, #downloadvideo)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, Math, /emZnbG9hZGVk|break;case \$\./)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, _pop)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, googleAd, true)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock, 700)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, adblock)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(addEventListener-defuser, contextmenu)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, doSecondPop)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, arrvast)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, sadbl, false)
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[onclick="openAuc();"]
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[title="Free money easy"]
-streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, mm)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, xPoPAdS, false)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, sadbl, false)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*###arc-widget-container
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(window.open-defuser)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, JSON.parse, break;case $.)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, decodeURI, decodeURIComponent)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(addEventListener-defuser, , break;case $.)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, parseInt, break;case $.)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setTimeout-if, debugger)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, DoodPop)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, 'script')
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, adcashMacros)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, check)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, __aaZoneid)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, break;case $.)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.getElementsByClassName, allow adblock)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, DoodPop)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(window.open-defuser, !streamlare)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setTimeout-if, afterOpen)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setTimeout-if, 0x)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, _pop)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, googleAd, true)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, adblock)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(addEventListener-defuser, contextmenu)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, mm)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, __Y)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*###oly
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, JSON.parse, Promise)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(nano-setTimeout-booster, counter)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(remove-attr, target, #downloadvideo)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, Math, /emZnbG9hZGVk|break;case \$\./)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(no-setInterval-if, adblock, 700)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, doSecondPop)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, arrvast)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[onclick="openAuc();"]
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##a[title="Free money easy"]
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.adsuppervideo
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.cuadre_comments
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.adx
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.ads_header
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.adsbelowvideo
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(remove-attr, href, #opfk)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, smrtSB)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, smrtSP)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-write, adcashMacros)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, AaDetector)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, Math, delete window)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-on-property-read, __clientAHV)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(nano-setTimeout-booster)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(addEventListener-defuser, mousedown, !!{});)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.prevent-first-click
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##.in-block
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(nofab)
 disqus.com###placement-top
 peliculas24.*##.content-kuss-ads
 peliculas24.*##div[itemprop="description"] h3
