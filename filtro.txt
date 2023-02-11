@@ -3547,7 +3547,7 @@ pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
 pccomponentes.com##div[id^="div-gpt-ad-"]
 !
-! ------ pelis/series online o torrents ------
+! ------ pelis/series online ------
 !
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, xPoPAdS, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, sadbl, false)
