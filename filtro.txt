@@ -3297,6 +3297,24 @@ youtube.com##.ytd-ad-slot-renderer
 youtube.com##[layout*="display-ad-"]
 youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
 !
+! ------ gruporpp ------
+!
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[class*="social"]
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[class*="radio"]
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[id*="joinnus"]
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[class*="newsletter"]
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.comm##[class*="sponsor"]
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.ads
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com###iat-adhesion
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.x-sticky
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.sidebar
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.story-googlenews
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.rpp-fonobot-containner
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.grv-helper-bell-host
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.grv-dialog-host
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.by-share
+rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.like
+!
 ! ------ Grupo Joly ------
 !
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
