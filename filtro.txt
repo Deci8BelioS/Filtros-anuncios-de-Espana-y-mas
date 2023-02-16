@@ -279,6 +279,7 @@ _publicitario.
 /googleafs.
 /googleleads.
 googletagmanager_gtm.js
+##iframe[src^="//ad.a-ads.com/"]
 ##.adsbygoogle
 ##AMP-AD
 ##.ad-area:not(.text-ad)
@@ -3219,6 +3220,10 @@ forococheselectricos.com##.site-footer
 ! ------ flaticon.com ------
 flaticon.com###bn-icon-list
 !
+! ------ gamebanana ------
+!
+gamebanana.com##.AdTagModule
+!
 ! ------ google ------
 !
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
@@ -3510,6 +3515,19 @@ motor.es##.relacionado-noticia
 motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
+!
+! ------ nsw2u ------
+!
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(addEventListener-defuser, , break;case $.)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, JSON.parse, break;case $.)
+game-2u.*,nsw2u.*,ps5pkg.*##[href^="https://bit.ly/"]
+game-2u.*,nsw2u.*,ps5pkg.*###footer-widget
+game-2u.*,nsw2u.*,ps5pkg.*###sidebarid\ ai_widget-2
+game-2u.*,nsw2u.*,ps5pkg.*##.widget_jetpack_display_posts_widget
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, anOptions)
+game-2u.*,nsw2u.*,ps5pkg.*##.widget_text.widget
+game-2u.*,nsw2u.*,ps5pkg.*##.socials
 !
 ! ------ okdiario ------
 !
