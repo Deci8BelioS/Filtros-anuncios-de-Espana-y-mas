@@ -2901,6 +2901,8 @@ elamigos-games.com##.row > .col-lg-2:first-child:has( > .card > a[href][target="
 elamigos-games.com##+js(abort-on-property-read, CryptoJS)
 elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
+elamigos-games.com##h3.my-4:has-text(/^Advertising/)
+||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
 !
 ! ------ elblogdecineespanol ------
