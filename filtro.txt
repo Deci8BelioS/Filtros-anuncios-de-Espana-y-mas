@@ -2904,6 +2904,11 @@ elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 ||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
+zpaste.net##.uk-animation-shake
+zpaste.net##+js(abort-on-property-write, _pop)
+zpaste.net##+js(abort-current-script, Math, break;case $.)
+zpaste.net##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 !
 ! ------ elblogdecineespanol ------
 !
@@ -4096,6 +4101,10 @@ ads.facebook.com
 advertising.twitter.com
 widgets.pinterest.com
 supportmetrics.apple.com
+||ads.vidoomy.com^
+||powerad.ai^
+.com/1clkn/
+||googletagmanager.com^
 ||parsely.com^$3p
 ||events.newsroom.bi^
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
