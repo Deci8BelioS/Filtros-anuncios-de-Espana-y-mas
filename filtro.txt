@@ -97,6 +97,15 @@
 /videoads.
 /wAds.js
 /wp_omniture.js
+/javascript/ads/*
+?sponsor_pixel=
+?zoneid=*&ab=1|$script,3p
+/log?format=
+/gen204/*
+/gen_204?$ping
+/v1/log_event
+/adservice.$from=~adservice.io|~github.com|~githubusercontent.com
+/prebid.$from=~prebid.org
 ://ads.
 ?getad=&
 _ad.aspx?
@@ -279,6 +288,9 @@ _publicitario.
 /googleafs.
 /googleleads.
 googletagmanager_gtm.js
+##.catfish_ad
+##ins.adsbygoogle
+##.myTestAd
 ##iframe[src^="//ad.a-ads.com/"]
 ##.adsbygoogle
 ##AMP-AD
@@ -2625,6 +2637,15 @@ _europecookielaw.
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 !
+! ------ 1fichier ------
+!
+1fichier.com##.ct_warn:has-text(adblock)
+1fichier.com##+js(nowebrtc)
+1fichier.com##.ui-widget-overlay
+1fichier.com##+js(nano-setTimeout-booster, dlw, 40000)
+1fichier.com###cookie_box
+1fichier.com##.ui-dialog
+!
 ! ------ 20minutos ------
 !
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, hb_now)
@@ -2646,6 +2667,22 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="sidebar"],[id*="sidebar"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
+!
+! ------ Acortadores de links ------
+!
+zpaste.*,ouo.*##.uk-animation-shake
+zpaste.*,ouo.*##+js(abort-on-property-write, _pop)
+zpaste.*,ouo.*##+js(abort-current-script, Math, break;case $.)
+zpaste.*,ouo.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
+zpaste.*,ouo.*##+js(nofab)
+zpaste.*,ouo.*##+js(abort-on-property-read, AaDetector)
+zpaste.*,ouo.*##+js(abort-current-script, String.fromCharCode, zfgloaded)
+zpaste.*,ouo.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
+zpaste.*,ouo.*##+js(nowebrtc)
+zpaste.*,ouo.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
+zpaste.*,ouo.*##+js(abort-current-script, globalThis, break;case)
+zpaste.*,ouo.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
 !
 ! ------ Amazon ------
 !
@@ -2746,6 +2783,10 @@ eiorwithitofsti.com*
 ||animeflv.net/assets/animeflv/img/*.jpg
 ||animeflv.net/img/*.png
 ||animeflv.net/assets/animeflv/img/fb*.png
+animeflv.*##+js(abort-current-script, parseInt, break;case $.)
+animeflv.*##+js(abort-current-script, jQuery, 'pp12')
+animeflv.net##+js(abort-on-property-write, bbHideDiv)
+animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
 !
 ! ------ audiotools ------
 !
@@ -2761,6 +2802,8 @@ audioz.download###PromoHead
 !
 ! ------ Axel Springer España ------
 !
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##div[class^="ad-slot_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="roba_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[class*="roba_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es##[id*="mega_"]
@@ -2905,11 +2948,6 @@ elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 ||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
-zpaste.net##.uk-animation-shake
-zpaste.net##+js(abort-on-property-write, _pop)
-zpaste.net##+js(abort-current-script, Math, break;case $.)
-zpaste.net##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 !
 ! ------ elblogdecineespanol ------
 !
@@ -3403,6 +3441,10 @@ instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:ha
 instagram.com##.xZ2Xk:has-text(/App/)
 !#endif
 instagram.com##body:style(overflow: visible!important;)
+||instagram.com/ajax/bz
+||instagram.com/logging/
+instagram.com##main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/))
+||instagram.com/logging_client_events
 !
 ! ------ instatecno ------
 !
@@ -3445,6 +3487,11 @@ mediafire.com##+js(no-setTimeout-if, scan, 500)
 mediafire.com###cookie-accept-footer
 mediafire.com##.fc-consent-root
 mediafire.com##.DLExtraInfo-wrap
+!
+! ------ mega.nz ------
+!
+mega.nz##+js(nano-setInterval-booster, addClass('skip'), , 0.02)
+/^\w+:\/\/127\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$3p,from=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 !
 ! ------ megacloud ------
 !
@@ -3914,6 +3961,7 @@ speedtest.net##.eot-box-wrapper > div.pure-g
 speedtest.net##.pure-u-custom-ad-rectangle
 speedtest.net##.top-placeholder
 speedtest.net##div[data-ad-placeholder]
+speedtest.net##.notification
 !
 ! ------ Sonic Network y DISPLAY CONNECTORS ------
 !
@@ -4014,6 +4062,8 @@ mobile.twitter.com#?#.tweet:-abp-has(.promo)
 twitter.com##html:style(overflow: auto !important; padding-right: 0 !important; overscroll-behavior-y: auto !important;)
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
+||twitter.com/1.1/promoted_content/log.json
+twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 !
 ! ------ webmedia ------
 !
@@ -4232,3 +4282,23 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||scorecardresearch.com^
 ||cdn.snigelweb.com^
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5
+||seedtag.com^$3p
+||tags.refinery89.com^
+||googletagservices.com/tag/js/gpt.js$script,redirect-rule=googletagservices.com/gpt.js:5
+||google-analytics.com/analytics.js$script,redirect-rule=google-analytics_analytics.js:5
+||googletagservices.com^
+||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5
+||amazon-adsystem.com/aax2/apstag.js$script,redirect-rule=amazon_apstag.js:5
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+||amazon-adsystem.com^
+||pubmatic.com^
+||sentry.io^$3p
+||imrworldwide.com^
+||d2v02itv0y9u9t.cloudfront.net^
+||scorecardresearch.com/beacon.js$script,redirect-rule=scorecardresearch.com/beacon.js:5
+||google-analytics.com^$3p
+||google.com/log?
+||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
+||flytechb.com^
+||connect.facebook.net^$3p,from=~facebook.com|~fb.com
+||recentlymourning.com^
