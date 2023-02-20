@@ -9,7 +9,7 @@ Esta lista está siendo probada en los siguientes sistemas operativos y navegado
 | Sistema Operativo | Navegador | Extensión | 
 | -- | -- | -- |
 | iOS |Safari en iOS 15.7.1 | AdGuard Pro |
-| iPadOS | Safari en iPadOS 14.8 | AdGuard Pro |
+| iPadOS | Safari en iPadOS 15.7.2 | AdGuard Pro |
 | Windows 11 | Microsoft Edge Chromium | uBlock Origin |
 
 
