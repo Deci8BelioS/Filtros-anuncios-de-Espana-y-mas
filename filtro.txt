@@ -103,6 +103,7 @@
 /log?format=
 /gen204/*
 /gen_204?$ping
+/generate_204$~xhr
 /v1/log_event
 /adservice.$from=~adservice.io|~github.com|~githubusercontent.com
 /prebid.$from=~prebid.org
@@ -288,6 +289,9 @@ _publicitario.
 /googleafs.
 /googleleads.
 googletagmanager_gtm.js
+*$ping,3p
+###hawkMagWidget
+##.sponsored-post
 ##.catfish_ad
 ##ins.adsbygoogle
 ##.myTestAd
@@ -3637,6 +3641,25 @@ pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
 pccomponentes.com##div[id^="div-gpt-ad-"]
 !
+! ------ pcgamer.com ------
+!
+pcgamer.com##.slice-container
+pcgamer.com##.dfp-leaderboard-container
+pcgamer.com###sidebar
+pcgamer.com###taboola-below-article-thumbnails
+pcgamer.com##.related-articles-block
+pcgamer.com##.socialite-widget
+pcgamer.com##.buttons-social
+pcgamer.com##.jump-to-comments
+pcgamer.com##.jwplayer__wrapper
+pcgamer.com##div[class*="ad-unit"]
+pcgamer.com##.listingResult:has(> .sponsored-post)
+pcgamer.com##.listingResult > div.sponsored-post:upward(1)
+pcgamer.com##+js(set-constant, handleHeaderError, noopFunc)
+pcgamer.com##+js(abort-on-property-read, _sp_._networkListenerData)
+pcgamer.com##.van_vid_carousel
+pcgamer.com##.van_taboola
+!
 ! ------ pelis/series online ------
 !
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*##+js(set-constant, xPoPAdS, false)
@@ -3949,6 +3972,15 @@ salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12
 salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
 salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
+!
+! ------ skidrowreloaded ------
+!
+skidrowreloaded.*##+js(abort-on-property-write, clickIE4)
+skidrowreloaded.*##+js(abort-on-property-read, disableSelection)
+skidrowreloaded.*##+js(abort-current-script, document.onmousedown)
+skidrowreloaded.*##+js(abort-on-property-write, _pop)
+skidrowreloaded.*##+js(abort-current-script, open)
+skidrowreloaded.*##+js(no-fetch-if, /^/)
 !
 ! ------ speedtest ------
 !
@@ -4349,3 +4381,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||flytechb.com^
 ||connect.facebook.net^$3p,from=~facebook.com|~fb.com
 ||recentlymourning.com^
+||onesignal.com^$3p
+||dotmetrics.net^$3p
+||champagne.futurecdn.net^
+||bordeaux.futurecdn.net^
+||permutive.app^
+||futurehybrid.tech^$3p
