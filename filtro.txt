@@ -292,6 +292,7 @@ _publicitario.
 /busting/*/gtm-
 /gpt.js$script
 /base/es6/bundle.js
+/images/ads.$image,redirect-rule=1x1.gif
 googletagmanager_gtm.js
 -sticky-ad-
 *$ping,3p
@@ -3606,6 +3607,8 @@ game-2u.*,nsw2u.*,ps5pkg.*##.widget_jetpack_display_posts_widget
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, anOptions)
 game-2u.*,nsw2u.*,ps5pkg.*##.widget_text.widget
 game-2u.*,nsw2u.*,ps5pkg.*##.socials
+game-2u.*,nsw2u.*,ps5pkg.*##.code-block
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, adsBlocked)
 !
 ! ------ okdiario ------
 !
@@ -4102,6 +4105,8 @@ twitch.tv###twilight-sticky-footer-root
 twitch.tv##.follow-prompt
 twitch.tv##+js(window.open-defuser, amazon-adsystem)
 twitch.tv##+js(twitch-videoad)
+twitch.tv##.extensions-dock__dock
+twitch.tv##.extension-view__iframe
 !
 ! ------ Twitter ------
 !
@@ -4422,3 +4427,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,important,redirect-rule=noop.js,from=repo.hackyouriphone.org
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,from=~zipextractor.app
 ||googlesyndication.com^
+||intorterraon.com^
+||quantserve.com^
+||amazon-adsystem.com^$object,redirect-rule=noopjs
+||a-ads.com^
+||media.net^
+||stats.wp.com^
