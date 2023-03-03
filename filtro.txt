@@ -299,6 +299,7 @@ _publicitario.
 googletagmanager_gtm.js
 -sticky-ad-
 *$ping,3p
+##.ad-slot-top
 ##.banner-728x90
 ##.ad-zone
 ##.ad-zone-container
@@ -2799,6 +2800,17 @@ testdevelocidad.es##[class*="white-container"]
 testdevelocidad.es##[class*="ads-col"]
 testdevelocidad.es##[class*="site-menu"]
 !
+! ------ allkeyshop ------
+!
+allkeyshop.*##body > a[class^="blc-"]
+allkeyshop.*##body:style(background-image: none!important;)
+allkeyshop.*##.social-btn
+allkeyshop.*##.borderless
+allkeyshop.*##.footer-values
+allkeyshop.*##.content-box-rewardprogram
+allkeyshop.*##.zendesk__container
+allkeyshop.*##.footer
+!
 ! ------ Atresmedia ------
 !
 ||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
@@ -3808,6 +3820,7 @@ pelispedia.*##div.tab-content-block center
 mejortorrentes.*###sec_main > table[border="0"]
 mejortorrentes.*###main_table_center_center2 > table:first-child, #main_table_center_center2 > table:first-child + br
 mejortorrentes.*###sec_main > center, #main_td_center_center > center
+ztorrents.*##+js(abort-on-property-read, absda)
 !
 ! ------ periodistadigital ------
 !
@@ -4493,3 +4506,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||clarity.ms^
 ||uii.io^$3p
 ||cdn.jsdelivr.net/gh/arlina-design/quasar@master/arlinablock.js
+||demdex.net^
+||cloudflareinsights.com^$3p
+||adobedtm.com^$3p,from=~adobe.com
+||arbourrenewal.com^
