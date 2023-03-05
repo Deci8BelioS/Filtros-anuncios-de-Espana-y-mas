@@ -299,6 +299,14 @@ _publicitario.
 googletagmanager_gtm.js
 -sticky-ad-
 *$ping,3p
+##a[href^="https://www.googleadservices.com/pagead/aclk?"]
+##.ad-bot
+##.ad-box
+##.ad-top
+###taboola-below-article-thumbnails
+##.ad-footer
+###dfp-interstitial
+###dfp-masthead
 ##.ad-slot-top
 ##.banner-728x90
 ##.ad-zone
@@ -3304,6 +3312,7 @@ facebook.com##div[role="progressbar"] ~ div[class] div div[data-instancekey] > d
 facebook.com##div[role="complementary"] > div[class] > div[class] > div[class] span > div > div:not([aria-label]):not([data-visualcompletion]):has(> div[class] > div[class] div[class] > a[href^="https://l."][href*="facebook.com/l.php?u="][target="_blank"])
 facebook.com##div[aria-posinset] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com##div[aria-describedby] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
+facebook.com##div[aria-posinset] h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 !
@@ -3438,6 +3447,10 @@ youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-re
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##[class*="merch-shelf"]
+youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
+youtube.com##ytd-ad-slot-renderer
+youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
+youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
@@ -4062,6 +4075,12 @@ salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
 salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
 !
+! ------ scrapywar.com ------
+!
+scrapywar.com##+js(abort-on-property-read, mdpDeBlocker)
+scrapywar.com##+js(abort-current-script, eval, replace)
+scrapywar.com##.stream-item-widget
+!
 ! ------ send.cm ------
 !
 send.cm##+js(abort-on-property-write, Fingerprint2)
@@ -4197,6 +4216,7 @@ twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 ||twitter.com/1.1/promoted_content/log.json
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
+twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|Follow|A quién seguir|Mostrar más|Seguir/)
 !
 ! ------ webmedia ------
 !
@@ -4258,6 +4278,7 @@ applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,co
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##[class*="pivot-ecommerce-container"]
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##[id*="stories_container"]
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.section-header-recent
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##+js(nofab)
 foro3djuegos.com##.ad
 foro3djuegos.com##[class*="columna_"]
 foro3djuegos.com##[class*="bgcEB"]
@@ -4510,3 +4531,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||cloudflareinsights.com^$3p
 ||adobedtm.com^$3p,from=~adobe.com
 ||arbourrenewal.com^
+||mmstat.com^$3p
+||criteo.net^
+||creativecdn.com^$3p
+||fourier.taobao.com^
+||go-mpulse.net^
