@@ -301,6 +301,7 @@ googletagmanager_gtm.js
 /newrelic.js
 /stats-collect
 /adbottom.
+_728x90.
 *$ping,3p
 ##.video-ad
 ##.footer_ad
@@ -2768,6 +2769,9 @@ tii.*,oko.*##.td-main-content
 tii.*,oko.*##.td-pb-row
 ||fc.lc^$script,3p
 *$image,3p,from=fc-lc.com
+peeplink.in##+js(abort-current-script, String.fromCharCode, 'shift')
+peeplink.in##+js(abort-on-property-read, _pop)
+peeplink.in##+js(popads-dummy)
 !
 ! ------ Amazon ------
 !
@@ -4564,3 +4568,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||fourier.taobao.com^
 ||go-mpulse.net^
 ||yadro.ru^
+||addthis.com/*/addthis_widget.js$script,redirect-rule=addthis.com/addthis_widget.js
+||addthis.com^$3p
+||shield.sitelock.com^$3p
+||system-notify.app^
