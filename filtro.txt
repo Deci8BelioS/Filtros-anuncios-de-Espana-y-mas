@@ -2895,6 +2895,10 @@ audiotools.in###sidebar > #custom_html-6
 ! ------ audioz ------
 !
 audioz.download###PromoHead
+audioz.download##[src*="/promo/"]
+audioz.download##+js(abort-current-script, String.fromCharCode, 'shift')
+audioz.download##+js(addEventListener-defuser, , break;case $.)
+||audioz.download/templates/default/img/promo/
 !
 ! ------ Axel Springer España ------
 !
@@ -4559,3 +4563,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||creativecdn.com^$3p
 ||fourier.taobao.com^
 ||go-mpulse.net^
+||yadro.ru^
