@@ -303,6 +303,7 @@ googletagmanager_gtm.js
 /adbottom.
 _728x90.
 *$ping,3p
+##[href*="/afu.php"]
 ##.video-ad
 ##.footer_ad
 ##a[href^="https://www.googleadservices.com/pagead/aclk?"]
@@ -3584,6 +3585,13 @@ instatecno.com###ai-adb-message
 ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
 !
+! ------ katfile.com ------
+!
+katfile.com##+js(abort-current-script, document.createElement, onerror)
+katfile.com##+js(nano-setTimeout-booster)
+katfile.com##+js(window.open-defuser)
+katfile.com##+js(set-constant, adblock, false)
+!
 ! ------ lacasadeel.net ------
 !
 lacasadeel.net###webpushr-prompt-wrapper
@@ -3695,6 +3703,13 @@ motor.es##.hueco-modulo
 !
 nexusmods.com##+js(nano-setTimeout-booster, timer)
 nexusmods.com##div[class*="wrapper"] > [style="text-align: center;background: #2d2d2d;"]
+!
+! ------ nitroflare.com ------
+!
+nitroflare.com##+js(abort-current-script, $, window.open)
+nitroflare.com##+js(abort-current-script, pop3, window.open)
+nitroflare.com##div[id*="superbox"]
+nitroflare.com###popupContent
 !
 ! ------ nsw2u ------
 !
