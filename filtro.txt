@@ -298,7 +298,12 @@ _publicitario.
 /full-page-script.js$script
 googletagmanager_gtm.js
 -sticky-ad-
+/newrelic.js
+/stats-collect
+/adbottom.
 *$ping,3p
+##.video-ad
+##.footer_ad
 ##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 ##.ad-bot
 ##.ad-box
@@ -3678,6 +3683,11 @@ motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
 !
+! ------ nexusmods.com ------
+!
+nexusmods.com##+js(nano-setTimeout-booster, timer)
+nexusmods.com##div[class*="wrapper"] > [style="text-align: center;background: #2d2d2d;"]
+!
 ! ------ nsw2u ------
 !
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
@@ -4301,6 +4311,18 @@ motorpasion.com##.m-motorpasion-seleccion.section-cross
 ||api.taboola.com
 ||cdn.taboola.com
 !
+! ------ winaero.com ------
+!
+winaero.com###diodfoihdfsd
+winaero.com##.entry-content > div[style^="text-align:center;"][style$="font-weight:bold;"]
+winaero.com##.gadadsense
+winaero.com##.gadsense-ad
+winaero.com##aside:has(.adsbygoogle)
+winaero.com##div > p[style="margin: 20px"]
+winaero.com##p:has-text(Advertisement)
+winaero.com##+js(abort-current-script, jQuery, tweaker)
+
+!
 ! ------ xda-developers ------
 !
 xda-developers.com##+js(rc, twig-body)
@@ -4487,6 +4509,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||tags.refinery89.com^
 ||googletagservices.com/tag/js/gpt.js$script,redirect-rule=googletagservices.com/gpt.js:5
 ||google-analytics.com/analytics.js$script,redirect-rule=google-analytics_analytics.js:5
+||google-analytics.com/ga.js$script,redirect-rule=google-analytics.com/ga.js:5
 ||googletagservices.com^
 ||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect-rule=amazon_apstag.js:5
