@@ -302,7 +302,9 @@ googletagmanager_gtm.js
 /stats-collect
 /adbottom.
 _728x90.
+/prebid5.
 *$ping,3p
+##div[id*="ScriptRoot"]
 ##[href*="/afu.php"]
 ##.video-ad
 ##.footer_ad
@@ -752,6 +754,9 @@ _728x90.
 *##.grecaptcha-badge
 ##.newspack_global_ad
 ##.widget_newspack-ads-widget
+#@#[id^="div-gpt-ad"]
+#@#div[id^="div-gpt-"]
+@@||translate.googleapis.com/element/
 @@||seur.com^$document
 @@/publicidad.$domain=tn.com.ar
 @@||ads.e-planning.net^*/PreRoll?
@@ -2718,51 +2723,51 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-
 !
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 *$script,redirect-rule=noopjs,from=ouo.*
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, addDictionary)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(nowebrtc)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, globalThis, break;case)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, document.createElement, break;case $.)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-read, runAdblock)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, document.createElement, ignielAdBlock)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, document.addEventListener, nextFunction)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(no-fetch-if, pagead2.googlesyndication.com)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-read, zfgformats)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, Math, zfgloaded)
+zpaste.*,ouo.*,fc-lc.*,webhostingpost.*,referen.*##+js(nano-setInterval-booster, clearInterval)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(nofab)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-read, AaDetector)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, String.fromCharCode, zfgloaded)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*##+js(abort-current-script, document.createElement, delete window)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*##+js(abort-current-script, document.addEventListener, displayMessage:)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*##+js(abort-current-script, JSON.parse, break;case $.)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*##+js(abort-current-script, $, modal)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-read, addDictionary)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(set-constant, blurred, false)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-on-property-write, _pop)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(abort-current-script, Math, break;case $.)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(window.open-defuser)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###iframe_id
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###overlay
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##iframe[src="about:blank"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, open)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(set-constant, blurred, false)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*###link-view > br
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.expop
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*###imgAddDirectLink
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.box-main > br
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.uk-animation-shake
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-write, _pop)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, Math, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(nofab)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, AaDetector)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, String.fromCharCode, zfgloaded)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(nowebrtc)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, globalThis, break;case)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, document.createElement, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, runAdblock)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##iframe:not([src])
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##img[width="300"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.content a[href][target="_blank"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##[style*="width:300px"] > a[href][target="_blank"] > img
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, document.createElement, ignielAdBlock)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, document.addEventListener, nextFunction)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(no-fetch-if, pagead2.googlesyndication.com)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-on-property-read, zfgformats)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##+js(abort-current-script, Math, zfgloaded)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.box-main > a > img
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###iframe_id
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(abort-current-script, document.createElement, delete window)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(abort-current-script, document.addEventListener, displayMessage:)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(window.open-defuser)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(abort-current-script, JSON.parse, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##+js(abort-current-script, $, modal)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###overlay
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##iframe[src="about:blank"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,webhostingpost.*##.blog-item
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,webhostingpost.*##center
-zpaste.*,ouo.*,fc-lc.*,webhostingpost.*##+js(nano-setInterval-booster, clearInterval)
 webhostingpost.*##[id*="ad"]
 webhostingpost.*##p
 webhostingpost.*##h2.text-center
@@ -3623,6 +3628,14 @@ mediafire.com##+js(no-setTimeout-if, scan, 500)
 mediafire.com###cookie-accept-footer
 mediafire.com##.fc-consent-root
 mediafire.com##.DLExtraInfo-wrap
+mediafire.com##.DLExtraInfo-downloadApp
+mediafire.com##+js(window.open-defuser, otnolatrnup.com)
+mediafire.com##+js(addEventListener-defuser, click, ClickHandler)
+mediafire.com##+js(addEventListener-defuser, load, PopUnder)
+mediafire.com##+js(set-constant, InfCustomFPSTAFunc, noopFunc)
+mediafire.com##+js(set-constant, InfCustomSTAMobileFunc, noopFunc)
+mediafire.com##+js(addEventListener-defuser, load, IsAdblockRequest)
+mediafire.com##+js(no-setTimeout-if, InfMediafireMobileFunc, 1000)
 !
 ! ------ mega.nz ------
 !
@@ -4587,3 +4600,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||addthis.com^$3p
 ||shield.sitelock.com^$3p
 ||system-notify.app^
+||surahsbimas.com^
+||qelqlunebz.com^
+||godpvqnszo.com^
+||btloader.com^
+||fundingchoicesmessages.google.com^$3p
+||amplitude.com^$3p
+||otnolatrnup.com^
