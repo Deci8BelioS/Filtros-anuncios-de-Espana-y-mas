@@ -303,6 +303,7 @@ googletagmanager_gtm.js
 /adbottom.
 _728x90.
 /prebid5.
+/optimizely-
 *$ping,3p
 ##div[id*="ScriptRoot"]
 ##[href*="/afu.php"]
@@ -756,6 +757,7 @@ _728x90.
 ##.widget_newspack-ads-widget
 #@#[id^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
+@@||github.com^$generichide
 @@||translate.googleapis.com/element/
 @@||seur.com^$document
 @@/publicidad.$domain=tn.com.ar
@@ -4607,3 +4609,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||fundingchoicesmessages.google.com^$3p
 ||amplitude.com^$3p
 ||otnolatrnup.com^
+||collector.github.com^
+||github.com/_private/browser/stats
