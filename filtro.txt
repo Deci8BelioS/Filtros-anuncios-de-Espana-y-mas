@@ -304,7 +304,11 @@ googletagmanager_gtm.js
 _728x90.
 /prebid5.
 /optimizely-
+/amp-ad-
+/amp-analytics-
 *$ping,3p
+##.amp_ad_1
+##[class^="amp-ad-"]
 ##div[id*="ScriptRoot"]
 ##[href*="/afu.php"]
 ##.video-ad
@@ -661,7 +665,9 @@ _728x90.
 ##adsenseintermedioright
 ##div[class^="publicHoriz"]
 ##div[id^="M"][id*="Composite"]
+!
 ! Anti-Adblock
+!
 ###deadblocker_dialog
 ##.adblockInfo
 ##.deadblocker-header-bar
@@ -4031,20 +4037,16 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 !
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
-profesionalreview.com##.__lxG__size_fixed
-profesionalreview.com##.__lxG__geo_es
-profesionalreview.com##.__lxG__loading_block
-profesionalreview.com##.__lxG__bsticky
-profesionalreview.com##.__lxG__multi
+profesionalreview.com##[class*="__lxG__"]
 profesionalreview.com##.stream-item
 profesionalreview.com##.widget-ad-image
 profesionalreview.com###cl-consent
 profesionalreview.com##body:style(background-image:none!important;)
-profesionalreview.com##.__lxG__double
 profesionalreview.com###ez-toc-container
 profesionalreview.com##.theiaStickySidebar
 profesionalreview.com##.sidebar
 profesionalreview.com##.shadow
+profesionalreview.com##.ss-ic
 !
 ! ------ pspstation.org ------
 !
@@ -4611,3 +4613,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||otnolatrnup.com^
 ||collector.github.com^
 ||github.com/_private/browser/stats
+||opti-digital.com^
+||servedbyadbutler.com^
