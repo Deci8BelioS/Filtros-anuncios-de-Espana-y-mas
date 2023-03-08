@@ -2951,6 +2951,7 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,peri
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="i-amphtml-svc"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="dailymotion"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="dailymotion"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]:has( > [class*="dailymotion"])
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.wrapper-editorial
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="sc-"]:has( > [id*="catfish"])
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class="ad-sticky-catfish"]
