@@ -306,6 +306,7 @@ _728x90.
 /optimizely-
 /amp-ad-
 /amp-analytics-
+/google_tag/*
 *$ping,3p
 ##.amp_ad_1
 ##[class^="amp-ad-"]
@@ -3598,6 +3599,12 @@ instatecno.com###ai-adb-message
 !
 ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
+
+!
+! ------ juntadeandalucia.es ------
+!
+juntadeandalucia.es##[class*="app-cookies"]
+juntadeandalucia.es##body.cookies-consent:style(overflow: visible!important;)
 !
 ! ------ katfile.com ------
 !
