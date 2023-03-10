@@ -19,7 +19,7 @@ Esta lista está siendo probada en los siguientes sistemas operativos y navegado
 * [Adguard iOS](https://kb.adguard.com/en/ios/solving-problems/how-to-configure-system-wide-blocking)
 
 
-## Filtros originales donde se ha basado esta lista:
+## Filtros en los que se ha basado esta lista:
 
 * [uBlock filters](https://github.com/uBlockOrigin/uAssets)
 * [EasyList, EasyPrivacy and EasyList Spanish](https://easylist.to/)
