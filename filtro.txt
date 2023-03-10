@@ -4119,6 +4119,7 @@ reddit.com##article.Post:has(a[rel="nofollow noopener sponsored"])
 reddit.com##.TopButton
 reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
+||reddit.com/api/jail/$xhr,1p
 !
 ! ------ religiondigital ------
 !
