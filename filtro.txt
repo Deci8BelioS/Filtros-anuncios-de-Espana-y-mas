@@ -307,7 +307,18 @@ _728x90.
 /amp-ad-
 /amp-analytics-
 /google_tag/*
+/batch/1/oe/*
+/unagi.amazon.
+/loi/imp?
+/msa-vowels/1/op/*
+/logimpression?
+/roverimp/*
+/roverclk/*
+/dfpsvc?
+/tagmanager/pptm.
 *$ping,3p
+##.mobile-ad-container
+##.ad-center
 ##.banner-468x60
 ##.amp_ad_1
 ##[class^="amp-ad-"]
@@ -765,6 +776,8 @@ _728x90.
 ##.widget_newspack-ads-widget
 #@#[id^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
+@@||amazon.*/*uedata$image,1p
+@@||accounts.google.com^$generichide
 @@||github.com^$generichide
 @@||translate.googleapis.com/element/
 @@||seur.com^$document
@@ -2820,6 +2833,16 @@ amazon.*##.AdHolder
 amazon.*##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
 amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
 amazon.*##div[cel_widget_id="sp_phone_detail_thematic"]
+amazon.*##div[data-cel-widget^="MAIN-FEATURED_ASINS_LIST-"]
+amazon.*##div[data-cel-widget^="MAIN-SHOPPING_ADVISER-"]
+amazon.*##div[data-cel-widget^="multi-card-creative-desktop_loom-desktop-top-slot_"]
+amazon.*##.sbv-video-single-product
+amazon.*##div[class*="widget=loom-"][class*="FEATURED"]
+amazon.*##.a-carousel-card:empty
+amazon.*##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
+amazon.*##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
+amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]:upward(.mobile-sims-grid-card-view)
+||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 !
 ! ------ Adslzone y demás ------
 !
@@ -4139,6 +4162,10 @@ salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
 salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
 !
+! ------ scenebeta.com ------
+!
+scenebeta.com##.block-block
+!
 ! ------ scrapywar.com ------
 !
 scrapywar.com##+js(abort-on-property-read, mdpDeBlocker)
@@ -4569,6 +4596,15 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect-rule=amazon_apstag.js:5
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 ||amazon-adsystem.com^
+||amazon.com/1/events/$from=~aws.amazon.com
+||ssl-images-amazon.com/images/*/dasf-
+||ssl-images-amazon.com/images/*/masf-
+||ebay.com/scl/js/scandalloader.js
+||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
+||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
+||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
+||pages.ebay.com/identity/device/$frame
+||paypal.com/credit-presentment/log
 ||pubmatic.com^
 ||sentry.io^$3p
 ||imrworldwide.com^
