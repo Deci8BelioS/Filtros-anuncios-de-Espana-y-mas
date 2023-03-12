@@ -324,6 +324,8 @@ _728x90.
 /gapro.js
 /ping.gif?$from=~mega689.com
 *$ping,3p
+##.following-ad
+##.adv-header
 ##.mrf-adv
 ##.mrf-adv__wrapper
 ##.mobile-ad-container
@@ -4088,6 +4090,10 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.blackep
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##section > .i-amphtml-element
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.co##+js(set-constant, pr_okvalida, true)
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.container-relacionadas-blanco
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.code-block
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.redessocialespeque
+sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com#@#.following-ad-container
 !
 ! ------ profesionalreview ------
 !
