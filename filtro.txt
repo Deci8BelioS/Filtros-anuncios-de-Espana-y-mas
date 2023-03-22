@@ -324,7 +324,10 @@ _728x90.
 /gapro.js
 /ping.gif?$from=~mega689.com
 /0pixel.php?
+/akam/13/*
+/gtm.js
 *$ping,3p
+##.sponsorad
 ###ad_global_header2
 ##.widgetSponsors
 ##[id^="ad_sky"]
@@ -837,6 +840,8 @@ _728x90.
 @@||reddit.com/r/*/comments/
 @@||google.*/search?$generichide
 @@||google.*/search?$from=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
+@@||adobedtm.com^*/launch-$script
+@@||googletagmanager.com/gtm.js$script,from=pccomponentes.com|tn.com.ar
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -4145,6 +4150,7 @@ profesionalreview.com##.theiaStickySidebar
 profesionalreview.com##.sidebar
 profesionalreview.com##.shadow
 profesionalreview.com##.ss-ic
+profesionalreview.com##[id*="background-stream-cover"]
 !
 ! ------ pspstation.org ------
 !
@@ -4754,3 +4760,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||alb.reddit.com^
 ||flagcounter.com^$3p
 ||google.*/adsense/search/
+||events.redditmedia.com^
+||newrelic.com^$3p
+||bizible.com^$3p
