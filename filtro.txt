@@ -325,6 +325,10 @@ _728x90.
 /ping.gif?$from=~mega689.com
 /0pixel.php?
 *$ping,3p
+###ad_global_header2
+##.widgetSponsors
+##[id^="ad_sky"]
+##.ad_global_header
 ##.top_ad
 ##.following-ad
 ##.adv-header
@@ -827,6 +831,12 @@ _728x90.
 @@||t26.net/ads/yahooads.css
 @@||tvn.cl/include/ads/zona.js
 @@||zpag.es/ads/$xmlhttprequest
+@@||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$from=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
+@@||gemius.pl/gstream.js
+@@||iwa.iplsc.com/iwa.js$script
+@@||reddit.com/r/*/comments/
+@@||google.*/search?$generichide
+@@||google.*/search?$from=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -3496,6 +3506,8 @@ google.*##[data-text-ad]
 google.*##.uEierd
 google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
 google.*##.gws-product_ads__close-button
+google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
+google.*###tads[aria-label]
 ! ------ Youtube ------
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
@@ -4192,6 +4204,7 @@ reddit.com##article.Post:has(a[rel="nofollow noopener sponsored"])
 reddit.com##.TopButton
 reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
+reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
 ||reddit.com/api/jail/$xhr,1p
 !
 ! ------ religiondigital ------
@@ -4731,3 +4744,13 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||marfeel.com^$3p
 ||jwpcdn.com/player/*/googima.js
 ||push-sdk.net^
+||iwa.iplsc.com^
+||getjad.io^
+||unblockia.com^$3p
+||insurads.com^$3p
+||datadome.co^$3p
+||redditmedia.com/gtm/jail?
+||reddit.com/timings/
+||alb.reddit.com^
+||flagcounter.com^$3p
+||google.*/adsense/search/
