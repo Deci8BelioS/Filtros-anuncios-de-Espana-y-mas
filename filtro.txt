@@ -4376,7 +4376,8 @@ twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 ||twitter.com/1.1/promoted_content/log.json
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
-twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|Follow|A quién seguir|Mostrar más|Seguir/)
+twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|Promocionado/)
+twitter.com##div[data-testid="cellInnerDiv"]>div:not(:has(article))
 !
 ! ------ webmedia ------
 !
