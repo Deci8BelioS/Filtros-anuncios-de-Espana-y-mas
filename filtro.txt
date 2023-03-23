@@ -327,6 +327,21 @@ _728x90.
 /akam/13/*
 /gtm.js
 *$ping,3p
+/beacon.js
+/marfeel_sw.
+/pxlctl.
+/web-vitals/*
+/pixel.json?
+/ak-ads-ns.
+##.ad_w300h450
+##.ad_top
+##.ad_sky2_2
+##.ad_leader
+###ads_top2
+###ad_topScroller
+###ad_top
+###ad_bg
+##.penci-google-adsense-1
 ##.sponsorad
 ###ad_global_header2
 ##.widgetSponsors
@@ -797,6 +812,9 @@ _728x90.
 #@#[id^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
 #@#.ad-placement
+@@||as.com^$generichide
+@@||omtrdc.net/rest/$xhr
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,from=gamereactor.asia|gamereactor.de|gamereactor.es|gamereactor.eu|gamereactor.fi|gamereactor.it|gamereactor.nl|gamereactor.no|gamereactor.pt
 @@||amazon.*/*uedata$image,1p
 @@||accounts.google.com^$generichide
 @@||github.com^$generichide
@@ -3223,7 +3241,7 @@ elindependiente.com##.bloque-masvisto
 elindependiente.com##.bloque-relacionadas
 elindependiente.com##.henneoHB
 !
-! ------ elmundo.es y compañia ------
+! ------ PRISA ------
 !
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios-shadow
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.Bloque-anuncios
@@ -3271,6 +3289,14 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-c-newsletter-widget
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-l-article__secondary-column-item
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.ue-c-article__premium
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##[class*="_ad"]
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##[class*="carousel"]
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.amp-notbuilt
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.recirculation-container
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##[class*="short-news"]
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.amp-share
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.prom
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com##.cta-gaclub
 cincodias.elpais.com##section.sumario_html > .sumario__interior
 cincodias.elpais.com##.widget
 impactoespananoticias.com##.aside
@@ -3456,6 +3482,7 @@ forocoches.com###social-networks
 forocoches.com###AutoNumber30
 forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[id^="optidigital-adslot-"])
 forocoches.com##table.cajasprin:nth-of-type(2)
+forocoches.com##[id*="notices"]
 !
 ! ------ forococheselectricos.com ------
 !
@@ -3473,6 +3500,20 @@ flaticon.com###bn-icon-list
 ! ------ gamebanana ------
 !
 gamebanana.com##.AdTagModule
+!
+! ------ gamereactor ------
+!
+gamereactor.es###darkoverlay
+gamereactor.es###helloDollywarning
+gamereactor.es##[class*="ad_"]
+gamereactor.es##.topScroller
+gamereactor.es##[class*="ad_"]
+gamereactor.es##[id*="subscribe"]
+gamereactor.es##[id*="signup"]
+gamereactor.es##.rwd
+gamereactor.es##[id*="sky"]
+gamereactor.es##div.wrapper
+gamereactor.es##[id*="ad_"]
 !
 ! ------ google ------
 !
@@ -3659,6 +3700,15 @@ htcmania.com##.afterlogo
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 kimovil.com##.kau
 kimovil.com###user-sidebar div.kau
+!
+! ------ ign.com ------
+!
+ign.com##+js(abort-current-script, JSON, g02.ign)
+ign.com##+js(abort-current-script, addEventListener, iframe-network)
+ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
+ign.com##+js(set-constant, Object.prototype.iadb, undefined)
+ign.com##.zad
+ign.com##.ad-wrapper
 !
 ! ------ instagram ------
 !
@@ -4273,6 +4323,12 @@ speedtest.net##.top-placeholder
 speedtest.net##div[data-ad-placeholder]
 speedtest.net##.notification
 !
+! ------ somosxbox ------
+!
+somosxbox.com###mrf-footer
+somosxbox.com##[class*="adv"]
+somosxbox.com##.mrf-originalHeightIframe
+!
 ! ------ Sonic Network y DISPLAY CONNECTORS ------
 !
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
@@ -4355,6 +4411,7 @@ twitch.tv##+js(window.open-defuser, amazon-adsystem)
 twitch.tv##+js(twitch-videoad)
 twitch.tv##.extensions-dock__dock
 twitch.tv##.extension-view__iframe
+||vod-secure.twitch.tv/
 !
 ! ------ Twitter ------
 !
@@ -4764,3 +4821,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||events.redditmedia.com^
 ||newrelic.com^$3p
 ||bizible.com^$3p
+||evolutionadv.it^$3p
+||revampcdn.com^
+||live.mrf.io/statics/marfeel/gardac-sync.js
+||instant-gaming.com/affgames/
