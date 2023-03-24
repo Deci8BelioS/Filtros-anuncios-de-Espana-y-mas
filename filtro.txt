@@ -3014,6 +3014,7 @@ audiotools.in###sidebar > #custom_html-6
 audiotools.in##.widget_custom_html
 audiotools.in##+js(nobab)
 audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
+audiotools.in##+js(abort-on-property-read, adsBlocked)
 !
 ! ------ audioz ------
 !
@@ -4842,3 +4843,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||instant-gaming.com/affgames/
 ||impactify.io^$3p
+||pagead2.googlesyndication.com^$xhr,redirect-rule=noop.js
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule=googlesyndication_adsbygoogle.js:5,from=~zipextractor.app
