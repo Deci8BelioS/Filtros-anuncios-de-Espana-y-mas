@@ -2929,6 +2929,8 @@ softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamord
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.video-embed-container
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.aside
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="gallery swipe"]
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.np-card
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[href*="newsletter"]
 testdevelocidad.es##[class*="white-container"]
 testdevelocidad.es##[class*="ads-col"]
 testdevelocidad.es##[class*="site-menu"]
