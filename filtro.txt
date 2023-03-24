@@ -336,6 +336,7 @@ _728x90.
 /prisaAd.min.js$script
 /TopPlayer.min.js$script
 /player_permanente_min.js?v1x14$script
+/pixel.gif?
 ###player-ads
 ##.ad_w300h450
 ##.ad_top
@@ -3318,7 +3319,6 @@ cincodias.elpais.com##.widget
 impactoespananoticias.com##.aside
 impactoespananoticias.com##.footer
 impactoespananoticias.com##.extra2
-||impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com^*/pixel.gif?n=
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 @@||los40.com^$generichide
 @@||assets.adobedtm.com/extensions/*/appmeasurement.min.js$script,from=los40.com!
