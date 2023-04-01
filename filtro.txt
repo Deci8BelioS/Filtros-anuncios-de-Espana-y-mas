@@ -337,6 +337,13 @@ _728x90.
 /player_permanente_min.js?v1x14$script
 /pixel.gif?
 /adgpt.js
+/prebid/*$script
+##.ads
+##.ad-slot
+##.c-banner
+##.ads-header
+##.ads-footer
+##.ad-right
 ##.RectangleAd
 ###player-ads
 ##.ad_w300h450
@@ -3093,7 +3100,6 @@ chomikuj.pl##.recommend_panel
 !
 ! ------ ¿Difoosion? ------
 !
-mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ad-slot
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.visible
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="ad-div"]
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.fc-card-container
@@ -3181,7 +3187,6 @@ elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 ||elamigos-games.com^$script,domain=elamigos-games.com
-gamesfull.*##.ads
 !
 ! ------ elblogdecineespanol ------
 !
@@ -3199,8 +3204,6 @@ elconfidencial.com##.articleAside__module--isSticky
 !
 ! ------ elconfidencialdigital ------
 !
-elconfidencialdigital.com##.ads
-elconfidencialdigital.com##.ad-slot
 elconfidencialdigital.com##.sidebar-col
 elconfidencialdigital.com##.onm-fixed-banner
 elconfidencialdigital.com##.mobile-sharetools
@@ -3756,7 +3759,6 @@ instatecno.com###ai-adb-message
 !
 ! ------ ios-repo-updates.com ------
 !
-ios-repo-updates.com##.adsbygoogle
 ios-repo-updates.com##.blockads.text-center
 !
 ! ------ juntadeandalucia.es ------
@@ -3786,7 +3788,6 @@ lacasadeel.net##[class*="td_separator_center"]
 larazon.es##.article-body section aside
 larazon.es##.content__ad
 larazon.es##.ad
-larazon.es##.ads
 larazon.es###outbrain-id
 larazon.es##.floorad__container
 larazon.es##.henneoHB
@@ -4320,7 +4321,6 @@ religiondigital.org##.onsite-social
 ! ------ salamanca24horas ------
 !
 salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
-salamanca24horas.com##.c-banner
 salamanca24horas.com##.cscontent .row-top-banners
 salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
 !
@@ -4893,3 +4893,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||hqq.*/cdn-cgi/trace$xhr,1p,important
 ||9b0n3q.xyz^
 ||disqus.com/api/ping
+||adnxs.com^
