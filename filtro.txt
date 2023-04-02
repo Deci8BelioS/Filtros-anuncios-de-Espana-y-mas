@@ -338,7 +338,6 @@ _728x90.
 /pixel.gif?
 /adgpt.js
 /prebid/*$script
-##.ads
 ##.ad-slot
 ##.c-banner
 ##.ads-header
@@ -3187,6 +3186,7 @@ elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 ||elamigos-games.com^$script,domain=elamigos-games.com
+gamesfull.*##.ads
 !
 ! ------ elblogdecineespanol ------
 !
@@ -3205,6 +3205,7 @@ elconfidencial.com##.articleAside__module--isSticky
 ! ------ elconfidencialdigital ------
 !
 elconfidencialdigital.com##.sidebar-col
+elconfidencialdigital.com##.ads
 elconfidencialdigital.com##.onm-fixed-banner
 elconfidencialdigital.com##.mobile-sharetools
 !
@@ -3788,6 +3789,7 @@ lacasadeel.net##[class*="td_separator_center"]
 larazon.es##.article-body section aside
 larazon.es##.content__ad
 larazon.es##.ad
+larazon.es##.ads
 larazon.es###outbrain-id
 larazon.es##.floorad__container
 larazon.es##.henneoHB
