@@ -3915,6 +3915,12 @@ game-2u.*,nsw2u.*,ps5pkg.*##.widget_text.widget
 game-2u.*,nsw2u.*,ps5pkg.*##.socials
 game-2u.*,nsw2u.*,ps5pkg.*##.code-block
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, adsBlocked)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-stack-trace, document.createElement, adsBlocked)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, eval, split)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(set-constant, adbEnableForPage, false)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, document.createElement, break;case $.)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, eval, replace)
+game-2u.*,nsw2u.*,ps5pkg.*##+js(no-xhr-if, googlesyndication)
 !
 ! ------ okdiario ------
 !
