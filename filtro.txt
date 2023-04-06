@@ -3926,6 +3926,13 @@ game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, document.createElement, br
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, eval, replace)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(no-xhr-if, googlesyndication)
 !
+! ------ olarila.com ------
+!
+olarila.com##+js(abort-current-script, document.addEventListener, /google_ad_client/)
+olarila.com##+js(no-setTimeout-if, offsetHeight)
+olarila.com##.adsbygoogle:style(height: 1px!important; display: block!important;)
+@@||olarila.com^$generichide
+!
 ! ------ okdiario ------
 !
 okdiario.com##.publicidad
