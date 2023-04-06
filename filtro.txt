@@ -3185,6 +3185,7 @@ elamigos-games.com##+js(abort-on-property-read, CryptoJS)
 elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
+elamigos-games.com##[class*="_chat"]
 ||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
 !
@@ -4902,3 +4903,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||9b0n3q.xyz^
 ||disqus.com/api/ping
 ||adnxs.com^
+||apglinks.net^
