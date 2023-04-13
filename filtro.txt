@@ -338,6 +338,10 @@ _728x90.
 /pixel.gif?
 /adgpt.js
 /prebid/*$script
+/adgenerator.
+yetipay.pl/payments/js/*$script
+/gstream.js$script
+##[data-freestar-ad]
 ##[href*=".smartadserver.com"]
 ##.ad-slot
 ##.c-banner
@@ -3094,6 +3098,7 @@ chomikuj.pl##.pp_download_frame.pp_frame
 chomikuj.pl##[id*="fbPromo""]
 chomikuj.pl##.ebooksSearchBox
 chomikuj.pl##.recommend_panel
+chomikuj.pl##tr:has-text(Reklama)
 !
 ! ------ coinbase.com ------
 !
@@ -3482,6 +3487,7 @@ facebook.com##div[role="complementary"] > div[class] > div[class] > div[class] s
 facebook.com##div[aria-posinset] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com##div[aria-describedby] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
 facebook.com##div[aria-posinset] h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com##.uiLayer
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 !
@@ -3512,6 +3518,7 @@ forocoches.com###AutoNumber30
 forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[id^="optidigital-adslot-"])
 forocoches.com##table.cajasprin:nth-of-type(2)
 forocoches.com##[id*="notices"]
+forocoches.com##.section-dark
 !
 ! ------ forococheselectricos.com ------
 !
@@ -4363,15 +4370,6 @@ send.cm##+js(addEventListener-defuser, , break;case $.)
 send.cm##+js(abort-current-script, document.documentElement, break;case $.)
 send.cm##+js(abort-current-script, JSON, break;case)
 !
-! ------ skidrowreloaded ------
-!
-skidrowreloaded.*##+js(abort-on-property-write, clickIE4)
-skidrowreloaded.*##+js(abort-on-property-read, disableSelection)
-skidrowreloaded.*##+js(abort-current-script, document.onmousedown)
-skidrowreloaded.*##+js(abort-on-property-write, _pop)
-skidrowreloaded.*##+js(abort-current-script, open)
-skidrowreloaded.*##+js(no-fetch-if, /^/)
-!
 ! ------ speedtest ------
 !
 speedtest.net##.privacy-update
@@ -4411,6 +4409,24 @@ hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
 hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
+!
+! ------ sourceforge ------
+!
+sourceforge.net###banner-sterling
+sourceforge.net##.sterling
+sourceforge.net##div[data-id^="div-gpt-ad-"]
+sourceforge.net##+js(set-constant, SF.adblock, true)
+sourceforge.net##+js(nano-setTimeout-booster)
+||sf-syn.com/conversion_outbound_tracker$frame,from=sourceforge.net
+!
+! ------ skidrowreloaded ------
+!
+skidrowreloaded.*##+js(abort-on-property-write, clickIE4)
+skidrowreloaded.*##+js(abort-on-property-read, disableSelection)
+skidrowreloaded.*##+js(abort-current-script, document.onmousedown)
+skidrowreloaded.*##+js(abort-on-property-write, _pop)
+skidrowreloaded.*##+js(abort-current-script, open)
+skidrowreloaded.*##+js(no-fetch-if, /^/)
 !
 ! ------ techpowerup.com ------
 !
@@ -4915,3 +4931,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||adnxs.com^
 ||apglinks.net^
 ||sascdn.com/tag/
+||ads-api.twitter.com^
+||gemius.pl^
