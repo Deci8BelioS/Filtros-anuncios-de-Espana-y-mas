@@ -885,6 +885,7 @@ yetipay.pl/payments/js/*$script
 @@||connect.facebook.net^$script,from=abc.go.com|adultswim.com|contv.com|damnyouautocorrect.com|embedly.com|fitbit.com|id.logi.com|instagram.com|interviewmagazine.com|noovo.ca|pogo.com|reddit.com|salon.com|sci2.tv|southpark.cc.com|southpark.de|tinder.com|upi.com
 @@||googletagmanager.com/gtm.js$script,from=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|pccomponentes.com|poprosa.com|tn.com.ar|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||getjad.io/library/$script,from=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
+@@||check.ddos-guard.net/check.js
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
