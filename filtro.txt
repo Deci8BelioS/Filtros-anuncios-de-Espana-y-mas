@@ -343,6 +343,8 @@ yetipay.pl/payments/js/*$script
 /gstream.js$script
 /js/dfp-
 /cdn-cgi/apps/head/*$script,1p
+://matomo.$from=~matomo.org
+://ads2.
 ##[data-freestar-ad]
 ##[href*=".smartadserver.com"]
 ##.ad-slot
@@ -4545,6 +4547,13 @@ twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|lo siguen|others follow| follow|lo sigue|follows|Promocionado|Promoted/)
 twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Follow|Siguiendo|Seguir|Personas|People|Trending|Tendencia|trends|Tendencias|Ganó|won|Ver todo|View all/)):not(:has(article))
 !
+! ------ uptobox.com ------
+!
+uptobox.com##+js(abort-on-property-read, jsUnda)
+uptobox.com##+js(nowebrtc)
+uptobox.com##+js(abort-on-property-write, Fingerprint2)
+uptobox.com##+js(set-constant, jsUnda, noopFunc)
+!
 ! ------ webmedia ------
 !
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.desvio
@@ -4638,7 +4647,6 @@ winaero.com##aside:has(.adsbygoogle)
 winaero.com##div > p[style="margin: 20px"]
 winaero.com##p:has-text(Advertisement)
 winaero.com##+js(abort-current-script, jQuery, tweaker)
-
 !
 ! ------ xda-developers ------
 !
@@ -4974,3 +4982,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||inpage-push.com^
 ||dexpredict.com^
 ||nontent.powzers.lol^
+||facebook.com/plugins/like.php?$3p
+||acdcdn.com^
+||onclickalgo.com^
