@@ -346,6 +346,9 @@ yetipay.pl/payments/js/*$script
 ://matomo.$from=~matomo.org
 ://ads2.
 /evergage.min.js
+/plausible.outbound-links.js$from=~plausible.io
+##.videoad
+##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[data-freestar-ad]
 ##[href*=".smartadserver.com"]
 ##.ad-slot
@@ -2909,15 +2912,6 @@ mgnetu.*##.banner-container .box-success > h4
 !
 ! ------ Amazon ------
 !
-||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
-||amazon-adsystem.com
-||alexa-sitestats.s3.amazonaws.com
-||assoc-amazon.com
-||entrecard.s3.amazonaws.com
-||interactive-assets.s3.amazonaws.com
-||yab-adimages.s3.amazonaws.com
-||admarvel.s3.amazonaws.com
-||adzerk.s3.amazonaws.com
 amazon.*###nav-swmslot
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[cel_widget_id^="multi-brand-"]
@@ -2944,6 +2938,7 @@ amazon.*##.a-carousel-card:empty
 amazon.*##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.*##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]:upward(.mobile-sims-grid-card-view)
+amazon.*###similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 !
 ! ------ Adslzone y demás ------
@@ -5007,3 +5002,24 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||altowriestwispy.com^
 ||keydawnawe.com^
 ||googleoptimize.com^
+||nitropay.com^$3p
+||criteo.com^
+||lijit.com^
+||unrulymedia.com^
+||33across.com^$3p
+||adnxs.com^$xhr,redirect-rule=noop.txt
+||3lift.com^
+||sharethrough.com^
+||openx.net^
+||sonobi.com^
+||cloudfront.net/test.png
+||cloudfront-labs.amazonaws.com^
+||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
+||amazon-adsystem.com
+||alexa-sitestats.s3.amazonaws.com
+||assoc-amazon.com
+||entrecard.s3.amazonaws.com
+||interactive-assets.s3.amazonaws.com
+||yab-adimages.s3.amazonaws.com
+||admarvel.s3.amazonaws.com
+||adzerk.s3.amazonaws.com
