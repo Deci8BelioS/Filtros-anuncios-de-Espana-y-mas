@@ -347,6 +347,7 @@ yetipay.pl/payments/js/*$script
 ://ads2.
 /evergage.min.js
 /plausible.outbound-links.js$from=~plausible.io
+##div[id^="optidigital-adslot"]
 ##.videoad
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[data-freestar-ad]
@@ -3649,6 +3650,9 @@ youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
 youtube.com##.ytd-item-section-renderer:has-text(Creador Emergente)
+youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
+youtube.com##ytd-display-ad-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
