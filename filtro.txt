@@ -897,6 +897,7 @@ yetipay.pl/payments/js/*$script
 @@||check.ddos-guard.net/check.js
 @@||stfly.me^$generichide
 @@||1fichier.com^$generichide
+@@||discord.com^$generichide
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -4494,6 +4495,10 @@ tudn.com,univision.com##.guFemk
 tudn.com,univision.com##[data-element-name="CivicScience"]
 univision.com##[class="gatsbyMainBody"]
 univision.com##[data-widget-type="AllExternalEmbed"]
+!
+! ------ throneandliberty ------
+!
+throneandliberty.es###widgets
 !
 ! ------ tiktok.tv ------
 !
