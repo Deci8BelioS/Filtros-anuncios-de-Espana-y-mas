@@ -347,6 +347,7 @@ yetipay.pl/payments/js/*$script
 ://ads2.
 /evergage.min.js
 /plausible.outbound-links.js$from=~plausible.io
+?zoneid=*&ab=1$script
 ##div[id^="optidigital-adslot"]
 ##.videoad
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
@@ -5032,3 +5033,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||yab-adimages.s3.amazonaws.com
 ||admarvel.s3.amazonaws.com
 ||adzerk.s3.amazonaws.com
+||talcoidsakis.com^
+||hhbypdoecp.com^
