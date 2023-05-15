@@ -348,6 +348,9 @@ yetipay.pl/payments/js/*$script
 /evergage.min.js
 /plausible.outbound-links.js$from=~plausible.io
 ?zoneid=*&ab=1$script
+/webroot/modern_theme/img/dwndbnr$image,1p
+*$script,redirect-rule=noopjs,from=tii.la
+##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##div[id^="optidigital-adslot"]
 ##.videoad
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
@@ -900,6 +903,8 @@ yetipay.pl/payments/js/*$script
 @@||1fichier.com^$generichide
 @@||discord.com^$generichide
 @@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=heidisql.com
+@@||tii.la^$generichide
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -2845,7 +2850,7 @@ zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, runAdblock)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, ignielAdBlock)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, nextFunction)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(no-fetch-if, pagead2.googlesyndication.com)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(no-fetch-if, pagead2.googlesyndication.com)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, zfgformats)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, zfgloaded)
@@ -2858,14 +2863,14 @@ zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,ke
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, displayMessage:)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, JSON.parse, break;case $.)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, $, modal)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, addDictionary)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(set-constant, blurred, false)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, blurred, false)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-write, _pop)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, break;case $.)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,mgnetu.*,keeplinks.*##+js(window.open-defuser)
+zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,mgnetu.*,keeplinks.*,tii.*##+js(window.open-defuser)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,keeplinks.*##+js(abort-on-property-read, open)
 filecrypt.*,keeplinks.*##+js(remove-attr, onclick, button[id][onclick*=".html"])
 filecrypt.*,keeplinks.*##+js(popads-dummy)
@@ -2909,6 +2914,11 @@ webhostingpost.*##p
 webhostingpost.*##h2.text-center
 tii.*,oko.*##.td-main-content
 tii.*,oko.*##.td-pb-row
+tii.*##+js(no-setTimeout-if, window.getComputedStyle)
+tii.*##+js(no-fetch-if, googlesyndication)
+tii.*##.myads
+tii.*##.myads > a:style(visibility: hidden !important;)
+tii.*##.box-main > a[target="_blank"] > img
 *$image,3p,from=fc-lc.com
 @@||gstatic.com/recaptcha/
 @@/js/ads.js|$script,1p,from=~internethaber.com|~knaqu.tv
@@ -5043,3 +5053,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||hhbypdoecp.com^
 ||youradexchange.com^
 ||superfastcdn.com^
+||trustbummler.com^
+||ophoacit.com^
+||shrinkearn.com^$3p
+||inklinkor.com^
