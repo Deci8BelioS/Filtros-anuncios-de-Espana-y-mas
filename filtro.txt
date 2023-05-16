@@ -350,6 +350,8 @@ yetipay.pl/payments/js/*$script
 ?zoneid=*&ab=1$script
 /webroot/modern_theme/img/dwndbnr$image,1p
 *$script,redirect-rule=noopjs,from=tii.la
+/frontend-gtag.
+/google-tracking/*
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##div[id^="optidigital-adslot"]
 ##.videoad
@@ -3426,6 +3428,10 @@ elchapuzasinformatico.com##.r-pf
 elchapuzasinformatico.com##[class*="fsp"]:has-text(Noticia Patrocinada)
 elchapuzasinformatico.com##.sp-lt
 elchapuzasinformatico.com##footer.footer
+elchapuzasinformatico.com##[id*="TopPubli"]
+elchapuzasinformatico.com##[id*="clickioNoticiaTopMovil"]
+elchapuzasinformatico.com##.post-content > div
+elchapuzasinformatico.com##[id*="clickio"]
 !
 ! ------ elespanol.com ------
 !
@@ -5057,3 +5063,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ophoacit.com^
 ||shrinkearn.com^$3p
 ||inklinkor.com^
+||s.clickiocdn.com^
+||skimresources.com^$3p
