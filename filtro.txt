@@ -352,6 +352,12 @@ yetipay.pl/payments/js/*$script
 *$script,redirect-rule=noopjs,from=tii.la
 /frontend-gtag.
 /google-tracking/*
+##.ad-mpu
+##.mvp_ad_widget
+##.mvp-widget-ad
+##.mvp-ad-label
+##.mvp-feat1-list-ad
+##.ad-slot:not(.adsbox):not(div.adsbygoogle)
 ##.sponsor-text
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##div[id^="optidigital-adslot"]
@@ -3361,6 +3367,7 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.cnt-player-permanente
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.mh266-100
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,caracol.com.co##[class*="carousel"]
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.compartir--fijo
 los40.com##+js(remove-attr, class|style, div[id^="los40_gpt"])
 cincodias.elpais.com##section.sumario_html > .sumario__interior
 cincodias.elpais.com##.widget
@@ -5068,3 +5075,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||s.clickiocdn.com^
 ||skimresources.com^$3p
 ||ab.blogs.es^
+||epimg.net/js/gdt/
