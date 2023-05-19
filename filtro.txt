@@ -352,6 +352,8 @@ yetipay.pl/payments/js/*$script
 *$script,redirect-rule=noopjs,from=tii.la
 /frontend-gtag.
 /google-tracking/*
+/client_204?$image
+##iframe[width="300"][height="250"]
 ##.ad-mpu
 ##.mvp_ad_widget
 ##.mvp-widget-ad
@@ -926,6 +928,8 @@ yetipay.pl/payments/js/*$script
 @@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=heidisql.com
 @@||tii.la^$generichide
+@@||webhostingpost.com^$generichide
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -3638,6 +3642,12 @@ youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
@@ -5076,3 +5086,14 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||skimresources.com^$3p
 ||ab.blogs.es^
 ||epimg.net/js/gdt/
+||imasdk.googleapis.com^
+||pub.network^
+||mxpnl.com^
+||unequalbrake.com^
+||adswizz.com^$3p
+||oaphoace.net^
+||forfrogadiertor.com^
+||cheeroredraw.com^
+||google.com/gen_204?
+||api-v*.soundcloud.com/audio-ads?
+||soundcloud.com/promoted$xhr,1p
