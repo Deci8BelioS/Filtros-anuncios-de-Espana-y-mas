@@ -6,6 +6,9 @@
 ! Total de filtros: 4742
 ! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md
 ! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md
+!------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!
+!
+
 .ad0.
 .ad1.
 .ad2.
