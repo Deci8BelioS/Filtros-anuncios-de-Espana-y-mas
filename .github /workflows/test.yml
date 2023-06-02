@@ -1,0 +1,38 @@
+name: Verificar Filtros uBlock
+
+name: Build and Release uYouPlus
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: "Create a draft release"
+        default: true
+        required: false
+        type: boolean
+
+jobs:
+  verificar-filtros:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v2
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Ejecutar script de verificación y eliminación de duplicados
+        run: |
+          npm install
+          node verificar-filtros.js
+
+      - name: Subir archivos modificados
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add filtros-unicos.txt
+          git commit -m "Actualizar filtros-unicos.txt"
+          git push
