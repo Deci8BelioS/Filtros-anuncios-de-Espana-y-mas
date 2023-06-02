@@ -26,27 +26,16 @@ const writeFile = (filename, data) => {
 
 const removeDuplicateFilters = (filters) => {
   const uniqueFilters = [];
-  const filterRegex = /^(?!(!.+)|(\s*!.*))(.*)$/gm;
-  const sectionRegex = /^!.*$/gm;
+  const filterRegex = /^(?!!)(.*)$/gm;
 
   let match;
-  let section = '';
 
   while ((match = filterRegex.exec(filters)) !== null) {
     const filter = match[1].trim();
 
-    if (section !== '') {
-      uniqueFilters.push(section);
-      section = '';
-    }
-
     if (!uniqueFilters.includes(filter)) {
       uniqueFilters.push(filter);
     }
-  }
-
-  if (section !== '') {
-    uniqueFilters.push(section);
   }
 
   return uniqueFilters.join('\n');
@@ -79,5 +68,3 @@ const removeDuplicateFilters = (filters) => {
     process.exit(1);
   }
 })();
-
-
