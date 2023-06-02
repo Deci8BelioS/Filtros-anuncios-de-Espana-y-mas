@@ -65,10 +65,6 @@ const removeDuplicateFilters = (filters) => {
       `! Description: Filtros de publicidad y elementos molestos para las extensiones uBlock Origin y AdGuard para paginas Españolas y mas (ejemplo: genbeta, xataka, motorpasion, reddit etc...) por DeciBelioS`,
       `! Filtros creados el: ${date}`,
       `! Total de filtros: ${filterCount}`,
-      `! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md`,
-      `! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md`,
-      `!------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!`,
-      "!",
     ].join("\n");
 
     const finalContent = `${header}\n\n${uniqueFilters}`;
