@@ -353,6 +353,12 @@ yetipay.pl/payments/js/*$script
 /frontend-gtag.
 /google-tracking/*
 /client_204?$image
+/i.gif?
+/diffuser.js
+/adtrack-
+/snowplow/*$script
+*$image,3p,redirect-rule=1x1.gif,from=elamigos-games.com
+/sw.js$script,from=dood.*|dooood.*
 ##iframe[width="300"][height="250"]
 ##.ad-mpu
 ##.mvp_ad_widget
@@ -930,6 +936,7 @@ yetipay.pl/payments/js/*$script
 @@||tii.la^$generichide
 @@||webhostingpost.com^$generichide
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
+@@||elamigos-games.com^$generichide
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -2897,6 +2904,10 @@ zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,mgnetu.*,keeplinks.*,tii.*##+js(window.open-defuser)
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,keeplinks.*##+js(abort-on-property-read, open)
+mgnetu.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
+mgnetu.*##+js(addEventListener-defuser, , break;case $.)
+mgnetu.*##+js(noeval-if, fairAdblock)
+mgnetu.*##.banner-container .box-success > h4
 filecrypt.*,keeplinks.*##+js(remove-attr, onclick, button[id][onclick*=".html"])
 filecrypt.*,keeplinks.*##+js(popads-dummy)
 filecrypt.*,keeplinks.*##+js(set-constant, isAdblock, false)
@@ -3294,7 +3305,6 @@ eldigitaldealbacete.com##.adv-link
 eldigitaldealbacete.com##.stream-item
 eldigitaldealbacete.com##.share-buttons
 eldigitaldealbacete.com##.code-block
-
 !
 ! ------ elindependiente.com ------
 !
@@ -3699,9 +3709,11 @@ youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
 youtube.com##.ytd-item-section-renderer:has-text(Creador Emergente)
 youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
+youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##+js(set-constant, google_ad_status, 1)
+youtube.com##ytd-reel-shelf-renderer
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
@@ -4163,6 +4175,7 @@ vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltub
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(no-setInterval-if, 0x)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-on-property-write, Fingerprint2)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-on-property-write, Fingerprent2)filemoon.*##+js(abort-on-property-read, FMPoopS)
+dood.*##+js(abort-current-script, document.documentElement, break;case $.)
 filemoon.*##+js(nano-setInterval-booster, seconds)
 filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(set-constant, FMPoopS, noopFunc)
@@ -5097,3 +5110,13 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||google.com/gen_204?
 ||api-v*.soundcloud.com/audio-ads?
 ||soundcloud.com/promoted$xhr,1p
+||trackcmp.net^$3p
+||paypal.com/xoplatform/logger/api/logger
+||alas4kanmfa6a4mubte.com^
+||betotodilea.com^
+||youtube.com/api/stats/delayplay?
+||profitabledisplaynetwork.com^
+||stats.live-video.net^$from=kick.com
+||i.imgur.com/ymmgpk1.png^$3p
+||brandmetrics.com^$3p
+||adzerk.net^
