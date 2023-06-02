@@ -27,33 +27,29 @@ const writeFile = (filename, data) => {
 const removeDuplicateFilters = (filters) => {
   const uniqueFilters = [];
   const filterRegex = /^(.*)$/gm; // Cambiado para incluir todas las líneas
-  const sectionRegex = /^!.*$/gm; // Modificado para permitir múltiples exclamaciones
+  const sectionRegex = /^!.*$/gm;
 
   let match;
-  let section = '';
+  let section = "";
 
   while ((match = filterRegex.exec(filters)) !== null) {
     const line = match[0].trim();
 
-    if (section !== '') {
+    if (section !== "") {
       uniqueFilters.push(section);
-      section = '';
+      section = "";
     }
 
     if (!uniqueFilters.includes(line)) {
       uniqueFilters.push(line);
     }
-    
-    if (sectionRegex.test(line)) {
-      section = line;
-    }
   }
 
-  if (section !== '') {
+  if (section !== "") {
     uniqueFilters.push(section);
   }
 
-  return uniqueFilters.join('\n');
+  return uniqueFilters.join("\n");
 };
 
 (async () => {
