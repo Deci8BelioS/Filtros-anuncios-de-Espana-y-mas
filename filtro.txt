@@ -87,9 +87,6 @@
 /partners.
 /piwik.js
 /pop-imp.js
-/publi.js
-/publi/banner_
-/publicidad-
 /publicidad_
 /publiMJX.js
 /r.mail.ru
@@ -463,7 +460,6 @@ yetipay.pl/payments/js/*$script
 ##.sticky-ad
 ##.dfp_unit
 ##.reviews-display-ad
-##.stream-item-widget
 ##img[width="728"][height="90"]
 ##iframe[width="100%"][height="90"]
 ##iframe[id^="google_ads_frame"]
@@ -589,7 +585,6 @@ yetipay.pl/payments/js/*$script
 ###pub_superior_left
 ###pubinf
 ###publiLink
-###publicidad-top
 ###publicidadMovil
 ###publicidadTablet
 ###publicidad_header
@@ -732,7 +727,6 @@ yetipay.pl/payments/js/*$script
 ##.publicidad6
 ##.publicidadPaga
 ##.publicidad_01
-##.publicidad_especial
 ##.publicidad_modulo1
 ##.publicidad_modulo2
 ##.publicidad_movil
@@ -2958,7 +2952,6 @@ tii.*##.box-main > a[target="_blank"] > img
 *$image,3p,from=fc-lc.com
 @@||gstatic.com/recaptcha/
 @@/js/ads.js|$script,1p,from=~internethaber.com|~knaqu.tv
-mgnetu.*##.banner-container .box-success > h4
 !
 ! ------ Amazon ------
 !
@@ -3025,7 +3018,6 @@ allkeyshop.*##.footer
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 ||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
 ||statics.atresmedia.com/atresplayer/webapp/bundle.bf8cfecf79.js
-@@||antena3.com/adserver/flv2/$domain=larazon.es
 antena3.com##[class*="publi"]
 /freewheel-adManager-$script,domain=antena3.com|lasexta.com
 /googleAdServer.$script,domain=antena3.com|lasexta.com
@@ -3124,7 +3116,6 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,peri
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.i-amphtml-layout-fixed
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div.amp-ad
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[data-widgetids*="AMP_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.i-amphtml-layout-fixed
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="i-amphtml-svc"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="dailymotion"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="dailymotion"]
@@ -3336,7 +3327,6 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##img[class="ue-c-widget__sponsor"]
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##main > div.ue-l-cover-grid[data-flex-name="row_headline"]:has(> div.ue-l-cover-grid__inner > div.ue-l-cover-grid__body > div.ue-l-cover-grid__block > div.ue-l-cover-grid__row > div.ue-l-cover-grid__unit:only-child > div.ue-c-ad)
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.ue-c-ad
-impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.publicidad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.banda_suscripcion
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.ue-c-article__newsletter-widget
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.ue-l-article__secondary-column > div.ue-l-article__secondary-column-item:has(> div.ue-c-ad)
@@ -3525,7 +3515,6 @@ facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Seguir viendo)
 facebook.com##div[role=complementary] span:has-text(Patrocinado)
 facebook.com###watch_feed a[aria-label]:has-text(Patrocinado)
 facebook.com#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
-facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
 facebook.com##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
@@ -3600,7 +3589,6 @@ gamereactor.es###darkoverlay
 gamereactor.es###helloDollywarning
 gamereactor.es##[class*="ad_"]
 gamereactor.es##.topScroller
-gamereactor.es##[class*="ad_"]
 gamereactor.es##[id*="subscribe"]
 gamereactor.es##[id*="signup"]
 gamereactor.es##.rwd
@@ -3957,7 +3945,6 @@ megaup.net##.imgAds:style(height: 250px !important;)
 megaup.net##.metaRedirectWrapperBottomAds > *:style(pointer-events: none !important;)
 megaup.net##.metaRedirectWrapperBottomAds a > img:style(visibility: visible !important;)
 megaup.net##.metaRedirectWrapperBottomAds img:style(width: 300px !important;)
-megaup.net##body .metaRedirectWrapperBottomAds:style(margin-top: -10000px !important; pointer-events: none !important;)
 *$frame,redirect-rule=noopframe,from=megaup.net
 ||megaup.net/sw.js
 megaup.net##+js(abort-current-script, I833)
@@ -4095,7 +4082,6 @@ pcgamer.com##.van_taboola
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, isAdb, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(no-setTimeout-if, test.remove, 100)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(nano-setTimeout-booster, grecaptcha.ready, *)
-vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-on-property-write, adcashMacros)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-on-property-read, jwplayer.vast)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, xPoPAdS, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, sadbl, false)
@@ -4294,7 +4280,6 @@ xhamster.com##.cookie-announce
 pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
 pornhub.com###singleFeedSection > .emptyBlockSpace
 babesandstars.com,pornhubpremium.com##.join
-pornhub.com##.sniperModeEngaged
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
 pornhub.com##[href^="https://weedmaps.com"]
@@ -4324,7 +4309,6 @@ pornhub.com##+js(set-constant, abp1, 0)
 pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
 pornhub.*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 pornhub.*##+js(window.open-defuser)
-pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
 pornhub.*###pb_block
 pornhub.com###hd-rightColVideoPage > .clearfix:first-child
@@ -4656,7 +4640,6 @@ applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,co
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##+js(set-constant, WSL2.config.enableAdblockEcommerce, 0)
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.section-newsletter
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##section.m-section-module-home.section-pinned-container
-applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.section-deeplinking-container
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.article-asset-normal.video-boost-container
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.m-hook-redesign.js-hook.hook
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.hook-content-container
@@ -4873,7 +4856,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||embed.torrents-time.com
 ||zontent.powvideo.net/
 ||adstean.com
-||65mjvw6i1z.com
 ||http://65mjvw6i1z.com/fa/5b/49/fa5b499573648ce23e4e5c3340fea03d.js
 ||your24football.com
 ||poogriry.click
