@@ -1,0 +1,13 @@
+{
+  "name": "verificar-filtros-ublock",
+  "version": "1.0.0",
+  "description": "Script para verificar y eliminar filtros duplicados en uBlock",
+  "scripts": {
+    "start": "node verificar-filtros.js"
+  },
+  "author": "Deci8BelioS",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "fs": "^0.0.1"
+  }
+}
