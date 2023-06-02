@@ -25,16 +25,31 @@ const writeFile = (filename, data) => {
 };
 
 const removeDuplicateFilters = (filters) => {
-  const uniqueFilters = new Map();
+  const uniqueFilters = [];
   const filterRegex = /^([^!].*)$/gm;
+  const sectionRegex = /^!.*$/gm;
+
   let match;
+  let section = '';
+
   while ((match = filterRegex.exec(filters)) !== null) {
     const filter = match[1].trim();
-    if (!uniqueFilters.has(filter)) {
-      uniqueFilters.set(filter, true);
+
+    if (section !== '') {
+      uniqueFilters.push(section);
+      section = '';
+    }
+
+    if (!uniqueFilters.includes(filter)) {
+      uniqueFilters.push(filter);
     }
   }
-  return Array.from(uniqueFilters.keys()).join('\n');
+
+  if (section !== '') {
+    uniqueFilters.push(section);
+  }
+
+  return uniqueFilters.join('\n');
 };
 
 (async () => {
@@ -52,9 +67,11 @@ const removeDuplicateFilters = (filters) => {
       `! Total de filtros: ${filterCount}`,
       `! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md`,
       `! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md`,
+      `!------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!`,
+      '!',
     ].join('\n');
 
-    const finalContent = `${header}\n${uniqueFilters}`;
+    const finalContent = `${header}\n\n${uniqueFilters}`;
     await writeFile('filtros-unicos.txt', finalContent);
     console.log('Filtros únicos generados en filtros-unicos.txt');
   } catch (error) {
@@ -62,4 +79,5 @@ const removeDuplicateFilters = (filters) => {
     process.exit(1);
   }
 })();
+
 
