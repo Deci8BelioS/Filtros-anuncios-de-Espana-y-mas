@@ -3,12 +3,19 @@
 ! Title: Filtros anuncios de España y mas por DeciBelioS
 ! Description: Filtros de publicidad y elementos molestos para las extensiones uBlock Origin y AdGuard para paginas Españolas y mas (ejemplo: genbeta, xataka, motorpasion, reddit etc...) por DeciBelioS
 ! Filtros creados el: 2023-06-02
-! Total de filtros: 4742
+! Total de filtros: 4872
 ! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md
 ! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md
 !------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!
 !
 
+!
+! Homepage: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas
+! Title: Filtros anuncios de España y mas por DeciBelioS
+! Description: Filtros de publicidad y elementos molestos para las extensiones uBlock Origin y AdGuard para paginas Españolas y mas (ejemplo: genbeta, xataka, motorpasion, reddit etc...) por DeciBelioS
+! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md
+! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md
+!------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!
 .ad0.
 .ad1.
 .ad2.
@@ -771,6 +778,7 @@ yetipay.pl/payments/js/*$script
 ##adsenseintermedioright
 ##div[class^="publicHoriz"]
 ##div[id^="M"][id*="Composite"]
+! Anti-Adblock
 ###deadblocker_dialog
 ##.adblockInfo
 ##.deadblocker-header-bar
@@ -931,6 +939,7 @@ yetipay.pl/payments/js/*$script
 @@||webhostingpost.com^$generichide
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
 @@||elamigos-games.com^$generichide
+! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 ##.cookieConsentBanner
 ###cookieConsentBanner
 ###gccookiemessage
@@ -2420,6 +2429,7 @@ yetipay.pl/payments/js/*$script
 ##.wrapper--cookies-disclaimer
 ##.wrapperCookies
 ##.wsa-cookielaw
+! SECCIÓN: Cookies - URL generales
 ||cookieform.pl^$third-party
 ||privacy.wum.rocks^
 ||cookiespool.com^$third-party
@@ -2817,9 +2827,11 @@ _europecookielaw.
 ||usercentrics.eu^$third-party
 ||consensu.org^$domain=~consensu.org
 ||cmp.uniconsent.com^$third-party,domain=~xda-developers.com
+! for Safari ('||' covers one sub-domain only)
 ||clickio.mgr.consensu.org^$third-party
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
+! ------ 1fichier ------
 1fichier.com##.ct_warn:has-text(adblock)
 1fichier.com##+js(nowebrtc)
 1fichier.com##.ui-widget-overlay
@@ -2827,6 +2839,7 @@ _europecookielaw.
 1fichier.com###cookie_box
 1fichier.com##.ui-dialog
 1fichier.com##.ui-dialog[aria-describedby="modal-msg"]:has(a[href$="/console/abo.pl"][style^="text-decoration:underline"])
+! ------ 20minutos ------
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, hb_now)
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es#$##axds-Top { min-height: 0 !important; }
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.banner-header
@@ -2846,6 +2859,9 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="sidebar"],[id*="sidebar"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
+! ------ Acortadores de links ------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BLOQUEOS DE SCRIPT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p
 *$script,redirect-rule=noopjs,from=ouo.*
@@ -2930,6 +2946,7 @@ tii.*##.box-main > a[target="_blank"] > img
 *$image,3p,from=fc-lc.com
 @@||gstatic.com/recaptcha/
 @@/js/ads.js|$script,1p,from=~internethaber.com|~knaqu.tv
+! ------ Amazon ------
 amazon.*###nav-swmslot
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[cel_widget_id^="multi-brand-"]
@@ -2958,6 +2975,7 @@ amazon.*##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrap
 amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]:upward(.mobile-sims-grid-card-view)
 amazon.*###similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
+! ------ Adslzone y demás ------
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="skyscraper-"]
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="leaderboard"]
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.ad-block
@@ -2972,6 +2990,7 @@ softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamord
 testdevelocidad.es##[class*="white-container"]
 testdevelocidad.es##[class*="ads-col"]
 testdevelocidad.es##[class*="site-menu"]
+! ------ allkeyshop ------
 allkeyshop.*##body > a[class^="blc-"]
 allkeyshop.*##body:style(background-image: none!important;)
 allkeyshop.*##.social-btn
@@ -2980,6 +2999,7 @@ allkeyshop.*##.footer-values
 allkeyshop.*##.content-box-rewardprogram
 allkeyshop.*##.zendesk__container
 allkeyshop.*##.footer
+! ------ Atresmedia ------
 ||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 ||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
@@ -2996,6 +3016,7 @@ lasexta.com##.mod-ad-middle
 atresplayer.com##+js(no-setTimeout-if, _creatBait)
 atresplayer.com##+js(nofab)
 atresplayer.com##+js(no-fetch-if, /conversion_async.js)
+! ------ animeflv ------
 @@||animeflv.net/js/adsbygoogle.js
 @@||animeflv.ru/assets/animeflv/js/ads.js
 @@||animeflv.net/efire.php^
@@ -3031,6 +3052,7 @@ animeflv.*##+js(abort-current-script, parseInt, break;case $.)
 animeflv.*##+js(abort-current-script, jQuery, 'pp12')
 animeflv.net##+js(abort-on-property-write, bbHideDiv)
 animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
+! ------ audiotools ------
 @@||audiotools.$generichide
 audiotools.in##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
 audiotools.in###sidebar > #custom_html-6
@@ -3038,11 +3060,13 @@ audiotools.in##.widget_custom_html
 audiotools.in##+js(nobab)
 audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
 audiotools.in##+js(abort-on-property-read, adsBlocked)
+! ------ audioz ------
 audioz.download###PromoHead
 audioz.download##[src*="/promo/"]
 audioz.download##+js(abort-current-script, String.fromCharCode, 'shift')
 audioz.download##+js(addEventListener-defuser, , break;case $.)
 ||audioz.download/templates/default/img/promo/
+! ------ Axel Springer España ------
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-slot_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="roba_"]
@@ -3081,9 +3105,11 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,peri
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.article-share-list
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.special-related-header
 ||cmpsp.
+! ------ birdcpm ------
 birdcpm.*##.text-left
 birdcpm.*##.banner
 birdcpm.*##center
+! ------ chomikuj.pl ------
 chomikuj.pl###aPlaceHolder
 chomikuj.pl##[href="/action/Products/SliderIndex"]
 chomikuj.pl##.pp_download_frame.pp_frame
@@ -3091,6 +3117,9 @@ chomikuj.pl##[id*="fbPromo""]
 chomikuj.pl##.ebooksSearchBox
 chomikuj.pl##.recommend_panel
 chomikuj.pl##tr:has-text(Reklama)
+! ------ coinbase.com ------
+! vacío de momento
+! ------ ¿Difoosion? ------
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.visible
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##[class*="ad-div"]
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.fc-card-container
@@ -3118,14 +3147,17 @@ mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ip
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##a[href^="http://online.caliente.mx/promoRedirect?"]
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ads-sticky
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##li > ul > li.module-box:has(> div.modulo-container > span.ad-unit)
+! ------ cotilleando.com ------
 cotilleando.com###fixedban
 cotilleando.com##.samCodeUnit
+! ------ cultura-informatica.com ------
 cultura-informatica.com##.amp-ad-wrap
 cultura-informatica.com##.single-left-section
 cultura-informatica.com##.single-bottom-share
 cultura-informatica.com##section
 cultura-informatica.com##.banner-wrap
 cultura-informatica.com##.sidebar-sticky
+! ------ deepl.com ------
 deepl.com###dl_cookieBanner
 deepl.com##div[class^="cookieBanner-"]
 deepl.com###dl_app_banner_popup
@@ -3137,6 +3169,7 @@ deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
 deepl.com##+js(addEventListener-defuser, copy)
+! ------ dzoom.org ------
 dzoom.org.es###cookie-law-info-bar
 dzoom.org.es##.sidebar
 dzoom.org.es##.dz-pub-sky
@@ -3145,6 +3178,7 @@ dzoom.org.es##[class*="fancybox"]
 dzoom.org.es##.dzoom-post-up
 dzoom.org.es##.dzoom-post-down
 dzoom.org.es##.dz-social-share-buttons
+! ------ diariosanitario ------
 diariosanitario.com##.bannersubheader
 diariosanitario.com##.cabecera
 diariosanitario.com##.e3lan-bottom
@@ -3153,6 +3187,7 @@ diariosanitario.com##.home-ads
 diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
+! ------ elamigos-games mas gamefull ------
 elamigos-games.com##.content_store
 elamigos-games.com##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
 elamigos-games.com##+js(abort-on-property-read, CryptoJS)
@@ -3162,18 +3197,22 @@ elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 elamigos-games.com##[class*="_chat"]
 ||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
+! ------ elblogdecineespanol ------
 elblogdecineespanol.com###header
 elblogdecineespanol.com###wrapper-content > [href]
 elblogdecineespanol.com###right-sidebar
 elblogdecineespanol.com###featured-category-box
 elblogdecineespanol.com##center
 elblogdecineespanol.com##.widget-area
+! ------ elconfidencial ------
 elconfidencial.com##.revUnit--placeholder
 elconfidencial.com##.articleAside__module--isSticky
+! ------ elconfidencialdigital ------
 elconfidencialdigital.com##.sidebar-col
 elconfidencialdigital.com##.ads
 elconfidencialdigital.com##.onm-fixed-banner
 elconfidencialdigital.com##.mobile-sharetools
+! ------ eleconomista.es ------
 eleconomista.es##.railContainer1
 eleconomista.es##.banners-superiores2
 eleconomista.es##.bannerIntermedio
@@ -3181,6 +3220,7 @@ eleconomista.es##.bannerInferior
 eleconomista.es##.b300
 eleconomista.es##.adsLinicom
 eleconomista.es##.AD_Content
+! ------ eldiario.es ------
 eldiario.es##.header-ad
 eldiario.es##.header-adds
 eldiario.es##.header-links
@@ -3196,10 +3236,12 @@ eldiario.es##.news-know-more
 eldiario.es##.cmp-footer
 eldiario.es##.become-partner
 eldiario.es##.focus-header
+! ------ eldigitaldealbacete ------
 eldigitaldealbacete.com##.adv-link
 eldigitaldealbacete.com##.stream-item
 eldigitaldealbacete.com##.share-buttons
 eldigitaldealbacete.com##.code-block
+! ------ elindependiente.com ------
 elindependiente.com##.top-desktop
 elindependiente.com##.social-share
 elindependiente.com###skyder
@@ -3210,6 +3252,7 @@ elindependiente.com##.wp-has-aspect-ratio
 elindependiente.com##.bloque-masvisto
 elindependiente.com##.bloque-relacionadas
 elindependiente.com##.henneoHB
+! ------ PRISA ------
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.Bloque-anuncios-shadow
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.envoltorio_publi
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.cont_webpush
@@ -3279,17 +3322,20 @@ impactoespananoticias.com##.extra2
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 @@||los40.com^$generichide
 @@||assets.adobedtm.com/extensions/*/appmeasurement.min.js$script,from=los40.com!
+! ------ elotrolado ------
 elotrolado.net##.anno
 elotrolado.net##.dfp-queue
 elotrolado.net##div.news-ad
 aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
 ||elotrolado.net/styles/estiloeol/imageset/banner_
+! ------ elplural ------
 elplural.com##.banner
 elplural.com##.row-sky-banners
 elplural.com###sn-social-share
 elplural.com##.c-banner__mobile
 elplural.com##.subscribe-block
 elplural.com###Player_Playoncontent_footer
+! ------ Europa Press ------
 europapress.es,culturaocio.com,infosalus.com,notimerica.com##.columna3
 europapress.es,culturaocio.com,infosalus.com,notimerica.com##.subnavegacion-fixed
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###contenidopersonalizado
@@ -3300,16 +3346,20 @@ europapress.es,culturaocio.com,infosalus.com,notimerica.com##.centrado
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloquePatrociniosHome
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###BloqueLenguasHome
 europapress.es,culturaocio.com,infosalus.com,notimerica.com###BannerCabecera
+! ------ estrelladigital ------
 estrelladigital.es##.fixedShare
 estrelladigital.es##.td-block
 estrelladigital.es##.form-preview
 estrelladigital.es##.tdm-social-wrapper
 estrelladigital.es##.tdi_122
+! ------ videos dailymotion ------
 ||dailymotion.com
+! ------ diariodenavarra ------
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
 @@||diariodenavarra.es^$ghide
 diariodenavarra.es###AdSlot_megabanner
 diariodenavarra.es##.sticky_roba
+! ------ elchapuzasinformatico ------
 elchapuzasinformatico.com##.ad-area
 elchapuzasinformatico.com#$#body { background-image: none !important; }
 ||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
@@ -3333,6 +3383,7 @@ elchapuzasinformatico.com##[id*="TopPubli"]
 elchapuzasinformatico.com##[id*="clickioNoticiaTopMovil"]
 elchapuzasinformatico.com##.post-content > div
 elchapuzasinformatico.com##[id*="clickio"]
+! ------ elespanol.com ------
 elespanol.com###bannerarriba
 elespanol.com##.msg-middle
 elespanol.com##.comments-adv
@@ -3367,7 +3418,9 @@ elespanol.com##.stickycontainer
 elespanol.com##.article__footer-nav
 elespanol.com##[id*="div-gpt-ad-"]
 elespanol.com##+js(set-constant, tieneAdblock, 0)
+! esto no mostrará el banner para suscribirte, la noticia aparecerá incompleta si no eres suscriptor
 elespanol.com##.full-suscriptor-container
+! ------ facebook.com ------
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
 facebook.com##a[href*="ads"]:upward(10)
 facebook.com##a[href^="/ad_center/"]
@@ -3407,10 +3460,12 @@ facebook.com##.uiLayer
 facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
+! ------ fayerwayer.com ------
 fayerwayer.com##.slide-down
 fayerwayer.com##.notification-subs
 fayerwayer.com##[id^="arcad-"]
 fayerwayer.com##.right-article-section
+! ------ Forocoches ------
 forocoches.com###h1
 forocoches.com###fcthread
 forocoches.com###td_post_
@@ -3430,6 +3485,7 @@ forocoches.com##td[align="middle"] > div[align="center"]:has(> table[width] div[
 forocoches.com##table.cajasprin:nth-of-type(2)
 forocoches.com##[id*="notices"]
 forocoches.com##.section-dark
+! ------ forococheselectricos.com ------
 forococheselectricos.com##[class*="ads"]
 forococheselectricos.com##.megabanner
 forococheselectricos.com##.sidebar
@@ -3437,8 +3493,11 @@ forococheselectricos.com##.botones-sociales-wrapper
 forococheselectricos.com##.bloque-relacionadas
 forococheselectricos.com##.rrss-container
 forococheselectricos.com##.site-footer
+! ------ flaticon.com ------
 flaticon.com###bn-icon-list
+! ------ gamebanana ------
 gamebanana.com##.AdTagModule
+! ------ gamereactor ------
 gamereactor.es###darkoverlay
 gamereactor.es###helloDollywarning
 gamereactor.es##[class*="ad_"]
@@ -3449,6 +3508,7 @@ gamereactor.es##.rwd
 gamereactor.es##[id*="sky"]
 gamereactor.es##div.wrapper
 gamereactor.es##[id*="ad_"]
+! ------ google ------
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
 google.*###topstuff > #tads
@@ -3486,6 +3546,7 @@ google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="
 google.*##.gws-product_ads__close-button
 google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
+! ------ Youtube ------
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
 *_ad_$media,domain=youtube.com,3p
@@ -3510,6 +3571,7 @@ youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-promoted-video-renderer
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-share-button
+! Bloqueo de publicaciones Shorts en la pagina de suscripciones y en el resultado de busquedas: Para ti, Los usuarios también han visto, Vistos anteriormente, De búsquedas relacionadas, Otras personas también buscan.
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
@@ -3554,6 +3616,7 @@ youtube.com##ytd-reel-shelf-renderer
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
+! ------ gruporpp ------
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[class*="social"]
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[class*="radio"]
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##[id*="joinnus"]
@@ -3569,6 +3632,7 @@ rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,stud
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.grv-dialog-host
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.by-share
 rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,studio92.com##.like
+! ------ Grupo Joly ------
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-h
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.adv-intext
@@ -3576,14 +3640,17 @@ diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordo
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[id*="suscripciones"]
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
 diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
+! ------ Grupo Taldea ------
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.ad
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.no-baldomero
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.commercial-up-full
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com###billboard-wrapper
 noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenavarra.com##.has-sponsor
+! ------ hackyouriphone.org ------
 repo.hackyouriphone.org##.labeladv
 repo.hackyouriphone.org##+js(nobab)
 hackyouriphone.org##+js(no-setInterval-if, visibility, 1000)
+! ------ hd-tecnologia.com ------
 hd-tecnologia.com##.i-amphtml-layout-fixed
 hd-tecnologia.com##.a-wrap
 hd-tecnologia.com##[class*="bg-custom-class-"]
@@ -3593,6 +3660,7 @@ hd-tecnologia.com##.wp_bannerize_banner_box
 hd-tecnologia.com##.spc-newsletter
 hd-tecnologia.com##.post-share-float
 hd-tecnologia.com##.block-posts-small
+! ------ hipertextual.com ------
 hipertextual.com##[class*="ads-widget"]
 hipertextual.com##.widget_text
 hipertextual.com##[class*="social"]
@@ -3607,6 +3675,7 @@ hipertextual.com##.footer-branding
 hipertextual.com##.footer-widgets
 hipertextual.com##div.has-text-align-left.is-landscape.is-3.ts-3.image-aligntop.show-image.colgap-3.columns-4.is-grid.wpnbha.is-style-default.wp-block-newspack-blocks-homepage-articles:nth-of-type(8) > div
 hipertextual.com##.jp-relatedposts
+! ------ hhgroups.com ------
 hhgroups.com##[class*="pc_pub"]
 hhgroups.com###content-bottom-solapa
 hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
@@ -3614,16 +3683,19 @@ hhgroups.com##[class*="mob_pub_"]
 hhgroups.com##[class*="home_rrss"]
 hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
 hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
+! ------ htcmania.com + kimovil ------
 htcmania.com##.afterlogo
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 kimovil.com##.kau
 kimovil.com###user-sidebar div.kau
+! ------ ign.com ------
 ign.com##+js(abort-current-script, JSON, g02.ign)
 ign.com##+js(abort-current-script, addEventListener, iframe-network)
 ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
 ign.com##+js(set-constant, Object.prototype.iadb, undefined)
 ign.com##.zad
 ign.com##.ad-wrapper
+! ------ instagram ------
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com##main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)):style(visibility: hidden !important;)
@@ -3631,21 +3703,28 @@ instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
 instagram.com##nav > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class] > div[class^=" _"][style="width: 100%;"]:only-child
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has(button[type="button"] > div > svg[aria-label][width="18"][height="18"][viewBox*="48"]))
+!#if env_mobile
 instagram.com##.xZ2Xk:has-text(/App/)
+!#endif
 instagram.com##body:style(overflow: visible!important;)
 ||instagram.com/ajax/bz
 ||instagram.com/logging/
 instagram.com##main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/))
 ||instagram.com/logging_client_events
+! ------ instatecno ------
 instatecno.com###ai-adb-overlay
 instatecno.com###ai-adb-message
+! ------ ios-repo-updates.com ------
 ios-repo-updates.com##.blockads.text-center
+! ------ juntadeandalucia.es ------
 juntadeandalucia.es##[class*="app-cookies"]
 juntadeandalucia.es##body.cookies-consent:style(overflow: visible!important;)
+! ------ katfile.com ------
 katfile.com##+js(abort-current-script, document.createElement, onerror)
 katfile.com##+js(nano-setTimeout-booster)
 katfile.com##+js(window.open-defuser)
 katfile.com##+js(set-constant, adblock, false)
+! ------ lacasadeel.net ------
 lacasadeel.net###webpushr-prompt-wrapper
 lacasadeel.net##.td-a-rec
 lacasadeel.net##.td-is-sticky
@@ -3653,6 +3732,7 @@ lacasadeel.net##.td-post-sharing
 lacasadeel.net##[class*="td_block_social"]
 lacasadeel.net##[class*="clickio_hvh"]
 lacasadeel.net##[class*="td_separator_center"]
+! ------ larazon.es ------
 larazon.es##.article-body section aside
 larazon.es##.content__ad
 larazon.es##.ad
@@ -3664,6 +3744,7 @@ larazon.es##.prometeo-reserved-space
 larazon.es##.article-aside-bottom
 larazon.es##.container__sticky--left
 larazon.es##.container__sticky--right
+! ------ mediafire ------
 mediafire.com##[id*="gpt-ad"]
 mediafire.com##+js(no-setTimeout-if, scan, 500)
 mediafire.com###cookie-accept-footer
@@ -3677,11 +3758,15 @@ mediafire.com##+js(set-constant, InfCustomFPSTAFunc, noopFunc)
 mediafire.com##+js(set-constant, InfCustomSTAMobileFunc, noopFunc)
 mediafire.com##+js(addEventListener-defuser, load, IsAdblockRequest)
 mediafire.com##+js(no-setTimeout-if, InfMediafireMobileFunc, 1000)
+! ------ mega.nz ------
 mega.nz##+js(nano-setInterval-booster, addClass('skip'), , 0.02)
 /^\w+:\/\/127\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$3p,from=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
+! ------ megacloud ------
 megacloud.la##.sidebar
+! ------ mediavida ------
 mediavida.com##._p-ft
 mediavida.com##._p-tp
+! ------ mediaset ------
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com###megaSuperior_multisite
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##.cards__card_ad-3gZy
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##div[class^="adsGroupTop"]
@@ -3718,6 +3803,7 @@ mitele.es##a[href="http://www.tiendagranhermano.com"]
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=telecinco.es|cuatro.com
 @@||cuatro.com^$ghide
 @@||telecinco.es^$ghide
+! ------ megaup.net ------
 megaup.net##.metaRedirectWrapperBottomAds
 megaup.net##body .metaRedirectWrapperBottomAds:style(margin-top: -10000px !important; pointer-events: none !important;)
 @@||megaup.net/imageads/$image,1p
@@ -3731,7 +3817,9 @@ megaup.net##.metaRedirectWrapperBottomAds img:style(width: 300px !important;)
 megaup.net##+js(abort-current-script, I833)
 megaup.net##+js(abort-on-property-write, Fingerprint2)
 megaup.net##+js(abort-current-script, Math, break;case $.)
+! ------ mgnetu.com ------
 mgnetu.com##p
+! ------ motor.es ------
 motor.es##.robapaginas-portada
 motor.es##.secundaria
 motor.es##.arriba.herramientas
@@ -3743,12 +3831,15 @@ motor.es##.relacionado-noticia
 motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
+! ------ nexusmods.com ------
 nexusmods.com##+js(nano-setTimeout-booster, timer)
 nexusmods.com##div[class*="wrapper"] > [style="text-align: center;background: #2d2d2d;"]
+! ------ nitroflare.com ------
 nitroflare.com##+js(abort-current-script, $, window.open)
 nitroflare.com##+js(abort-current-script, pop3, window.open)
 nitroflare.com##div[id*="superbox"]
 nitroflare.com###popupContent
+! ------ nsw2u ------
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(addEventListener-defuser, , break;case $.)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, JSON.parse, break;case $.)
@@ -3767,10 +3858,12 @@ game-2u.*,nsw2u.*,ps5pkg.*##+js(set-constant, adbEnableForPage, false)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, document.createElement, break;case $.)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, eval, replace)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(no-xhr-if, googlesyndication)
+! ------ olarila.com ------
 olarila.com##+js(abort-current-script, document.addEventListener, /google_ad_client/)
 olarila.com##+js(no-setTimeout-if, offsetHeight)
 olarila.com##.adsbygoogle:style(height: 1px!important; display: block!important;)
 @@||olarila.com^$generichide
+! ------ okdiario ------
 okdiario.com##.publicidad
 okdiario.com##.ad-slot-ph
 okdiario.com##[id*="okd-catfish"]
@@ -3784,6 +3877,7 @@ okdiario.com###disqus_recommendations
 okdiario.com##.aux-col
 okdiario.com###main-video-anchor
 okdiario.com###native-addthis
+! ------ pccomponentes ------
 ||doubleclick.net^$domain=pccomponentes.com,important
 ||googlesyndication.com^$domain=pccomponentes.com,important
 ||googletagservices.com^$domain=pccomponentes.com,important
@@ -3814,6 +3908,7 @@ pccomponentes.com##.carousel-brand-module-class
 pccomponentes.com###banner-mobile-top
 pccomponentes.com##.dfp-module-class
 pccomponentes.com##div[id^="div-gpt-ad-"]
+! ------ pcgamer.com ------
 pcgamer.com##.slice-container
 pcgamer.com##.dfp-leaderboard-container
 pcgamer.com###sidebar
@@ -3830,6 +3925,7 @@ pcgamer.com##+js(set-constant, handleHeaderError, noopFunc)
 pcgamer.com##+js(abort-on-property-read, _sp_._networkListenerData)
 pcgamer.com##.van_vid_carousel
 pcgamer.com##.van_taboola
+! ------ pelis/series online ------
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, isAdb, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(no-setTimeout-if, test.remove, 100)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(nano-setTimeout-booster, grecaptcha.ready, *)
@@ -3949,6 +4045,7 @@ ztorrents.*##+js(abort-on-property-read, absda)
 ||filemoon.*/js/apoh2.js
 ||filemoon.*/js/baf.js
 /vtu_*.js$script,from=vtplay.net|vtube.to
+! ------ periodistadigital ------
 periodistadigital.com###mailpoet_form_iframe
 periodistadigital.com##.cta-center.call-to-action
 periodistadigital.com##.m4p-position-down.m4p-post-meta
@@ -3959,6 +4056,7 @@ periodistadigital.com##.mrf-adv__wrapper
 periodistadigital.com##.mrf-page.stickyPage
 periodistadigital.com###mrf-footer
 periodistadigital.com##.mrf-widget
+! ------ pinterest ------
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Anzeige von)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Gesponsord door)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Promocionado por)
@@ -3969,14 +4067,17 @@ pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorisée par)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorizzato da)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Рекламодатель:)
+! ------ pivigames y adxgames ------
 pivigames.*,adxgames.*##[class*="oferta"],[class*="promo"]
 pivigames.*,adxgames.*##.gp-sidebar .widget_text
 pivigames.*,adxgames.*##.wpb_raw_html
 pivigames.*,adxgames.*##a[href*=".php"]
 pivigames.*,adxgames.*##[class*="gp_hubs-ads"]
+! ------ playpaste.com ------
 playpaste.com##.step.section
 playpaste.com##.flex-center > p
 playpaste.com##a[href^="https://track.wg-aff.com/"]
+! ------ Porno ------
 pornhub.*###js-abContainterMain
 pornhub.*###singleFeedSection > .alpha
 pornhub.*##[src*="data:image/png;base64,"]
@@ -4053,6 +4154,7 @@ pornhub.com##.video-wrapper > div#player~div[class$=" hd clear"]:style(position:
 pornhub.*##.video-wrapper > #player ~ .hd.clear
 ||phncdn.com/pre_videos*
 ||etahub.com^
+! ------ Prensa Ibérica Media ------
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.mrf-sticky-wrapper
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.wp-block-embed
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com###mrf-footer
@@ -4081,6 +4183,7 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.code-block
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.redessocialespeque
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com#@#.following-ad-container
+! ------ profesionalreview ------
 profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com##[class*="__lxG__"]
@@ -4094,8 +4197,10 @@ profesionalreview.com##.sidebar
 profesionalreview.com##.shadow
 profesionalreview.com##.ss-ic
 profesionalreview.com##[id*="background-stream-cover"]
+! ------ pspstation.org ------
 pspstation.org##.code-block
 pspstation.org##.floating
+! ------ reddit ------
 reddit.com##[class*="XPromoBottomBar"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
@@ -4149,6 +4254,7 @@ reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
 ||reddit.com/api/jail/$xhr,1p
+! ------ religiondigital ------
 religiondigital.org##.ad-holder
 religiondigital.org##.sharebar
 religiondigital.org##aside
@@ -4157,13 +4263,17 @@ religiondigital.org##.bg-wrapper
 religiondigital.org##div.mce
 religiondigital.org##.opt-subscriber
 religiondigital.org##.onsite-social
+! ------ salamanca24horas ------
 salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
 salamanca24horas.com##.cscontent .row-top-banners
 salamanca24horas.com##+js(abort-on-property-read, ReviveBannerInterstitial)
+! ------ scenebeta.com ------
 scenebeta.com##.block-block
+! ------ scrapywar.com ------
 scrapywar.com##+js(abort-on-property-read, mdpDeBlocker)
 scrapywar.com##+js(abort-current-script, eval, replace)
 scrapywar.com##.stream-item-widget
+! ------ send.cm ------
 send.cm##+js(abort-on-property-write, Fingerprint2)
 send.cm##+js(abort-current-script, document.createElement, delete window)
 send.cm##+js(abort-current-script, navigator, FingerprintJS)
@@ -4171,6 +4281,7 @@ send.cm##+js(abort-on-property-read, AaDetector)
 send.cm##+js(addEventListener-defuser, , break;case $.)
 send.cm##+js(abort-current-script, document.documentElement, break;case $.)
 send.cm##+js(abort-current-script, JSON, break;case)
+! ------ speedtest ------
 speedtest.net##.privacy-update
 speedtest.net##div[data-view-name="privacy-updated-notice"]
 speedtest.net###zdcFloatingBtn
@@ -4181,9 +4292,11 @@ speedtest.net##.pure-u-custom-ad-rectangle
 speedtest.net##.top-placeholder
 speedtest.net##div[data-ad-placeholder]
 speedtest.net##.notification
+! ------ somosxbox ------
 somosxbox.com###mrf-footer
 somosxbox.com##[class*="adv"]
 somosxbox.com##.mrf-originalHeightIframe
+! ------ Sonic Network y DISPLAY CONNECTORS ------
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="ads"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="playbuzz"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##.faldon-suscriptores
@@ -4202,12 +4315,14 @@ hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
 hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
+! ------ sourceforge ------
 sourceforge.net###banner-sterling
 sourceforge.net##.sterling
 sourceforge.net##div[data-id^="div-gpt-ad-"]
 sourceforge.net##+js(set-constant, SF.adblock, true)
 sourceforge.net##+js(nano-setTimeout-booster)
 ||sf-syn.com/conversion_outbound_tracker$frame,from=sourceforge.net
+! ------ skidrowreloaded ------
 skidrowreloaded.*##+js(abort-on-property-write, clickIE4)
 skidrowreloaded.*##+js(abort-on-property-read, disableSelection)
 skidrowreloaded.*##+js(abort-current-script, document.onmousedown)
@@ -4217,9 +4332,11 @@ skidrowreloaded.*##+js(no-fetch-if, /^/)
 skidrowreloaded.*##+js(addEventListener-defuser, mousedown, )]){return)
 skidrowreloaded.*##+js(abort-current-script, Promise, FingerprintJS)
 skidrowreloaded.*##+js(abort-current-script, decodeURI, 4zz.)
+! ------ techpowerup.com ------
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 techpowerup.com##:matches-path(/download/) body:not([data-template]) a:not([href^="/download/"]) img:not([src^="https://tpucdn.com/download/"]):style(opacity: 0 !important; pointer-events: none !important;)
 techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
+! ------ televisa ------
 televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##.ads-container
 televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##.Ads
 televisa.com,nmas.com.mx,distritocomedia.com,lasestrellas.tv,tudn.com,univision.com##div[class*="sc-"]:has-text(cookies)
@@ -4231,9 +4348,12 @@ tudn.com,univision.com##.guFemk
 tudn.com,univision.com##[data-element-name="CivicScience"]
 univision.com##[class="gatsbyMainBody"]
 univision.com##[data-widget-type="AllExternalEmbed"]
+! ------ throneandliberty ------
 throneandliberty.es###widgets
+! ------ tiktok.tv ------
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+! ------ tpnet ------
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com###mrf-deepLinkingHomepage
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv__wrapper
@@ -4252,9 +4372,11 @@ muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,mu
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com###mvp-post-more-wrap
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.relative.right.mvp-post-soc-out > .mvp-soc-mob-up
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.relative.left.mvp-main-blog-cont
+! ------ trakt.tv ------
 trakt.tv###cc--main
 trakt.tv##div[id]:has(> div[id] > a[href="/vip/ads"])
 trakt.tv##:xpath("//*[(text()='Advertisement')]"):upward(1)
+! ------ twitch.tv ------
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##.follow-prompt
@@ -4263,6 +4385,7 @@ twitch.tv##+js(twitch-videoad)
 twitch.tv##.extensions-dock__dock
 twitch.tv##.extension-view__iframe
 ||vod-secure.twitch.tv/
+! ------ Twitter ------
 twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet)$/):upward(3)
@@ -4283,10 +4406,12 @@ twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|lo siguen|others follow| follow|lo sigue|follows|Promocionado|Promoted/)
 twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Follow|Siguiendo|Seguir|Personas|People|Trending|Tendencia|trends|Tendencias|Ganó|won|Ver todo|View all/)):not(:has(article))
+! ------ uptobox.com ------
 uptobox.com##+js(abort-on-property-read, jsUnda)
 uptobox.com##+js(nowebrtc)
 uptobox.com##+js(abort-on-property-write, Fingerprint2)
 uptobox.com##+js(set-constant, jsUnda, noopFunc)
+! ------ webmedia ------
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.desvio
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org###editorialRecommendedPosts
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.m-evergreen-links.section-deeplinking-container
@@ -4356,6 +4481,7 @@ motorpasion.com##.m-category-motorpasion-basics.section-pinned-container
 motorpasion.com##.m-motorpasion-seleccion.section-cross
 ||api.taboola.com
 ||cdn.taboola.com
+! ------ winaero.com ------
 winaero.com###diodfoihdfsd
 winaero.com##.entry-content > div[style^="text-align:center;"][style$="font-weight:bold;"]
 winaero.com##.gadadsense
@@ -4364,14 +4490,17 @@ winaero.com##aside:has(.adsbygoogle)
 winaero.com##div > p[style="margin: 20px"]
 winaero.com##p:has-text(Advertisement)
 winaero.com##+js(abort-current-script, jQuery, tweaker)
+! ------ xda-developers ------
 xda-developers.com##+js(rc, twig-body)
 xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
 xda-developers.com##+js(abort-current-script, document.createElement, admiral)
 xda-developers.com###xdadevelopers_leaderboard_atf
+! ------ zona-leros ------
 zona-leros.*##.content_store
 zona-leros.*##.iframeDiv
 zona-leros.*##.Comprar
 zona-leros.*##[class*="Anime alt B"] > [title*="Comprar"]
+! ------ Bloqueo de intrusiones externas en LAN------
 /^\w+://10\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 /^\w+://172\.(?:1[6-9]|2\d|3[01])(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 /^\w+://192\.168(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
@@ -4416,6 +4545,7 @@ zona-leros.*##[class*="Anime alt B"] > [title*="Comprar"]
 ||tplinkwifi.net^$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||web.setup^$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||web.setup.home^$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+! ------ Varios ------
 browser.sentry-cdn.com
 app.getsentry.com
 ads.facebook.com
