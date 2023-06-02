@@ -5,7 +5,7 @@ on:
     inputs:
       create_release:
         description: "Create a draft release"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.5.2
 
       - name: Instalar Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v2.5.2
         with:
           node-version: '14'
 
