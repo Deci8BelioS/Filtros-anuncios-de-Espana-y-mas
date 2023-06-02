@@ -7,7 +7,4 @@
   },
   "author": "Deci8BelioS",
   "license": "GPL-3.0",
-  "dependencies": {
-    "fs": "^0.0.1"
-  }
 }
