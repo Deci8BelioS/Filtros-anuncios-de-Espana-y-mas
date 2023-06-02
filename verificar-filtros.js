@@ -26,7 +26,7 @@ const writeFile = (filename, data) => {
 
 const removeDuplicateFilters = (filters) => {
   const uniqueFilters = [];
-  const filterRegex = /^([^!].*)$/gm;
+  const filterRegex = /^(?!(!.+)|(\s*!.*))(.*)$/gm;
   const sectionRegex = /^!.*$/gm;
 
   let match;
