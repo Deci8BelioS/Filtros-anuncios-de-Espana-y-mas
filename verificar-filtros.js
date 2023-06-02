@@ -31,10 +31,12 @@ const removeDuplicateFilters = (filters) => {
   let match;
 
   while ((match = filterRegex.exec(filters)) !== null) {
-    const filter = match[1].trim();
+    const filter = match[1];
 
-    if (!uniqueFilters.includes(filter)) {
-      uniqueFilters.push(filter);
+    if (filter !== undefined && filter.trim() !== '') {
+      if (!uniqueFilters.includes(filter.trim())) {
+        uniqueFilters.push(filter.trim());
+      }
     }
   }
 
