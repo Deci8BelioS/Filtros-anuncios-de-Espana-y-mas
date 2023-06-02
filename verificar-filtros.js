@@ -56,8 +56,22 @@ const removeDuplicateFilters = (filters) => {
   try {
     const filters = await readFile("filtro.txt");
     const uniqueFilters = removeDuplicateFilters(filters);
+    const date = new Date().toISOString().split("T")[0];
     const filterCount = uniqueFilters.split("\n").length;
-    const finalContent = `${uniqueFilters}`;
+    const header = [
+      "!",
+      `! Homepage: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas`,
+      `! Title: Filtros anuncios de España y mas por DeciBelioS`,
+      `! Description: Filtros de publicidad y elementos molestos para las extensiones uBlock Origin y AdGuard para paginas Españolas y mas (ejemplo: genbeta, xataka, motorpasion, reddit etc...) por DeciBelioS`,
+      `! Filtros creados el: ${date}`,
+      `! Total de filtros: ${filterCount}`,
+      `! License GPL-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE.md`,
+      `! License CC-BY-3.0: https://github.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/blob/main/LICENSE-.md`,
+      `!------ [Reglas genericas de bloqueo de publicidad] / general blocking ------!`,
+      "!",
+    ].join("\n");
+
+    const finalContent = `${header}\n${uniqueFilters}`;
     await writeFile("filtros-unicos.txt", finalContent);
     console.log("Filtros únicos generados en filtros-unicos.txt");
   } catch (error) {
