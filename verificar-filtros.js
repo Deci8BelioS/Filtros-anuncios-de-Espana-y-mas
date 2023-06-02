@@ -27,7 +27,7 @@ const writeFile = (filename, data) => {
 const removeDuplicateFilters = (filters) => {
   const uniqueFilters = [];
   const filterRegex = /^(.*)$/gm; // Cambiado para incluir todas las líneas
-  const sectionRegex = /^!+.*$/gm; // Modificado para permitir múltiples exclamaciones
+  const sectionRegex = /^!.*$/gm; // Modificado para permitir múltiples exclamaciones
 
   let match;
   let section = '';
@@ -55,7 +55,6 @@ const removeDuplicateFilters = (filters) => {
 
   return uniqueFilters.join('\n');
 };
-
 
 (async () => {
   try {
