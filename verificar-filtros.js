@@ -39,7 +39,7 @@ const removeDuplicateFilters = (filters) => {
 
 (async () => {
   try {
-    const filters = await readFile('filtros.txt');
+    const filters = await readFile('filtro.txt');
     const uniqueFilters = removeDuplicateFilters(filters);
     await writeFile('filtros-unicos.txt', uniqueFilters);
     console.log('Filtros únicos generados en filtros-unicos.txt');
