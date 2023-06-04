@@ -358,6 +358,16 @@ yetipay.pl/payments/js/*$script
 /sw.js$script,from=dood.*|dooood.*
 /histats.js
 /filejoker.$image
+/ht.js?site_
+/_xa/ads_
+/_xa/ads?
+##.remove-ads-link
+##.remove-ads
+##.adsbyexoclick
+###video-sponsor-links
+##.exo-ad-ins-container
+###video-ad
+*##.adsbytrafficjunky
 ##.clever-core-ads
 ##iframe[width="300"][height="250"]
 ##.ad-mpu
@@ -937,6 +947,8 @@ yetipay.pl/payments/js/*$script
 @@||oko.sh^$generichide
 @@||myuploadedpremium.de^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=myuploadedpremium.de
+@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -4281,71 +4293,76 @@ pornhub.*###videoCategory > .alpha
 pornhub.*##.clear.hd
 pornhub.*##+js(remove-class, hasAdAlert, header)
 pornhub.*##bbdfg
-||googletagmanager.com/gtm.js?id=GTM-5M97TMJ$script,domain=pornhub.*
 pornhub.*##.realsex
 pornhub.*##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 pornhub.*##.sniperModeEngaged
 pornhub.*##div.container:style(margin-top: 0px !important)
-*##.adsbytrafficjunky
-pornhub.com###vpContentContainer #hd-rightColVideoPage
-pornhub.com###welcome
-pornhub.com##.sniperModeEngaged
-pornhub.com##.video-wrapper .clear
-pornhub.com##.video-wrapper .underplayerAd
-pornhub.com##iframe[data-embeddedads="true"]
-pornhub.com##li[class="sniperModeEngaged alpha"]
-pornhub.com##video-element #pb_template
-pornhub.com,es.redtube.com##.abovePlayer
-pornhub.com##.cookiesBanner
-redtube.com###below_footer_ad_content
-redtube.com###block_hottest_videos_by_country li:first-child
-redtube.com###video_right_col
-redtube.com##.ads_under_player
-redtube.com##iframe[data-spot-id]
-redtube.com###eu_cookie_disclaimer
-xhamster.com##.wio-xspa
-xhamster.com##.wio-xspot-container
-xhamster.com##.cookie-announce
-pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
-pornhub.com###singleFeedSection > .emptyBlockSpace
-babesandstars.com,pornhubpremium.com##.join
-pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
-pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
-pornhub.com##[href^="https://weedmaps.com"]
-pornhub.com##[srcdoc]
-pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
-pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
-4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
-pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
-pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
-f95zone.to,pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
-pornhub.com,youporngay.com##div[onclick*="bp1.com"]
-pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##img[src*="blob:" i]:not(video)
-mature.community,mature.mom,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy,pornhub.com,sports.sexy##img[width="300"]
-pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
-pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
-pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
-@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
-@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
-/ht.js?site_
-pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
-pornhub.com##+js(set-constant, page_params.holiday_promo, true)
-pornhub.com##+js(set-constant, abp1, 0)
+pornhub.*###vpContentContainer #hd-rightColVideoPage
+pornhub.*###welcome
+pornhub.*##.sniperModeEngaged
+pornhub.*##.video-wrapper .clear
+pornhub.*##.video-wrapper .underplayerAd
+pornhub.*##iframe[data-embeddedads="true"]
+pornhub.*##li[class="sniperModeEngaged alpha"]
+pornhub.*##video-element #pb_template
+pornhub.*,redtube.*##.abovePlayer
+pornhub.*##+js(set-constant, abp1, 1)
+pornhub.*##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62)
+pornhub.*##+js(set-constant, page_params.holiday_promo_prem, true)
+pornhub.*##.videoPremiumBlock
+pornhub.*##.video-wrapper > div#player~div[class$=" hd clear"]
+pornhub.*###relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
+pornhub.*###relatedVideosCenter > .wrapVideoBlock
+babesandstars.*,pornhubpremium.*##.join
+redtube.*###below_footer_ad_content
+redtube.*###block_hottest_videos_by_country li:first-child
+redtube.*###video_right_col
+redtube.*##.ads_under_player
+redtube.*##iframe[data-spot-id]
+redtube.*###eu_cookie_disclaimer
+xhamster.*##.wio-xspa
+xhamster.*##.wio-xspot-container
+xhamster.*##.cookie-announce
+pornhub-com.appspot.*,pornhub.*,pornhub.net,youporn.*###pb_template
+pornhub.*###singleFeedSection > .emptyBlockSpace
+pornhub.*,redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*##[href*="base64"]
+pornhub.*,redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*##[href*="data:"]
+pornhub.*##[href^="https://weedmaps.com"]
+pornhub.*##[srcdoc]
+pornhub.*,redtube.*,tube8.*,youjizz.*,youporn.*,youporngay.*##[style*="base64"]
+pornhub.*,redtube.*,tube8.*,youjizz.*,youporn.*,youporngay.*##[style*="blob:"]:not(video)
+4tube.*,fux.*,pornerbros.*,porntube.*##a[href*="/redirect-channel/"]
+pornhub.*,pornhubpremium.*,pstargif.*,spankbang.*,sxyprn.*,tube8.*,tube8vip.*,xozilla.*,xxxymovies.*##a[href*="?ats="]
+pornhub.*,spankbang.*##a[href^="http://ads.trafficjunky.net/"]
+f95zone.*,pornhub.*,pornhubpremium.*,redtube.*##a[href^="https://ads.trafficjunky.net/"]
+pornhub.*,youporngay.*##div[onclick*="bp1.com"]
+pornhub.*,tube8.*,xvideos.*,youjizz.*,youporngay.*##img[src*="blob:" i]:not(video)
+mature.community,mature.mom,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy,pornhub.*,sports.sexy##img[width="300"]
+pornhub.*#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
+pornhub.*#?#:-abp-properties(height: 300px; width: 315px;)
+pornhub.*,youporn.*#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(*data:image*)
+redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(base64)
+redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(data:)
+redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(image/)
+pornhub.*##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+pornhub.*##+js(set-constant, page_params.holiday_promo, true)
+pornhub.*##+js(set-constant, abp1, 0)
 pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
 pornhub.*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 pornhub.*##+js(window.open-defuser)
-pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
+pornhub.*##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
 pornhub.*###pb_block
-pornhub.com###hd-rightColVideoPage > .clearfix:first-child
-pornhub.com##.playerFlvContainer > div#pb_template[style]
-pornhub.com##.video-wrapper > div#player~div[class$=" hd clear"]:style(position: absolute!important; left: -3000px!important;)
+pornhub.*###hd-rightColVideoPage > .clearfix:first-child
+pornhub.*##.playerFlvContainer > div#pb_template[style]
+pornhub.*##.video-wrapper > div#player~div[class$=" hd clear"]:style(position: absolute!important; left: -3000px!important;)
 pornhub.*##.video-wrapper > #player ~ .hd.clear
-||phncdn.com/pre_videos*
-||etahub.com^
+xvideos.*##.videoad-title
+xvideos.*###ad-footer
+xvideos.*##+js(window.open-defuser)
+xvideos.*##+js(remove-class, has-banner, #page > #main > #profile-title)
+xvideos.*##+js(abort-on-property-read, popns)
+xvideos.*###video-ad + div[class]
 !
 ! ------ Prensa Ibérica Media ------
 !
@@ -5144,3 +5161,12 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pixfuture.com^$3p
 ||histats.com^$3p
 ||hdbcode.com^
+||trafficjunky.com^$3p
+||phncdn.com/pre_videos*
+||etahub.com^
+||googletagmanager.com/gtm.js?id=GTM-5M97TMJ$script,domain=pornhub.*
+||realsrv.com^
+||xvideos.com/zoneload/
+||orbsrv.com^
+||xvideos-cdn.com/*/js/static/header/sda/ppsuma*.js
+||trafficfactory.biz^
