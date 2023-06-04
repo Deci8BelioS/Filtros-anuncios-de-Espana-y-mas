@@ -356,6 +356,9 @@ yetipay.pl/payments/js/*$script
 /snowplow/*$script
 *$image,3p,redirect-rule=1x1.gif,from=elamigos-games.com
 /sw.js$script,from=dood.*|dooood.*
+/histats.js
+/filejoker.$image
+##.clever-core-ads
 ##iframe[width="300"][height="250"]
 ##.ad-mpu
 ##.mvp_ad_widget
@@ -931,6 +934,9 @@ yetipay.pl/payments/js/*$script
 @@||webhostingpost.com^$generichide
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
 @@||elamigos-games.com^$generichide
+@@||oko.sh^$generichide
+@@||myuploadedpremium.de^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=myuploadedpremium.de
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -2868,36 +2874,59 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p
 *$script,redirect-rule=noopjs,from=ouo.*
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nowebrtc)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, globalThis, break;case)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, runAdblock)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, ignielAdBlock)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, nextFunction)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(no-fetch-if, pagead2.googlesyndication.com)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, zfgformats)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, zfgloaded)
-zpaste.*,ouo.*,fc-lc.*,webhostingpost.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nano-setInterval-booster, clearInterval)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nofab)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, AaDetector)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, zfgloaded)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, delete window)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, displayMessage:)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, JSON.parse, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, $, modal)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, addDictionary)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, blurred, false)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-write, _pop)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, break;case $.)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,mgnetu.*,keeplinks.*,tii.*##+js(window.open-defuser)
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,keeplinks.*##+js(abort-on-property-read, open)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nowebrtc)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, globalThis, break;case)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, break;case $.)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, runAdblock)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, ignielAdBlock)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, nextFunction)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(no-fetch-if, pagead2.googlesyndication.com)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, /=function\(str, vocabulary\)/)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, zfgformats)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, zfgloaded)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,fc-lc.*,webhostingpost.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nano-setInterval-booster, clearInterval)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nofab)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, AaDetector)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, zfgloaded)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, delete window)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.addEventListener, displayMessage:)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, JSON.parse, break;case $.)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,keeplinks.*##+js(abort-current-script, $, modal)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, addDictionary)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
+financerites.*,howifx.*,enit.*,financerites.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*,tii.*##+js(set-constant, blurred, false)
+financerites.*,howifx.*,enit.*,financerites.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,mgnetu.*,keeplinks.*,tii.*##+js(window.open-defuser)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-write, _pop)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, Math, break;case $.)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly)
+financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,keeplinks.*##+js(abort-on-property-read, open)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-setTimeout-if, getComputedStyle)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-setTimeout-if, window.getComputedStyle)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-fetch-if, googlesyndication)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-setTimeout-if, ads)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(abort-current-script, XMLHttpRequest, adb)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads > a:style(visibility: hidden !important;)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads > a:style(visibility: hidden !important;)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.box-main > a[target="_blank"] > img
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##link-view > br
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(abort-current-script, XMLHttpRequest, .innerHTML)
+financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-setTimeout-if, Adblock)
+financerites.*,enit.*,howifx.*##+js(abort-current-script, document.createElement, break;case $.)
+financerites.*,enit.*,howifx.*##+js(no-setTimeout-if, , 5)
+financerites.*,enit.*,howifx.*##+js(nano-setTimeout-booster, downloadBtn, *)
+financerites.*,enit.*,howifx.*##.footerLink.hidden:style(display: block !important;)
+financerites.*,enit.*,howifx.*##.getlink:others()
+howifx.*,enit.*,oko.*,shrinke.*,tii.*##.code-block
+howifx.*##+js(set-constant, adblockDetector, noopFunc)
+enit.in##+js(remove-attr, onclick, button#continue[onclick^="window.open"])
+enit.in##+js(set-constant, timeSec, 0)
+tii.*,oko.*##.td-main-content
+tii.*,oko.*##.td-pb-row
 mgnetu.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
 mgnetu.*##+js(addEventListener-defuser, , break;case $.)
 mgnetu.*##+js(noeval-if, fairAdblock)
@@ -2913,7 +2942,6 @@ filecrypt.*,keeplinks.*##+js(set-constant, YPOP, noopFunc)
 filecrypt.*,keeplinks.*##+js(set-constant, _popsThisDay, 999)
 filecrypt.*,keeplinks.*##+js(abort-current-script, Number, popWait)
 filecrypt.*,keeplinks.*##+js(set-constant, absda, noopFunc)
-filecrypt.*,keeplinks.*##+js(abort-on-property-write, _pop)
 peeplink.in##+js(abort-current-script, String.fromCharCode, 'shift')
 peeplink.in##+js(abort-on-property-read, _pop)
 peeplink.in##+js(popads-dummy)
@@ -2928,30 +2956,31 @@ zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###iframe_id
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*###overlay
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*##iframe[src="about:blank"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*###link-view > br
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.expop
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*###imgAddDirectLink
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.box-main > br
+howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,tii.*##.expop
+howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,tii.*##imgAddDirectLink
+howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,tii.*##.box-main > br
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.uk-animation-shake
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##iframe:not([src])
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##img[width="300"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.content a[href][target="_blank"]
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##[style*="width:300px"] > a[href][target="_blank"] > img
-zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*##.box-main > a > img
+howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,tii.*##.box-main > a > img
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,webhostingpost.*##.blog-item
 zpaste.*,ouo.*,shrinke.*,fc-lc.*,webhostingpost.*##center
 webhostingpost.*##[id*="ad"]
 webhostingpost.*##p
 webhostingpost.*##h2.text-center
-tii.*,oko.*##.td-main-content
-tii.*,oko.*##.td-pb-row
-tii.*##+js(no-setTimeout-if, window.getComputedStyle)
-tii.*##+js(no-fetch-if, googlesyndication)
-tii.*##.myads
-tii.*##.myads > a:style(visibility: hidden !important;)
-tii.*##.box-main > a[target="_blank"] > img
 *$image,3p,from=fc-lc.com
 @@||gstatic.com/recaptcha/
 @@/js/ads.js|$script,1p,from=~internethaber.com|~knaqu.tv
+myuploadedpremium.*##+js(nobab)
+myuploadedpremium.*##+js(abort-current-script, document.addEventListener, /google_ad_client/)
+myuploadedpremium.*##+js(abort-current-script, $, /setInterval[\s\S]*?_0x[\s\S]*?</)
+myuploadedpremium.*##+js(abort-on-stack-trace, $, /(?=^(?!.*(https)))/)
+myuploadedpremium.*##.adsbygoogle:style(position: absolute!important; left: -3000px!important;)
+myuploadedpremium.*##.copyright > .card
+myuploadedpremium.*##ins.adsbygoogle
+uploadedpremiumlink.*##div[class^="blue-grey"][style^="width"] > ins[data-ad-client]:upward(1)
 !
 ! ------ Amazon ------
 !
@@ -4779,6 +4808,8 @@ supportmetrics.apple.com
 elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.org,rojadirectaonlinetv.com##+js(aopr, open)
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$script,3p,from=0123movie.site|10convert.com|123movies-hd.online|123movies.*|123moviesfree.*|123movieshd.*|123movieshd.cloud|123moviesite.one|123unblock.*|123unblock.best|1337x.is|1337x.unblockit.cat|1mlsbd.com|2embed.ru|300mbplus.*|4anime.gg|4anime.to|4kpornmovs.com|7hitmovies.surf|7starmovies.net|adcorto.me|adcorto.xyz|adslinkfly.online|ahwaktv.tv|aii.sh|aileen-novel.online|alexsports.site|allporncomic.com|allviids.com|amlijatt.in|animebee.to|animekaizoku.com|animekayo.com|animepahe.com|animepahe.ru|animetvn.xyz|animexin.xyz|anonymz.com|anupama.*|apkmody.io|area51deportiva.com|asianclub.nl|asiangaylove.com|ask4movie.co|beingtek.com|beinmatch.*|bestshort.xyz|bestsolaris.com|bevru.club|biggamez.xyz|bigtitslust.com|birdurls.com|bitfly.io|bitlinks.pw|bizzstreams2u.live|bluemediafile.*|bluemediafiles.*|blurayufr.com|bolssc.com|bosscast.net|btcdot.xyz|btcmovies.xyz|bunkr.ru|canyoublockit.com|ccurl.net|clk.ink|cocomanga.com|cpmlink.net|cr7soccer.club|crackdj.com|crackpoint.club|crownimg.com|crownimg.com|crypto-faucet.xyz|cryptoads.space|cutlink.link|cuturl.in|daft.sex|dailyuploads.net|desiflix.club|desitvshows.xyz|dlapk4all.com|doctor-groups.com|doramasmp4.com|downloadhub.ink|downloadhub.kim|downloadpirate.com|dragontranslation.com|dramacool.*|dvdplay.*|dz4win.com|earnwithshortlink.com|enjoy4k.xyz|erogarga.com|exe.app|exe.app|extrafreetv.com|extramovies.casa|eztv.unblockedsites.net|fc.lc|fembed.stream|films5k.com|fire-link.net|flixtv.club|flyfaucet.com|fmovies.app|fmoviesto.cc|footyhunter3.xyz|forex-trnd.com|foxseotools.com|free-trx.com|freeadultcomix.com|french-stream.gg|fsapi.xyz|fullcrackedpc.com|fulltube.online|fzmovies.*|gamerarcades.com|gameshdlive.xyz|gibit.xyz|go-stream.site|go2.surf|gocast2.com|gomo.to|gosexpod.com|gplinks.co|gsurl.in|gtlink.co|hacamchicac.com|haho.moe|hatsukimanga.com|hdmovieplus.site|hentaiblue.com|hentaitube.online|hexupload.net|himovies.to|hiperdex.com|hitomi.la|holymanga.net|homemoviestube.com|iir.ai|illink.net|imgsen.com|imgstar.eu|imgsto.com|insuranceblog.xyz|iyotvideos.com|japscan.se|japscan.ws|japscan.ws|javct.net|javhdo.net|jujmanga.com|just-upload.com|kabegamipuloh.web.app|kaplog.com|khangtm.tk|kiiw.icu|kiryuu.co|kissanimes.cc|kissmanga.link|klubsports.click|knaben.ru|komikcast.com|kropic.com|krypto-trend.de|kshow123.net|kutt.io|la123movies.com|latestmanga.net|leaknudes.com|lelscan-vf.co|lewdweb.net|lilymanga.net|link.ltc24.com|link1s.*|linkebr.com|linkerhub.tk|links.mflixblog.xyz|mac-torrent-download.net|mangadop.info|mangafreak.net|mangahub.io|mangameta.com|manganelo.link|mangaraw.org|mangas-raw.com|miklpro.com|milfzr.com|mitly.us|mixdrop.*|mixdrop.sx|mixdrop.to|movie8k.*|mrdhan.com|myadultanimes.com|mynewshub.in|mynewsmedia.co|mypornstarbook.net|news.techrfour.com|nikaraw.com|oncehelp.com|onlynudes.tv|openloadmov.net|otakudesu.moe|otakufr.co|ouofly.com|outletpic.com|ownurl.website|paidthe.site|paidtomoney.com|payskip.org|pewgame.com|picdollar.com|pics4upload.com|pics4you.net|picyield.com|pimpandhost.com|porncomixonline.net|pornone.com|pornpapa.com|pornrabbit.com|pornvideos4k.com|poscitech.click|profitlink.info|promo-visits.site|push.bdnewsx.com|putlocker-website.com|putlocker.digital|rawdex.net|rawkuma.com|rawmanga.top|readcomiconline.li|readwebtoononline.net|reddit.tube|rexdlfile.com|ruvideos.net|sanos.xyz|savelink.site|sbembed1.com|senmanga.com|sextb.net|shieldmanga.*|shieldmanga.club|short.articlix.com|shortbled.com|shorten.sh|shortenmm.cf|shorthitz.com|shorthub.co|shortzzy.in|shrinkme.in|shrinkzzy.link|shrlink.top|silverpic.com|simplyfaucet.xyz|skidrowcodex.co|skidrowcodex.net|skidrowreloaded.com|soap2day.monster|sockshare1.com|sports24.*|sportssoccer.club|srek.net|srsone.top|stakes100.xyz|stfly.me|stream2watch.be|streamadblockplus.com|streamcheck.link|streamingworld.club|streamtape.*|streamtb.me|strims.world|subdl.com|sukidesuost.info|switchcast2.com|sxyprn.com|sxyprn.net|themoviesflix.co|theproxy.to|tinyurl.is|tirexo.blue|tny.so|todaynewspk.win|toonanime.tv|torrentgalaxy.to|torrentgalaxy.to|trannyteca.com|tuktukcinema.net|tumanga.net|tv.puresoul.live|ufcfight.online|up-load.io|upornia.com|upornia.tube|uptomega.me|uptoshort.com|userupload.net|veryfreeporn.com|vjav.com|voxc.org|vvc.vc|warefree01.com|wareskey.com|wat32.com|watch-free.tv|watchjavonline.com|watchmalcolminthemiddle.com|webtoonplus.com|weloma.art|wolfstream.tv|worldcupfootball.me|worldstreams.click|worldstreams.watch|wuxiarealm.com|xorgasmo.com|xtits.com|xtits.xxx|xxxfiles.com|xxxymovies.com|y2mate.com|yesmovies.sx|yifysubtitles.vip|youpits.xyz|yourporngod.com|ytmp3.eu|yurineko.net|zeenite.com|zetporn.com
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,match-case
+/[0-9a-f]{32}\/invoke\.js/$script,3p
 ||ads.vidoomy.com^
 ||powerad.ai^
 ||googletagmanager.com^
@@ -5102,3 +5133,14 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||i.imgur.com/ymmgpk1.png^$3p
 ||brandmetrics.com^$3p
 ||adzerk.net^
+||scripts.cleverwebserver.com^$script,redirect-rule=noop.js
+||cleverwebserver.com^
+||adschill.com^
+||d1r90st78epsag.cloudfront.net^
+||vlitag.com^
+||highrevenuegate.com^
+||gloaphoo.net^
+||taghaugh.com^
+||pixfuture.com^$3p
+||histats.com^$3p
+||hdbcode.com^
