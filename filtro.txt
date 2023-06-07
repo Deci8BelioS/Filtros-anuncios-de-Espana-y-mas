@@ -361,6 +361,10 @@ yetipay.pl/payments/js/*$script
 /ht.js?site_
 /_xa/ads_
 /_xa/ads?
+.com/script/asset.js|$3p
+/deity.php?*=s*&*&sadbl=
+/script/ut.js?cb=$3p
+##a[href^="https://go.xlviiirdr.com"]
 ##.remove-ads-link
 ##.remove-ads
 ##.adsbyexoclick
@@ -848,6 +852,7 @@ yetipay.pl/payments/js/*$script
 *###credential_picker_container
 *##script:inject(bab-defuser.js)
 *##[id*="pixel"]
+#@#.ad-area
 *#@#.ad-300x250
 *#@#.ad-left
 *#@#.ad-link
@@ -4363,6 +4368,13 @@ xvideos.*##+js(window.open-defuser)
 xvideos.*##+js(remove-class, has-banner, #page > #main > #profile-title)
 xvideos.*##+js(abort-on-property-read, popns)
 xvideos.*###video-ad + div[class]
+spankbang.com##.lv_cm_int_come_on
+spankbang.com##+js(set-constant, chrome, undefined)
+spankbang.com##+js(window.open-defuser)
+spankbang.com##+js(no-setTimeout-if, window.location=page_url)
+spankbang.com##.ptgncdn_holder
+spankbang.com##.ttaa2v3
+spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 !
 ! ------ Prensa Ibérica Media ------
 !
@@ -5170,3 +5182,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||orbsrv.com^
 ||xvideos-cdn.com/*/js/static/header/sda/ppsuma*.js
 ||trafficfactory.biz^
+||uptimecdn.com^
+||supercounters.com^$3p
+||cwchmb.com^
+||deliver.ptgncdn.com^
