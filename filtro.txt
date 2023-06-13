@@ -364,6 +364,22 @@ yetipay.pl/payments/js/*$script
 .com/script/asset.js|$3p
 /deity.php?*=s*&*&sadbl=
 /script/ut.js?cb=$3p
+/wrapper/metrics/*
+/event-tracking/*
+/shreddit/perfmetrics
+##.VerticalAd
+##.leftAd
+##.googlead
+##.ad-banner-content
+##.ad-adsense
+##.ad--content
+##._has-ads
+##.SidebarAd
+##.AdUnit
+##.AdHeader
+##.ADBAR
+##.sidebar-ad:not(.adsbygoogle)
+##.adhesiveAdWrapper
 ##a[href^="https://go.xlviiirdr.com"]
 ##.remove-ads-link
 ##.remove-ads
@@ -3253,6 +3269,12 @@ deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
 deepl.com##+js(addEventListener-defuser, copy)
 !
+! ------ Dexerto Ltd ------
+!
+dexerto.es,dexerto.fr##div[class*="my-"]
+dexerto.es,dexerto.fr##.relative.flex
+dexerto.es,dexerto.fr##.justify-center.flex
+!
 ! ------ dzoom.org ------
 !
 dzoom.org.es###cookie-law-info-bar
@@ -5188,3 +5210,14 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||supercounters.com^$3p
 ||cwchmb.com^
 ||deliver.ptgncdn.com^
+||pix.spot.im^
+||event-stream.spot.im^
+||direct-events-collector.spot.im^
+||relevant-digital.com^$3p
+||live.primis.tech^$3p
+||adnami.io^$3p
+||twitter.com/i/jot
+||cpmstar.com^$3p
+||metrics-logger.spot.im^
+||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
+||logs.datadoghq.com^$3p
