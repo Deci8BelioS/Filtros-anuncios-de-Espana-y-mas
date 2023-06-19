@@ -3151,22 +3151,21 @@ audioz.download##+js(addEventListener-defuser, , break;case $.)
 !
 ! ------ Axel Springer España ------
 !
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="default_aside"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="megaAd"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="megaad"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="embedAarticle"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-slot_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="roba_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="roba_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="mega_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="mega_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-catfish_container"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="home_containerAdSlot"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_spacingTop"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_aside"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-slot_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-container"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="background-ads"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-background"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="content-aside"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="column-right"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="columnAside"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="embed-card_card__"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="block-newsletter"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="newsletter-block"]
@@ -3176,18 +3175,19 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,peri
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="pager__"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="sidebar"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.i-amphtml-layout-fixed
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div.amp-ad
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[data-widgetids*="AMP_"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="i-amphtml-svc"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="dailymotion"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="dailymotion"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]:has( > [class*="dailymotion"])
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.wrapper-editorial
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="sc-"]:has( > [id*="catfish"])
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class="ad-sticky-catfish"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.ad-smart
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.article-share-list
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.special-related-header
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="ad-"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="-ad"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="-ad"]
 ||cmpsp.
 !
 ! ------ birdcpm ------
