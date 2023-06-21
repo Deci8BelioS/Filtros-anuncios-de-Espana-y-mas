@@ -3378,6 +3378,13 @@ elindependiente.com##.bloque-masvisto
 elindependiente.com##.bloque-relacionadas
 elindependiente.com##.henneoHB
 !
+! ------ pelmorex ------
+!
+eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.cls-publi-height-city
+eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##body:style(overflow: auto !important;)
+eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.cls-publi-height
+eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.geoposition-container
+!
 ! ------ PRISA ------
 !
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.Bloque-anuncios-shadow
@@ -5221,3 +5228,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||metrics-logger.spot.im^
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||logs.datadoghq.com^$3p
+||taboola.com^
+||cdn.eltiempo.es/dist/appad.*.js
+||vimeocdn.com/add/player-stats?
+||vimeo.com/ablincoln/
+||player-telemetry.vimeo.com^
