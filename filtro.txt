@@ -3044,6 +3044,8 @@ amazon.*##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.*##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]:upward(.mobile-sims-grid-card-view)
 amazon.*###similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
+amazon.*##[class*="-widget-"]:has-text(Patrocinado)
+amazon.*##div.s-result-item[data-asin=""]:has(> .sg-col-inner > div[cel_widget_id^="MAIN-VIDEO_SINGLE_PRODUCT-"])
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 !
 ! ------ Adslzone y demás ------
@@ -3134,12 +3136,17 @@ animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
 ! ------ audiotools ------
 !
 @@||audiotools.$generichide
-audiotools.in##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
-audiotools.in###sidebar > #custom_html-6
-audiotools.in##.widget_custom_html
-audiotools.in##+js(nobab)
-audiotools.in/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
-audiotools.in##+js(abort-on-property-read, adsBlocked)
+audiotools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
+audiotools.*###sidebar > #custom_html-6
+audiotools.*##.widget_custom_html
+audiotools.*##+js(nobab)
+audiotools.*/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
+audiotools.*##+js(abort-on-property-read, adsBlocked)
+audiotools.*##+js(abort-on-property-read, chp_adblock_browser)
+audiotools.*##+js(abort-current-script, document.oncontextmenu)
+audiotools.*##+js(noeval-if, /chp_?ad/)
+/wp-content/plugins/best-ads-block-detector/*
+audiotools.*in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 !
 ! ------ audioz ------
 !
@@ -3673,6 +3680,7 @@ gamereactor.es##[id*="ad_"]
 !
 ! ------ google ------
 !
+google.*##+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyMzA2MTItMF9SQzIaAmZpIAEaBgiAzK6kBg, 1year)
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
 google.*###topstuff > #tads
@@ -4680,6 +4688,7 @@ twitch.tv##.extension-view__iframe
 !
 ! ------ Twitter ------
 !
+twitter.com##[data-testid*="cellInnerDiv"]:has-text(Mostrar este hilo)
 twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet)$/):upward(3)
@@ -4760,6 +4769,7 @@ applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,co
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.related-native-item
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.section-native-container
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.m-branded
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.foot
 foro3djuegos.com##.ad
 foro3djuegos.com##[class*="columna_"]
 foro3djuegos.com##[class*="bgcEB"]
@@ -4767,6 +4777,7 @@ xataka.com##.m-xataka-movilidad.section-cross
 xataka.com##.m-xataka-basics.section-cross
 xataka.com##.m-xataka-desarrollo.section-cross
 xataka.com##.m-xataka-seleccion.section-cross
+xataka.com##.m-xataka-magnet
 applesfera.com##.m-applesfera-movilidad.section-cross
 applesfera.com##.m-applesfera-basics.section-cross
 applesfera.com##.m-applesfera-desarrollo.section-cross
@@ -5233,3 +5244,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||vimeocdn.com/add/player-stats?
 ||vimeo.com/ablincoln/
 ||player-telemetry.vimeo.com^
+||tiktok.com/web/report?
+||byteoversea.com/monitor_browser/
+||byteoversea.com/monitor_web/
