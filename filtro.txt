@@ -367,6 +367,7 @@ yetipay.pl/payments/js/*$script
 /wrapper/metrics/*
 /event-tracking/*
 /shreddit/perfmetrics
+##.adslot_1
 ##.VerticalAd
 ##.leftAd
 ##.googlead
@@ -3014,6 +3015,10 @@ myuploadedpremium.*##.adsbygoogle:style(position: absolute!important; left: -300
 myuploadedpremium.*##.copyright > .card
 myuploadedpremium.*##ins.adsbygoogle
 uploadedpremiumlink.*##div[class^="blue-grey"][style^="width"] > ins[data-ad-client]:upward(1)
+deepbrid.com##+js(abort-current-script, document.getElementById, adblock)
+deepbrid.com##+js(abort-current-script, document.getElementById, undefined)
+deepbrid.com##+js(set-constant, adsenseadBlock, noopFunc)
+deepbrid.com##.content > div.rounded-md.text-theme-10
 !
 ! ------ Amazon ------
 !
