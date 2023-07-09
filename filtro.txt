@@ -368,6 +368,8 @@ yetipay.pl/payments/js/*$script
 /event-tracking/*
 /shreddit/perfmetrics
 /web-vitals-
+/fp2.compressed.js
+://piwik.$from=~matomo.org|~piwik.pro
 ##.adslot_1
 ##.VerticalAd
 ##.leftAd
@@ -4190,6 +4192,10 @@ pcgamer.com##.van_taboola
 !
 ! ------ pelis/series online ------
 !
+filemoon.*##+js(abort-on-property-read, FMPoopS)
+vtbe.*##+js(window.open-defuser, , 1)
+vtbe.*##+js(abort-current-script, RegExp, contextmenu)
+/vtu_mini.js$from=vtbe.net|vtplay.net|vtube.to
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, isAdb, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(no-setTimeout-if, test.remove, 100)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(nano-setTimeout-booster, grecaptcha.ready, *)
@@ -4197,7 +4203,7 @@ vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltub
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, xPoPAdS, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(set-constant, sadbl, false)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*###arc-widget-container
-vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(window.open-defuser)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*##+js(window.open-defuser)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*##+js(abort-current-script, decodeURI, decodeURIComponent)
@@ -4549,6 +4555,7 @@ reddit.com##.TopButton
 reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
+i.redd.it##shreddit-async-loader
 ||reddit.com/api/jail/$xhr,1p
 !
 ! ------ religiondigital ------
@@ -4718,6 +4725,7 @@ twitch.tv##.extension-view__iframe
 !
 ! ------ Twitter ------
 !
+twitter.com##[data-testid*="UserCell"]:has-text("Promocionado")
 twitter.com##[data-testid*="cellInnerDiv"]:has-text(Mostrar este hilo)
 twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
@@ -5285,3 +5293,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||advgo.net/mushroom/
 ||google.com/adsense/search/
 ||twitter.com/i/api/1.1/jot
+||coinblocktyrusmiram.com^
