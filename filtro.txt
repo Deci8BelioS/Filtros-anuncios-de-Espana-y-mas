@@ -370,6 +370,9 @@ yetipay.pl/payments/js/*$script
 /web-vitals-
 /fp2.compressed.js
 ://piwik.$from=~matomo.org|~piwik.pro
+/production/ads/*
+##.inlinead
+##.ad-container--leaderboard
 ##.adslot_1
 ##.VerticalAd
 ##.leftAd
@@ -974,6 +977,8 @@ yetipay.pl/payments/js/*$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=myuploadedpremium.de
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
+@@||cdn.viglink.com/api/vglnk.js$from=9to5mac.com|electrek.co
+@@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -2903,6 +2908,20 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
 !
+! ------ 9to5mac ------
+!
+9to5mac.com##.google-news-link
+9to5mac.com##.show-promo.visitor-promo
+9to5mac.com##.article__youtube-video
+9to5mac.com##[data-spotim-module="pitc"]
+9to5mac.com##.related-guides
+9to5mac.com##.sidebar
+9to5mac.com##.ad-disclaimer-container,.inlinead,.ad-container
+9to5mac.com##.ad-disclaimer-container
+9to5mac.com##.ad-container
+9to5mac.com##.xs.container
+*$script,redirect-rule=noopjs,from=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co|marketrealist.com
+!
 ! ------ Acortadores de links ------
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3728,6 +3747,8 @@ google.*##.gws-product_ads__close-button
 google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
 ! ------ Youtube ------
+youtube.com##ytd-rich-section-renderer
+youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##+js(trusted-set-cookie, SOCS, CAESEwgDEgk1MjE4NjcxMTIaAmVuIAEaBgiAl7ihBg, 1year, , reload, 1)
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
@@ -5294,3 +5315,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||google.com/adsense/search/
 ||twitter.com/i/api/1.1/jot
 ||coinblocktyrusmiram.com^
+||a-mo.net^
+||p.typekit.net^
+||videoplayerhub.com^
+||viglink.com/api/ping$3p
+||sovrn.com^$3p
