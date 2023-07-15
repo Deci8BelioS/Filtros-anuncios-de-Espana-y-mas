@@ -371,6 +371,7 @@ yetipay.pl/payments/js/*$script
 /fp2.compressed.js
 ://piwik.$from=~matomo.org|~piwik.pro
 /production/ads/*
+##.quads-location
 ##.inlinead
 ##.ad-container--leaderboard
 ##.adslot_1
@@ -4778,6 +4779,18 @@ uptobox.com##+js(nowebrtc)
 uptobox.com##+js(abort-on-property-write, Fingerprint2)
 uptobox.com##+js(set-constant, jsUnda, noopFunc)
 !
+! ------ wabetainfo ------
+!
+wabetainfo.*##+js(abort-on-property-read, adsBlocked)
+wabetainfo.*###custom_html-2
+wabetainfo.*##.adsTextHeader
+wabetainfo.*##body > script[id] + div[id][class*=" "]
+wabetainfo.*##.custom-header
+wabetainfo.*##.wpra-plugin-container
+wabetainfo.*##.sd-sharing
+wabetainfo.*##.widget-area
+wabetainfo.*##.site-footer
+!
 ! ------ webmedia ------
 !
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.desvio
@@ -5320,3 +5333,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||videoplayerhub.com^
 ||viglink.com/api/ping$3p
 ||sovrn.com^$3p
+||fptls.com^
