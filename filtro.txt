@@ -3749,7 +3749,7 @@ google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
 ! ------ Youtube ------
 youtube.com##ytd-rich-section-renderer
-youtube.com###header > .ytd-rich-grid-renderer.style-scope
+youtube.com###header > .ytd-rich-grid-renderer.style-scope:not(:has-text(/Más recientes|Populares|Más antiguos/))
 youtube.com##+js(trusted-set-cookie, SOCS, CAESEwgDEgk1MjE4NjcxMTIaAmVuIAEaBgiAl7ihBg, 1year, , reload, 1)
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
