@@ -371,6 +371,9 @@ yetipay.pl/payments/js/*$script
 /fp2.compressed.js
 ://piwik.$from=~matomo.org|~piwik.pro
 /production/ads/*
+/www/delivery/*
+##a[href^="https://a.adtng.com/"]
+##a[href^="https://www.adxsrve.com/"]
 ##.quads-location
 ##.inlinead
 ##.ad-container--leaderboard
@@ -3648,6 +3651,11 @@ facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 !
+! ------ fapello.com ------
+!
+fapello.com##.uk-visible\@l
+fapello.com##iframe[src^="https://www.adxserve.com/"]
+!
 ! ------ fayerwayer.com ------
 !
 fayerwayer.com##.slide-down
@@ -3957,6 +3965,10 @@ katfile.com##+js(abort-current-script, document.createElement, onerror)
 katfile.com##+js(nano-setTimeout-booster)
 katfile.com##+js(window.open-defuser)
 katfile.com##+js(set-constant, adblock, false)
+!
+! ------ kick.com ------
+!
+kick.com##.homepage-banner
 !
 ! ------ lacasadeel.net ------
 !
@@ -4743,6 +4755,7 @@ twitch.tv##+js(window.open-defuser, amazon-adsystem)
 twitch.tv##+js(twitch-videoad)
 twitch.tv##.extensions-dock__dock
 twitch.tv##.extension-view__iframe
+twitch.tv##[class*="disclosure-card"]
 ||vod-secure.twitch.tv/
 !
 ! ------ Twitter ------
@@ -5334,3 +5347,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||viglink.com/api/ping$3p
 ||sovrn.com^$3p
 ||fptls.com^
+||xlivrdr.com^$popup
