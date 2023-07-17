@@ -372,6 +372,13 @@ yetipay.pl/payments/js/*$script
 ://piwik.$from=~matomo.org|~piwik.pro
 /production/ads/*
 /www/delivery/*
+/plugins/ad-ace/assets/js/coupons.js
+/plugins/ad-ace/includes/shoppable-images/*
+/plugins/ad-ace/assets/js/slot-slideup.js
+##.widget_adace_ads_widget
+##.g1-advertisement
+##.adace-slot-wrapper
+##.adace-slot
 ##a[href^="https://a.adtng.com/"]
 ##a[href^="https://www.adxsrve.com/"]
 ##.quads-location
@@ -5348,3 +5355,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||sovrn.com^$3p
 ||fptls.com^
 ||xlivrdr.com^$popup
+||yomeno.xyz^
+||julymedian2022news.com^
+||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
+||qualtrics.com/sie/$script,3p
+||julymedian2022news.com^
+||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
+||wpadmngr.com^
