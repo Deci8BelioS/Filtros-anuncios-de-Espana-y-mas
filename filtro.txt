@@ -375,6 +375,11 @@ yetipay.pl/payments/js/*$script
 /plugins/ad-ace/assets/js/coupons.js
 /plugins/ad-ace/includes/shoppable-images/*
 /plugins/ad-ace/assets/js/slot-slideup.js
+/get_site_data?requestuuid=
+/onetag/*
+##.page-ad
+##.ad-overlay
+##.jwPlayer--floatingContainer
 ##.widget_adace_ads_widget
 ##.g1-advertisement
 ##.adace-slot-wrapper
@@ -3552,6 +3557,7 @@ diariodenavarra.es##.sticky_roba
 !
 ! ------ elchapuzasinformatico ------
 !
+elchapuzasinformatico.com##.cl-consent
 elchapuzasinformatico.com##.ad-area
 elchapuzasinformatico.com#$#body { background-image: none !important; }
 ||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
@@ -4885,6 +4891,12 @@ motorpasion.com##.m-motorpasion-seleccion.section-cross
 ||api.taboola.com
 ||cdn.taboola.com
 !
+! ------ wetransfer ------
+!
+wetransfer.com##+js(trusted-set-cookie, wt_tandc, 20190527%3A1)
+wetransfer.com##.wallpaper
+wetransfer.com##.transfer__bubble
+!
 ! ------ winaero.com ------
 !
 winaero.com###diodfoihdfsd
@@ -5362,3 +5374,11 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||julymedian2022news.com^
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
 ||wpadmngr.com^
+||subscribers.com^$3p
+||geoedge.be^
+||onthe.io^$3p
+||p.typekit.net/p.css$stylesheet,redirect-rule=noop.css
+||indexww.com^
+||ntv.io^$3p,from=~teslarati.com
+||aaxads.com^
+||widgets.outbrain.com/outbrain.js
