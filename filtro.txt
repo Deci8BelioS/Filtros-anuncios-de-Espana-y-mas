@@ -377,6 +377,24 @@ yetipay.pl/payments/js/*$script
 /plugins/ad-ace/assets/js/slot-slideup.js
 /get_site_data?requestuuid=
 /onetag/*
+/greenoaks.gif?
+/porpoiseant/*
+/stats.wp.com/*
+/cmbdv2.js
+/imp.gif?
+*$document,permissions=browsing-topics=()
+*$frame,permissions=browsing-topics=()
+##span[id^="ezoic-pub-ad-placeholder-"]
+##[data-ez-name]
+##.ezoic-floating-bottom
+##.ezoic-adpicker-ad
+##.ezoic-ad-adaptive
+##.ezoic-ad
+##.ezo_ad
+##.ezmob-footer-desktop
+##.ezmob-footer
+##.adtester-container
+###ezmobfooter
 ##.page-ad
 ##.ad-overlay
 ##.jwPlayer--floatingContainer
@@ -3769,6 +3787,11 @@ google.*##.gws-product_ads__close-button
 google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
 ! ------ Youtube ------
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
+youtube.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com##ytd-rich-section-renderer
 youtube.com###header > .ytd-rich-grid-renderer.style-scope:not(:has-text(/Más recientes|Populares|Más antiguos/))
 youtube.com##+js(trusted-set-cookie, SOCS, CAESEwgDEgk1MjE4NjcxMTIaAmVuIAEaBgiAl7ihBg, 1year, , reload, 1)
@@ -3929,6 +3952,13 @@ htcmania.com##.afterlogo
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 kimovil.com##.kau
 kimovil.com###user-sidebar div.kau
+!
+! ------ idevicecentral ------
+!
+idevicecentral.com###custom_html-3
+idevicecentral.com###custom_html-2
+idevicecentral.com##+js(no-setTimeout-if, ()=>)
+idevicecentral.com##+js(abort-on-property-read, reqServers)
 !
 ! ------ ign.com ------
 !
@@ -5382,3 +5412,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ntv.io^$3p,from=~teslarati.com
 ||aaxads.com^
 ||widgets.outbrain.com/outbrain.js
+||ezodn.com^
