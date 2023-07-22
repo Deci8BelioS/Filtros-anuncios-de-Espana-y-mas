@@ -382,6 +382,9 @@ yetipay.pl/payments/js/*$script
 /stats.wp.com/*
 /cmbdv2.js
 /imp.gif?
+/gen_204?$image
+/prebid_$script,3p
+##a[href^="https://ad.doubleclick.net/"] 
 *$document,permissions=browsing-topics=()
 *$frame,permissions=browsing-topics=()
 ##span[id^="ezoic-pub-ad-placeholder-"]
@@ -3256,7 +3259,20 @@ computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,peri
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="ad-"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="-ad"]
 computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="-ad"]
+computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-slot_"]
 ||cmpsp.
+!
+! ------ bing.com ------
+!
+bing.com##body .b_adLastChild:style(display: block !important; position: absolute !important; top: -9999px !important;)
+bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
+bing.com##.b_ad:style(position: absolute !important; top: -9999px !important;)
+bing.com##.b_ad:style(display: block !important; position: absolute !important; top: -9999px !important;)
+bing.com##.ad_sc
+||msn.com/onecollector/
+||bing.com/fd/ls/lsp.aspx
+||bing.com/fd/ls/l?ig=
+||bing.com/notifications/render?
 !
 ! ------ birdcpm ------
 !
@@ -3641,6 +3657,7 @@ elespanol.com##.full-suscriptor-container
 !
 ! ------ facebook.com ------
 !
+facebook.com##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
 facebook.com##a[href*="ads"]:upward(10)
@@ -3787,6 +3804,10 @@ google.*##.gws-product_ads__close-button
 google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
 ! ------ Youtube ------
+youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
+youtube.com##+js(ysr)
+youtube.com##.ytp-chrome-top-buttons
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
@@ -4158,6 +4179,16 @@ motor.es##.relacionado-noticia
 motor.es##.modulo-lo-mas
 motor.es##.divisor
 motor.es##.hueco-modulo
+motor.es##div[class^="megabanner"]
+motor.es##.secundaria .hueco-publicidad
+motor.es##.secundaria .divisor:has(~ .hueco-publicidad)
+motor.es##.secundaria .divisor:has(.robapaginas-portada)
+!
+! ------ msn.com ------
+!
+msn.com##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
+msn.com##+js(json-prune, *, adFeedbackData adType adServedUrls)
+msn.com##+js(set-constant, Object.prototype.iadb, undefined)
 !
 ! ------ nexusmods.com ------
 !
@@ -4578,6 +4609,16 @@ pspstation.org##.floating
 !
 ! ------ reddit ------
 !
+reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
+reddit.com##+js(json-prune, data.children.[].data.outbound_link)
+reddit.com##+js(replace-node-text, script, outboundUrl, outbound)
+reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
+reddit.com##+js(remove-class, scroll-disabled, body, stay)
+reddit.com##+js(remove-attr, data-outbound-url, .outbound)
+reddit.com##+js(orr)
+reddit.com##.xpromopopuprpl
+reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
+reddit.com##.paginationbuttons:style(padding: 0rem 1rem 0rem !important;)
 reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 reddit.com##+js(replace-node-text, script, "outboundUrl", "outbound")
 reddit.com##[class*="XPromoBottomBar"]
@@ -4634,6 +4675,7 @@ reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
 i.redd.it##shreddit-async-loader
 ||reddit.com/api/jail/$xhr,1p
+||reddit.com/api/jail^$xhr,1p
 !
 ! ------ religiondigital ------
 !
@@ -5413,3 +5455,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||aaxads.com^
 ||widgets.outbrain.com/outbrain.js
 ||ezodn.com^
+||ampproject.org/preconnect.gif
+||trustpilot.com/stats/
