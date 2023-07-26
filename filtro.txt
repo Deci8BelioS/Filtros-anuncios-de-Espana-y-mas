@@ -4609,16 +4609,6 @@ pspstation.org##.floating
 !
 ! ------ reddit ------
 !
-reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
-reddit.com##+js(json-prune, data.children.[].data.outbound_link)
-reddit.com##+js(replace-node-text, script, outboundUrl, outbound)
-reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
-reddit.com##+js(remove-class, scroll-disabled, body, stay)
-reddit.com##+js(remove-attr, data-outbound-url, .outbound)
-reddit.com##+js(orr)
-reddit.com##.xpromopopuprpl
-reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
-reddit.com##.paginationbuttons:style(padding: 0rem 1rem 0rem !important;)
 reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 reddit.com##+js(replace-node-text, script, "outboundUrl", "outbound")
 reddit.com##[class*="XPromoBottomBar"]
