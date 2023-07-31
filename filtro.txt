@@ -390,6 +390,7 @@ yetipay.pl/payments/js/*$script
 /p.gif?
 *$frame,permissions=idle-detection=()
 *$document,permissions=idle-detection=()
+##.ad-separator
 ##amp-sticky-ad
 ##amp-embed[type="taboola"]
 ##.advertising-wrapper
@@ -3836,7 +3837,22 @@ google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="
 google.*##.gws-product_ads__close-button
 google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
+google.*###atvcap > .cu-container div[data-pla="1"]
+google.*###gws-product_ads__plalightbox
+google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playabilityStatus.liveStreamability)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.audioConfig.loudnessDb)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.audioConfig.loudnessDb)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playabilityStatus.liveStreamability)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamSelectionConfig.maxBitrate)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.audioConfig.loudnessDb)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.audioConfig.loudnessDb)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playabilityStatus.liveStreamability)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.liveStreamability)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
@@ -5498,3 +5514,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||wct-2.com^
 ||pubpowerplatform.io^
 ||sensic.net^$3p
+||deepl.com/web/statistics
