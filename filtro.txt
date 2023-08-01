@@ -388,6 +388,8 @@ yetipay.pl/payments/js/*$script
 /prebidlink/*
 /plausible.js$from=~plausible.io
 /p.gif?
+/fp_204?
+/matomo.js$from=~github.com
 *$frame,permissions=idle-detection=()
 *$document,permissions=idle-detection=()
 ##.ad-separator
@@ -957,6 +959,7 @@ yetipay.pl/payments/js/*$script
 #@#[id^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
 #@#.ad-placement
+#@#.sidebar-ad
 @@||2mdn.net/instream/
 @@||as.com^$generichide
 @@||omtrdc.net/rest/$xhr
@@ -1030,6 +1033,8 @@ yetipay.pl/payments/js/*$script
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@||cdn.viglink.com/api/vglnk.js$from=9to5mac.com|electrek.co
 @@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
+@@||cookielaw.org^$3p
+@@||b.cdnst.net/javascript/amazon.js$from=speedtest.net
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -3300,8 +3305,9 @@ chomikuj.pl###aPlaceHolder
 chomikuj.pl##[href="/action/Products/SliderIndex"]
 chomikuj.pl##.pp_download_frame.pp_frame
 chomikuj.pl##[id*="fbPromo""]
+chomikuj.pl##[class*="Promo"]
 chomikuj.pl##.ebooksSearchBox
-chomikuj.pl##.recommend_panel
+chomikuj.pl##[class*="recommend_panel"]
 chomikuj.pl##tr:has-text(Reklama)
 !
 ! ------ coinbase.com ------
@@ -3841,6 +3847,14 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
+youtube.com#@#+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
+youtube.com#@#+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playabilityStatus.liveStreamability)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.audioConfig.loudnessDb)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig.maxBitrate)
@@ -3858,6 +3872,7 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
 youtube.com##+js(ysr)
+youtube.com##.ytp-endscreen-content
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
@@ -4265,6 +4280,14 @@ nitroflare.com##+js(abort-current-script, $, window.open)
 nitroflare.com##+js(abort-current-script, pop3, window.open)
 nitroflare.com##div[id*="superbox"]
 nitroflare.com###popupContent
+!
+! ------ nperf.com ------
+!
+nperf.com##.partLightGray
+nperf.com###footer
+nperf.com###consent
+nperf.com##.partBarometre
+nperf.com##.mainMireWrapper
 !
 ! ------ nsw2u ------
 !
@@ -4728,6 +4751,11 @@ reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
 i.redd.it##shreddit-async-loader
+reddit.com##+js(json-prune, data.children.[].data.outbound_link)
+reddit.com##+js(replace-node-text, script, outboundUrl, outbound)
+reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
+reddit.com##+js(remove-attr, data-outbound-url, .outbound)
+reddit.com##+js(orr)
 ||reddit.com/api/jail/$xhr,1p
 ||reddit.com/api/jail^$xhr,1p
 !
@@ -4780,6 +4808,9 @@ speedtest.net##.pure-u-custom-ad-rectangle
 speedtest.net##.top-placeholder
 speedtest.net##div[data-ad-placeholder]
 speedtest.net##.notification
+speedtest.net##.footer
+speedtest.net##.lower-content-blend.lower-content
+speedtest.net#@#.pure-u-custom-ad-skyscraper
 !
 ! ------ somosxbox ------
 !
@@ -4899,6 +4930,7 @@ twitch.tv##[class*="disclosure-card"]
 !
 ! ------ Twitter ------
 !
+twitter.com##div[data-testid="BottomBar"]
 twitter.com##[data-testid*="UserCell"]:has-text("Promocionado")
 twitter.com##[data-testid*="cellInnerDiv"]:has-text(Mostrar este hilo)
 twitter.com#@#div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
