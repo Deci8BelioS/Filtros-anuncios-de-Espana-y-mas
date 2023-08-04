@@ -390,8 +390,7 @@ yetipay.pl/payments/js/*$script
 /p.gif?
 /fp_204?
 /matomo.js$from=~github.com
-*$frame,permissions=idle-detection=()
-*$document,permissions=idle-detection=()
+/retargeting-pixels.
 ##.ad-separator
 ##amp-sticky-ad
 ##amp-embed[type="taboola"]
@@ -401,6 +400,8 @@ yetipay.pl/payments/js/*$script
 ##[data-d-ad-id]
 ##.skyscraper-ad
 ##a[href^="https://ad.doubleclick.net/"] 
+*$frame,permissions=idle-detection=()
+*$document,permissions=idle-detection=()
 *$document,permissions=browsing-topics=()
 *$frame,permissions=browsing-topics=()
 ##span[id^="ezoic-pub-ad-placeholder-"]
@@ -1035,6 +1036,7 @@ yetipay.pl/payments/js/*$script
 @@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
 @@||cookielaw.org^$3p
 @@||b.cdnst.net/javascript/amazon.js$from=speedtest.net
+@@||open.spotify.com^$generichide
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -3097,6 +3099,7 @@ deepbrid.com##+js(abort-current-script, document.getElementById, adblock)
 deepbrid.com##+js(abort-current-script, document.getElementById, undefined)
 deepbrid.com##+js(set-constant, adsenseadBlock, noopFunc)
 deepbrid.com##.content > div.rounded-md.text-theme-10
+shorttrick.in##+js(noeval-if, /chp_?ad/)
 !
 ! ------ Amazon ------
 !
@@ -4888,6 +4891,9 @@ throneandliberty.es###widgets
 !
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+||tiktok.com/ttwid/check/
+tiktok.com##+js(addEventListener-defuser, visibilitychange, pagehide)
+tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 !
 ! ------ tpnet ------
 !
@@ -5547,3 +5553,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pubpowerplatform.io^
 ||sensic.net^$3p
 ||deepl.com/web/statistics
+||profitabledisplayformat.com^
+||visariomedia.com^
+||d13k7prax1yi04.cloudfront.net^
