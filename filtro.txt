@@ -391,6 +391,14 @@ yetipay.pl/payments/js/*$script
 /fp_204?
 /matomo.js$from=~github.com
 /retargeting-pixels.
+/valnet-header.
+/web-vitals.
+/strpixel.png?
+###bannerAds
+##.Wdgt.widgetAds
+##.ad-current
+##.ad-zone:not(.textads)
+##.adsninja-ad-zone
 ##.ad-separator
 ##amp-sticky-ad
 ##amp-embed[type="taboola"]
@@ -4799,6 +4807,15 @@ send.cm##+js(addEventListener-defuser, , break;case $.)
 send.cm##+js(abort-current-script, document.documentElement, break;case $.)
 send.cm##+js(abort-current-script, JSON, break;case)
 !
+! ------ softonic ------
+!
+softonic.com##+js(nofab)
+softonic.com##+js(no-window-open-if)
+softonic.*##+js(addEventListener-defuser, , [native code])
+softonic.com##.sam-slot
+softonic.com##.sam-slot
+softonic.com###slide-in-wrapper
+!
 ! ------ speedtest ------
 !
 speedtest.net##.privacy-update
@@ -5556,3 +5573,20 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||profitabledisplayformat.com^
 ||visariomedia.com^
 ||d13k7prax1yi04.cloudfront.net^
+||browsiprod.com^
+||datadoghq-browser-agent.com^$3p
+||richaudience.com^$3p
+||adnxs-simple.com^
+||casalemedia.com^
+||waspishamendbulb.com^$popup
+||waspishamendbulb.com^
+||furnacemanagerstates.com^
+||mbid.marfeelrev.com^
+||cdn.optmn.cloud^
+||tru.am^
+||adsninja.ca^$3p
+||aloofvest.com^
+||ad.gt^
+||d15kdpgjg3unno.cloudfront.net^
+||adtechvideo.s3.amazonaws.com^
+||succeedscene.com^
