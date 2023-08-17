@@ -4334,7 +4334,6 @@ game-2u.*,nsw2u.*,ps5pkg.*###footer-widget
 game-2u.*,nsw2u.*,ps5pkg.*###sidebarid\ ai_widget-2
 game-2u.*,nsw2u.*,ps5pkg.*##.widget_jetpack_display_posts_widget
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, anOptions)
-game-2u.*,nsw2u.*,ps5pkg.*##.widget_text.widget
 game-2u.*,nsw2u.*,ps5pkg.*##.socials
 game-2u.*,nsw2u.*,ps5pkg.*##.code-block
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, adsBlocked)
