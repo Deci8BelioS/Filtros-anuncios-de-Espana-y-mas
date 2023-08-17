@@ -394,6 +394,18 @@ yetipay.pl/payments/js/*$script
 /valnet-header.
 /web-vitals.
 /strpixel.png?
+/[0-9a-f]{32}\/invoke\.js/$script,3p,redirect-rule=noop.js
+/^https?:\/\/(?:www\.)?[a-z0-9-]{5,}\.(?:com|bid|online|top|club)\/[0-9a-f]{32}\/invoke\.js/$script,3p
+/api/ads/*
+/api/v1/firehose?_
+*$frame,permissions=join-ad-interest-group=(),from=~localhost
+*$frame,permissions=run-ad-auction=(),from=~localhost
+*$document,permissions=join-ad-interest-group=(),from=~localhost
+*$document,permissions=run-ad-auction=(),from=~localhost
+##.td-adspot-title
+##.square-ad
+##.nested-ad
+##.horizontal-ad
 ###bannerAds
 ##.Wdgt.widgetAds
 ##.ad-current
@@ -3049,10 +3061,6 @@ enit.in##+js(remove-attr, onclick, button#continue[onclick^="window.open"])
 enit.in##+js(set-constant, timeSec, 0)
 tii.*,oko.*##.td-main-content
 tii.*,oko.*##.td-pb-row
-mgnetu.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
-mgnetu.*##+js(addEventListener-defuser, , break;case $.)
-mgnetu.*##+js(noeval-if, fairAdblock)
-mgnetu.*##.banner-container .box-success > h4
 filecrypt.*,keeplinks.*##+js(remove-attr, onclick, button[id][onclick*=".html"])
 filecrypt.*,keeplinks.*##+js(popads-dummy)
 filecrypt.*,keeplinks.*##+js(set-constant, isAdblock, false)
@@ -3411,6 +3419,14 @@ diariosanitario.com##.home-ads
 diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
+!
+! ------ elmundotoday.com ------
+!
+elmundotoday.com##.td-a-rec
+elmundotoday.com##[class*="paywall"]
+elmundotoday.com##[class*="-anun"]
+elmundotoday.com##.td_mod_wrap:has-text(/boletín|gratuito/)
+elmundotoday.com##.td_block_text_with_title
 !
 ! ------ elamigos-games mas gamefull ------
 !
@@ -3917,6 +3933,10 @@ youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-promoted-video-renderer
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-share-button
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.streamingData.adaptiveFormats.6)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, streamingData.adaptiveFormats.6)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamingData.adaptiveFormats.6)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.adaptiveFormats.6)
 ! Bloqueo de publicaciones Shorts en la pagina de suscripciones y en el resultado de busquedas: Para ti, Los usuarios también han visto, Vistos anteriormente, De búsquedas relacionadas, Otras personas también buscan.
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
 youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
@@ -4236,6 +4256,10 @@ megaup.net##+js(abort-current-script, Math, break;case $.)
 ! ------ mgnetu.com ------
 !
 mgnetu.com##p
+mgnetu.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
+mgnetu.*##+js(addEventListener-defuser, , break;case $.)
+mgnetu.*##+js(noeval-if, fairAdblock)
+mgnetu.*##.banner-container .box-success > h4
 !
 ! ------ milanuncios.com ------
 !
@@ -4953,6 +4977,7 @@ twitch.tv##[class*="disclosure-card"]
 !
 ! ------ Twitter ------
 !
+twitter.com##aside[aria-label*="Premium"]
 twitter.com##div[data-testid="BottomBar"]
 twitter.com##[data-testid*="UserCell"]:has-text("Promocionado")
 twitter.com##[data-testid*="cellInnerDiv"]:has-text(Mostrar este hilo)
@@ -5590,3 +5615,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||d15kdpgjg3unno.cloudfront.net^
 ||adtechvideo.s3.amazonaws.com^
 ||succeedscene.com^
+||elmundotoday.com/*/paywall.js$script
+||elmundotoday.substack.com/embed$subdocument
+||mediavine.com^$3p
+||sentry-cdn.com^$3p,from=~sentry.dev|~sentry.io
