@@ -3285,7 +3285,7 @@ audiotools.*##+js(abort-on-property-read, chp_adblock_browser)
 audiotools.*##+js(abort-current-script, document.oncontextmenu)
 audiotools.*##+js(noeval-if, /chp_?ad/)
 /wp-content/plugins/best-ads-block-detector/*
-audiotools.*in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+audiotools.*##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 !
 ! ------ audioz ------
 !
@@ -3360,7 +3360,7 @@ birdcpm.*##center
 chomikuj.pl###aPlaceHolder
 chomikuj.pl##[href="/action/Products/SliderIndex"]
 chomikuj.pl##.pp_download_frame.pp_frame
-chomikuj.pl##[id*="fbPromo""]
+chomikuj.pl##[id*="fbPromo"]
 chomikuj.pl##[class*="Promo"]
 chomikuj.pl##.ebooksSearchBox
 chomikuj.pl##[class*="recommend_panel"]
@@ -3627,7 +3627,8 @@ impactoespananoticias.com##.footer
 impactoespananoticias.com##.extra2
 @@||b.scorecardresearch.com^$domain=impactoespananoticias.com|meteorologiaenred.com|desdelinux.net|lawebdelprogramador.com|soydemac.com|as.com|cadenaser.com|cincodias.com|destinia.com|elpais.com|lavozlibre.com|elmundo.es|abc.es|marca.com|expansion.com|mp3xd.mom|escuchasmusica.com|goomusica.com
 @@||los40.com^$generichide
-@@||assets.adobedtm.com/extensions/*/appmeasurement.min.js$script,from=los40.com!
+@@||assets.adobedtm.com/extensions/*/appmeasurement.min.js$script,from=los40.com
+!
 ! ------ elotrolado ------
 !
 elotrolado.net##.anno
@@ -3888,7 +3889,6 @@ google.*###sqh
 google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) a[href*="/aclk?"][data-al]:upward(2)
 google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
 google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
-google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3
 google.*##.sh-sr__shop-result-group[data-hveid] .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
 google.*##c-wiz div[data-hveid] > div > div > ul:has(> li[style="max-width:200px;"] > div > div[data-hveid] > a[href*="/aclk"]):upward(3)
 google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
@@ -4681,12 +4681,6 @@ pornhub.*,youporngay.*##div[onclick*="bp1.com"]
 pornhub.*,tube8.*,xvideos.*,youjizz.*,youporngay.*##img[src*="blob:" i]:not(video)
 mature.community,mature.mom,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy,pornhub.*,sports.sexy##img[width="300"]
 pornhub.*#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
-pornhub.*#?#:-abp-properties(height: 300px; width: 315px;)
-pornhub.*,youporn.*#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
-redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(*data:image*)
-redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(base64)
-redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(data:)
-redtube.*,tube8.*,xvideos.*,youjizz.*,youporn.*,youporngay.*#?#:-abp-properties(image/)
 pornhub.*##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 pornhub.*##+js(set-constant, page_params.holiday_promo, true)
 pornhub.*##+js(set-constant, abp1, 0)
@@ -4743,6 +4737,8 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.code-block
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.redessocialespeque
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com#@#.following-ad-container
+areajugones.sport.es##.miniHeader
+areajugones.sport.es##.publicidad
 !
 ! ------ profesionalreview ------
 !
