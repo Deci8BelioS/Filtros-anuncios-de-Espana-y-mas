@@ -401,6 +401,9 @@ yetipay.pl/payments/js/*$script
 /getads/*
 /batch/1/op/*
 /detroitchicago/imp.gif$ping
+/viewerimpressions?
+###footerAd
+###rightAd
 *$frame,permissions=join-ad-interest-group=(),from=~localhost
 *$frame,permissions=run-ad-auction=(),from=~localhost
 *$document,permissions=join-ad-interest-group=(),from=~localhost
@@ -3355,6 +3358,18 @@ birdcpm.*##.text-left
 birdcpm.*##.banner
 birdcpm.*##center
 !
+! ------ cdromance ------
+!
+cdromance.*##.cls
+cdromance.*##div[class="game-container"]:has-text(Advertisements)
+cdromance.*##.cls
+cdromance.*##.sidebar
+cdromance.*##svg[xmlns*="svg"]
+cdromance.*###custom_html-8
+cdromance.*##.game-container > ins.adsbygoogle:upward(1)
+cdromance.*##.game-container[style="grid-column: span 2;"]
+cdromance.*##.widget_custom_html > .widget-title:contains(/^Advertisements$/):upward(1)
+!
 ! ------ chomikuj.pl ------
 !
 chomikuj.pl###aPlaceHolder
@@ -3870,6 +3885,7 @@ gamereactor.es##[id*="ad_"]
 !
 ! ------ google ------
 !
+docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 google.*##+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyMzA2MTItMF9SQzIaAmZpIAEaBgiAzK6kBg, 1year)
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
@@ -5655,3 +5671,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||mediavine.com^$3p
 ||sentry-cdn.com^$3p,from=~sentry.dev|~sentry.io
 ||pemsrv.com^
+||play.google.com/log
+||protagcdn.com^
