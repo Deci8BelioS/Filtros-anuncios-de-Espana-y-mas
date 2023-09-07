@@ -402,6 +402,12 @@ yetipay.pl/payments/js/*$script
 /batch/1/op/*
 /detroitchicago/imp.gif$ping
 /viewerimpressions?
+/adblock_detector2.
+-728x90.
+-300x250-$~xhr
+-728x90-
+##.noskim.ad
+##.content-ad
 ###footerAd
 ###rightAd
 *$frame,permissions=join-ad-interest-group=(),from=~localhost
@@ -3489,6 +3495,7 @@ elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigos-games.com##.iframeDiv
 elamigos-games.com##h3.my-4:has-text(/^Advertising/)
 elamigos-games.com##[class*="_chat"]
+elamigos-games.com##div.portfolio-item:has-text(/NETFLIX/)
 ||elamigos-games.com^$script,domain=elamigos-games.com
 gamesfull.*##.ads
 !
@@ -3596,7 +3603,6 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__mega > div.ue-c-ad)
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##main > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__row > div.ue-l-article__main-column-extra div[id^="taboola"] )
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.news-item ~ section.row-layout:empty
-impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.content-ad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.aside-outbrain
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.aside-ad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.gallery-slide-ad
@@ -3882,6 +3888,14 @@ gamereactor.es##.rwd
 gamereactor.es##[id*="sky"]
 gamereactor.es##div.wrapper
 gamereactor.es##[id*="ad_"]
+!
+! ------ geeknetic ------
+!
+geeknetic.es##.geekads
+geeknetic.es##.dat-menu-container:style(cursor: auto !important;)
+geeknetic.es##.share-article-float
+geeknetic.es##+js(no-window-open-if)
+||geeknetic.es/ajax/renderads.asp
 !
 ! ------ google ------
 !
@@ -4361,6 +4375,10 @@ msn.com##+js(set-constant, Object.prototype.iadb, undefined)
 !
 nexusmods.com##+js(nano-setTimeout-booster, timer)
 nexusmods.com##div[class*="wrapper"] > [style="text-align: center;background: #2d2d2d;"]
+nexusmods.com##.donation-form
+nexusmods.com###rj-vortex
+nexusmods.com###rj-logo-social
+nexusmods.com###rj-footer
 !
 ! ------ nitroflare.com ------
 !
@@ -4379,6 +4397,8 @@ nperf.com##.mainMireWrapper
 !
 ! ------ nsw2u ------
 !
+game-2u.*,nsw2u.*,ps5pkg.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
+game-2u.*,nsw2u.*,ps5pkg.*##body .code-block
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(addEventListener-defuser, , break;case $.)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, JSON.parse, break;case $.)
@@ -5015,6 +5035,7 @@ trakt.tv##:xpath("//*[(text()='Advertisement')]"):upward(1)
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##.subtember-gradient
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##.follow-prompt
@@ -5673,3 +5694,13 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pemsrv.com^
 ||play.google.com/log
 ||protagcdn.com^
+||media.net^$object,redirect-rule=noopjs
+||secure.quantserve.com^$object,redirect-rule=noopjs
+||google-analytics.com^$object,redirect-rule=noopjs
+||clickiocdn.com/utr/
+||clickiocdn.com/clickiotag_log/
+||pathosacetals.com^
+||geeknetic.es/ajax/renderads.asp
+||googleadapis.l.google.com^$3p
+||hotjar.com^$3p
+||enthusiastgaming.net^
