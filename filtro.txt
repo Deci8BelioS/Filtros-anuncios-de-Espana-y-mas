@@ -406,6 +406,7 @@ yetipay.pl/payments/js/*$script
 -728x90.
 -300x250-$~xhr
 -728x90-
+/ajax/bnzai?_
 ##.noskim.ad
 ##.content-ad
 ###footerAd
@@ -414,6 +415,9 @@ yetipay.pl/payments/js/*$script
 *$frame,permissions=run-ad-auction=(),from=~localhost
 *$document,permissions=join-ad-interest-group=(),from=~localhost
 *$document,permissions=run-ad-auction=(),from=~localhost
+*$frame,permissions=attribution-reporting=(),from=~localhost
+*$frame,permissions=idle-detection=(),from=~localhost
+*$frame,permissions=browsing-topics=(),from=~localhost
 ##.td-adspot-title
 ##.square-ad
 ##.nested-ad
@@ -3284,6 +3288,7 @@ animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
 ! ------ audiotools ------
 !
 @@||audiotools.$generichide
+audiotools.in###top-info
 audiotools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
 audiotools.*###sidebar > #custom_html-6
 audiotools.*##.widget_custom_html
@@ -3900,7 +3905,6 @@ geeknetic.es##+js(no-window-open-if)
 ! ------ google ------
 !
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
-google.*##+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyMzA2MTItMF9SQzIaAmZpIAEaBgiAzK6kBg, 1year)
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
 google.*###topstuff > #tads
@@ -3975,7 +3979,6 @@ youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enfor
 youtube.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com##ytd-rich-section-renderer
 youtube.com###header > .ytd-rich-grid-renderer.style-scope:not(:has-text(/Más recientes|Populares|Más antiguos/))
-youtube.com##+js(trusted-set-cookie, SOCS, CAESEwgDEgk1MjE4NjcxMTIaAmVuIAEaBgiAl7ihBg, 1year, , reload, 1)
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
 *_ad_$media,domain=youtube.com,3p
@@ -4036,7 +4039,6 @@ youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##[class*="merch-shelf"]
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
-youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
 youtube.com##.ytd-item-section-renderer:has-text(Creador Emergente)
@@ -4046,6 +4048,14 @@ youtube.com##ytd-display-ad-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##+js(set-constant, google_ad_status, 1)
 youtube.com##ytd-reel-shelf-renderer
+youtube.com##[target-id="engagement-panel-ads"]
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.responseContext.mainAppWebResponseContext.datasyncId)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, responseContext.mainAppWebResponseContext.datasyncId)
+youtube.com##+js(replace-node-text, script, /(\(function serverContract\(\)|var yterr|var _F_cssRowKey)/, const jsonPruner=obj=>{for(k of["playerAds"\,"adPlacements"\,"adSlots"]){obj[k]=[];}return obj;};const pruner=(text\,url)=>{let json=JSON.parse(text);if(url.includes("player?key=")){return JSON.stringify(jsonPruner(json));}else{let newJSON=[];for(obj of json){if("playerResponse"in obj){obj["playerResponse"]=jsonPruner(obj["playerResponse"]);}newJSON.push(obj);}return JSON.stringify(newJSON);}};const urlFromArg=arg=>{if(typeof arg==="string"){return arg;}if(arg instanceof Request){return arg.url;}return String(arg);};const realFetch=window.fetch;window.fetch=new Proxy(window.fetch\,{apply:function(target\,thisArg\,args){let url=urlFromArg(args[0]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}return realFetch(...args).then(realResponse=>realResponse.text().then(text=>new Response(pruner(text\,url)\,{status:realResponse.status\,statusText:realResponse.statusText\,headers:realResponse.headers\,})));}});window.XMLHttpRequest.prototype.open=new Proxy(window.XMLHttpRequest.prototype.open\,{apply:async(target\,thisArg\,args)=>{let url=urlFromArg(args[1]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}thisArg.addEventListener("readystatechange"\,function(){if(thisArg.readyState!==4){return;}const type=thisArg.responseType;if(type!==""&&type!=="text"){return;}const textin=thisArg.responseText;const textout=pruner(textin\,url);if(textout===textin){return;}Object.defineProperty(thisArg\,"response"\,{value:textout});Object.defineProperty(thisArg\,"responseText"\,{value:textout});});return Reflect.apply(target\,thisArg\,args);}}); $1)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##.ytp-ce-element
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
@@ -4799,6 +4809,7 @@ pspstation.org##.floating
 !
 ! ------ reddit ------
 !
+reddit.com##.promotedlink:not([style^="height: 1px;"])
 reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 reddit.com##+js(replace-node-text, script, "outboundUrl", "outbound")
 reddit.com##[class*="XPromoBottomBar"]
@@ -4835,7 +4846,6 @@ reddit.com#?#div[style*="fakelightbox-overlay-"] ~ div[tabindex] > div >  div > 
 reddit.com##div[data-before-content]
 reddit.com###ad_main_top
 reddit.com##body:style(pointer-events:auto !important;)
-reddit.com##.promotedlink
 reddit.com##body,html.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##+js(set-constant, Object.prototype.allowClickTracking, false)
 reddit.com##+js(remove-class, m-blurred, .m-blurred)
@@ -4861,6 +4871,7 @@ reddit.com##+js(remove-attr, data-outbound-url, .outbound)
 reddit.com##+js(orr)
 ||reddit.com/api/jail/$xhr,1p
 ||reddit.com/api/jail^$xhr,1p
+||www.reddit.com/|$xhr,1p,method=post
 preview.redd.it##shreddit-async-loader[bundlename="reddit_cookie_banner"]
 preview.redd.it##div[class*="cdn-media-page "] > [class*="border-"]:has-text(/Visitar/)
 !
@@ -5068,7 +5079,7 @@ mobile.twitter.com#?#.tweet:-abp-has(.promo)
 twitter.com##html:style(overflow: auto !important; padding-right: 0 !important; overscroll-behavior-y: auto !important;)
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
-||twitter.com/1.1/promoted_content/log.json
+||twitter.com^*/log.json
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|lo siguen|others follow| follow|lo sigue|follows|Promocionado|Promoted/):not(:has(article))
 twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Follow|Siguiendo|Seguir|Personas|People|Trending|Tendencia|trends|Tendencias|Ganó|won|Ver todo|View all/)):not(:has(article))
@@ -5381,6 +5392,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect-rule=amazon_apstag.js:5
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js:5
 ||amazon-adsystem.com^
 ||amazon.com/1/events/$from=~aws.amazon.com
 ||ssl-images-amazon.com/images/*/dasf-
