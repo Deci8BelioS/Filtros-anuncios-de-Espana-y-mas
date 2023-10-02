@@ -407,6 +407,9 @@ yetipay.pl/payments/js/*$script
 -300x250-$~xhr
 -728x90-
 /ajax/bnzai?_
+/\/[0-9a-f]{32}\/invoke\.js/$script,3p
+/cdn-cgi/zaraz/*
+/cedexis/*
 ##a[href^="mailto:support@netu.tv"]
 /fuckadblock.$script
 ##.noskim.ad
@@ -4813,6 +4816,11 @@ profesionalreview.com##[id*="background-stream-cover"]
 pspstation.org##.code-block
 pspstation.org##.floating
 !
+! ------ rakuten ------
+!
+rakuten.tv##+js(no-xhr-if, cdn.spotxcdn.com/media/)
+rakuten.tv##+js(no-xhr-if, /youboranqs01|spotx|springserve/)
+!
 ! ------ reddit ------
 !
 reddit.com##.promotedlink:not([style^="height: 1px;"])
@@ -5728,3 +5736,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||psuftoum.com^
 ||xlivrdr.com^
 ||mgid.com^$3p
+||rollbar.com^$3p
