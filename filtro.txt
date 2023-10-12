@@ -410,21 +410,16 @@ yetipay.pl/payments/js/*$script
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
 /cdn-cgi/zaraz/*
 /cedexis/*
-##a[href^="mailto:support@netu.tv"]
+/api/ad/*
+/videoads/*
 /fuckadblock.$script
+##.advertising_widget
+##a[href^="mailto:support@netu.tv"]
 ##.noskim.ad
 ##.content-ad
 ###footerAd
 ###rightAd
-*$document,permissions=attribution-reporting=(),from=~localhost
-*$document,csp=worker-src 'none',from=123telugu.com|300mbfilms.co|agp.com.pk|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|aulaplus.com.br|babyjav.com|bigspeeds.com|bitcoincashfaucet.co|btstors.com|bustrain.net|byter.tv|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clicktabs.net|clipwatching.com|coinfaucet.eu|coinhub.win|coinminingonline.com|cracklists.com|crictime.com|crictime.is|crimedocumentary.com|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|drama-cool.me|eduardolegatti.blogspot.com|empirenews.org|emuleed2k.com|esudog.top|fileone.tv|filmai.ws|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.co|filmstreamvk.com|filmstreamvk.io|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmstreamvk.ws|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.life|hdvid.tv|hdvid.xyz|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|jpdress.com|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|luckybitco.in|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mozakrah.com|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|nod-key.su|novator.az|novoscrb.ru|oipeirates.online|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|pinoyrewind.info|piratebay.tel|potomy.ru|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rahunas.org|rapidvideo.com|reactor.cc|rednubes.de|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|skytorrents.me|sleeptimer.org|sorteosrd.com|studio100.it|tainies.online|tapemovie.com|tarntercum.ru|theappguruz.com|thevideo.website|thisjav.com|tomadivx.tv|torrentrapid.com|tpbay.xyz|tubetitties.com|tugaanimado.net|uptobox.com|uptostream.com|videodwn.com|vidfile.net|vidgg.to|vidoza.co|vidoza.net|vidtodo.me|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|watchfreemovies.tv|wearesaudis.net|xmovies8.nl|yourjav.com|zona.plus
-*$frame,permissions=join-ad-interest-group=(),from=~localhost
-*$frame,permissions=run-ad-auction=(),from=~localhost
-*$document,permissions=join-ad-interest-group=(),from=~localhost
-*$document,permissions=run-ad-auction=(),from=~localhost
-*$frame,permissions=attribution-reporting=(),from=~localhost
-*$frame,permissions=idle-detection=(),from=~localhost
-*$frame,permissions=browsing-topics=(),from=~localhost
+
 ##.td-adspot-title
 ##.square-ad
 ##.nested-ad
@@ -442,11 +437,7 @@ yetipay.pl/payments/js/*$script
 ##[data-m-ad-id]
 ##[data-d-ad-id]
 ##.skyscraper-ad
-##a[href^="https://ad.doubleclick.net/"] 
-*$frame,permissions=idle-detection=()
-*$document,permissions=idle-detection=()
-*$document,permissions=browsing-topics=()
-*$frame,permissions=browsing-topics=()
+##a[href^="https://ad.doubleclick.net/"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##[data-ez-name]
 ##.ezoic-floating-bottom
@@ -903,6 +894,19 @@ yetipay.pl/payments/js/*$script
 ##adsenseintermedioright
 ##div[class^="publicHoriz"]
 ##div[id^="M"][id*="Composite"]
+*$document,permissions=attribution-reporting=(),from=~localhost
+*$document,csp=worker-src 'none',from=123telugu.com|300mbfilms.co|agp.com.pk|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|aulaplus.com.br|babyjav.com|bigspeeds.com|bitcoincashfaucet.co|btstors.com|bustrain.net|byter.tv|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clicktabs.net|clipwatching.com|coinfaucet.eu|coinhub.win|coinminingonline.com|cracklists.com|crictime.com|crictime.is|crimedocumentary.com|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|drama-cool.me|eduardolegatti.blogspot.com|empirenews.org|emuleed2k.com|esudog.top|fileone.tv|filmai.ws|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.co|filmstreamvk.com|filmstreamvk.io|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmstreamvk.ws|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.life|hdvid.tv|hdvid.xyz|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|jpdress.com|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|luckybitco.in|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mozakrah.com|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|nod-key.su|novator.az|novoscrb.ru|oipeirates.online|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|pinoyrewind.info|piratebay.tel|potomy.ru|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rahunas.org|rapidvideo.com|reactor.cc|rednubes.de|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|skytorrents.me|sleeptimer.org|sorteosrd.com|studio100.it|tainies.online|tapemovie.com|tarntercum.ru|theappguruz.com|thevideo.website|thisjav.com|tomadivx.tv|torrentrapid.com|tpbay.xyz|tubetitties.com|tugaanimado.net|uptobox.com|uptostream.com|videodwn.com|vidfile.net|vidgg.to|vidoza.co|vidoza.net|vidtodo.me|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|watchfreemovies.tv|wearesaudis.net|xmovies8.nl|yourjav.com|zona.plus
+*$frame,permissions=join-ad-interest-group=(),from=~localhost
+*$frame,permissions=run-ad-auction=(),from=~localhost
+*$document,permissions=join-ad-interest-group=(),from=~localhost
+*$document,permissions=run-ad-auction=(),from=~localhost
+*$frame,permissions=attribution-reporting=(),from=~localhost
+*$frame,permissions=idle-detection=(),from=~localhost
+*$frame,permissions=browsing-topics=(),from=~localhost
+*$frame,permissions=idle-detection=()
+*$document,permissions=idle-detection=()
+*$document,permissions=browsing-topics=()
+*$frame,permissions=browsing-topics=()
 !
 ! Anti-Adblock
 !
@@ -3955,6 +3959,12 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag":"\\.*?\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
+youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
+youtube.com##.ytd-merch-shelf-renderer
 youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
 youtube.com#@#+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
 youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
@@ -4823,6 +4833,7 @@ rakuten.tv##+js(no-xhr-if, /youboranqs01|spotx|springserve/)
 !
 ! ------ reddit ------
 !
+reddit.com##+js(abort-on-property-write, STICKY_CANARY)
 reddit.com##.promotedlink:not([style^="height: 1px;"])
 reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 reddit.com##+js(replace-node-text, script, "outboundUrl", "outbound")
@@ -5737,3 +5748,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||xlivrdr.com^
 ||mgid.com^$3p
 ||rollbar.com^$3p
+||highcpmrevenuenetwork.com^
+||highperformancecpmgate.com^
+||terabox.com/abdr?
+||sofire.bdstatic.com^
+||ads-twitter.com^
