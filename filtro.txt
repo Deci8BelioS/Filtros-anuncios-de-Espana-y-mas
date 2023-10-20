@@ -3960,9 +3960,9 @@ google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?\/(aclk\?sa=L&ai=C[-_0-9A-Za-z]+__________|get_midroll_info\S+&token=ALHj).*?"\}\}\}\]\,/, , url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
 youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_det_gen_re, false)
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
