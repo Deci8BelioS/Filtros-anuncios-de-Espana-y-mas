@@ -413,13 +413,17 @@ yetipay.pl/payments/js/*$script
 /api/ad/*
 /videoads/*
 /fuckadblock.$script
+/?sentry_key=
+##.header-ads
+##.footer-ads
+###header-ads
+###footer-ads
 ##.advertising_widget
 ##a[href^="mailto:support@netu.tv"]
 ##.noskim.ad
 ##.content-ad
 ###footerAd
 ###rightAd
-
 ##.td-adspot-title
 ##.square-ad
 ##.nested-ad
@@ -5767,3 +5771,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ads-twitter.com^
 ||magsrv.com^
 ||exe.io^$3p
+||definedbootnervous.com^
