@@ -3046,7 +3046,6 @@ financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhosting
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nowebrtc)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, String.fromCharCode, /'shift'|break;/)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, globalThis, break;case)
-financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, break;case $.)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-on-property-read, runAdblock)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(abort-current-script, document.createElement, ignielAdBlock)
@@ -3079,7 +3078,6 @@ financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-fetch-if, googlesyn
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(no-setTimeout-if, ads)
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##+js(abort-current-script, XMLHttpRequest, adb)
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads
-financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads > a:style(visibility: hidden !important;)
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.myads > a:style(visibility: hidden !important;)
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##.box-main > a[target="_blank"] > img
 financerites.*,howifx.*,enit.*,oko.*,shrinke.*,tii.*##link-view > br
@@ -3152,6 +3150,7 @@ deepbrid.com##+js(abort-current-script, document.getElementById, undefined)
 deepbrid.com##+js(set-constant, adsenseadBlock, noopFunc)
 deepbrid.com##.content > div.rounded-md.text-theme-10
 shorttrick.in##+js(noeval-if, /chp_?ad/)
+/aas/r45d/vki/*$script,redirect-rule=noop.js
 !
 ! ------ Amazon ------
 !
@@ -5772,3 +5771,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||magsrv.com^
 ||exe.io^$3p
 ||definedbootnervous.com^
+||fvcwqkkqmuv.com^
