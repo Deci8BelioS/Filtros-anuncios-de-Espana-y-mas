@@ -414,6 +414,9 @@ yetipay.pl/payments/js/*$script
 /videoads/*
 /fuckadblock.$script
 /?sentry_key=
+/ping.gif?
+###fb-root:not(body):not(html)
+###div-ad-top
 ##.header-ads
 ##.footer-ads
 ###header-ads
@@ -3962,6 +3965,9 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##+js(trusted-replace-xhr-response, /\"adPlacements.*?\"\}\}\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-fetch-response, /(trackingParam":"kx_fmPxh.*?)"adPlacements.*?"\}\}\}\]\,/, $1, player?key=)
+youtube.com##+js(replace-node-text, script, /(\(function serverContract\(\))/, /*start*/(function(){const handler={apply:(target\,thisArg\,args)=>{if(Array.isArray(args)){const arr=args[0];if(arr.adPlacements||arr.adSlots||arr.adBreakHeartbeatParams||arr.playerResponse){args=[{}]}}return Reflect.apply(target\,thisArg\,args)}};Object.getOwnPropertyNames=new Proxy(Object.getOwnPropertyNames\,handler);const cleanup=function(){const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}};if(document.readyState!=="loading"){cleanup()}else{document.addEventListener("DOMContentLoaded"\,cleanup)}}());/*end*/ $1)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?\/(aclk\?sa=L&ai=C[-_0-9A-Za-z]+__________|get_midroll_info\S+&token=ALHj).*?"\}\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
@@ -4087,6 +4093,7 @@ youtube.com##.ytp-ce-element
 ||youtube.com/pagead/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/ptracking?
+*o097znze.googlevideo.com^$xhr,3p,method=get,from=www.youtube.com
 !
 ! ------ gruporpp ------
 !
@@ -4194,6 +4201,11 @@ ign.com##.ad-wrapper
 !
 ! ------ instagram ------
 !
+instagram.com##._aagw:empty
+instagram.com##div[class]:has(> div[class]:first-child > a[href="/explore/people/"]):style(position: absolute !important; left: -3000px !important;)
+instagram.com##+js(set-session-storage-item, loggedOutAppSheetIsMinimized, 1)
+instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(a[href^="https://www.facebook.com/ads/ig_redirect/"][target="_blank"]):style(height: 1px !important; visibility: hidden !important;)
+instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(a[href^="https://www.facebook.com/ads/ig_redirect/"][target="_blank"]):remove()
 instagram.com##+js(trusted-set-cookie, ig_did, 0C826C21-17C3-444A-ABB7-EBABD37214D7, 1year, , reload, 1)
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/)):style(visibility: hidden !important;)
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:has-text(/Sponsored|Gesponsert|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
@@ -4848,6 +4860,9 @@ rakuten.tv##+js(no-xhr-if, /youboranqs01|spotx|springserve/)
 !
 ! ------ reddit ------
 !
+reddit.com###adblocktest:style(display: block !important;)
+reddit.com###acceptabletest:style(display: block !important;)
+reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 reddit.com##+js(abort-on-property-write, STICKY_CANARY)
 reddit.com##.promotedlink:not([style^="height: 1px;"])
 reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
@@ -5772,3 +5787,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||exe.io^$3p
 ||definedbootnervous.com^
 ||fvcwqkkqmuv.com^
+||acacdn.com^
+||acacdn.com/script/*.js$script,redirect-rule=noop.js
+||acacdn.com^$script,redirect-rule=noopjs
+||enbdev.com/_main.js$script,1p
