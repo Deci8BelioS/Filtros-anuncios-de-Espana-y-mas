@@ -415,6 +415,20 @@ yetipay.pl/payments/js/*$script
 /fuckadblock.$script
 /?sentry_key=
 /ping.gif?
+##a[href^="whatsapp://send"]
+##a[href^="https://twitter.com/intent/tweet?"]
+##a[href^="https://share.flipboard.com/bookmarklet/popout?"]
+##a[href^="https://share.flipboard.com/bookmarklet/"]
+##a[href^="http://www.facebook.com/dialog/feed?"]
+##.newsletter-input
+##.link-youtube
+##.link-twitter
+##.link-linkedin
+##.link-instagram
+##.link-facebook
+##.icon-flipboard
+##.ad-box:not(#ad-banner)
+##.follow-youtube
 ###fb-root:not(body):not(html)
 ###div-ad-top
 ##.header-ads
@@ -3965,6 +3979,8 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##ytd-banner-promo-renderer
+youtube.com##div#masthead-ad > .ytd-rich-grid-renderer
 youtube.com##+js(trusted-replace-xhr-response, /\"adPlacements.*?\"\}\}\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
 youtube.com##+js(trusted-replace-fetch-response, /(trackingParam":"kx_fmPxh.*?)"adPlacements.*?"\}\}\}\]\,/, $1, player?key=)
 youtube.com##+js(replace-node-text, script, /(\(function serverContract\(\))/, /*start*/(function(){const handler={apply:(target\,thisArg\,args)=>{if(Array.isArray(args)){const arr=args[0];if(arr.adPlacements||arr.adSlots||arr.adBreakHeartbeatParams||arr.playerResponse){args=[{}]}}return Reflect.apply(target\,thisArg\,args)}};Object.getOwnPropertyNames=new Proxy(Object.getOwnPropertyNames\,handler);const cleanup=function(){const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}};if(document.readyState!=="loading"){cleanup()}else{document.addEventListener("DOMContentLoaded"\,cleanup)}}());/*end*/ $1)
@@ -5141,6 +5157,14 @@ twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Foll
 twitter.com##aside[aria-label*="Get Verified"]:has([class*="css-"]),
 twitter.com##aside[aria-label*="Obtener verificación"]:has([class*="css-"])
 !
+! ------ unknowncheats ------
+!
+unknowncheats.*###bab
+unknowncheats.*##[href^="https://proxy-seller.com/"]
+unknowncheats.*##div[id^="ab_notice"]
+unknowncheats.*##div[style="text-align:center;"] > div[style="display:inline-block;"]
+unknowncheats.*##+js(abort-on-property-read, adsBlocked)
+!
 ! ------ uptobox.com ------
 !
 uptobox.com##+js(abort-on-property-read, jsUnda)
@@ -5162,6 +5186,10 @@ wabetainfo.*##.site-footer
 !
 ! ------ webmedia ------
 !
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.aside-box:has(> form.newsletter-form)
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org###stories_container:empty
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org###didomi-host
+applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##html > body.didomi-popup-open:style(overflow: auto !important; position: unset !important;)
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.desvio
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org###editorialRecommendedPosts
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.m-evergreen-links.section-deeplinking-container
@@ -5791,3 +5819,15 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||acacdn.com/script/*.js$script,redirect-rule=noop.js
 ||acacdn.com^$script,redirect-rule=noopjs
 ||enbdev.com/_main.js$script,1p
+||batch.com^$3p
+||privacy-center.org^
+||youtube.com/subscribe_embed?$3p
+||unknowncheats.me/forum/images/ez^
+||adligature.com^
+||amazon.com^$removeparam=channel|crid|field-lbr_brands_browse-bin|sprefix
+||google.com/search$removeparam=aqs|bih|biw|cshid|ei|gs_lcp|gs_ssp|ie|iflsig|oq|rlz|sa|sclient|source|sourceid|uact|ved
+||music.apple.com^$removeparam=/^ign-/|app|at|cc|cId|ct|itscg|itsct|lId|ls|sr|src|uo
+||old.reddit.com^$removeparam=rdt
+||open.spotify.com^$removeparam=referral|nd|flow_id|flow_ctx
+||ab.blogs.es/abtest.png^$image,3p,important,redirect-rule=1x1.gif,from=trendencias.com|xataka.com
+||ab.blogs.es/abtest.png^$image,3p,important,from=trendencias.com|xataka.com
