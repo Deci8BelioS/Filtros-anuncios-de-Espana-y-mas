@@ -415,6 +415,7 @@ yetipay.pl/payments/js/*$script
 /fuckadblock.$script
 /?sentry_key=
 /ping.gif?
+/bbtstats/*
 ##a[href^="whatsapp://send"]
 ##a[href^="https://twitter.com/intent/tweet?"]
 ##a[href^="https://share.flipboard.com/bookmarklet/popout?"]
@@ -3620,6 +3621,16 @@ eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.geoposition-container
 !
 ! ------ PRISA ------
 !
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.ad-holder
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(set-constant, DTM.trackAsyncPV, noopFunc)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(no-setTimeout-if, /offsetHeight[\s\S]*?offsetWidth[\s\S]*?\.parentNode\.removeChild/)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co###acceptationCMPWall
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co###didomi-host
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.blockNavigation
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##body:style(overflow: auto !important;)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##html:style(position: static !important; overflow: auto !important; width: auto !important;)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.nwl
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.sh-bar
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.Bloque-anuncios-shadow
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.envoltorio_publi
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.cont_webpush
@@ -3979,6 +3990,9 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##div.ytd-ad-slot-renderer
+youtube.com##ytd-ad-slot-renderer
+youtube.com##div.ytd-in-feed-ad-layout-renderer
 youtube.com##ytd-banner-promo-renderer
 youtube.com##div#masthead-ad > .ytd-rich-grid-renderer
 youtube.com##+js(trusted-replace-xhr-response, /\"adPlacements.*?\"\}\}\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
@@ -5085,8 +5099,11 @@ throneandliberty.es###widgets
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 ||tiktok.com/ttwid/check/
+||tiktokv.com/monitor_browser/
 tiktok.com##+js(addEventListener-defuser, visibilitychange, pagehide)
 tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
+tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
+tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 !
 ! ------ tpnet ------
 !
