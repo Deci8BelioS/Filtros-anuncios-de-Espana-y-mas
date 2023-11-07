@@ -3990,6 +3990,9 @@ google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
+youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?privateDoNotAccessOrElseTrustedResourceUrlWrappedValue":"https:\/\/www\.youtube\.com\/aboutthisad\?pf=web&source=youtube&reasons=A.*?"\}\}\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?("getAdBreakUrl":"https:\/\/www\.youtube\.com\/get_midroll_info\S+&token=ALHj|"(base)?[Uu]rl":"https:\/\/(secure)?pubads\.g\.doubleclick\.net).*?"\}\}\}\]\,/, , player?key=)
+youtube.com##+js(replace-node-text, script, /^(\(function serverContract\(\))/s, /*start*/(function(){const nativeArrayFilter=Array.prototype.filter;const wrapper=(target\,thisArg\,args)=>{const ads=["adPlacements"\,"adSlots"\,"adBreakHeartbeatParams"\,"playerResponse"\,"playerAds"];if(thisArg&&Array.isArray(thisArg)){thisArg=nativeArrayFilter.call(thisArg\,e=>!ads.includes(e))}return Reflect.apply(target\,thisArg\,args)};const handler={apply:wrapper};Array.prototype.filter=new Proxy(Array.prototype.filter\,handler);const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}}());/*end*/$1)
 youtube.com##div.ytd-ad-slot-renderer
 youtube.com##ytd-ad-slot-renderer
 youtube.com##div.ytd-in-feed-ad-layout-renderer
@@ -4085,6 +4088,7 @@ youtube.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHO
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(SHORTS)
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Últimas noticias)
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Shorts)
+youtube.com##[class*="ytd-guide-entry-renderer"]:has-text(Shorts)
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
 youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
 youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
