@@ -416,6 +416,7 @@ yetipay.pl/payments/js/*$script
 /?sentry_key=
 /ping.gif?
 /bbtstats/*
+##.ot-sdk-show-settings
 ##a[href^="whatsapp://send"]
 ##a[href^="https://twitter.com/intent/tweet?"]
 ##a[href^="https://share.flipboard.com/bookmarklet/popout?"]
@@ -4216,6 +4217,7 @@ htcmania.com##.afterlogo
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 kimovil.com##.kau
 kimovil.com###user-sidebar div.kau
+kimovil.com##.hotdeals-block
 !
 ! ------ idevicecentral ------
 !
@@ -5852,3 +5854,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||open.spotify.com^$removeparam=referral|nd|flow_id|flow_ctx
 ||ab.blogs.es/abtest.png^$image,3p,important,redirect-rule=1x1.gif,from=trendencias.com|xataka.com
 ||ab.blogs.es/abtest.png^$image,3p,important,from=trendencias.com|xataka.com
+||ssm.codes^$3p
