@@ -419,6 +419,18 @@ yetipay.pl/payments/js/*$script
 /wp-content/plugins/add-to-any/addtoany.min.
 /wp-content/plugins/q2w3-fixed-widget/*
 /plugins/add-to-any/*$~stylesheet
+/nativeads/*
+/b/ss/*&aqe=$image,redirect-rule=1x1-transparent.gif
+/b/ss/*/js-
+###article-im-prompt
+###taboola-below-article-1
+###taboola-right-rail
+##.amp-unresolved
+##.i-amphtml-unresolved
+##.social-share
+##.taboola
+##AMP-SOCIAL-SHARE
+##amp-social-share
 ##a[href^="https://www.addtoany.com/add_to/"]
 ##a[href="https://www.addtoany.com/share"]
 ##.wp-block-social-links
@@ -4245,6 +4257,13 @@ ign.com##+js(set-constant, Object.prototype.iadb, undefined)
 ign.com##.zad
 ign.com##.ad-wrapper
 !
+! ------ independentespanol.com ------
+!
+independentespanol.com##.sidebar
+independentespanol.com##div[id*="partners"]
+independentespanol.com###top-banner-wrapper
+independentespanol.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
+!
 ! ------ instagram ------
 !
 instagram.com##._aagw:empty
@@ -5869,3 +5888,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||chatbro.com^$3p
 ||paypal.com^*/pixel.gif$3p
 ||fundingchoicesmessages.google.com^
+||ml314.com^
+||cdn.ampproject.org/v*/amp-social-share-
