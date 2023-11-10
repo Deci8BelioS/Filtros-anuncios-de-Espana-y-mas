@@ -416,6 +416,15 @@ yetipay.pl/payments/js/*$script
 /?sentry_key=
 /ping.gif?
 /bbtstats/*
+/wp-content/plugins/add-to-any/addtoany.min.
+/wp-content/plugins/q2w3-fixed-widget/*
+/plugins/add-to-any/*$~stylesheet
+##a[href^="https://www.addtoany.com/add_to/"]
+##a[href="https://www.addtoany.com/share"]
+##.wp-block-social-links
+##.addtoany_share_save_container
+##.addtoany_share_save
+##.addtoany_list
 ##.ot-sdk-show-settings
 ##a[href^="whatsapp://send"]
 ##a[href^="https://twitter.com/intent/tweet?"]
@@ -3622,6 +3631,7 @@ eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.geoposition-container
 !
 ! ------ PRISA ------
 !
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.js_socialMedia
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.ad-holder
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(set-constant, DTM.trackAsyncPV, noopFunc)
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(no-setTimeout-if, /offsetHeight[\s\S]*?offsetWidth[\s\S]*?\.parentNode\.removeChild/)
@@ -5855,3 +5865,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ab.blogs.es/abtest.png^$image,3p,important,redirect-rule=1x1.gif,from=trendencias.com|xataka.com
 ||ab.blogs.es/abtest.png^$image,3p,important,from=trendencias.com|xataka.com
 ||ssm.codes^$3p
+||addtoany.com^$3p
+||chatbro.com^$3p
+||paypal.com^*/pixel.gif$3p
+||fundingchoicesmessages.google.com^
