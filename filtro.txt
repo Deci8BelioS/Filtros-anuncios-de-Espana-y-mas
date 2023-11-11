@@ -422,6 +422,18 @@ yetipay.pl/payments/js/*$script
 /nativeads/*
 /b/ss/*&aqe=$image,redirect-rule=1x1-transparent.gif
 /b/ss/*/js-
+/sc-tagmanager/*
+/wp-content/plugins/sassy-social-share/*$from=~n1info.com|~nova.rs
+##.quickshare
+##.OUTBRAIN
+##.heateor_sss_sharing_container
+##.heateor_sss_sharing_ul
+##.push-overlay
+##a[href^="https://api.whatsapp.com/send?text="]
+##a[href^="https://telegram.me/share/url?"]
+##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://www.linkedin.com/sharing/"]
+##a[href^="https://www.linkedin.com/sharing/share-offsite/?"]
 ###article-im-prompt
 ###taboola-below-article-1
 ###taboola-right-rail
@@ -5083,6 +5095,8 @@ hispasonic.com,publico.es,guitarristas.info,batacas.com##[class*="banner-"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##[style*="border-bottom"]
 hispasonic.com,publico.es,guitarristas.info,batacas.com##div.block:nth-of-type(2) > .header
 hispasonic.com,publico.es,guitarristas.info,batacas.com##.right-side
+hispasonic.com,publico.es,guitarristas.info,batacas.com##div[class*="sticky-sidebar-"]
+hispasonic.com,publico.es,guitarristas.info,batacas.coms##.pb-publicidad
 !
 ! ------ sourceforge ------
 !
@@ -5890,3 +5904,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||fundingchoicesmessages.google.com^
 ||ml314.com^
 ||cdn.ampproject.org/v*/amp-social-share-
+||cxense.com^$3p
