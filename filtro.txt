@@ -424,6 +424,10 @@ yetipay.pl/payments/js/*$script
 /b/ss/*/js-
 /sc-tagmanager/*
 /wp-content/plugins/sassy-social-share/*$from=~n1info.com|~nova.rs
+/referrer.js
+###cookie-pop
+##div.cookie-confirm
+##div.cookie-message
 ##.quickshare
 ##.OUTBRAIN
 ##.heateor_sss_sharing_container
@@ -3093,6 +3097,8 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,from=zpaste.net|zplayer.live
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p
 *$script,redirect-rule=noopjs,from=ouo.*
+ouo.*##+js(adjust-setInterval, stop())
+ouo.*##+js(adjust-setInterval, stop(), , 0.02)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,tii.*##+js(remove-class, disabled, .btn, stay)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,tii.*##+js(oib)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nowebrtc)
@@ -4450,11 +4456,12 @@ megaup.net##+js(abort-current-script, Math, break;case $.)
 !
 ! ------ mgnetu.com ------
 !
-mgnetu.com##p
+mgnetu.*##p
 mgnetu.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
 mgnetu.*##+js(addEventListener-defuser, , break;case $.)
 mgnetu.*##+js(noeval-if, fairAdblock)
 mgnetu.*##.banner-container .box-success > h4
+mgnetu.*##[href*="bit.ly/"]
 !
 ! ------ milanuncios.com ------
 !
@@ -5905,3 +5912,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ml314.com^
 ||cdn.ampproject.org/v*/amp-social-share-
 ||cxense.com^$3p
+||outbrain.com^$3p
+||jookaureate.com^
