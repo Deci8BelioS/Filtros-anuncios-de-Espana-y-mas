@@ -425,6 +425,23 @@ yetipay.pl/payments/js/*$script
 /sc-tagmanager/*
 /wp-content/plugins/sassy-social-share/*$from=~n1info.com|~nova.rs
 /referrer.js
+##.sponsored-container
+###block-ad-articles
+##.ad-unit:not(.text-ad):not(.textads)
+##.tw-share
+##.fb-share
+##.email-share
+##.icon-meneame
+##.social-footer
+##.sharrre
+##[title="Compartir en Facebook"]
+##.share-link-container
+##.share-btn
+##.email-cta
+##.ad-section
+##.ad-inner
+##.google-ad:not(.testAd)
+##.share-social-list
 ###cookie-pop
 ##div.cookie-confirm
 ##div.cookie-message
@@ -3055,10 +3072,15 @@ _europecookielaw.
 !
 ! ------ 20minutos ------
 !
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds > div.henneoHB
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.social
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, __tnt.adBlockEnabled)
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.prometeoArticleBottom
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.share-options
+lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es###sidebarADefault
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, hb_now)
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es#$##axds-Top { min-height: 0 !important; }
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.banner-header
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.OUTBRAIN
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds-lane
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.ad-fixed
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.editorial-banner
@@ -5051,14 +5073,30 @@ send.cm##+js(addEventListener-defuser, , break;case $.)
 send.cm##+js(abort-current-script, document.documentElement, break;case $.)
 send.cm##+js(abort-current-script, JSON, break;case)
 !
+! ------ slideshare ------
+!
+slideshare.net##.slide-index:style(display: block !important;)
+slideshare.net##.share
+slideshare.net##.inbetween-overlay
+slideshare.net##.ad-notification
+slideshare.net##.ad-container
+slideshare.net##+js(remove-class, disabled, #progress-bar)
+slideshare.net##+js(remove-attr, disabled, #previous-slide)
+slideshare.net##+js(remove-attr, disabled, #next-slide)
+slideshare.net##+js(addEventListener-defuser, load, adblock_whitelist)
+slideshare.net##+js(addEventListener-defuser, mouseleave, scribd_ad)
+slideshare.net##+js(abort-current-script, ab_tests)
+slideshare.net##+js(set-constant, feature_flags.interstitials_every_four_slides, false)
+slideshare.net##+js(set-constant, feature_flags.interstitial_ads_flag, false)
+!
 ! ------ softonic ------
 !
-softonic.com##+js(nofab)
-softonic.com##+js(no-window-open-if)
+softonic.c*om##+js(nofab)
+softonic.*##+js(no-window-open-if)
 softonic.*##+js(addEventListener-defuser, , [native code])
-softonic.com##.sam-slot
-softonic.com##.sam-slot
-softonic.com###slide-in-wrapper
+softonic.*##.sam-slot
+softonic.*##.sam-slot
+softonic.*###slide-in-wrapper
 !
 ! ------ speedtest ------
 !
@@ -5914,3 +5952,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||cxense.com^$3p
 ||outbrain.com^$3p
 ||jookaureate.com^
+||mrf.io/statics/marfeel-sdk.js
