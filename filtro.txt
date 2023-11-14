@@ -426,6 +426,24 @@ yetipay.pl/payments/js/*$script
 /wp-content/plugins/sassy-social-share/*$from=~n1info.com|~nova.rs
 /referrer.js
 /assets/jquery/main100.js?v=$1p
+/hawklinks.js
+##.widget-ads
+##.sponsored-tag
+##.socialite-widget-item
+##.socialite
+##.newsletterForm-exitIntent
+##.slice-container-newsletterForm
+##.newsletter-inbodyContent-slice
+##.instagram-icon
+##.icon-reddit
+##.dfp-leaderboard-container
+##.button-social
+##.newsletter-slice
+##a[href^="https://www.reddit.com/submit?"]
+##a[href^="https://www.reddit.com/submit"]
+##a[href^="https://pinterest.com/pin/create/"]
+##a[href*="pinterest.com/pin/create/button"]
+##div.app-cookies
 ##.jw-settings-sharing
 ##.jw-submenu-sharing
 ##.vjs-share-button
@@ -5216,6 +5234,22 @@ tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 !
+! ------ tomshardware ------
+!
+tomshardware.*##[id="widgetArea17"]
+tomshardware.*##div[class*="ad-unit"]
+tomshardware.*##+js(abort-on-property-write, tmnramp)
+tomshardware.*##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl=http"], ?murl)
+tomshardware.*##.xenforo-comment-widget:style(height: auto !important;)
+tomshardware.*##.van_taboola
+tomshardware.*##.socialite-widget-ul
+tomshardware.*##.socialite-widget
+tomshardware.*##.related-articles-block
+tomshardware.*##.reddit
+tomshardware.*##.jwplayer__widthsetter
+tomshardware.*###slice-container-newsletterForm-exitIntent
+tomshardware.*###article-body > p + .jwplayer__widthsetter
+!
 ! ------ tpnet ------
 !
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv
@@ -5258,6 +5292,7 @@ twitch.tv##[class*="disclosure-card"]
 !
 ! ------ Twitter ------
 !
+twitter.com##article > div[class] > div[role="button"]:has(> div[dir="auto"] > span:contains(/^Share/))
 twitter.com##aside[aria-label*="Premium"]
 twitter.com##div[data-testid="BottomBar"]
 twitter.com##[data-testid*="UserCell"]:has-text("Promocionado")
@@ -5274,16 +5309,16 @@ twitter.com##.js-signup-call-out
 mobile.twitter.com##div[data-testid="sidebarColumn"] section[aria-label][role="region"]:upward(1)
 twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
-||twitter.com/1.1/jot
 twitter.com##html:style(overflow: auto !important; padding-right: 0 !important; overscroll-behavior-y: auto !important;)
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
-||twitter.com^*/log.json
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|lo siguen|others follow| follow|lo sigue|follows|Promocionado|Promoted/):not(:has(article))
 twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Follow|Siguiendo|Seguir|Personas|People|Trending|Tendencia|trends|Tendencias|Ganó|won|Ver todo|View all/)):not(:has(article))
 twitter.com##aside[aria-label*="Get Verified"]:has([class*="css-"]),
 twitter.com##aside[aria-label*="Obtener verificación"]:has([class*="css-"])
+||twitter.com^*/log.json
+||twitter.com/1.1/jot
 !
 ! ------ unknowncheats ------
 !
@@ -5976,3 +6011,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||vtbe.to/vtu_$script
 ||mbidadm.com^
 ||dalysv.com^
+||jwplayer.com^$from=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|videogames.si.com|whathifi.com
