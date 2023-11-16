@@ -427,6 +427,21 @@ yetipay.pl/payments/js/*$script
 /referrer.js
 /assets/jquery/main100.js?v=$1p
 /hawklinks.js
+/blocknewsletter/*
+/ganalytics/*
+/assets/ad/*
+/plugins/duracelltomi-google-tag-manager/*
+_300x250_
+##.lgcookieslaw_overlay
+##a[href^="http://www.facebook.com/sharer.php"]
+##a[href^="http://www.facebook.com/sharer.php?"]
+##.share-icons-wrapper
+##.icon-facebook-circle
+##.widget_300x250_advertisement
+##.single_ad_300x250
+##.advertisement_300x250
+##.advertisement-content
+###wpfront-notification-bar-spacer
 ##.widget-ads
 ##.sponsored-tag
 ##.socialite-widget-item
@@ -3950,6 +3965,7 @@ facebook.com##.uiLayer
 facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
+||facebook.com/plugins/$from=~facebook.com|~freepresets.com
 !
 ! ------ fapello.com ------
 !
@@ -3975,10 +3991,10 @@ firesticktricks.com##div.blog-column:has-text(/VPN/)
 firesticktricks.com##.su-row
 firesticktricks.com##.banner-btm-section
 firesticktricks.com##.top-banner
-
 !
 ! ------ Forocoches ------
 !
+forocoches.com##section[style^="min-width: 300px;"]
 forocoches.com###h1
 forocoches.com###fcthread
 forocoches.com###td_post_
@@ -4039,6 +4055,8 @@ geeknetic.es##+js(no-window-open-if)
 !
 ! ------ google ------
 !
+google.*###searchform ~ div div.rsir2d > div[role="button"] > span
+google.*###taw > div > [data-ved]
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
@@ -4555,6 +4573,12 @@ msn.com##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 msn.com##+js(json-prune, *, adFeedbackData adType adServedUrls)
 msn.com##+js(set-constant, Object.prototype.iadb, undefined)
 !
+! ------ mundokodi.com ------
+!
+mundokodi.com###secondary
+mundokodi.com##.footer-widgets-wrapper
+mundokodi.com###header-text-nav-wrap
+!
 ! ------ nexusmods.com ------
 !
 nexusmods.com##+js(nano-setTimeout-booster, timer)
@@ -5001,6 +5025,9 @@ rakuten.tv##+js(no-xhr-if, /youboranqs01|spotx|springserve/)
 !
 ! ------ reddit ------
 !
+reddit.com##._3Tc8YYRhVDX9vlR0XePZfH
+reddit.com##+js(remove-class, scroll-disabled, body, stay)
+reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com###adblocktest:style(display: block !important;)
 reddit.com###acceptabletest:style(display: block !important;)
 reddit.com##+js(json-prune, data.children.[].data.outbound_link)
@@ -5068,6 +5095,7 @@ reddit.com##+js(orr)
 ||reddit.com/api/jail/$xhr,1p
 ||reddit.com/api/jail^$xhr,1p
 ||www.reddit.com/|$xhr,1p,method=post
+||redditstatic.com/*/pushnotifications.
 preview.redd.it##shreddit-async-loader[bundlename="reddit_cookie_banner"]
 preview.redd.it##div[class*="cdn-media-page "] > [class*="border-"]:has-text(/Visitar/)
 !
@@ -5325,6 +5353,7 @@ twitter.com##aside[aria-label*="Get Verified"]:has([class*="css-"]),
 twitter.com##aside[aria-label*="Obtener verificación"]:has([class*="css-"])
 ||twitter.com^*/log.json
 ||twitter.com/1.1/jot
+||platform.twitter.com/js/button.$3p
 !
 ! ------ unknowncheats ------
 !
@@ -6018,3 +6047,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||mbidadm.com^
 ||dalysv.com^
 ||jwplayer.com^$from=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|videogames.si.com|whathifi.com
+||consentframework.com^$3p
+||paypalobjects.com^*/pixel.gif
+||widgets.trustedshops.com^$3p
