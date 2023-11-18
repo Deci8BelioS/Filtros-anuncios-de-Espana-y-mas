@@ -433,6 +433,7 @@ yetipay.pl/payments/js/*$script
 /plugins/duracelltomi-google-tag-manager/*
 _300x250_
 /uecomscore_cmp_event_mundo.js
+/push.*/list_notificaciones.php
 ##.js-icon-twitter
 ##.js-icon-facebook
 ##iframe[name="googlefcPresent"]
@@ -6069,3 +6070,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||consentframework.com^$3p
 ||paypalobjects.com^*/pixel.gif
 ||widgets.trustedshops.com^$3p
+||static.vocstatic.com/dab/latest/strategy.js
+||wemass.com^$3p
+||dazzlingbook.com^
+||static.vocstatic.com/vam/*/vam.js
