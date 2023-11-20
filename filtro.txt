@@ -434,6 +434,11 @@ yetipay.pl/payments/js/*$script
 _300x250_
 /uecomscore_cmp_event_mundo.js
 /push.*/list_notificaciones.php
+.com/ad.$from=~ad-tuning.de
+##[id^="google_ads_iframe"]:not(.rb-adbanner)
+##.jw-sharing-dock-btn
+##.ListSocial
+##.addthis_inline_share_toolbox
 ##.js-icon-twitter
 ##.js-icon-facebook
 ##iframe[name="googlefcPresent"]
@@ -3400,6 +3405,7 @@ atresplayer.com##+js(no-fetch-if, /conversion_async.js)
 ||animeflv.net/cpm728.html
 ||animeflv.net/cpx.html
 ||animeflv.net/publi.php
+animeflv.net##.fa-share-alt
 animeflv.net##.adspl
 animeflv.net,animeid.com##.a160
 animeflv.net##.a300x250
@@ -4487,6 +4493,9 @@ mediavida.com##._p-tp
 !
 ! ------ mediaset ------
 !
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com,mitele.es##div[class^="ads__"]
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com,mitele.es##+js(abort-on-property-read, $REACTBASE_STATE.serverModules.push)
+bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com,mitele.es##+js(nofab)
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com###megaSuperior_multisite
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##.cards__card_ad-3gZy
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##div[class^="adsGroupTop"]
@@ -4509,7 +4518,6 @@ mitele.es##.titleList.DestacadoBox.clearfix.ModuleSimple:last-child
 mitele.es##A[href="http://www.premiercasino.es/redirect?provenanceCode=CONECTA5CASINO"]
 mitele.es##a[href="http://www.eltiempohoy.es/"]
 mitele.es##a[href="http://www.tiendagranhermano.com"]
-mitele.es##+js(abort-on-property-read, $REACTBASE_STATE.serverModules.push)
 @@||imasdk.googleapis.com/js/sdkloader/$script,domain=libremercado.com|mitele.es|mundoprimaria.com|shares.enetres.net|vodgc.net
 @@||mdsrwdassets-a.akamaihd.net^$script,domain=mitele.es
 @@||akamaihd.net/*/defaultview/*/fuckadblock.js$script,third-party,xmlhttprequest,domain=mitele.es
@@ -4818,6 +4826,15 @@ vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltub
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*##+js(no-setInterval-if, 0x)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*##+js(abort-on-property-write, Fingerprint2)
 vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*##+js(abort-on-property-write, Fingerprent2)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*,streamwish.*##+js(set-constant, cRAds, false)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*,streamwish.*##+js(set-constant, xRds, true)
+vidoza.*,hdfull.*,pelisplus.*,vanfem.*,sbrity.*,sbanh.*,sbhight.*,uqload.*,sltube.*,dood.*,gnula.*,seriesyonkis.*,streamtape.*,hqq.*,watchsb.*,povvldeo.*,mixdrop.*,gamovideo.*,streamplay.*,upstream.*,waaw.*,embedsito.*,embedsb.*,my.mail.*,yourupload.*,sblongvu.*,slmaxed.*,stfly.*,altblogger.*,filemoon.*,vtplay.*,sbface.*,powvideo.*,vtbe.*,streamvid.*,filelions.*,sfastwish.*,streamwish.*##+js(abort-on-property-read, __Y)
+ok.*##+js(json-prune, result.body.direct)
+ok.*##+js(abort-on-property-read, globalAuthLoginPopupCounter)
+ok.*##.html5-vpl_info-panel
+my.mail.*##.b-video-viral-panel
+hqq.*##+js(abort-on-property-read, popUrl)
+hqq.*##+js(remove-node-text, script, self == top)
 filemoon.*##+js(abort-on-property-read, FMPoopS)
 filemoon.*##+js(nano-setInterval-booster, seconds)
 filemoon.*##+js(abort-current-script, navigator, popunder)
@@ -6074,3 +6091,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||wemass.com^$3p
 ||dazzlingbook.com^
 ||static.vocstatic.com/vam/*/vam.js
+||rs.mail.ru^
+||sadjklq.com^
+||r.mail.ru^$image
+||ok.ru/dk?cmd=videostatnew
+||tns-counter.ru^$3p
+||socy.es^$3p
+||webpixel.smartmeapp.com^
