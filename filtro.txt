@@ -439,6 +439,10 @@ _300x250_
 /ads/banners/*
 /vglnk.js
 /universal_1.html?language=$frame,3p
+/plugins/visitors-traffic-
+##.like-box
+###share-container
+###et-social-icons
 ##.container-lower-ad
 ##iframe[width="728"][height="90"]
 ##.upper-ad-box
@@ -3459,22 +3463,21 @@ animeflv.*##+js(abort-current-script, jQuery, 'pp12')
 animeflv.net##+js(abort-on-property-write, bbHideDiv)
 animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
 !
-! ------ audiotools ------
+! ------ audiotools, multimediatools ------
 !
-@@||audiotools.$generichide
-audiotools.in###top-info
-audiotools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
-audiotools.*###sidebar > #custom_html-6
-audiotools.*##.widget_custom_html
-audiotools.*##+js(nobab)
-audiotools.*/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
-audiotools.*##+js(abort-on-property-read, adsBlocked)
-audiotools.*##+js(abort-on-property-read, chp_adblock_browser)
-audiotools.*##+js(abort-current-script, document.oncontextmenu)
-audiotools.*##+js(noeval-if, /chp_?ad/)
+@@||audiotools.*,multimediatools.*$generichide
+audiotools.*,multimediatools.*###top-info
+audiotools.*,multimediatools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
+audiotools.*,multimediatools.*###sidebar > #custom_html-6
+audiotools.*,multimediatools.*##.widget_custom_html
+audiotools.*,multimediatools.*##+js(nobab)
+audiotools.*,multimediatools.*/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
+audiotools.*,multimediatools.*##+js(abort-on-property-read, adsBlocked)
+audiotools.*,multimediatools.*##+js(abort-on-property-read, chp_adblock_browser)
+audiotools.*,multimediatools.*##+js(abort-current-script, document.oncontextmenu)
+audiotools.*,multimediatools.*##+js(noeval-if, /chp_?ad/)
 /wp-content/plugins/best-ads-block-detector/*
-audiotools.*##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
-!
+audiotools.*,multimediatools.*##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)!
 ! ------ audioz ------
 !
 audioz.download###PromoHead
@@ -6183,3 +6186,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||collector.xhamster.com^
 ||cdn.adsninja.ca^
 ||adlightning.com^$3p
+||msecnd.net/scripts/a/ai.
