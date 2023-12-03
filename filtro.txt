@@ -439,6 +439,10 @@ _300x250_
 /ads/banners/*
 /vglnk.js
 /universal_1.html?language=$frame,3p
+##.container-lower-ad
+##iframe[width="728"][height="90"]
+##.upper-ad-box
+##.lower-ad
 ##.w-newsletter-in_article
 ##.sharing-option
 ##.sharing-btn:not(.btn-comments):not(.btn-copy-url):not(.btn-mail)
@@ -4417,7 +4421,6 @@ independentespanol.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/p
 !
 instagram.com##.HoverCard
 instagram.com##._aagw:empty
-instagram.com##div[class]:has(> div[class]:first-child > a[href="/explore/people/"]):style(position: absolute !important; left: -3000px !important;)
 instagram.com##+js(set-session-storage-item, loggedOutAppSheetIsMinimized, 1)
 instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(a[href^="https://www.facebook.com/ads/ig_redirect/"][target="_blank"]):style(height: 1px !important; visibility: hidden !important;)
 instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(a[href^="https://www.facebook.com/ads/ig_redirect/"][target="_blank"]):remove()
