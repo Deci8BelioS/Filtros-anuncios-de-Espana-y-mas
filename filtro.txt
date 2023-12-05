@@ -440,6 +440,20 @@ _300x250_
 /vglnk.js
 /universal_1.html?language=$frame,3p
 /plugins/visitors-traffic-
+/pixeltracking/*
+##a[href^="fb-messenger://share"]
+##a[href^="fb-messenger://share/?"]
+##.st-social__share
+##.content_gpt_top_ads
+##.ads-box-cont
+##.footer-secondary__social
+##.footer__social
+##.footer__social-icon
+##.cont_social
+###push-notification
+##.share_fb
+##a[href^="http://www.linkedin.com/shareArticle?"]
+##a[href^="http://www.linkedin.com/shareArticle"]
 ##.like-box
 ###share-container
 ###et-social-icons
@@ -3632,6 +3646,21 @@ deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
 deepl.com##+js(addEventListener-defuser, copy)
 !
+! ------ Grupo El Comercio ------
+!
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##.nav__story-social-network
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##div[class^="content_gpt"]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##div[class^="content_gpt_"]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##.navbar-nm__n
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##[class*="showTds"]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##[data-ads-name]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##.s-buttons
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##[class*="paywall"]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##div[id*="articulos-premium"]
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##.story-contents__social
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe##section.st-sidebar__container:style(margin-top: 0 !important;)
+depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomercio.pe,clasificados.pe,peruquiosco.pe###spc_post_stories:empty
+!
 ! ------ Dexerto Ltd ------
 !
 dexerto.es,dexerto.fr##div[class*="my-"]
@@ -6187,3 +6216,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||cdn.adsninja.ca^
 ||adlightning.com^$3p
 ||msecnd.net/scripts/a/ai.
+||retargetly.com^$3p
+||adrecover.com^$3p
+||d1r08wok4169a5.cloudfront.net^
