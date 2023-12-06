@@ -441,6 +441,40 @@ _300x250_
 /universal_1.html?language=$frame,3p
 /plugins/visitors-traffic-
 /pixeltracking/*
+/beardeddragon/iguana.js
+/beardeddragon/gilamonster.js
+/detroitchicago/vista.js
+/detroitchicago/tulsa.js
+/beardeddragon/drake.js
+/tardisrocinante/vitals.js
+/detroitchicago/stickyfix.js
+/detroitchicago/reportads.js
+/detroitchicago/boise.js
+/parsonsmaize/abilene.js
+/parsonsmaize/mulvane.js
+/parsonsmaize/olathe.js
+/detroitchicago/tampa.js
+/img/ads/*$from=~save.ca
+##a[href^="https://www.facebook.com/sharer.php?"]
+##a[href^="https://www.facebook.com/sharer.php"]
+##.sharelinks
+##.js-share-button
+##.adbox-rectangle
+###ez-sidebar-wall-left
+##div.ezmob-footer
+##.sharedaddy
+##.share-twitter
+##.share-tumblr
+##.share-reddit
+##.share-pinterest
+##.share-more
+##.share-linkedin
+##.share-icon
+##.share-facebook
+##.share-email
+##.sd-social
+##.sd-sharing
+##.ez-sidebar-wall-ad
 ##a[href^="fb-messenger://share"]
 ##a[href^="fb-messenger://share/?"]
 ##.st-social__share
@@ -4432,6 +4466,7 @@ idevicecentral.com###custom_html-3
 idevicecentral.com###custom_html-2
 idevicecentral.com##+js(no-setTimeout-if, ()=>)
 idevicecentral.com##+js(abort-on-property-read, reqServers)
+idevicecentral.com##body:style(overflow: auto !important;)
 !
 ! ------ ign.com ------
 !
@@ -6219,3 +6254,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||retargetly.com^$3p
 ||adrecover.com^$3p
 ||d1r08wok4169a5.cloudfront.net^
+||ezoic.net/ezqlog?
+||gatekeeperconsent.com^$3p
+||met.vgwort.de^
