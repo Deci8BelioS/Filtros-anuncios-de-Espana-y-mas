@@ -5621,7 +5621,6 @@ applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,co
 applesfera.com,mundoxiaomi.com,3djuegospc.com,3djuegosguias.com,bebesymas.com,compradiccion.com,diariodelviajero.com,directoalpaladar.com,elblogsalmon.com,espinof.com,genbeta.com,motorpasion.com,motorpasionmoto.com,pymesyautonomos.com,trendencias.com,trendenciashombre.com,vidaextra.com,vitonica.com,xataka.com,xatakaciencia.com,xatakafoto.com,xatakahome.com,xatakamovil.com,xatakandroid.com,xatakawindows.com,3djuegos.com,cocoymaya.com,cdn.ampproject.org##.foot
 foro3djuegos.com##.ad
 foro3djuegos.com##[class*="columna_"]
-foro3djuegos.com##[class*="bgcEB"]
 xataka.com##.m-xataka-movilidad.section-cross
 xataka.com##.m-xataka-basics.section-cross
 xataka.com##.m-xataka-desarrollo.section-cross
