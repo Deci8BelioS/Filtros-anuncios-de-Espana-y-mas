@@ -455,6 +455,20 @@ _300x250_
 /parsonsmaize/olathe.js
 /detroitchicago/tampa.js
 /img/ads/*$from=~save.ca
+/show-ad.
+##.ad_notice
+##.ad_wrapper
+##.ad_xrail
+##.ad_xrail_top
+##.share-fb
+##.share-counter
+##.share-box
+##.share-whatsapp
+##.share-icon-container
+##.ad-card
+###menu-social
+###menu-social-1
+###menu-social-2
 ##a[href^="https://www.facebook.com/sharer.php?"]
 ##a[href^="https://www.facebook.com/sharer.php"]
 ##.sharelinks
@@ -3453,6 +3467,24 @@ allkeyshop.*##.content-box-rewardprogram
 allkeyshop.*##.zendesk__container
 allkeyshop.*##.footer
 !
+! ------ apkpure ------
+!
+apkpure.com##div[dt-eid="pwa_subscribe_button"]
+apkpure.com##body:style(overflow: auto !important;)
+apkpure.com##:not(.item) > .share-box
+apkpure.com##.share-toolbox
+apkpure.com##.share-fixed
+apkpure.com##.chrome-install-pop
+!
+! ------ arstechnica ------
+!
+arstechnica.com##.ad_xrail:style(position: absolute!important; left: -10000px!important;)
+arstechnica.com##.ad_fullwidth:style(position: absolute!important; left: -10000px!important;)
+arstechnica.com##.ad_fullwidth
+arstechnica.com##.ad_crown:style(position: absolute!important; left: -10000px!important;)
+arstechnica.com##.ad_crown
+arstechnica.com##.ad
+!
 ! ------ Atresmedia ------
 !
 ||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
@@ -3593,6 +3625,19 @@ bing.com##.ad_sc
 birdcpm.*##.text-left
 birdcpm.*##.banner
 birdcpm.*##center
+!
+! ------ brainly ------
+!
+brainly.*##div[data-testid="brainly_ads_placeholder"]
+brainly.*##[data-testid="brainly_ads_placeholder"]
+brainly.*##[class^="BrainlyAdsPlaceholder"]
+brainly.*##.js-react-adblock-banner
+brainly.*##.js-new-ad-placeholder
+brainly.*##.brn-ads-box
+brainly.*##+js(abort-on-property-read, __brn_private_mode)
+brainly.*##+js(no-setTimeout-if, trigger, 0)
+brainly.*##+js(set-local-storage-item, social-qa/machineId, $remove$)
+brainly.*##+js(set-constant, jsData.hasVideoMeteringUnlogEnabled, undefined)
 !
 ! ------ cdromance ------
 !
@@ -4427,6 +4472,7 @@ hd-tecnologia.com##.block-posts-small
 !
 ! ------ hipertextual.com ------
 !
+hipertextual.com##.above-content
 hipertextual.com##[class*="ads-widget"]
 hipertextual.com##.widget_text
 hipertextual.com##[class*="social"]
@@ -6256,3 +6302,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ezoic.net/ezqlog?
 ||gatekeeperconsent.com^$3p
 ||met.vgwort.de^
+||cdnpure.com/static/js/ads-
+||svibeacon.onezapp.com^
+||capture.condenastdigital.com^
+||connatix.com^$3p
+||qortex.ai^$3p
+||captcha-display.com^
