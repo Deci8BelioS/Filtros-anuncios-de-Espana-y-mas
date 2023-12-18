@@ -456,6 +456,14 @@ _300x250_
 /detroitchicago/tampa.js
 /img/ads/*$from=~save.ca
 /show-ad.
+##.california-ad
+##.california-sidebar-ad
+##.california-sticky-footer-ad-container
+##.p-footer-rssLink
+##.u-scrollButtons
+###share-menu
+###sidebar-ad
+##.primis-wrapper
 ##.ad_notice
 ##.ad_wrapper
 ##.ad_xrail
@@ -4831,6 +4839,10 @@ okdiario.com##.aux-col
 okdiario.com###main-video-anchor
 okdiario.com###native-addthis
 !
+! ------ overclock ------
+!
+overclock.net##body:style(overflow: auto !important;)
+!
 ! ------ pccomponentes ------
 !
 ||doubleclick.net^$domain=pccomponentes.com,important
@@ -6308,3 +6320,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||connatix.com^$3p
 ||qortex.ai^$3p
 ||captcha-display.com^
+||survicate.com^$3p
+||speedcurve.com^$3p
+||dn0qt3r0xannq.cloudfront.net^
