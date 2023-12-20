@@ -354,7 +354,7 @@ yetipay.pl/payments/js/*$script
 /diffuser.js
 /adtrack-
 /snowplow/*$script
-*$image,3p,redirect-rule=1x1.gif,from=elamigos-games.com
+*$image,3p,redirect-rule=1x1.gif,from=elamigos-games.*
 /sw.js$script,from=dood.*|dooood.*
 /histats.js
 /filejoker.$image
@@ -1299,7 +1299,7 @@ _300x250_
 @@||tii.la^$generichide
 @@||webhostingpost.com^$generichide
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
-@@||elamigos-games.com^$generichide
+@@||elamigos-games.*^$generichide
 @@||oko.sh^$generichide
 @@||myuploadedpremium.de^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=myuploadedpremium.de
@@ -3778,15 +3778,16 @@ diariosanitario.com##[class*="addtoany"]
 !
 ! ------ elamigos-games mas gamefull ------
 !
-elamigos-games.com##.content_store
-elamigos-games.com##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
-elamigos-games.com##+js(abort-on-property-read, CryptoJS)
-elamigos-games.com##+js(addEventListener-defuser, DOMContentLoaded, shortener)
-elamigos-games.com##.iframeDiv
-elamigos-games.com##h3.my-4:has-text(/^Advertising/)
-elamigos-games.com##[class*="_chat"]
-elamigos-games.com##div.portfolio-item:has-text(/NETFLIX/)
-||elamigos-games.com^$script,domain=elamigos-games.com
+elamigos-games.*##.store_fondo
+elamigos-games.*##.content_store
+elamigos-games.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
+elamigos-games.*##+js(abort-on-property-read, CryptoJS)
+elamigos-games.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
+elamigos-games.*##.iframeDiv
+elamigos-games.*##h3.my-4:has-text(/^Advertising/)
+elamigos-games.*##[class*="_chat"]
+elamigos-games.*##div.portfolio-item:has-text(/NETFLIX/)
+||elamigos-games.*^$script,domain=elamigos-games.*
 gamesfull.*##.ads
 !
 ! ------ elblogdecineespanol ------
@@ -6323,3 +6324,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||survicate.com^$3p
 ||speedcurve.com^$3p
 ||dn0qt3r0xannq.cloudfront.net^
+||cdn-cookieyes.com/client_data/
