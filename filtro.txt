@@ -456,6 +456,13 @@ _300x250_
 /detroitchicago/tampa.js
 /img/ads/*$from=~save.ca
 /show-ad.
+/detroitchicago/raleigh.js
+##.share-single
+##.col-social
+###share-twitter
+###header-ad
+###vc-maincontainer-ad
+###vc-maincontainer-midad
 ##.california-ad
 ##.california-sidebar-ad
 ##.california-sticky-footer-ad-container
@@ -3384,6 +3391,9 @@ shorttrick.in##+js(noeval-if, /chp_?ad/)
 !
 ! ------ Amazon ------
 !
+amazon.*##div[class*="_dpNoOverflow_"][data-idt]
+amazon.*###tellAFriendBox_feature_div
+amazon.*###dp-container > #px-profile_feature_div[data-csa-c-type="widget"]
 amazon.*###nav-swmslot
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[cel_widget_id^="multi-brand-"]
@@ -4882,7 +4892,6 @@ pccomponentes.com##.title-container
 pccomponentes.com##.flag-ship-module-class
 pccomponentes.com##section[class*="search-assistant__banner"]
 pccomponentes.com##div[class*="current-assistant"]
-pccomponentes.com##div[class*="sc-f"]:has-text(/experta/)
 pccomponentes.com##div[class*="-ad"]
 pccomponentes.com##+js(set-cookie, accept_cookie, 1)
 ||cdn.pccomponentes.com/img/repositorio/banner/dfp-pccomponentes-default-*.png
