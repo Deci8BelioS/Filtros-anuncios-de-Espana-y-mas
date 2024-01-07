@@ -4100,8 +4100,9 @@ elchapuzasinformatico.com##.sp-lt
 elchapuzasinformatico.com##footer.footer
 elchapuzasinformatico.com##[id*="TopPubli"]
 elchapuzasinformatico.com##[id*="clickioNoticiaTopMovil"]
-elchapuzasinformatico.com##.post-content > div
 elchapuzasinformatico.com##[id*="clickio"]
+elchapuzasinformatico.com##[class*="ads_single"]
+elchapuzasinformatico.com##[id*="ads_single"]
 !
 ! ------ elespanol.com ------
 !
