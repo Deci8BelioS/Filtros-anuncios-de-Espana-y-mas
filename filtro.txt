@@ -457,6 +457,26 @@ _300x250_
 /img/ads/*$from=~save.ca
 /show-ad.
 /detroitchicago/raleigh.js
+/bv-analytics.js
+/smartserve-
+##.ad-title
+##div[data-dfp-id]
+##a[href^="https://www.twitter.com/intent/tweet?"]
+##.social_share
+##.social_list
+##.social_follow
+##.leaderboard.advert
+##.advert.mpu
+##.native_ad
+##.mpu_container
+##.advert_container
+##.cpnb-modal-show-fade-out
+###cpnb_manager_wrap_close_bg
+##.back-to-top:not(body):not(html)
+###ot-sdk-btn:not(button)
+##.optanon-toggle-display
+##.social-icons-list
+###footerSocial
 ##.share-single
 ##.col-social
 ###share-twitter
@@ -3493,6 +3513,11 @@ apkpure.com##:not(.item) > .share-box
 apkpure.com##.share-toolbox
 apkpure.com##.share-fixed
 apkpure.com##.chrome-install-pop
+apkpure.com##.ad-box-auto
+apkpure.com##.js-ad-slot
+apkpure.com##.ad-box:not(#ad-banner)
+apkpure.com##.aegon-down-item
+apkpure.com###policy-info
 !
 ! ------ arstechnica ------
 !
@@ -4894,6 +4919,8 @@ pccomponentes.com##section[class*="search-assistant__banner"]
 pccomponentes.com##div[class*="current-assistant"]
 pccomponentes.com##div[class*="-ad"]
 pccomponentes.com##+js(set-cookie, accept_cookie, 1)
+pccomponentes.com##div[class*="sc-"]:has(.carousel-container:has-text(/La selección de nuestro experto/))
+pccomponentes.com##div.bottom:has-text(/COMPARA CON OTROS PRODUCTOS/)
 ||cdn.pccomponentes.com/img/repositorio/banner/dfp-pccomponentes-default-*.png
 !
 ! ------ pcgamer.com ------
@@ -6334,3 +6361,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||speedcurve.com^$3p
 ||dn0qt3r0xannq.cloudfront.net^
 ||cdn-cookieyes.com/client_data/
+||thisiswaldo.com^
+||thisiswaldo.com/static/js$script,redirect-rule=noop.js
+||primalredfish.com^
+||d34gjfm75zhp78.cloudfront.net^
+||insights.algolia.io^
+||intergient.com^
+||rkgwzfwjgk.com^
