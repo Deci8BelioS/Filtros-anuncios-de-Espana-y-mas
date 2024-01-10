@@ -459,6 +459,9 @@ _300x250_
 /detroitchicago/raleigh.js
 /bv-analytics.js
 /smartserve-
+/wp-statistics/assets/js/tracker.js
+##.adBox
+##.adunitContainer
 ##.ad-title
 ##div[data-dfp-id]
 ##a[href^="https://www.twitter.com/intent/tweet?"]
@@ -5302,6 +5305,14 @@ pspstation.org##.floating
 rakuten.tv##+js(no-xhr-if, cdn.spotxcdn.com/media/)
 rakuten.tv##+js(no-xhr-if, /youboranqs01|spotx|springserve/)
 !
+! ------ razorman ------
+!
+razorman.net##.show-check-also
+razorman.net###footer-widgets-container
+razorman.net##.theiaStickySidebar
+razorman.net##.is-fixed
+razorman.net##.share-links
+!
 ! ------ reddit ------
 !
 reddit.com##._3Tc8YYRhVDX9vlR0XePZfH
@@ -6369,3 +6380,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||insights.algolia.io^
 ||intergient.com^
 ||rkgwzfwjgk.com^
+||teads.tv^
