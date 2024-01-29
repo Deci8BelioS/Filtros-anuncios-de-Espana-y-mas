@@ -461,6 +461,13 @@ _300x250_
 /smartserve-
 /wp-statistics/assets/js/tracker.js
 /datawrapper.gif?
+/adsbanner.
+##.social-sharing-buttons
+##.social-media-icon
+##[data-id^="div-gpt-ad"]
+##a[href^="https://twitter.com/share"]
+##a[href^="https://www.linkedin.com/shareArticle"]
+##a[href^="https://www.linkedin.com/shareArticle?"]
 ##._mo_recs_cti
 ##.ft-ad
 ##.adBox
@@ -5532,6 +5539,11 @@ sourceforge.net##.sterling
 sourceforge.net##div[data-id^="div-gpt-ad-"]
 sourceforge.net##+js(set-constant, SF.adblock, true)
 sourceforge.net##+js(nano-setTimeout-booster)
+sourceforge.net###downloading > #mirror
+sourceforge.net###nels
+sourceforge.net###share-project-button
+sourceforge.net##.dlp_newsletter_subscribe
+sourceforge.net###mirror
 ||sf-syn.com/conversion_outbound_tracker$frame,from=sourceforge.net
 !
 ! ------ skidrowreloaded ------
@@ -6410,3 +6422,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||intergient.com^
 ||rkgwzfwjgk.com^
 ||teads.tv^
+||delivery.consentmanager.net^
+||consentmanager.net^$3p
