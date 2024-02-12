@@ -464,6 +464,8 @@ _300x250_
 /adsbanner.
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
+##.outbrain-reserved-space
+##[onclick^="window.open('https://twitter.com/intent/tweet"]
 ##embed[width="240"][height="400"]
 ##.social-sharing-buttons
 ##.social-media-icon
@@ -4699,6 +4701,15 @@ larazon.es##.prometeo-reserved-space
 larazon.es##.article-aside-bottom
 larazon.es##.container__sticky--left
 larazon.es##.container__sticky--right
+larazon.es##.article-main__social-embed
+larazon.es##.LRZ_VIDEO
+larazon.es##body:style(overflow: visible !important;)
+larazon.es##.social-wrapper
+larazon.es##.site-footer__rrss
+larazon.es##.advertising
+larazon.es###floorad__portada
+larazon.es##+js(set-constant, gfkS2sExtension, {})
+larazon.es##+js(set-constant, gfkS2sExtension.HTML5VODExtension, noopFunc)
 !
 ! ------ majorgeeks ------
 !
@@ -6439,3 +6450,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||adblock-tester.com/banners/
 ||sentry-cdn.com^$from=adblock-tester.com
 ||an.yandex.ru^$from=~e.mail.ru
+||cmp.sibbo.net^
+||membrana.media^$3p
