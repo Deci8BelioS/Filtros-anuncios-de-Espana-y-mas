@@ -464,6 +464,15 @@ _300x250_
 /adsbanner.
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
+##.social-media-link
+##.mobile-social
+##.share-button
+##.share-buttons
+##.share-wrapper
+###block-socialmedia
+##a[onclick^="window.open('https://www.facebook.com/sharer/sharer.php"]
+##a[onclick*="https://www.facebook.com/sharer/"]
+##a[onclick*="//www.facebook.com/"][onclick*="sharer.php"]
 ##.outbrain-reserved-space
 ##[onclick^="window.open('https://twitter.com/intent/tweet"]
 ##embed[width="240"][height="400"]
@@ -4710,6 +4719,12 @@ larazon.es##.advertising
 larazon.es###floorad__portada
 larazon.es##+js(set-constant, gfkS2sExtension, {})
 larazon.es##+js(set-constant, gfkS2sExtension.HTML5VODExtension, noopFunc)
+!
+! ------ liveworksheets.com ------
+!
+liveworksheets.com##.flex-wrap-reverse.min-h-\[250px\]
+liveworksheets.com##+js(remove-attr, oncontextmenu, body)
+liveworksheets.com##.ads-mockup
 !
 ! ------ majorgeeks ------
 !
