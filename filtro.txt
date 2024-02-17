@@ -464,6 +464,14 @@ _300x250_
 /adsbanner.
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
+/adserver.$~xhr,from=~konograma.com
+##.mvp-nav-soc-but
+##.mvp-foot-soc-list
+###mvp-top-nav-soc
+###mvp-fly-soc-wrap
+###mvp-foot-soc
+##body .twitter-share-button
+##.twitter-share-button
 ##.social-media-link
 ##.mobile-social
 ##.share-button
@@ -4322,6 +4330,11 @@ geeknetic.es##.share-article-float
 geeknetic.es##+js(no-window-open-if)
 ||geeknetic.es/ajax/renderads.asp
 !
+! ------ goluchas.com ------
+!
+goluchas.com##[id*="-popup-"]
+goluchas.com##[class*="sgpb-popup-overlay"]
+!
 ! ------ google ------
 !
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
@@ -4725,6 +4738,12 @@ larazon.es##+js(set-constant, gfkS2sExtension.HTML5VODExtension, noopFunc)
 liveworksheets.com##.flex-wrap-reverse.min-h-\[250px\]
 liveworksheets.com##+js(remove-attr, oncontextmenu, body)
 liveworksheets.com##.ads-mockup
+!
+! ------ lovesomecommunity.com ------
+!
+lovesomecommunity.com##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+lovesomecommunity.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore/)
+lovesomecommunity.com##+js(abort-on-property-write, _pop)
 !
 ! ------ majorgeeks ------
 !
@@ -5922,6 +5941,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,match-case
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document
+/^https:\/\/[.\w]+\.[a-z]{2,3}\/z-[5-7]\d{6}$/$script,1p,match-case,strict1p
 ||ads.vidoomy.com^
 ||powerad.ai^
 ||googletagmanager.com^
@@ -6467,3 +6487,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||an.yandex.ru^$from=~e.mail.ru
 ||cmp.sibbo.net^
 ||membrana.media^$3p
+||lovesomecommunity.com/blast.js
+||achcdn.com^
+||facebook.com/plugins/$from=~facebook.com
