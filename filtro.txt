@@ -4204,7 +4204,7 @@ facebook.com##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/
 facebook.com##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
-facebook.com##a[href*="ads"]:upward(10)
+facebook.com##a[href*="ads"]:upward(10):if(a[href*="Threads"])
 facebook.com##a[href^="/ad_center/"]
 facebook.com###ssrb_stories_start + div
 facebook.com##div[aria-label*="video chats"]:upward(9)
