@@ -465,6 +465,7 @@ _300x250_
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
 /adserver.$~xhr,from=~konograma.com
+##.js-newsletter-widget
 ##.mvp-nav-soc-but
 ##.mvp-foot-soc-list
 ###mvp-top-nav-soc
@@ -3728,6 +3729,16 @@ cdromance.*###custom_html-8
 cdromance.*##.game-container > ins.adsbygoogle:upward(1)
 cdromance.*##.game-container[style="grid-column: span 2;"]
 cdromance.*##.widget_custom_html > .widget-title:contains(/^Advertisements$/):upward(1)
+!
+! ------ chollometro.com ------
+!
+chollometro.com##div.cept-banner
+chollometro.com##.js-telegram-widget
+chollometro.com##body:style(overflow: visible !important;)
+chollometro.com##body:style(overflow: auto !important;)
+chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
+chollometro.com##+js(set-cookie, cookie_policy_agreement, 3)
+chollometro.com##+js(set-cookie-reload, cookie_policy_agreement, 3)
 !
 ! ------ chomikuj.pl ------
 !
