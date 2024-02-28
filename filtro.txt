@@ -465,6 +465,9 @@ _300x250_
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
 /adserver.$~xhr,from=~konograma.com
+##.adsninja-rail-zone
+##.adsninja-ad-zone-container-with-set-height
+##.dt_social_single
 ##.js-newsletter-widget
 ##.mvp-nav-soc-but
 ##.mvp-foot-soc-list
@@ -3479,6 +3482,8 @@ amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]
 amazon.*###similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
 amazon.*##[class*="-widget-"]:has-text(Patrocinado)
 amazon.*##div.s-result-item[data-asin=""]:has(> .sg-col-inner > div[cel_widget_id^="MAIN-VIDEO_SINGLE_PRODUCT-"])
+scorecardresearch.com/beacon.js$script
+amazon-adsystem.com/aax2/apstag.js$script
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 !
 ! ------ Adslzone y demás ------
@@ -3543,17 +3548,25 @@ allkeyshop.*##.footer
 !
 ! ------ apkpure ------
 !
-apkpure.com##div[dt-eid="pwa_subscribe_button"]
-apkpure.com##body:style(overflow: auto !important;)
-apkpure.com##:not(.item) > .share-box
-apkpure.com##.share-toolbox
-apkpure.com##.share-fixed
-apkpure.com##.chrome-install-pop
-apkpure.com##.ad-box-auto
-apkpure.com##.js-ad-slot
+apkpure.*##div[dt-eid="pwa_subscribe_button"]
+apkpure.*##:not(.item) > .share-box
+apkpure.*##.share-toolbox
+apkpure.*##.share-fixed
 apkpure.com##.ad-box:not(#ad-banner)
 apkpure.com##.aegon-down-item
 apkpure.com###policy-info
+apkpure.*##body:style(overflow: auto !important;)
+apkpure.*##.float-request-notification-permission-button
+apkpure.*##.chrome-install-pop
+apkpure.*##.ad-box-auto
+apkpure.*###policy-info
+apkpure.*##.js-ad-slot
+apkpure.*##.debut-game
+apkpure.*##[class*="-banner"]
+apkpure.*##div[class*="right"]:has(div[class*="editor-choice"])
+apkpure.*##div[class*="right"]:has(div[class*="-on-sale"])
+apkpure.*##div[class*="right"]:has(div[class*="top-news-"])
+apkpure.*##.popular-articles.module
 !
 ! ------ arstechnica ------
 !
@@ -3582,6 +3595,12 @@ lasexta.com##.mod-ad-middle
 atresplayer.com##+js(no-setTimeout-if, _creatBait)
 atresplayer.com##+js(nofab)
 atresplayer.com##+js(no-fetch-if, /conversion_async.js)
+atresplayer.com##body:style(overflow: visible !important;)
+atresplayer.com##+js(no-fetch-if, doubleclick)
+atresplayer.com##+js(adjust-setTimeout, [native code], 1000)
+atresplayer.com##div[class*="style__StyledModalWrapper-sc-"]:has([class*="StyledAdBlocker"])
+@@||atresplayer.com^$generichide
+@@||assets.adobedtm.com^$xhr,from=atresplayer.com
 !
 ! ------ animeflv ------
 !
@@ -4348,6 +4367,7 @@ goluchas.com##[class*="sgpb-popup-overlay"]
 !
 ! ------ google ------
 !
+*$3p,denyallow=googleapis.com|google.com|googleusercontent.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,from=shrinkme.*
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
 google.*###taw > div > [data-ved]
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
@@ -4823,6 +4843,7 @@ mitele.es##.titleList.DestacadoBox.clearfix.ModuleSimple:last-child
 mitele.es##A[href="http://www.premiercasino.es/redirect?provenanceCode=CONECTA5CASINO"]
 mitele.es##a[href="http://www.eltiempohoy.es/"]
 mitele.es##a[href="http://www.tiendagranhermano.com"]
+mitele.es##body,html:style(overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important)
 @@||imasdk.googleapis.com/js/sdkloader/$script,domain=libremercado.com|mitele.es|mundoprimaria.com|shares.enetres.net|vodgc.net
 @@||mdsrwdassets-a.akamaihd.net^$script,domain=mitele.es
 @@||akamaihd.net/*/defaultview/*/fuckadblock.js$script,third-party,xmlhttprequest,domain=mitele.es
@@ -5188,6 +5209,14 @@ ztorrents.*##+js(abort-on-property-read, absda)
 ||filemoon.*/js/baf.js
 /vtu_*.js$script,from=vtbe.net|vtplay.net|vtube.to
 *$script,3p,denyallow=google.com|googleapis.com,from=powvdeo.*
+atomixhq.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+atomixhq.*##+js(addEventListener-defuser, , break;case $.)
+atomixhq.*##+js(remove-node-text, script, break;case $.)
+atomixhq.*##+js(no-window-open-if, !/download\/|link/)
+atomixhq.*##+js(abort-on-property-write, adcashMacros)
+atomixhq.*##+js(no-window-open-if, !/download\/|link|atomtt\.com\//)
+atomixhq.*##+js(no-setTimeout-if, sadbl)
+atomixhq.*##+js(abort-current-script, document.createElement, break;case $.)
 !
 ! ------ periodistadigital ------
 !
@@ -6501,3 +6530,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||lovesomecommunity.com/blast.js
 ||achcdn.com^
 ||facebook.com/plugins/$from=~facebook.com
+||indicative.com^$3p
+||indigitall.com^$3p
+||static.chartbeat.com/js/chartbeat_mab.js$script,redirect-rule=chartbeat.js
+||push-sdk.com^
+||kueezrtb.com^
