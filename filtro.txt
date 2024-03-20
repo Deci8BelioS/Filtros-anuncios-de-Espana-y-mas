@@ -465,6 +465,16 @@ _300x250_
 .ru/ads/
 /bugsnag.min.js$from=adblock-tester.com
 /adserver.$~xhr,from=~konograma.com
+/v1/pixel?
+/legion-advertising-atlasastro/*
+###header_ad
+###content_ad_2
+###content_ad
+##.BeOpWidget
+##.static_mpu_wrap
+##.sponsor_image
+##.ad-slot-2
+##.onetrust-pc-dark-filter
 ##.adsninja-rail-zone
 ##.adsninja-ad-zone-container-with-set-height
 ##.dt_social_single
@@ -3234,6 +3244,7 @@ _300x250_
 /widgets/cookies-
 /wkp_cookies.js
 /wp-cookie-allow/*$script,stylesheet
+/wrappermessagingwithoutdetection.js$from=10kysymysta.fi|2050.de|4fansites.de|4players.de|abiristeilyt.fi|ableitungsrechner.net|abonnement.hln.be|about-drinks.com|academics.de|ad-alliance.de|adressa.no|advnture.com|aero.de|aftenbladet.no|aftenposten.no|airliners.de|aktuality.sk|akuankka.fi|altaposten.no|alypaa.com|amateurphotographer.com|androidcentral.com|anfieldwatch.co.uk|anime2you.de|apotheken-umschau.de|ariadneathome.nl|ariva.de|auto-motor-und-sport.de|autobild.es|autoexpress.co.uk|automobil-elektronik-kongress.de|autotrack.nl|autotrader.co.uk|autoweek.nl|autowereld.nl|autozeitung.de|av-avis.no|avisa-st.no|axelspringer.com|azet.sk|baby-und-familie.de|badoo.com|bafoeg-rechner.de|bautipps.it|bbc.com|bbcgoodfood.com|bbheute.de|bergfex.com|berliner-kurier.de|best-of-netflix.com|bestcheck.de|bietigheimerzeitung.de|bikeradar.com|bistro.sk|bitpipe.com|bitpipe.com.br|bladet.no|blick.de|blocket.se|bloomberglinea.com|bnr.nl|boerse.de|bordercountiesadvertizer.co.uk|borncity.com|brighttalk.com|bringmethenews.com|bt.no|bucksfreepress.co.uk|buffed.de|burda-forward.de|business-punk.com|businessinsider.com|businessinsider.es|bygdanytt.no|calculadora-de-derivadas.com|calculadora-de-integrales.com|camping.info|capital.de|caradisiac.com|caravaning.de|cardscout.de|carmagazine.co.uk|carthrottle.com|cavallo.de|celticway.co.uk|channelpartner.de|charlieintel.com|chefkoch.de|chesterstandard.co.uk|chinahandys.net|cinema.de|cio.com|cio.de|classical-music.com|classicfm.com|clever-tanken.de|closeronline.co.uk|computec.de|computerfrage.net|computerhoy.com|computerweekly.com|computerwoche.de|computerworld.com|countypress.co.uk|countytimes.co.uk|cravenherald.co.uk|crn.com|cryptoticker.io|csoonline.com|dagallemaal.be|dagbladet.no|dagsavisen.no|dailyresearchplot.com|deine-tierwelt.de|deluxemusic.de|demorgen.be|denofgeek.com|derivative-calculator.net|dexerto.com|digi.no|digilehdet.fi|digitalartsonline.co.uk|discoverwildlife.com|dk-online.de|dolen.no|donaldduck.nl|dpd.com|dpd.de|driva.no|duden.de|dudleynews.co.uk|dumont.de|dunfermlinepress.com|dvd-forum.at|e24.no|eatsmarter.com|ecomento.de|edpc.eu|eigenhuiseninterieur.nl|einfachbacken.de|eiu.com|elbil24.no|elektroauto-news.net|elle.de|empireonline.com|entertainmentdaily.co.uk|esquire.de|essen-und-trinken.de|esslinger-zeitung.de|evo.co.uk|expertreviews.co.uk|falmouthpacket.co.uk|familie.de|faroutmagazine.co.uk|fd.nl|feelingwonen.be|filext.com|finanzen100.de|finanzfrage.net|finanznachrichten.de|finanztreff.de|findagrave.com|fitforfun.de|fjordabladet.no|fjordingen.no|fjt.no|fjuken.no|flair.nl|flights-idealo.co.uk|flowmagazine.nl|flugrevue.de|folkebladet.no|footballtransfers.com|fosna-folket.no|fourfourtwo.com|frag-mutti.de|framtidinord.no|friflyt.no|friflytbestill.no|fussballfieber.de|futisporssi.fi|futurism.com|gaelmaison.be|gamesindustry.biz|gamesradar.com|gardenersworld.com|gaspedaal.nl|gat.no|gazetteandherald.co.uk|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|goal.com|godt.no|goedgevoel.be|goom.net|greenocktelegraph.co.uk|gruenderkueche.de|guide-epargne.be|guitarworld.com|gutefrage.net|gutekueche.at|gutekueche.de|hampshirechronicle.co.uk|handelsblatt.com|hannover.de|harpersbazaar.de|haus.de|helpforum.sky.com|helpster.de|herefordtimes.com|himosjuhannus.fi|hitc.com|hitra-froya.no|hobbyconsolas.com|hockeygm.fi|honk.no|ht.no|humo.be|ibancalculator.com|idealo.at|idealo.co.uk|idealo.com|idealo.de|idealo.dk|idealo.es|idealo.fi|idealo.fr|idealo.in|idealo.it|idealo.nl|idealo.no|idealo.pl|idealo.pt|idealo.se|iltapulu.fi|impartialreporter.com|indebuurt.nl|independer.be|innherred.no|instyle.de|integral-calculator.com|integral-calculator.ru|integralrechner.de|intermediair.nl|iskelma.fi|iskelmafestivaali.fi|itpro.co.uk|itpro.com|itromso.no|jameda.de|jamiegeller.co|jeger.no|jetzt.de|jobat.be|joe.be|justjared.com|justthenews.com|jysari.fi|kachelmannwetter.com|kiosk.nl|kk.no|kkuriren.se|klamm.de|klara.be|kn-online.de|kode24.no|komando.com|krzbb.de|kuechengoetter.de|kuopiorock.fi|kurier.de|lancashiretelegraph.co.uk|landevei.no|laptopmag.com|lbc.co.uk|leaderlive.co.uk|lecker.de|leijonaporssi.fi|lemagit.fr|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|leukstetickets.nl|libelle.nl|liberation.fr|liigaporssi.fi|lincolnshireworld.com|linux-magazin.de|livefortheoutdoors.com|livescience.com|livingathome.de|livios.be|ln-online.de|lossebladen.nl|lovelybooks.de|maclife.de|macwelt.de|macworld.com|maennersache.de|malservice.aftonbladet.se|margriet.nl|marieclaire.co.uk|mcnmotorcycleshow.com|mediaimpact.de|meidastouch.com|mein-schoener-garten.de|meineorte.com|menshealth.de|mensjournal.com|meteologix.com|mijnenergie.be|minmote.no|mishtalk.com|mixed-news.com|mnm.be|monenergie.be|morenytt.no|morewithvpro.com|mountainbike-magazin.de|moz.de|muehlacker-tagblatt.de|mumsnet.com|musicradar.com|myfitnesspal.com|myhomebook.de|n-page.de|nationalevacaturebank.nl|nebenan.de|nehnutelnosti.sk|nelonen.fi|nelonenmedialive.fi|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nexttv.com|nexusmods.com|nitro-tv.de|nnn.de|norsk-klatring.no|northwaleschronicle.co.uk|nostalgie.be|nouveau.nl|nowtv.com|nowtv.it|noz.de|nrj.be|nyss.no|oekotest.de|olivemagazine.com|onvista.de|oskar.de|oudersvannu.nl|parade.com|parfumo.de|parool.nl|pcgamebenchmark.com|pcgamer.com|pcgamesn.com|pclifecyclemanagement.com|pcwelt.de|pcworld.com|pcworld.es|pent.no|phonostar.de|photovoltaikforum.com|planetradio.co.uk|playboy.de|playpilot.com|pockettactics.com|podme.com|podplay.com|pokewiki.de|politico.eu|prad.de|praxisvita.de|pricespy.co.uk|pride.com|prignitzer.de|primo.be|prinz.de|proplanta.de|psmag.com|qmusic.be|qmusic.nl|qz.com|racefans.net|radio.at|radio.de|radio.dk|radio.es|radio.fr|radio.it|radio.net|radio.pl|radio.pt|radio.se|radio1.be|radio2.be|radiocity.fi|radionova.fi|radioplay.fi|radiopooki.fi|rakennuslehti.fi|rbnett.no|realitytitbit.com|reclamefolder.nl|redensarten-index.de|reisefrage.net|rheinpfalz.de|rmj.fi|roadbike.de|rockfest.fi|romfordrecorder.co.uk|rtl-passion.de|rtlplus.de|rugbydump.com|rugbyonslaught.com|sanakirja.org|sanoma.fi|scholieren.com|schoolbank.nl|schwarzwaelder-bote.de|sciencefocus.com|second-hand.it|seher.no|selbermachen.de|senioren-ratgeber.de|shz.de|si.com|sir-apfelot.de|sky.de|skysports.com|smp.no|snow-forecast.com|sol.no|somersetcountygazette.co.uk|soundis.gr|southwalesargus.co.uk|spaargids.be|space.com|speed.io|spielaffe.de|sportbible.com|sportnews.bz|sportnieuws.nl|sportsmole.co.uk|sporza.be|spox.com|startpagina.nl|stijlvol-wonen.com|story.nl|streampicker.de|strilen.no|stubru.be|studis-online.de|studyflix.de|stuff.tv|stuttgarter-nachrichten.de|stuttgarter-zeitung.de|sueddeutsche.de|sueddeutscher-verlag.de|suedtirolnews.it|suomipopfestivaali.fi|suomitutka.fi|sv-veranstaltungen.de|svz.de|swmh.de|swp.de|t3.com|t3n.de|tahkojuhannus.fi|tammerfest.fi|tecchannel.de|techadvisor.com|techadvisor.fr|techhive.com|techradar.com|techstage.de|techtarget.com|techtarget.de|techtarget.fr|telegraph.co.uk|telepolis.de|telmi.it|terrengsykkel.no|testedich.de|teveblad.be|thatgrapejuice.net|the-decoder.com|the-decoder.de|the-sun.com|theboltonnews.co.uk|thecelticblog.com|thechelseachronicle.com|thedailymash.co.uk|thedrive.com|theloadout.com|thenational.scot|thenorthernecho.co.uk|thepeoplesperson.com|thepinknews.com|thepoke.co.uk|thescottishsun.co.uk|theserverside.com|thestreet.com|thesun.co.uk|thesun.ie|thetab.com|thetimes.co.uk|tijdschrift.nl|toggo.de|tomshardware.com|topgear.com|totaaltv.nl|travelbook.de|tronderbladet.no|tu.no|tv14.de|tv2.no|tvfamilie.be|tvnow.at|tvnow.de|unnuetzes.com|unsere-helden.com|urlaubsguru.de|utemagasinet.no|utopia.de|vaalikone.fi|vdi-nachrichten.com|veronicasuperguide.nl|vestlandsnytt.no|vestnytt.no|vice.com|vigga.no|vikebladet.no|vip.de|visit-hannover.com|viva.nl|vkmag.com|vkz.de|vl.no|voice.fi|vol.no|volkskrant.nl|vox.de|vrt.be|vrtinternational.com|vtm.be|vtmgo.be|vtwonen.be|vtwonen.nl|wallstreet-online.de|wanajafestival.fi|wargamer.com|wasserburger-stimme.de|watfordobserver.co.uk|webwinkel.ad.nl|webwinkel.bndestem.nl|webwinkel.destentor.nl|webwinkel.ed.nl|webwinkel.gelderlander.nl|webwinkel.pzc.nl|webwinkel.volkskrant.nl|wetteronline.de|whathifi.com|whats-on-netflix.com|wieistmeineip.de|willy.radio|windowscentral.com|winhappy.com|wirralglobe.co.uk|wisden.com|wiwo.de|wonenlandelijkestijl.com|worcesternews.co.uk|wowtv.de|www.sky.com|www.sky.it|zozitdat.nl|zvw.de
 _cookie_bar/
 _cookie_cnil.
 _cookie_compliance.
@@ -3447,6 +3458,11 @@ deepbrid.com##+js(set-constant, adsenseadBlock, noopFunc)
 deepbrid.com##.content > div.rounded-md.text-theme-10
 shorttrick.in##+js(noeval-if, /chp_?ad/)
 /aas/r45d/vki/*$script,redirect-rule=noop.js
+shrinkme.*##+js(remove-node-text, script, window.open)
+shrinkme.*##+js(set-constant, blurred, false)
+shrinkme.*##+js(remove-attr, href, a[href][target="_blank"])
+shrinkme.*##+js(abort-on-property-read, AdservingModule)
+shrinkme.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
 !
 ! ------ Amazon ------
 !
@@ -3546,6 +3562,38 @@ allkeyshop.*##.content-box-rewardprogram
 allkeyshop.*##.zendesk__container
 allkeyshop.*##.footer
 !
+! ------ apkmirror ------
+!
+apkmirror.*##div[id^="adtester-container-"]
+apkmirror.*###bottom-slider
+apkmirror.*###sidebar > div.listWidget:has(> h5:contains(Follow APK Mirror))
+apkmirror.*##.advertisement-text
+apkmirror.*##.ains
+apkmirror.*##.apkm-timed-slider
+apkmirror.*##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
+apkmirror.*##.google-ad-leaderboard-injected
+apkmirror.*##.google-ad-leaderboard:style(opacity: 0 !important;)
+apkmirror.*##.listWidget > .promotedAppListing
+apkmirror.*##.listWidget > div[style="padding-top: 12px;"][class="appRow"]
+apkmirror.*##.promotedAppListing
+apkmirror.*##.pushbullet-subscribe-widget
+apkmirror.*##[id^="adtester-container"]:style(position: absolute !important;)
+apkmirror.*##body .ains:style(display: block !important; position: absolute !important; left: -3000px !important;)
+apkmirror.*##body .gooWidget:style(display: block !important; position: absolute !important; left: -3000px !important; height: 310px !important;)
+apkmirror.*##body .google-ad-square-sidebar:style(position: absolute!important; left: -4000px!important; display:block!important;)
+apkmirror.*##body:style(overflow: auto !important;)
+apkmirror.*##div.appRow[style]
+apkmirror.*##html > body:style(padding-top: 0 !important;)
+apkmirror.*#@#.google-ad-leaderboard
+apkmirror.*##.ains-apkm_outbrain_ad
+apkmirror.*##.OUTBRAIN
+apkmirror.*##+js(remove-node-text, script, KCgpPT57bGV0IGU)
+apkmirror.*##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
+apkmirror.*##+js(remove-node-text, script, "'.ains'")
+apkmirror.*##+js(abort-on-stack-trace, document.querySelectorAll, /Object\.visibleEl[\s\S]*?onload|Object\.vE/)
+apkmirror.*##+js(remove-class, disabled, a.downloadButton.disabled)
+@@||apkmirror.com^$generichide
+!
 ! ------ apkpure ------
 !
 apkpure.*##div[dt-eid="pwa_subscribe_button"]
@@ -3567,6 +3615,13 @@ apkpure.*##div[class*="right"]:has(div[class*="editor-choice"])
 apkpure.*##div[class*="right"]:has(div[class*="-on-sale"])
 apkpure.*##div[class*="right"]:has(div[class*="top-news-"])
 apkpure.*##.popular-articles.module
+!
+! ------ aptoide ------
+!
+aptoide.*##div[class^="aptoide-installer"]
+aptoide.*##body:style(overflow: auto !important;)
+aptoide.*##[class*="eskillsappc__EskillsAppcContainer"]
+aptoide.*##div[class*="editorial-slide__EditorialSlideContainer"]
 !
 ! ------ arstechnica ------
 !
@@ -3832,6 +3887,14 @@ deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 deepl.com###lmt_pro_ad_container
 deepl.com##+js(set-constant, Object.prototype.getFooterText, undefined)
 deepl.com##+js(addEventListener-defuser, copy)
+!
+! ------ decrypt.day ------
+!
+decrypt.day##body:style(overflow: auto !important;)
+decrypt.day##+js(trusted-replace-node-text, script, 'G-69Q453PG98');, 'G-69Q453PG98'); window.addEventListener("DOMContentLoaded"\,function(){document.getElementsByClassName("adsbygoogle")[0].setAttribute("style"\,"display: block; height: 280px;")});)
+decrypt.day##+js(adjust-setInterval, update, 1000)
+decrypt.day##+js(adjust-setInterval, update, *, 0.001)
+decrypt.day##ins.adsbygoogle:style(height: 1px !important; visibility: hidden !important;)
 !
 ! ------ Grupo El Comercio ------
 !
@@ -4619,6 +4682,16 @@ hd-tecnologia.com##.spc-newsletter
 hd-tecnologia.com##.post-share-float
 hd-tecnologia.com##.block-posts-small
 !
+! ------ hhgroups.com ------
+!
+hhgroups.com##[class*="pc_pub"]
+hhgroups.com###content-bottom-solapa
+hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
+hhgroups.com##[class*="mob_pub_"]
+hhgroups.com##[class*="home_rrss"]
+hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
+hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
+!
 ! ------ hipertextual.com ------
 !
 hipertextual.com##.above-content
@@ -4637,15 +4710,16 @@ hipertextual.com##.footer-widgets
 hipertextual.com##div.has-text-align-left.is-landscape.is-3.ts-3.image-aligntop.show-image.colgap-3.columns-4.is-grid.wpnbha.is-style-default.wp-block-newspack-blocks-homepage-articles:nth-of-type(8) > div
 hipertextual.com##.jp-relatedposts
 !
-! ------ hhgroups.com ------
+! ------ howtogeek.com ------
 !
-hhgroups.com##[class*="pc_pub"]
-hhgroups.com###content-bottom-solapa
-hhgroups.com##[id*="content-bottom-mid"],[id*="content-bottom-right"],[id*="content-bottom-left"]
-hhgroups.com##[class*="mob_pub_"]
-hhgroups.com##[class*="home_rrss"]
-hhgroups.com###alertPopup:not(#login_popup):has(.popup_adblock_icon:has-text(/adblocker/i))
-hhgroups.com###alertBg[style*="z-index: 100001; display: block;"]:not(#login_popup)
+howtogeek.com##+js(set-constant, maxUnauthenicatedArticleViews, null)
+howtogeek.com##+js(addEventListener-defuser, error, blocker)
+howtogeek.com##+js(remove-cookie, articlesRead, when, scroll keydown)
+howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/)
+howtogeek.com##+js(remove-cookie, articlesRead)
+howtogeek.com##.sharing
+howtogeek.com##.btn-mail
+howtogeek.com###articleNewsletterForm
 !
 ! ------ htcmania.com + kimovil ------
 !
@@ -4710,6 +4784,14 @@ instagram.com##main > div > section div[style*="flex-direction: column;"] > arti
 !
 instatecno.com###ai-adb-overlay
 instatecno.com###ai-adb-message
+!
+! ------ imgur ------
+!
+imgur.com##+js(set-cookie, WHITELISTED_CLOSED, 1)
+imgur.com##+js(adjust-setTimeout, /function\(\)\{try\{|adBegan/, 5000, 0.02)
+imgur.com##+js(set-constant, ADBLOCKED, false)
+imgur.com##.fast-grid-ad
+imgur.com##body:style(overflow-y: auto !important;)
 !
 ! ------ ios-repo-updates.com ------
 !
@@ -5069,6 +5151,19 @@ pcgamer.com##+js(abort-on-property-read, _sp_._networkListenerData)
 pcgamer.com##.van_vid_carousel
 pcgamer.com##.van_taboola
 !
+! ------ pcgamesn.com ------
+!
+pcgamesn.com##header:style(top:0 !important)
+pcgamesn.com##body header.banner:not(#style_important):style(top: 0 !important;)
+pcgamesn.com##.nn_mobile_mpu_wrapper
+pcgamesn.com##.legion_primiswrapper
+pcgamesn.com##.nn_mobile_mpu2_wrapper
+pcgamesn.com##.curated-spotlight
+pcgamesn.com##.ad-mobile
+pcgamesn.com##.ad
+pcgamesn.com###nn_astro_wrapper:style(height: 50px !important;)
+pcgamesn.com###nn_astro_wrapper
+!
 ! ------ pelis/series online ------
 !
 dood.*,streamvid.*,filelions.*,sfastwish.*##+js(abort-current-script, document.documentElement, break;case $.)
@@ -5231,6 +5326,15 @@ periodistadigital.com##.mrf-page.stickyPage
 periodistadigital.com###mrf-footer
 periodistadigital.com##.mrf-widget
 !
+! ------ photopea ------
+!
+photopea.com##+js(set-constant, console.clear, noopFunc)
+photopea.com##.app > div + div[style]:has(a[href*="blocking-ads"])
+photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
+photopea.com##div[style^="padding-top: 10px; overflow: hidden; padding-left:"] > a[target="_blank"] > img
+photopea.com##div[style^="padding-top: 10px; overflow: hidden; padding-left:"] > img
+photopea.com##.bnotify.window:has-text(/blocking ads/)
+!
 ! ------ pinterest ------
 !
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Anzeige von)
@@ -5257,6 +5361,13 @@ pivigames.*,adxgames.*##[class*="gp_hubs-ads"]
 playpaste.com##.step.section
 playpaste.com##.flex-center > p
 playpaste.com##a[href^="https://track.wg-aff.com/"]
+!
+! ------ pluto.tv ------
+!
+pluto.tv##+js(json-prune, adBreaks.*)
+pluto.tv##+js(no-xhr-if, /_Ad_|_ad/)
+
+
 !
 ! ------ Porno ------
 !
@@ -5797,6 +5908,12 @@ uptobox.com##+js(abort-on-property-read, jsUnda)
 uptobox.com##+js(nowebrtc)
 uptobox.com##+js(abort-on-property-write, Fingerprint2)
 uptobox.com##+js(set-constant, jsUnda, noopFunc)
+!
+! ------ uptobox.com ------
+!
+uptodown.com###cookiescript_injected_wrapper
+uptodown.com##.ad
+uptodown.com##body .ad
 !
 ! ------ wabetainfo ------
 !
@@ -6535,3 +6652,26 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||static.chartbeat.com/js/chartbeat_mab.js$script,redirect-rule=chartbeat.js
 ||push-sdk.com^
 ||kueezrtb.com^
+||network-n.com^$3p
+||affilimate.io^$3p
+||d1z2jf7jlzjs58.cloudfront.net^
+||pbxai.com^
+||moatads.com^
+||html-load.com^$image,3p,redirect-rule=1x1.gif
+||pbstck.com^$3p
+||anonymised.io^$3p
+||flashb.id^
+||fastcmp.com^$3p
+||constellation.networknmedia.com/cdn-cgi/trace
+||pcgamesn.com/cdn-cgi/trace
+||braze.com^$3p
+||assemblyexchange.com^$3p
+||t.imgur.com^
+||run.app/events$from=imgur.com
+||stretchsquirrel.com^
+||d3c8j8snkzfr1n.cloudfront.net^
+||sascdn.com/diff/$script
+||media-lab.ai/ana-sentry.js
+||instant.page^$3p
+||pro-market.net^
+||crsspxl.com^
