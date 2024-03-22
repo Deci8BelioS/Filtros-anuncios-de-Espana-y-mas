@@ -467,6 +467,10 @@ _300x250_
 /adserver.$~xhr,from=~konograma.com
 /v1/pixel?
 /legion-advertising-atlasastro/*
+##.share__button-container
+##.share__button
+##.comment__share
+##.comment-share__buttons
 ###header_ad
 ###content_ad_2
 ###content_ad
@@ -3917,17 +3921,6 @@ dexerto.es,dexerto.fr##div[class*="my-"]
 dexerto.es,dexerto.fr##.relative.flex
 dexerto.es,dexerto.fr##.justify-center.flex
 !
-! ------ dzoom.org ------
-!
-dzoom.org.es###cookie-law-info-bar
-dzoom.org.es##.sidebar
-dzoom.org.es##.dz-pub-sky
-dzoom.org.es##.fancybox-overlay
-dzoom.org.es##[class*="fancybox"]
-dzoom.org.es##.dzoom-post-up
-dzoom.org.es##.dzoom-post-down
-dzoom.org.es##.dz-social-share-buttons
-!
 ! ------ diariosanitario ------
 !
 diariosanitario.com##.bannersubheader
@@ -3938,6 +3931,27 @@ diariosanitario.com##.home-ads
 diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
+!
+! ------ disqus.com ------
+!
+disqus.com###placement-top
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
+disqus.com##.comment__share > *
+disqus.com###thread-subscribe-button
+disqus.com###thread-share-bar
+disqus.com###email-signup
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
+!
+! ------ dzoom.org ------
+!
+dzoom.org.es###cookie-law-info-bar
+dzoom.org.es##.sidebar
+dzoom.org.es##.dz-pub-sky
+dzoom.org.es##.fancybox-overlay
+dzoom.org.es##[class*="fancybox"]
+dzoom.org.es##.dzoom-post-up
+dzoom.org.es##.dzoom-post-down
+dzoom.org.es##.dz-social-share-buttons
 !
 ! ------ elamigos-games mas gamefull ------
 !
@@ -4223,6 +4237,7 @@ diariodenavarra.es##.sticky_roba
 !
 ! ------ elchapuzasinformatico ------
 !
+elchapuzasinformatico.com##.ads
 elchapuzasinformatico.com##.cl-consent
 elchapuzasinformatico.com##.ad-area
 elchapuzasinformatico.com#$#body { background-image: none !important; }
@@ -5284,7 +5299,6 @@ my.mail.*##+js(window.open-defuser, /:\/\/r\.mail\.ru\//)
 my.mail.*##+js(abort-on-property-read, AdmanHTML)
 my.mail.*##+js(window.open-defuser, clb670603)
 my.mail.*###b-video-wrapper > div.b-video-html5__overlay-container
-disqus.com###placement-top
 peliculas24.*##.content-kuss-ads
 peliculas24.*##div[itemprop="description"] h3
 pelis-123.*##.head-main-nav i
