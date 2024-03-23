@@ -467,6 +467,7 @@ _300x250_
 /adserver.$~xhr,from=~konograma.com
 /v1/pixel?
 /legion-advertising-atlasastro/*
+/px.gif?$image,redirect-rule=1x1.gif
 ##.share__button-container
 ##.share__button
 ##.comment__share
@@ -5573,6 +5574,10 @@ razorman.net##.share-links
 !
 ! ------ reddit ------
 !
+reddit.com##body:not([style^="overflow:"]):style(pointer-events: auto !important; overflow: auto !important;)
+reddit.com##[slot="use-app"]
+reddit.com##shreddit-async-loader[bundlename="reddit_cookie_banner"]
+reddit.com##shreddit-experience-tree
 reddit.com##._3Tc8YYRhVDX9vlR0XePZfH
 reddit.com##+js(remove-class, scroll-disabled, body, stay)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
@@ -6689,3 +6694,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||instant.page^$3p
 ||pro-market.net^
 ||crsspxl.com^
+||ad-delivery.net^
