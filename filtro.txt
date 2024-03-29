@@ -468,6 +468,19 @@ _300x250_
 /v1/pixel?
 /legion-advertising-atlasastro/*
 /px.gif?$image,redirect-rule=1x1.gif
+*$xhr,3p,redirect-rule=nooptext:-1,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+##.dfp-slot
+###sky-left
+###mpu_top
+##.banner-adverts
+##.share-fbmessenger
+##.puff-ad
+##.overlay-ads
+##.social-stats
+##.social-links-title
+##AD-SLOT
+##ad-slot
+##.cookies__content
 ##.share__button-container
 ##.share__button
 ##.comment__share
@@ -3567,6 +3580,14 @@ allkeyshop.*##.content-box-rewardprogram
 allkeyshop.*##.zendesk__container
 allkeyshop.*##.footer
 !
+! ------ appdb.to ------
+!
+appdb.to##.cookies:not(html, body)
+appdb.to##.banner
+appdb.to##.vue-notification-group
+appdb.to##.app::before
+
+!
 ! ------ apkmirror ------
 !
 apkmirror.*##div[id^="adtester-container-"]
@@ -3878,6 +3899,32 @@ cultura-informatica.com##.single-bottom-share
 cultura-informatica.com##section
 cultura-informatica.com##.banner-wrap
 cultura-informatica.com##.sidebar-sticky
+!
+! ------ dailymail ------
+!
+dailymail.*##body:style(overflow: visible !important;)
+dailymail.*##ul[class^="linksHolder-"]
+dailymail.*##li[data-is-sponsored="true"]
+dailymail.*##div[id^="sky-"][id$="container"]
+dailymail.*##div[class^="socialContainer-"]
+dailymail.*##a[href^="http://itunes.apple.com/app/"]
+dailymail.*##.watermark
+dailymail.*##.vjs-social-controls
+dailymail.*##.socialContainer-1Yly1
+dailymail.*##.social-links
+dailymail.*##.pufftext > .sponsored:upward(3)
+dailymail.*##.mpu_puff_wrapper
+dailymail.*##.mol-img > noscript + div[class^="container-"]
+dailymail.*##.mol-ads-label-container
+dailymail.*##.dms-puff
+dailymail.*###sky-right-container
+dailymail.*###sky-right
+dailymail.*###floating-share-bar-container > ul
+dailymail.*###dms-txt
+dailymail.*###articleIconLinksContainer
+dailymail.*##+js(abort-on-property-read, Notification)
+dailymail.*##+js(set-constant, PushManager, undefined)
+dailymail.*##+js(abort-on-property-read, Object.prototype.videoAdvertisingMode)
 !
 ! ------ deepl.com ------
 !
@@ -5679,6 +5726,20 @@ scrapywar.com##+js(abort-on-property-read, mdpDeBlocker)
 scrapywar.com##+js(abort-current-script, eval, replace)
 scrapywar.com##.stream-item-widget
 !
+! ------ scribd.com ------
+!
+scribd.com##div[data-testid="desktop-leaderboard"]
+scribd.com##.sharing_btn
+scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)
+scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
+scribd.com##.auto__doc_page_webpack_doc_page_body_static_promo_study
+scribd.com##._2kkM6y:style(padding-top: unset !important;)
+scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
+scribd.com##[class*="navigation_megamenu_navigation_category"]
+scribd.com##[class*="breakpoint_hide"]
+scribd.com##[id="sidebar"]
+scribd.com##.blurred_page
+!
 ! ------ send.cm ------
 !
 send.cm##+js(abort-on-property-write, Fingerprint2)
@@ -6695,3 +6756,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pro-market.net^
 ||crsspxl.com^
 ||ad-delivery.net^
+||webcontentassessor.com^
+||hulkprod.anm.co.uk/api/web-push-notification/
+||dailymail.co.uk/api/web-push-notification/
+||crta.dailymail.co.uk^
+||scribd.com/api/v1/events
+||siftscience.com^$3p
