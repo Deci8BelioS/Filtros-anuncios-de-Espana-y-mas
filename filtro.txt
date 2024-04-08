@@ -469,6 +469,25 @@ _300x250_
 /legion-advertising-atlasastro/*
 /px.gif?$image,redirect-rule=1x1.gif
 *$xhr,3p,redirect-rule=nooptext:-1,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+/getad?
+###navBackToTop
+##.scrollToTop
+##.back2top
+###mc_embed_signup
+###mc_embed_signup_scroll
+##.fb-page
+##.fb-xfbml-parse-ignore
+##ins.adsbygoogle[data-ad-slot]
+###ad160
+###ad300
+###ad728
+##.ad_160_600
+##.ad_300_250
+##.ad_filler
+##.share-buttons-top
+##.pw-button-twitter
+##.pw-button-facebook
+##.pw-button-email
 ##.dfp-slot
 ###sky-left
 ###mpu_top
@@ -3484,6 +3503,7 @@ shrinkme.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
 !
 ! ------ Amazon ------
 !
+amazon.*###sponsoredProducts_feature_div
 amazon.*##div[class*="_dpNoOverflow_"][data-idt]
 amazon.*###tellAFriendBox_feature_div
 amazon.*###dp-container > #px-profile_feature_div[data-csa-c-type="widget"]
@@ -4493,6 +4513,7 @@ goluchas.com##[class*="sgpb-popup-overlay"]
 !
 ! ------ google ------
 !
+accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 *$3p,denyallow=googleapis.com|google.com|googleusercontent.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,from=shrinkme.*
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
 google.*###taw > div > [data-ved]
@@ -5094,6 +5115,13 @@ nitroflare.com##+js(abort-current-script, pop3, window.open)
 nitroflare.com##div[id*="superbox"]
 nitroflare.com###popupContent
 !
+! ------ noticias3d.com ------
+!
+noticias3d.com###banner1
+noticias3d.com##[id*="banner2-r"]
+noticias3d.com##[id*="banner1-r"]
+noticias3d.com##[id*="banner-r"]
+!
 ! ------ nperf.com ------
 !
 nperf.com##.partLightGray
@@ -5621,6 +5649,10 @@ razorman.net##.share-links
 !
 ! ------ reddit ------
 !
+reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
+reddit.com##+js(aeld, touchmove)
+reddit.com##body[style*="pointer-events"]:style(pointer-events:auto!important;)
+reddit.com##body[style*="overflow"]:style(overflow:auto!important;)
 reddit.com##body:not([style^="overflow:"]):style(pointer-events: auto !important; overflow: auto !important;)
 reddit.com##[slot="use-app"]
 reddit.com##shreddit-async-loader[bundlename="reddit_cookie_banner"]
@@ -6106,6 +6138,16 @@ xda-developers.com##+js(rc, twig-body)
 xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
 xda-developers.com##+js(abort-current-script, document.createElement, admiral)
 xda-developers.com###xdadevelopers_leaderboard_atf
+xda-developers.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
+xda-developers.com##+js(addEventListener-defuser, error, admiral)
+xda-developers.com##+js(set-constant, admiral, noopFunc)
+xda-developers.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
+xda-developers.com##+js(set-constant, maxUnauthenicatedArticleViews, null)
+xda-developers.com##+js(remove-cookie, articlesRead, when, scroll keydown)
+xda-developers.com##+js(abort-on-property-read, googletag)
+xda-developers.com##+js(remove-cookie, articlesRead)
+xda-developers.com##+js(remove-cookie, /articlesRead|previousPage/)
+xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
 !
 ! ------ zona-leros ------
 !
@@ -6179,6 +6221,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document
 /^https:\/\/[.\w]+\.[a-z]{2,3}\/z-[5-7]\d{6}$/$script,1p,match-case,strict1p
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
 ||ads.vidoomy.com^
 ||powerad.ai^
 ||googletagmanager.com^
@@ -6762,3 +6805,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||crta.dailymail.co.uk^
 ||scribd.com/api/v1/events
 ||siftscience.com^$3p
+||aan.amazon.
+||exponential.com^
+||tynt.com^
+||po.st/static/$3p
