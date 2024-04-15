@@ -470,6 +470,18 @@ _300x250_
 /px.gif?$image,redirect-rule=1x1.gif
 *$xhr,3p,redirect-rule=nooptext:-1,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 /getad?
+/criteo.$from=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
+/remote-weblab-triggers/*
+/insights/reportevent/*
+/usage/clickstream?
+/usage/reportevent?
+/uedata?
+###gpt-leaderboard-ad
+##.ad-disclaimer
+##.breaker-ad
+##.gpt-breaker-container
+##.standard-article-vertical-ad
+##.vertical-ad
 ###navBackToTop
 ##.scrollToTop
 ##.back2top
@@ -3503,6 +3515,10 @@ shrinkme.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
 !
 ! ------ Amazon ------
 !
+||aiv-delivery.net/v1/reportevent
+||amazon.com/1/aiv-web-player/1/oe^
+primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]] | //*[name()="Period"]/@start), [value="Ad"], .mpd)
+primevideo.com##+js(json-prune, cuepointPlaylist)
 amazon.*###sponsoredProducts_feature_div
 amazon.*##div[class*="_dpNoOverflow_"][data-idt]
 amazon.*###tellAFriendBox_feature_div
@@ -4292,6 +4308,13 @@ estrelladigital.es##.form-preview
 estrelladigital.es##.tdm-social-wrapper
 estrelladigital.es##.tdi_122
 !
+! ------ esquire.com ------
+!
+esquire.com##body:style(overflow: auto !important; position: initial !important;)
+esquire.com##section > div[class*="css"]:has(> div.ad-container)
+esquire.com##div[data-nosnippet="data-nosnippet"]
+esquire.com##header[class*="cover-story-marquee"]
+!
 ! ------ videos dailymotion ------
 !
 ||dailymotion.com
@@ -4447,6 +4470,7 @@ firesticktricks.com##.top-banner
 !
 ! ------ Forocoches ------
 !
+forocoches.com##table.tborder#threadslist > tbody[id^="threadbits_forum_"] > tr:has(> [id^="td_threadtitle_"][style^="background-color: #"].alt1 > .smallfont > span)
 forocoches.com##section[style^="min-width: 300px;"]
 forocoches.com###h1
 forocoches.com###fcthread
@@ -5730,6 +5754,7 @@ reddit.com##+js(orr)
 ||redditstatic.com/*/pushnotifications.
 preview.redd.it##shreddit-async-loader[bundlename="reddit_cookie_banner"]
 preview.redd.it##div[class*="cdn-media-page "] > [class*="border-"]:has-text(/Visitar/)
+||redditstatic.com/shreddit/sentry-$from=reddit.com
 !
 ! ------ religiondigital ------
 !
@@ -5781,6 +5806,17 @@ send.cm##+js(abort-on-property-read, AaDetector)
 send.cm##+js(addEventListener-defuser, , break;case $.)
 send.cm##+js(abort-current-script, document.documentElement, break;case $.)
 send.cm##+js(abort-current-script, JSON, break;case)
+!
+! ------ send-anywhere.com ------
+!
+send-anywhere.com##.receiving-ads
+send-anywhere.com###transfer-reward-ad
+send-anywhere.com##+js(nano-sib, skipOptions)
+send-anywhere.com##+js(nano-setInterval-booster, autoClose, , 0.02)
+send-anywhere.com##+js(adjust-setInterval, autoClose, , 0.02)
+send-anywhere.com##+js(adjust-setInterval, skipOptions)
+send-anywhere.com#$#.receiving-ads { display: none !important; }
+send-anywhere.com###gpt-container
 !
 ! ------ slideshare ------
 !
@@ -5964,6 +6000,7 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##.stream-display-ad__wrapper
 twitch.tv##.subtember-gradient
 twitch.tv##.side-info-container
 twitch.tv###twilight-sticky-footer-root
@@ -6809,3 +6846,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||exponential.com^
 ||tynt.com^
 ||po.st/static/$3p
+||servedby-buysellads.com^$3p,from=~buysellads.com
+||carbonads.com^
+||naver.net/wcslog.js
