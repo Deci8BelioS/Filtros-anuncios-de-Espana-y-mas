@@ -476,6 +476,10 @@ _300x250_
 /usage/clickstream?
 /usage/reportevent?
 /uedata?
+##.ccm_go_top
+##.ad_right
+###newsletterbox
+###jGoTop
 ###gpt-leaderboard-ad
 ##.ad-disclaimer
 ##.breaker-ad
@@ -5243,9 +5247,16 @@ pccomponentes.com##section[class*="search-assistant__banner"]
 pccomponentes.com##div[class*="current-assistant"]
 pccomponentes.com##div[class*="-ad"]
 pccomponentes.com##+js(set-cookie, accept_cookie, 1)
-pccomponentes.com##div[class*="sc-"]:has(.carousel-container:has-text(/La selección de nuestro experto/))
 pccomponentes.com##div.bottom:has-text(/COMPARA CON OTROS PRODUCTOS/)
 ||cdn.pccomponentes.com/img/repositorio/banner/dfp-pccomponentes-default-*.png
+pccomponentes.com##.slot-top
+pccomponentes.com##.current-assistant
+pccomponentes.com##.slot-top-product-grid
+pccomponentes.com##.slot-bottom-product-grid
+pccomponentes.com##.slot-middle-product-grid
+pccomponentes.com###product-list-middle-container
+pccomponentes.com##.flagship-ad
+||omtrdc.net^$xhr,important,from=pccomponentes.com
 !
 ! ------ pcgamer.com ------
 !
@@ -6014,6 +6025,10 @@ twitch.tv##[class*="disclosure-card"]
 !
 ! ------ Twitter ------
 !
+twitter.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/UserTweets)
+twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
+twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
+twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
 twitter.com##article > div[class] > div[role="button"]:has(> div[dir="auto"] > span:contains(/^Share/))
 twitter.com##aside[aria-label*="Premium"]
 twitter.com##div[data-testid="BottomBar"]
@@ -6849,3 +6864,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||servedby-buysellads.com^$3p,from=~buysellads.com
 ||carbonads.com^
 ||naver.net/wcslog.js
+||lists.ccmbg.com^
