@@ -4043,6 +4043,13 @@ dzoom.org.es##.dz-social-share-buttons
 !
 ! ------ elamigos-games mas gamefull ------
 !
+elamigos-games.*##div.iframe-responsive
+elamigos-games.*##.col-lg-12
+elamigos-games.*##+js(no-setTimeout-if, checkAdblockUser)
+elamigos-games.*##.content_store
+elamigos-games.*##.iframeDiv
+elamigos-games.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
+elamigos-games.*##h3.my-4:has-text(/^Advertising/)
 elamigos-games.*##.store_fondo
 elamigos-games.*##.content_store
 elamigos-games.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
@@ -4402,47 +4409,36 @@ elespanol.com##.full-suscriptor-container
 !
 ! ------ facebook.com ------
 !
-facebook.com##div[class="x1lliihq"]:has-text(/Seguir/)
-facebook.com##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset]):style(height: 0 !important; overflow: hidden !important;)
-facebook.com##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
-facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
-facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
-facebook.com##a[href*="ads"]:upward(10):if(a[href*="Threads"])
-facebook.com##a[href^="/ad_center/"]
-facebook.com###ssrb_stories_start + div
-facebook.com##div[aria-label*="video chats"]:upward(9)
-facebook.com##div[aria-posinset]:has-text(Sugerencia para ti)
+facebook.com##a[aria-label="Advertiser"]
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.marketplace_search.feed_units.edges.[-].node.story.sponsored_data.ad_id)
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.story.sponsored_data.ad_id)
+facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/, {}, /api/graphql)
+facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"MarketplaceFeedAdStory"[^\n]+?"cursor":(?:null|"\{[^\n]+?\}"|[^\n]+?MarketplaceSearchFeedStoriesEdge")\}/g, {}, /api/graphql)
+facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/g, {}, /api/graphql)
+facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"category":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
+facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"category":"ENGAGEMENT[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
+facebook.com##div[aria-posinset]:has-text(/Jugar|Play/)
+facebook.com#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
+facebook.com##div[aria-posinset]:has-text(/Sugerencia para ti|Suggestion for you/)
 facebook.com##div[aria-posinset]:has-text(Vídeos sólo para ti)
-facebook.com##div[aria-posinset]:has-text(Personas que quizá conozcas)
+facebook.com##div[aria-posinset]:has-text(/Personas que quizá conozcas|People You May Know/)
 facebook.com##div[aria-posinset]:has-text(Realiza videollamadas con Messenger en Portal)
 facebook.com##div[aria-posinset]:has-text(Página sugerida para seguir)
 facebook.com##div[aria-posinset]:has-text(Esta tienda ha añadido nuevos artículos)
-facebook.com##div[aria-posinset]:has-text(Reels y vídeos cortos)
 facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Patrocinado)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Sugerido)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Seguir viendo)
+facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
+facebook.com##+js(addEventListener-defuser, scroll, showPopup)
+facebook.com##div[role="complementary"] > div[class] > div[class] > div[class] span > div > div:not([aria-label]):not([data-visualcompletion]):has(> div[class] > div[class] div[class] > a[href^="https://l."][href*="facebook.com/l.php?u="][target="_blank"])
+facebook.com##a[href^="/ad_center/"]
+facebook.com###ssrb_stories_start + div
+facebook.com##div[aria-label*="video chats"]:upward(9)
 facebook.com##div[role=complementary] span:has-text(Patrocinado)
 facebook.com###watch_feed a[aria-label]:has-text(Patrocinado)
-facebook.com#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
-facebook.com##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
-facebook.com##.ego_section:has(a.adsCategoryTitleLink)
-facebook.com##div[data-status-bar-color] > div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"]:has(> div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"] div[data-mcomponent="TextArea"] .native-text > span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/))
-facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
-facebook.com##div[dir="auto"] > span:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
-facebook.com##div[data-type]:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
-facebook.com##.ssr #screen-root:style(pointer-events: auto !important;)
-facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
-facebook.com##+js(addEventListener-defuser, scroll, showPopup)
-facebook.com##+js(remove-class, _31e, body > ._li)
-facebook.com##div[role="progressbar"] ~ div[class] div div[data-instancekey] > div[data-visualcompletion="ignore"] a[aria-label][href*="l.php?u="][target="_blank"]
-facebook.com##div[role="complementary"] > div[class] > div[class] > div[class] span > div > div:not([aria-label]):not([data-visualcompletion]):has(> div[class] > div[class] div[class] > a[href^="https://l."][href*="facebook.com/l.php?u="][target="_blank"])
-facebook.com##div[aria-posinset] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
-facebook.com##div[aria-describedby] h4 > span > a[href]:not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
-facebook.com##div[aria-posinset] h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
-facebook.com##.uiLayer
-facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 ||facebook.com/plugins/$from=~facebook.com|~freepresets.com
@@ -6865,3 +6861,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||carbonads.com^
 ||naver.net/wcslog.js
 ||lists.ccmbg.com^
+||agl001.bid^
