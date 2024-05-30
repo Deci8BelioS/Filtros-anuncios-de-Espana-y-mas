@@ -5732,7 +5732,6 @@ reddit.com##[class*="XPromoBottomBar"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##xpromo-new-nsfw-blocking-modal
-reddit.com##[style^="filter:"]:style(filter: none !important;)
 reddit.com##.size-compact.Post:has([class*="promoted"])
 reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 reddit.com##div[class][data-before-content="advertisement"]:not([id])
