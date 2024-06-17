@@ -479,6 +479,10 @@ _300x250_
 /arcads.js
 /resolver/api/resolve/v3/config/?$xhr,from=msn.com
 /affiliate-tracker.js
+_728_90.
+/wp-content/plugins/image-watermark/*$script
+/koko-analytics/assets/dist/js/*script.js
+##a[href^="https://www.geekbuying.com/dynamic-ads/"]
 ##display-ads
 ##.ad-slot-placeholder
 ##.ccm_go_top
@@ -3767,6 +3771,13 @@ animeflv.*##+js(abort-current-script, jQuery, 'pp12')
 animeflv.net##+js(abort-on-property-write, bbHideDiv)
 animeflv.net##+js(abort-current-script, String.fromCharCode, zfgloaded)
 !
+! ------ androidpc ------
+!
+androidpc.es##.widget-area
+androidpc.es##.headmov
+androidpc.es###robainfpc1
+androidpc.es##[class*="robainfpc"]
+!
 ! ------ audiotools, multimediatools ------
 !
 @@||audiotools.*,multimediatools.*$generichide
@@ -4550,6 +4561,7 @@ goluchas.com##[class*="sgpb-popup-overlay"]
 !
 ! ------ google ------
 !
+||id.google.*/verify/
 accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 *$3p,denyallow=googleapis.com|google.com|googleusercontent.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,from=shrinkme.*
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
