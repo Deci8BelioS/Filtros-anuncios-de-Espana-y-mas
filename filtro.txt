@@ -482,6 +482,14 @@ _300x250_
 _728_90.
 /wp-content/plugins/image-watermark/*$script
 /koko-analytics/assets/dist/js/*script.js
+/discourse-adplugin-$script
+##.bottom-ad-container
+##.google-adsense-content
+##.ad-unit:not(.textads)
+##div[aria-label="cookieconsent"]
+##ins.adsbygoogle[data-ad-client]
+##.google-adsense
+##.discourse-adplugin
 ##a[href^="https://www.geekbuying.com/dynamic-ads/"]
 ##display-ads
 ##.ad-slot-placeholder
@@ -3400,6 +3408,13 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-
 9to5mac.com##.xs.container
 *$script,redirect-rule=noopjs,from=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co|marketrealist.com
 !
+! ------ a2zapk ------
+!
+a2zapk.*##+js(abort-current-script, $, alertmsg)
+a2zapk.*##+js(abort-on-property-read, AaDetector)
+a2zapk.*##+js(abort-current-script, atob, decodeURIComponent)
+a2zapk.*##.RightAside
+!
 ! ------ Acortadores de links ------
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3777,6 +3792,9 @@ androidpc.es##.widget-area
 androidpc.es##.headmov
 androidpc.es###robainfpc1
 androidpc.es##[class*="robainfpc"]
+androidpc.es##.sidebar
+androidpc.es##[class*="roba"]
+androidpc.es##[class*="splitmov"]
 !
 ! ------ audiotools, multimediatools ------
 !
@@ -4431,6 +4449,9 @@ elespanol.com##.full-suscriptor-container
 ! ------ facebook.com ------
 !
 ! facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com##+js(trusted-replace-xhr-response, /\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/g, {}, /api/graphql)
+facebook.com##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported require.0.3.0.__bbox.define.[].2.click_ids)
+facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"(?:category|feed_story_category)":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
 facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].relay_rendering_strategy.view_model.story.sponsored_data.ad_id)
 facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.ad_id)
 facebook.com##a[aria-label="Advertiser"]
@@ -4466,6 +4487,7 @@ facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(Peop
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 ||facebook.com/plugins/$from=~facebook.com|~freepresets.com
+||www.facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/{}/g
 !
 ! ------ fapello.com ------
 !
@@ -4783,13 +4805,16 @@ rpp.pe,corazon.pe,lazona.com.pe,felicidad.com.pe,audioplayer.pe,rotafono.pe,stud
 !
 ! ------ Grupo Joly ------
 !
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-v
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.ad-h
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##.adv-intext
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[class*="ad-sticker-"]
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es##[id*="suscripciones"]
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###didomiConsentOverlay
-diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es###bottombar
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##.ad-v
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##.ad-h
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##.adv-intext
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##[class*="ad-sticker-"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##[id*="suscripciones"]
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es###didomiConsentOverlay
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es###bottombar
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##.advertising--desktop
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es###id-bannerUnderHeader
+diariodesevilla.es,malagahoy.es,huelvainformacion.es,granadahoy.com,eldiadecordoba.es,diariodecadiz.es,diariodealmeria.es,diariodejerez.es,europasur.es,jaenhoy.es##div.board-advertising
 !
 ! ------ Grupo Taldea ------
 !
@@ -4890,6 +4915,10 @@ independentespanol.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/p
 !
 ! ------ instagram ------
 !
+instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
+instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(> div:first-child span:has-text(/Anzeige|Gesponsert|Sponsored|Geborg|Maksettu kumppanuus|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
+instagram.com##+js(json-prune, data.xdt_injected_story_units.ad_media_items)
 instagram.com##.HoverCard
 instagram.com##._aagw:empty
 instagram.com##+js(set-session-storage-item, loggedOutAppSheetIsMinimized, 1)
@@ -5167,6 +5196,9 @@ mundokodi.com###header-text-nav-wrap
 !
 ! ------ nexusmods.com ------
 !
+nexusmods.com##+js(set-constant, blockingAds, false)
+nexusmods.com##+js(trusted-replace-node-text, script, = getSetTimeout(), '= function newTimeout(func, timer) {func()}')
+nexusmods.com##[title="Back to top"]
 nexusmods.com##+js(nano-setTimeout-booster, timer)
 nexusmods.com##div[class*="wrapper"] > [style="text-align: center;background: #2d2d2d;"]
 nexusmods.com##.donation-form
@@ -5529,8 +5561,9 @@ playpaste.com##a[href^="https://track.wg-aff.com/"]
 !
 pluto.tv##+js(json-prune, adBreaks.*)
 pluto.tv##+js(no-xhr-if, /_Ad_|_ad/)
-
-
+pluto.tv##div[class*="clickableAd"]
+pluto.tv##div[class*="eventLayerOverlay"]
+pluto.tv##div[class*="loadingLayout"]
 !
 ! ------ Porno ------
 !
@@ -5814,6 +5847,10 @@ religiondigital.org##.bg-wrapper
 religiondigital.org##div.mce
 religiondigital.org##.opt-subscriber
 religiondigital.org##.onsite-social
+!
+! ------ rtve.es ------
+!
+rtve.es##.arrow
 !
 ! ------ salamanca24horas ------
 !
@@ -6908,3 +6945,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||confiant.msn.com^
 ||srtb.msn.com^
 ||alicdn.com/awsc/et/
+||browser-intake-datadoghq.com^
+||adoberesources.net^$3p,from=~adobe.com
+||doppler-config.cbsivideo.com^
+||redditstatic.com/ads/pixel.js
+||ads-twitter.com^
+||smartadserver.com^$3p,from=~smartadserver.de|~smartadserver.fr
+||adkaora.space^
