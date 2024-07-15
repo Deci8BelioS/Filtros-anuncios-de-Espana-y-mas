@@ -483,6 +483,8 @@ _728_90.
 /wp-content/plugins/image-watermark/*$script
 /koko-analytics/assets/dist/js/*script.js
 /discourse-adplugin-$script
+##div[id^="yandex_ad"]
+##.chat_hammerbot-iframe-wrapper__outer
 ##.bottom-ad-container
 ##.google-adsense-content
 ##.ad-unit:not(.textads)
@@ -3394,6 +3396,11 @@ lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
 lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
 !
+! ------ 4pda ------
+!
+4pda.to##[id*="_ad"]
+4pda.to##.g01Lo8stlTJ9siVC
+!
 ! ------ 9to5mac ------
 !
 9to5mac.com##.google-news-link
@@ -3927,8 +3934,22 @@ chomikuj.pl##tr:has-text(Reklama)
 !
 ! ------ coinbase.com ------
 !
-! vacío de momento
+coinbase.com##body:style(overflow: auto !important; position: initial !important;)
 !
+! ------ coolrom ------
+!
+coolrom.*###td-bottom-mpu-1
+coolrom.*###td-top-leaderboard-1
+coolrom.*###td-top-mpu-1
+coolrom.*##div[id^="td-bottom-mpu-"]
+coolrom.*##table[width="100%"][height="100%"] > tbody > tr > td[style="margin:0px;padding:0px;"][width="336"]
+coolrom.*##table[width="980"] > tbody > tr > td[width="100%"][bgcolor="#000000"][colspan="2"][align="center"]
+coolrom.*##table[width="980"] > tbody > tr[height="100%"] td[width="100%"] > font > center > div[style="min-height:250px;"]
+coolrom.*##+js(abort-current-script, confirm, /offers)
+coolrom.*##+js(set-cookie, modal_cookie, yes)
+coolrom.*##+js(abort-current-script, confirm, location)
+coolrom.*##+js(set-constant, time, 0)
+coolrom.*##+js(adjust-setTimeout, download())
 !
 ! ------ ¿Difoosion? ------
 !
@@ -3973,6 +3994,10 @@ cultura-informatica.com##.single-bottom-share
 cultura-informatica.com##section
 cultura-informatica.com##.banner-wrap
 cultura-informatica.com##.sidebar-sticky
+!
+! ------ cults3d ------
+!
+cults3d.com##div[data-zone]
 !
 ! ------ dailymail ------
 !
@@ -4378,12 +4403,12 @@ diariodenavarra.es##.sticky_roba
 !
 ! ------ elchapuzasinformatico ------
 !
+elchapuzasinformatico.com###pc_sidebar_300x600_1
+elchapuzasinformatico.com##body .ads:not(#style_important)
 elchapuzasinformatico.com##.ads
 elchapuzasinformatico.com##.cl-consent
 elchapuzasinformatico.com##.ad-area
 elchapuzasinformatico.com#$#body { background-image: none !important; }
-||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
-||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 elchapuzasinformatico.com##.bg-ad
 elchapuzasinformatico.com##[class*="widget-"]
 elchapuzasinformatico.com##[class*="addtoany_"]
@@ -4404,6 +4429,8 @@ elchapuzasinformatico.com##[id*="clickioNoticiaTopMovil"]
 elchapuzasinformatico.com##[id*="clickio"]
 elchapuzasinformatico.com##[class*="ads_single"]
 elchapuzasinformatico.com##[id*="ads_single"]
+||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
+||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 !
 ! ------ elespanol.com ------
 !
@@ -4829,6 +4856,11 @@ noticiasdegipuzkoa.eus,noticiasdealava.eus,deia.eus,ondavasca.com,noticiasdenava
 repo.hackyouriphone.org##.labeladv
 repo.hackyouriphone.org##+js(nobab)
 hackyouriphone.org##+js(no-setInterval-if, visibility, 1000)
+!
+! ------ happymod ------
+!
+happymod.com##.appx
+happymod.com##.cbox.appx
 !
 ! ------ hd-tecnologia.com ------
 !
@@ -6036,6 +6068,9 @@ tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 !
 ! ------ tomshardware ------
 !
+tomshardware.*##.future__jwplayer--carousel
+tomshardware.*##.van_vid_carousel
+tomshardware.*##.vid-present
 tomshardware.*##[id="widgetArea17"]
 tomshardware.*##div[class*="ad-unit"]
 tomshardware.*##+js(abort-on-property-write, tmnramp)
@@ -6952,3 +6987,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ads-twitter.com^
 ||smartadserver.com^$3p,from=~smartadserver.de|~smartadserver.fr
 ||adkaora.space^
+||twitter.com/i/jot
+||buysellads.net^$3p
+||happymod.com/*/appx.php$frame,1p
+||as.coinbase.com/metrics
+||studiostack.com^$3p
