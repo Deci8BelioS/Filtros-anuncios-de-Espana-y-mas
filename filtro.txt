@@ -487,6 +487,8 @@ _728_90.
 /300-250-
 /pagead.js$from=d3ward.github.io
 /widget/ads.
+##[onclick^="location.href='https://1337x.vpnonly.site/"]
+##div[id^="ezoic-pub-ad-"]
 ##.adthrive-content
 ##.adthrive-ad
 ##.adthrive
@@ -3371,6 +3373,38 @@ _europecookielaw.
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 !
+! ------ 1337x ------
+!
+/^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g|png)/$image,1p,from=1337x.st|1337x.to|x1337x.eu|x1337x.se|1337x.unblockit.*
+/^https:\/\/x?1337x\.(?:[0-9a-z]{3,9}\.)?[a-z]{2,4}\/(?:css\/)?(?:images\/)?[0-9a-zA-Z]+\.(?:gif|jpe?g|png)/$image,1p,from=1337x.*|1337x.g3g.*|unblockit.*|x1337x.*
+1337x.*##+js(remove-node-text, script, /h=decodeURIComponent\|popundersPerIP/)
+1337x.*##+js(abort-on-stack-trace, onload, /https:\/\/x?1337x\.[a-z]+\/\S+\.js/)
+1337x.*##+js(abort-on-stack-trace, localStorage, /https:\/\/x?1337x\.[a-z]+\/\S+\.js/)
+1337x.*##+js(abort-on-stack-trace, navigator, FingerprintJS)
+1337x.*##+js(addEventListener-defuser, popstate)
+1337x.*##+js(abort-on-property-read, AaDetector)
+1337x.*##+js(nowebrtc)
+1337x.*##+js(no-setTimeout-if, adb)
+1337x.*##+js(abort-on-property-read, afScript)
+1337x.*##+js(no-window-open-if, , 1)
+1337x.*##+js(abort-on-stack-trace, document.createElement, _0x)
+1337x.*##+js(remove-node-text, script, style)
+1337x.*##+js(abort-on-property-write, LAST_CORRECT_EVENT_TIME)
+1337x.*##+js(abort-current-script, atob, aclib.runPop)
+1337x.*##+js(no-setTimeout-if, sadbl)
+1337x.*##+js(json-prune, *, rot_url)
+1337x.*##+js(json-prune, *, pop_type)
+1337x.*##+js(set-constant, S9tt, noopFunc)
+1337x.*##+js(abort-on-property-read, DEBUG_MODE)
+1337x.*##+js(abort-current-script, openedWindows, adfpoint)
+1337x.*##+js(abort-on-property-read, runAdblock)
+1337x.*##.page-content a[id][href]:contains(/A.*n.*o.*Download|VPN/)
+1337x.*##:xpath('//*[contains(text(),"Hide your IP")]/..')
+1337x.*##[href*="vpn"]
+1337x.*##[onclick*="vpn"]
+1337x.*##div[id^="vpn"][onclick]
+1337x.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+!
 ! ------ 1fichier ------
 !
 1fichier.com##.ct_warn:has-text(adblock)
@@ -4090,6 +4124,22 @@ diariosanitario.com##.home-ads
 diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
+!
+! ------ distrowatch.com ------
+!
+distrowatch.com##a[href*="3cx.com"]
+distrowatch.com##table .Invert:has-text(/3cx|sponsor|tuxedo|star lab|free tech guides|malibal|advertisement|shells|purism/i):upward(table)
+distrowatch.com##table .Invert:has-text(/3cx|sponsor|tuxedo|star lab|free tech guides|malibal|advertisement|shells|purism/i):upward(table):upward([style="width: 20%; border: 0; margin: 0; padding: 0; vertical-align: top"])
+distrowatch.com##td[style="width: 19%; vertical-align: top; border: none"] > table[class="News"]+br+table[width="100%"]
+distrowatch.com##td[style="width: 60%; vertical-align: top; border: none"] > table > tbody > tr > td[style="width: 100%; border: 0; margin: 0; padding: 0; vertical-align: top; overflow: hidden"]
+distrowatch.com##body > h2
+distrowatch.com##.TablesTitle > div[style*="padding"]
+distrowatch.com##.TablesTitle > div:not([style="padding"]):style(width: 100% !important;)
+/^https:\/\/distrowatch\.com\/images\/[a-z]+\/[a-z]+$/$image,1p,domain=distrowatch.com
+@@||distrowatch.com/images/cpxtu/dwbanner.png
+||distrowatch.com/images/cpxtu/
+||distrowatch.com/images/k/
+||distrowatch.com/wban
 !
 ! ------ disqus.com ------
 !
@@ -7081,3 +7131,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||adtago.s3.amazonaws.com^
 ||ads.youtube.com^$xhr,redirect-rule=noop.txt
 ||ads.pinterest.com^$xhr,redirect-rule=noop.txt
+||ezojs.com/ezoic/
+||intrustedzone.site^
