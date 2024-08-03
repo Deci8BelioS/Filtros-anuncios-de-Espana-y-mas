@@ -487,6 +487,7 @@ _728_90.
 /300-250-
 /pagead.js$from=d3ward.github.io
 /widget/ads.
+##.grecaptcha-badge[data-style]
 ##[onclick^="location.href='https://1337x.vpnonly.site/"]
 ##div[id^="ezoic-pub-ad-"]
 ##.adthrive-content
@@ -5865,6 +5866,9 @@ razorman.net##.share-links
 !
 ! ------ reddit ------
 !
+reddit.com##+js(trusted-replace-node-text, script, outboundUrl, outbound)
+reddit.com##.v2 > shreddit-async-loader
+reddit.com##shreddit-async-loader[bundlename="app_selector"]:remove()
 reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
 reddit.com##+js(aeld, touchmove)
 reddit.com##body[style*="pointer-events"]:style(pointer-events:auto!important;)
