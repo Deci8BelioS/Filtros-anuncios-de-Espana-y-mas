@@ -487,6 +487,11 @@ _728_90.
 /300-250-
 /pagead.js$from=d3ward.github.io
 /widget/ads.
+##.code-block
+##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+##a[id][href="https://chpadblock.com/"][rel^="noopener noreferrer"]
+##.ad-slot:not(.adsbox):not(.adsbygoogle)
+##.custom-ads
 ##.grecaptcha-badge[data-style]
 ##[onclick^="location.href='https://1337x.vpnonly.site/"]
 ##div[id^="ezoic-pub-ad-"]
@@ -3526,7 +3531,6 @@ financerites.*,enit.*,howifx.*##+js(no-setTimeout-if, , 5)
 financerites.*,enit.*,howifx.*##+js(nano-setTimeout-booster, downloadBtn, *)
 financerites.*,enit.*,howifx.*##.footerLink.hidden:style(display: block !important;)
 financerites.*,enit.*,howifx.*##.getlink:others()
-howifx.*,enit.*,oko.*,shrinke.*,tii.*##.code-block
 howifx.*##+js(set-constant, adblockDetector, noopFunc)
 enit.in##+js(remove-attr, onclick, button#continue[onclick^="window.open"])
 enit.in##+js(set-constant, timeSec, 0)
@@ -4204,6 +4208,8 @@ elconfidencialdigital.com##.sidebar-col
 elconfidencialdigital.com##.ads
 elconfidencialdigital.com##.onm-fixed-banner
 elconfidencialdigital.com##.mobile-sharetools
+elconfidencialdigital.com##.rm_container
+elconfidencialdigital.com##.rm_parent_fixed
 !
 ! ------ eleconomista.es ------
 !
@@ -4242,7 +4248,6 @@ eldiario.es##.news-sponsored-content
 eldigitaldealbacete.com##.adv-link
 eldigitaldealbacete.com##.stream-item
 eldigitaldealbacete.com##.share-buttons
-eldigitaldealbacete.com##.code-block
 !
 ! ------ elindependiente.com ------
 !
@@ -5341,6 +5346,7 @@ nperf.com##.mainMireWrapper
 !
 ! ------ nsw2u ------
 !
+game-2u.*,nsw2u.*,ps5pkg.*##+js(remove-node-text, script, ;}}};break;case $.)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(noeval-if, /fairAdblock|chp_?adblock|adsbygoogle\.js/)
 game-2u.*,nsw2u.*,ps5pkg.*##body .code-block
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
@@ -5352,7 +5358,6 @@ game-2u.*,nsw2u.*,ps5pkg.*###sidebarid\ ai_widget-2
 game-2u.*,nsw2u.*,ps5pkg.*##.widget_jetpack_display_posts_widget
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, anOptions)
 game-2u.*,nsw2u.*,ps5pkg.*##.socials
-game-2u.*,nsw2u.*,ps5pkg.*##.code-block
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-property-read, adsBlocked)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-on-stack-trace, document.createElement, adsBlocked)
 game-2u.*,nsw2u.*,ps5pkg.*##+js(abort-current-script, eval, split)
@@ -5823,7 +5828,6 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##section > .i-amphtml-element
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.co##+js(set-constant, pr_okvalida, true)
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.container-relacionadas-blanco
-sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.code-block
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.redessocialespeque
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com#@#.following-ad-container
 areajugones.sport.es##.miniHeader
@@ -5848,7 +5852,6 @@ profesionalreview.com##[id*="background-stream-cover"]
 !
 ! ------ pspstation.org ------
 !
-pspstation.org##.code-block
 pspstation.org##.floating
 !
 ! ------ rakuten ------
@@ -7137,3 +7140,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ads.pinterest.com^$xhr,redirect-rule=noop.txt
 ||ezojs.com/ezoic/
 ||intrustedzone.site^
+||browser-update.org^$3p
+||stats-dev.brid.tv^
+||smartclip-services.com^$3p
