@@ -4289,8 +4289,9 @@ eltiempo.es,clima.com,otempo.pt,climadobrasil.com.br##.geoposition-container
 !
 /arc/subs/p.min.js$script
 /dist/resources/js/*/ENP-article.js$script
-
-
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(prevent-fetch, pagead2.googlesyndication.com)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##+js(prevent-fetch, googlesyndication)
+impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.c-pub
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.c-brr
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.b-bra-bbva
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.b-cb_widget-s
