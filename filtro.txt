@@ -487,6 +487,12 @@ _728_90.
 /300-250-
 /pagead.js$from=d3ward.github.io
 /widget/ads.
+/pagead.js$script
+/stats.*/event
+###ghost-portal-root > .gh-portal-triggerbtn-iframe
+##.nav-newsletter
+##.js-scroll-top:not(html):not(body)
+##.gh-subscribe
 ##.code-block
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
 ##a[id][href="https://chpadblock.com/"][rel^="noopener noreferrer"]
@@ -4545,6 +4551,9 @@ elespanol.com##.full-suscriptor-container
 ! ------ facebook.com ------
 !
 ! facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com##+js(remove-class, _31e, body > ._li)
+facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
+facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"[^"]+":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
 facebook.com##+js(trusted-replace-xhr-response, /\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/g, {}, /api/graphql)
 facebook.com##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported require.0.3.0.__bbox.define.[].2.click_ids)
 facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"(?:category|feed_story_category)":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
@@ -5624,6 +5633,14 @@ atomixhq.*##+js(abort-on-property-write, adcashMacros)
 atomixhq.*##+js(no-window-open-if, !/download\/|link|atomtt\.com\//)
 atomixhq.*##+js(no-setTimeout-if, sadbl)
 atomixhq.*##+js(abort-current-script, document.createElement, break;case $.)
+atomixhq.*##+js(abort-current-script, atob, aclib.runPop)
+atomixhq.*##+js(remove-node-text, script, ;}}};break;case $.)
+hdsplus.*##.kg-signup-card-text
+hdsplus.*##div#share-icons.show.share-icons
+hdsplus.*##.gh-post-upgrade-cta-content
+hdsplus.*##.accent.gh-announcement-bar
+hdsplus.*##.gh-footer-signup
+hdsplus.*##.floatingchat-container-wrap
 !
 ! ------ periodistadigital ------
 !
