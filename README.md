@@ -16,7 +16,7 @@ Esta lista está siendo probada en los siguientes sistemas operativos y navegado
 ## Como añadir la lista de filtros en:
 
 * [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists)
-* [Adguard iOS](https://kb.adguard.com/en/ios/solving-problems/how-to-configure-system-wide-blocking)
+* [Adguard iOS](https://adguard.com/kb/es/adguard-for-ios/features/safari-protection/#filters)
 
 
 ## Filtros en los que se ha basado esta lista:
