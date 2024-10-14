@@ -4624,6 +4624,9 @@ facebook.com##div[role=complementary] span:has-text(Patrocinado)
 facebook.com###watch_feed a[aria-label]:has-text(Patrocinado)
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
+||www.facebook.com/ajax/bootloader-endpoint/?modules=FBKeyframesLoggedSession%2CKeyframesAssetDecoder&__aaid=0&__user=100000263029294&__a=1&__req=f&__hs=20008.HYP%3Acomet_pkg.2.1..2.1&dpr=1&__ccg=EXCELLENT&__rev=1017299420&__s=eejjen%3Ao0lfpu%3A9wo8rl&__hsi=7424974461803238101&__dyn=7AzHK4HwkEng5K8G6EjBAg5S3G2O5U4e2C17xt3odE98K360CEboG0x8bo6u3y4o2Gwfi0LVEtwMw65xO321Rwwwqo462mcwfG12wOx62G5Usw9m1YwBgK7o6C0Mo4G1hx-3m1mzXw8W58jwGzEaE5e3ym2SU4i5oe8464-5pUfEe88o4Wm7-2K1yw9q2-VEbUGdG0HE88cA0z8c84q58jyUaUcojxK2B08-269wkopg6C13whEeE4WVU-4EdrxG1fBG2-2K0UE&__csr=gak_7OgTTMLMUWbHltRlNYqgQW9bTQP95uD8oGZXQnAqiJqi8AXbm-JCiqAAt5juhrlQQAnh9pb88yujyVXDzKiui8x1qF196zem9QqaDBF1miUJzqyEZ0TUhxem4e5F8rm6Uyq68uz8ix-4EpwwwFwOwxwt8jgO5K7ouxS681140VUjxa3S2G6U14U4OfAw9nwZw4-w820hW0U801spUC1Bg0oFxe0J87G04No0VR02oo1580hEw0U0w0u784O1ayU3zw8S07AU&__comet_req=15&fb_dtsg_ag=AQxtLxeSlhjg7z5USvC9SWI9H6lqk0HuXK35ffBd7oiZbi6M%3A22%3A1728436703&jazoest=24883&__spin_r=1017299420&__spin_b=trunk&__spin_t=1728761583$xhr,domain=www.facebook.com
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.id_for_advertisement)
+facebook.com##:matches-path(/^\/(\?[a-z]+=\w+)?$/) div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"):upward(div[aria-posinset]):style(height: 0 !important; overflow: hidden !important;)
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/ajax/qm/
 ||facebook.com/plugins/$from=~facebook.com|~freepresets.com
@@ -4771,6 +4774,8 @@ google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ! ------ Youtube ------
 /generate_204$~xhr
 *_ad_$media,domain=youtube.com,3p
+||youtube.com/api/stats/atr?
+||youtube.com/pcs/activeview?
 ||youtube.com/api/stats/qoe?
 ||play.google.com/log
 ||youtube.com/ptracking?
@@ -6557,6 +6562,7 @@ zona-leros.*##[class*="Anime alt B"] > [title*="Comprar"]
 !
 ! ------ Varios ------
 !
+*$removeparam='/^__s=[A-Za-z0-9]{6,}/',from=~univis.th-koeln.de|~univis.uni-bamberg.de|~univis.uni-erlangen.de|~univis.uni-kiel.de|~univis.uni-luebeck.de
 browser.sentry-cdn.com
 app.getsentry.com
 ads.facebook.com
@@ -6710,6 +6716,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||d2v02itv0y9u9t.cloudfront.net^
 ||scorecardresearch.com/beacon.js$script,redirect-rule=scorecardresearch.com/beacon.js:5
 ||google-analytics.com^$3p
+||google.com/log?$xhr,redirect-rule=noop.txt
 ||google.com/log?
 ||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
 ||flytechb.com^
