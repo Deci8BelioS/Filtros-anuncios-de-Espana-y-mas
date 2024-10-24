@@ -6572,6 +6572,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document
 /^https:\/\/[.\w]+\.[a-z]{2,3}\/z-[5-7]\d{6}$/$script,1p,match-case,strict1p
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,redirect-rule=noopjs,match-case,to=com
+||static.chartbeat.com/js/chartbeat.js$script,redirect-rule=chartbeat.js
+||boundlessveil.com^
 ||browser.sentry-cdn.com^
 ||app.getsentry.com^
 ||ads.facebook.com^
