@@ -495,6 +495,9 @@ _728_90.
 /ps_emailsubscription.js
 /probance_tracker-min.js
 /sc4fr/rwff/f9ef/*$3p
+/728x90.
+###bottom-adhesion
+##.ad-header-container
 ##.block_newsletter
 ###admobilefootinside
 ###admobilefoot
@@ -4157,9 +4160,19 @@ depor.com,elcomercio.pe,gestion.pe,diariocorreo.pe,ojo.pe,trome.com,clubelcomerc
 !
 ! ------ Dexerto Ltd ------
 !
-dexerto.es,dexerto.fr##div[class*="my-"]
-dexerto.es,dexerto.fr##.relative.flex
-dexerto.es,dexerto.fr##.justify-center.flex
+dexerto.*##div[class*="my-"]
+dexerto.*##.relative.flex
+dexerto.*##.justify-center.flex
+dexerto.*##body #bottom-adhesion
+dexerto.*##aside.w-full:has(> div[class*="bg-custom-ad-background"])
+dexerto.*##.top-10
+dexerto.*##.top-0.justify-center
+dexerto.*##.flex > div.flex:has(> form[action="/register/"])
+dexerto.*##.text-center.italic
+dexerto.*##.external\:bg-custom-ad-background
+dexerto.*##.bg-neutral-grey.justify-center
+dexerto.*###primis-player
+dexerto.*###player-wrapper
 !
 ! ------ diariosanitario ------
 !
@@ -4778,170 +4791,165 @@ google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 ||youtube.com/ptracking?
 ||youtube.com/pagead/
 ||youtube.com/youtubei/v1/log_event?
+||youtube-nocookie.com/youtubei/v1/log_event?
 @@||www.youtube.com^$generichide
 *o097znze.googlevideo.com^$xhr,3p,method=get,from=www.youtube.com
-youtube.com###promotion-shelf
-youtube.com###ticker.ytd-masthead
-youtube.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
-youtube.com##ytd-banner-promo-renderer
-youtube.com###masthead-ad
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #ticket-shelf.ytd-watch-flexy.style-scope + ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope[at-start][item-style] > #main.style-scope.ytd-merch-shelf-renderer > #item-list.style-scope.ytd-merch-shelf-renderer:not(:empty)
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row] > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope:not(:empty)
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(SHORTS)
-youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
-youtube.com##div.ytd-ad-slot-renderer
-youtube.com##ytd-promoted-video-renderer
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytd-ad-slot-renderer
-youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-youtube.com##.ytd-item-section-renderer:has-text(Creador Emergente)
-youtube.com##.ytd-in-feed-ad-layout-renderer
-youtube.com##.ytp-chrome-top-buttons
-youtube.com##.ytp-share-button
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ad-progress-list
-youtube.com##.video-annotations
-youtube.com##.ytp-paid-content-overlay
-youtube.com##.ytd-watch-flexy.style-scope > #player-container > #ytd-player > #container > .html5-video-player > .ytp-suggested-action > button.ytp-button.ytp-suggested-action-badge
-youtube.com##.ytp-endscreen-content
-youtube.com##.ytd-companion-slot-renderer
-youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
-youtube.com##.ytp-featured-product
-youtube.com##.ytd-merch-shelf-renderer
-youtube.com##.video-ads
-youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has-text(SHORTS)
-youtube.com##div#masthead-ad > .ytd-rich-grid-renderer
-youtube.com##[class*="ytd-guide-entry-renderer"]:has-text(Shorts)
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com###header > .ytd-rich-grid-renderer.style-scope:not(:has-text(/Más recientes|Populares|Más antiguos/))
-youtube.com###offer-module
-youtube.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHORTS)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
-youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.hide-skeleton.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][is-two-columns_][role="main"][watch-metadata-refresh][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-suggested-action[data-layer] > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button:not(:empty)
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Shorts)
-youtube.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
-youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
-youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
-youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
-youtube.com##ytd-display-ad-renderer
-youtube.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
-youtube.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
-youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-suggested-action[data-layer] > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button:not(:empty)
-youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
-youtube.com##ytd-rich-section-renderer
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #ticket-shelf.ytd-watch-flexy.style-scope + ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope[at-start][item-style] > #main.style-scope.ytd-merch-shelf-renderer > #banner.style-scope.ytd-merch-shelf-renderer:not(:empty)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
-youtube.com##ytd-search ytd-shelf-renderer:has-text(De búsquedas relacionadas)
-youtube.com##[target-id="engagement-panel-ads"]
-youtube.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Últimas noticias)
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com###merch-shelf
-youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
-youtube.com###player-ads
-youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-search ytd-shelf-renderer:has-text(Contenido relacionado con el aprendizaje)
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row]:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope:not(:empty))
-youtube.com##ytd-carousel-ad-renderer
-youtube.com##ytd-search ytd-video-renderer:has-text(SHORTS)
-youtube.com##div.ytd-in-feed-ad-layout-renderer
-youtube.com##[layout*="display-ad-"]
-youtube.com##[class*="merch-shelf"]
-youtube.com##ytd-reel-shelf-renderer
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
-youtube.com#@#+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
-youtube.com#@#+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
-youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(set-constant, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, responseContext.mainAppWebResponseContext.datasyncId)
-youtube.com##+js(set-constant, google_ad_status, 1)
-youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds)
-youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_det_gen_re, false)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamSelectionConfig.maxBitrate)
-youtube.com##+js(trusted-replace-fetch-response, /(trackingParam":"kx_fmPxh.*?)"adPlacements.*?"\}\}\}\]\,/, $1, player?key=)
-youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playabilityStatus.liveStreamability)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.streamingData.adaptiveFormats.6)
-youtube.com##+js(set-constant, Object.prototype.hasAllowedInstreamAd, true)
-youtube.com##+js(trusted-replace-node-text, script, (function() {window.ytplayer=, '/*start*/(()=>{let t=document.location.href,e=[],n=[],o="",i=!1;const r=Array.prototype.push,a={apply:(t,o,a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(i||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0,n.length=0,i=!0,r.call(e,a[0]),r.call(n,a[0].id)),i&&0!==a[0]?.start&&!n.includes(a[0].id)&&(r.call(e,a[0]),r.call(n,a[0].id))),Reflect.apply(t,o,a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push,a),document.addEventListener("DOMContentLoaded",(function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const r=()=>{const t=document.querySelector("video");if(t&&e.length){const r=Math.round(t.duration),a=Math.round(e.at(-1).end/1e3),l=n.join(",");if(r&&r===a&&o!==l){const r=e.at(-1).start/1e3;t.currentTime<r&&(t.currentTime=r,i=!1,e.length=0,n.length=0,o=l)}}};r();new MutationObserver((()=>{t!==document.location.href?(t=document.location.href,e.length=0,n.length=0,i=!1,r()):r()})).observe(document,{childList:!0,subtree:!0})}))})();if(window.trustedTypes){const escapeHTMLPolicy=trustedTypes.createPolicy("myEscapePolicy",{createScript:string=>string.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"")});document.currentScript.textContent=escapeHTMLPolicy.createScript(document.currentScript.textContent);}else{document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");}/*end*/(function() {window.ytplayer=', sedCount, 1)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.liveStreamability)
-youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.responseContext.mainAppWebResponseContext.datasyncId)
-youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
-youtube.com##+js(set-constant, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.adaptiveFormats.6)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playabilityStatus.liveStreamability)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.streamSelectionConfig.maxBitrate)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.streamingData.serverAbrStreamingUrl, undefined)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.audioConfig.loudnessDb)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
-youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
-youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamingData.adaptiveFormats.6)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig.maxBitrate)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig.maxBitrate)
-youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
-youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
-youtube.com##+js(replace-node-text, script, /(\(function serverContract\(\)|var yterr|var _F_cssRowKey)/, const jsonPruner=obj=>{for(k of["playerAds"\,"adPlacements"\,"adSlots"]){obj[k]=[];}return obj;};const pruner=(text\,url)=>{let json=JSON.parse(text);if(url.includes("player?key=")){return JSON.stringify(jsonPruner(json));}else{let newJSON=[];for(obj of json){if("playerResponse"in obj){obj["playerResponse"]=jsonPruner(obj["playerResponse"]);}newJSON.push(obj);}return JSON.stringify(newJSON);}};const urlFromArg=arg=>{if(typeof arg==="string"){return arg;}if(arg instanceof Request){return arg.url;}return String(arg);};const realFetch=window.fetch;window.fetch=new Proxy(window.fetch\,{apply:function(target\,thisArg\,args){let url=urlFromArg(args[0]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}return realFetch(...args).then(realResponse=>realResponse.text().then(text=>new Response(pruner(text\,url)\,{status:realResponse.status\,statusText:realResponse.statusText\,headers:realResponse.headers\,})));}});window.XMLHttpRequest.prototype.open=new Proxy(window.XMLHttpRequest.prototype.open\,{apply:async(target\,thisArg\,args)=>{let url=urlFromArg(args[1]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}thisArg.addEventListener("readystatechange"\,function(){if(thisArg.readyState!==4){return;}const type=thisArg.responseType;if(type!==""&&type!=="text"){return;}const textin=thisArg.responseText;const textout=pruner(textin\,url);if(textout===textin){return;}Object.defineProperty(thisArg\,"response"\,{value:textout});Object.defineProperty(thisArg\,"responseText"\,{value:textout});});return Reflect.apply(target\,thisArg\,args);}}); $1)
-youtube.com##+js(set-constant, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(ysr)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.audioConfig.loudnessDb)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
-youtube.com##+js(trusted-replace-fetch-response, '/"adPlacements.*?([A-Z]"\}|"\}{2,4})\}\],/', , player?)
-youtube.com##+js(replace-node-text, script, /^(\(function serverContract\(\))/s, /*start*/(function(){const nativeArrayFilter=Array.prototype.filter;const wrapper=(target\,thisArg\,args)=>{const ads=["adPlacements"\,"adSlots"\,"adBreakHeartbeatParams"\,"playerResponse"\,"playerAds"];if(thisArg&&Array.isArray(thisArg)){thisArg=nativeArrayFilter.call(thisArg\,e=>!ads.includes(e))}return Reflect.apply(target\,thisArg\,args)};const handler={apply:wrapper};Array.prototype.filter=new Proxy(Array.prototype.filter\,handler);const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}}());/*end*/$1)
-youtube.com##+js(trusted-replace-xhr-response, /\"adPlacements.*?\"\}\}\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
-youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
-youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.audioConfig.loudnessDb)
-youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?privateDoNotAccessOrElseTrustedResourceUrlWrappedValue":"https:\/\/www\.youtube\.com\/aboutthisad\?pf=web&source=youtube&reasons=A.*?"\}\}\}\]\,/, , player?key=)
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
-youtube.com##+js(trusted-replace-node-text, script, /^(\(function serverContract\(\))/s, caches.open('yt-appshell-assets').then(a=>['1c21ae68'\,'1adc386e'\,'d133835b'].forEach(i=>a.delete(`/s/desktop/${i}/jsbin/desktop_polymer.vflset/desktop_polymer.js`)));$1)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
-youtube.com##+js(trusted-replace-xhr-response, '/"adPlacements.*?([A-Z]"\}|"\}{2,4})\}\],/', , /playlist\?list=|player\?|watch\?[tv]=|youtubei\/v1\/player/)
-youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?("getAdBreakUrl":"https:\/\/www\.youtube\.com\/get_midroll_info\S+&token=ALHj|"(base)?[Uu]rl":"https:\/\/(secure)?pubads\.g\.doubleclick\.net).*?"\}\}\}\]\,/, , player?key=)
-youtube.com##+js(trusted-replace-fetch-response, '/\"adSlots.*?\}\]\}\}\],/', , player?)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playabilityStatus.liveStreamability)
-youtube.com##+js(replace-node-text, script, /(\(function serverContract\(\))/, /*start*/(function(){const handler={apply:(target\,thisArg\,args)=>{if(Array.isArray(args)){const arr=args[0];if(arr.adPlacements||arr.adSlots||arr.adBreakHeartbeatParams||arr.playerResponse){args=[{}]}}return Reflect.apply(target\,thisArg\,args)}};Object.getOwnPropertyNames=new Proxy(Object.getOwnPropertyNames\,handler);const cleanup=function(){const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}};if(document.readyState!=="loading"){cleanup()}else{document.addEventListener("DOMContentLoaded"\,cleanup)}}());/*end*/ $1)
-youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?\/(aclk\?sa=L&ai=C[-_0-9A-Za-z]+__________|get_midroll_info\S+&token=ALHj).*?"\}\}\}\]\,/, , url:player?key=)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, streamingData.adaptiveFormats.6)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.audioConfig.loudnessDb)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
-youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
-youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com,youtubekids.com,youtube-nocookie.com###promotion-shelf
+youtube.com,youtubekids.com,youtube-nocookie.com###ticker.ytd-masthead
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-banner-promo-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com###masthead-ad
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #ticket-shelf.ytd-watch-flexy.style-scope + ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope[at-start][item-style] > #main.style-scope.ytd-merch-shelf-renderer > #item-list.style-scope.ytd-merch-shelf-renderer:not(:empty)
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row] > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope:not(:empty)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(SHORTS)
+youtube.com,youtubekids.com,youtube-nocookie.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
+youtube.com,youtubekids.com,youtube-nocookie.com##div.ytd-ad-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-promoted-video-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-cards-teaser
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-ad-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-suggested-action > button.ytp-suggested-action-badge
+youtube.com,youtubekids.com,youtube-nocookie.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-item-section-renderer:has-text(Creador Emergente)
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-in-feed-ad-layout-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-chrome-top-buttons
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-share-button
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-pause-overlay
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-ce-element
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-ad-progress-list
+youtube.com,youtubekids.com,youtube-nocookie.com##.video-annotations
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-paid-content-overlay
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-watch-flexy.style-scope > #player-container > #ytd-player > #container > .html5-video-player > .ytp-suggested-action > button.ytp-button.ytp-suggested-action-badge
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-endscreen-content
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-companion-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-player-legacy-desktop-watch-ads-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-featured-product
+youtube.com,youtubekids.com,youtube-nocookie.com##.ytd-merch-shelf-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##.video-ads
+youtube.com,youtubekids.com,youtube-nocookie.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has-text(SHORTS)
+youtube.com,youtubekids.com,youtube-nocookie.com##div#masthead-ad > .ytd-rich-grid-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##[class*="ytd-guide-entry-renderer"]:has-text(Shorts)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com###header > .ytd-rich-grid-renderer.style-scope:not(:has-text(/Más recientes|Populares|Más antiguos/))
+youtube.com,youtubekids.com,youtube-nocookie.com###offer-module
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-browse[page-subtype="trending"] ytd-video-renderer:has-text(SHORTS)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-shelf-renderer:has-text(Para ti)
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.hide-skeleton.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][is-two-columns_][role="main"][watch-metadata-refresh][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-suggested-action[data-layer] > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button:not(:empty)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Shorts)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-horizontal-card-list-renderer:has-text(Otras personas también buscan)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has-text(SHORTS)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-display-ad-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com###contents > ytd-rich-item-renderer:has( > #content > ytd-ad-slot-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-reel-shelf-renderer:has-text(Shorts)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-shelf-renderer:has-text(Vistos anteriormente)
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-suggested-action[data-layer] > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button:not(:empty)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-section-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #ticket-shelf.ytd-watch-flexy.style-scope + ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope[at-start][item-style] > #main.style-scope.ytd-merch-shelf-renderer > #banner.style-scope.ytd-merch-shelf-renderer:not(:empty)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-shelf-renderer:has-text(Los usuarios también han visto)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-shelf-renderer:has-text(De búsquedas relacionadas)
+youtube.com,youtubekids.com,youtube-nocookie.com##[target-id="engagement-panel-ads"]
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer:has-text(Últimas noticias)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com###merch-shelf
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
+youtube.com,youtubekids.com,youtube-nocookie.com###player-ads
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-companion-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-ad-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-shelf-renderer:has-text(Contenido relacionado con el aprendizaje)
+youtube.com,youtubekids.com,youtube-nocookie.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row]:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope:not(:empty))
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-carousel-ad-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-search ytd-video-renderer:has-text(SHORTS)
+youtube.com,youtubekids.com,youtube-nocookie.com##div.ytd-in-feed-ad-layout-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##[layout*="display-ad-"]
+youtube.com,youtubekids.com,youtube-nocookie.com##[class*="merch-shelf"]
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-reel-shelf-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.webPlayerConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.webPlayerConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, responseContext.mainAppWebResponseContext.datasyncId)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, google_ad_status, 1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_det_gen_re, false)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamSelectionConfig.maxBitrate)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /(trackingParam":"kx_fmPxh.*?)"adPlacements.*?"\}\}\}\]\,/, $1, player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playabilityStatus.liveStreamability)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.streamingData.adaptiveFormats.6)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-node-text, script, (function() {window.ytplayer=, '/*start*/(()=>{let t=document.location.href,e=[],n=[],o="",i=!1;const r=Array.prototype.push,a={apply:(t,o,a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(i||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0,n.length=0,i=!0,r.call(e,a[0]),r.call(n,a[0].id)),i&&0!==a[0]?.start&&!n.includes(a[0].id)&&(r.call(e,a[0]),r.call(n,a[0].id))),Reflect.apply(t,o,a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push,a),document.addEventListener("DOMContentLoaded",(function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const r=()=>{const t=document.querySelector("video");if(t&&e.length){const r=Math.round(t.duration),a=Math.round(e.at(-1).end/1e3),l=n.join(",");if(r&&r===a&&o!==l){const r=e.at(-1).start/1e3;t.currentTime<r&&(t.currentTime=r,i=!1,e.length=0,n.length=0,o=l)}}};r();new MutationObserver((()=>{t!==document.location.href?(t=document.location.href,e.length=0,n.length=0,i=!1,r()):r()})).observe(document,{childList:!0,subtree:!0})}))})();if(window.trustedTypes){const escapeHTMLPolicy=trustedTypes.createPolicy("myEscapePolicy",{createScript:string=>string.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"")});document.currentScript.textContent=escapeHTMLPolicy.createScript(document.currentScript.textContent);}else{document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");}/*end*/(function() {window.ytplayer=', sedCount, 1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.liveStreamability)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.responseContext.mainAppWebResponseContext.datasyncId)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.adaptiveFormats.6)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playabilityStatus.liveStreamability)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.streamingData.serverAbrStreamingUrl, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.playerConfig.audioConfig.loudnessDb)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.streamingData.adaptiveFormats.6)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.streamSelectionConfig.maxBitrate)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(replace-node-text, script, /(\(function serverContract\(\)|var yterr|var _F_cssRowKey)/, const jsonPruner=obj=>{for(k of["playerAds"\,"adPlacements"\,"adSlots"]){obj[k]=[];}return obj;};const pruner=(text\,url)=>{let json=JSON.parse(text);if(url.includes("player?key=")){return JSON.stringify(jsonPruner(json));}else{let newJSON=[];for(obj of json){if("playerResponse"in obj){obj["playerResponse"]=jsonPruner(obj["playerResponse"]);}newJSON.push(obj);}return JSON.stringify(newJSON);}};const urlFromArg=arg=>{if(typeof arg==="string"){return arg;}if(arg instanceof Request){return arg.url;}return String(arg);};const realFetch=window.fetch;window.fetch=new Proxy(window.fetch\,{apply:function(target\,thisArg\,args){let url=urlFromArg(args[0]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}return realFetch(...args).then(realResponse=>realResponse.text().then(text=>new Response(pruner(text\,url)\,{status:realResponse.status\,statusText:realResponse.statusText\,headers:realResponse.headers\,})));}});window.XMLHttpRequest.prototype.open=new Proxy(window.XMLHttpRequest.prototype.open\,{apply:async(target\,thisArg\,args)=>{let url=urlFromArg(args[1]);if(!(url.includes("player?key="))&&!(url.includes("watch?v="))){return Reflect.apply(target\,thisArg\,args);}thisArg.addEventListener("readystatechange"\,function(){if(thisArg.readyState!==4){return;}const type=thisArg.responseType;if(type!==""&&type!=="text"){return;}const textin=thisArg.responseText;const textout=pruner(textin\,url);if(textout===textin){return;}Object.defineProperty(thisArg\,"response"\,{value:textout});Object.defineProperty(thisArg\,"responseText"\,{value:textout});});return Reflect.apply(target\,thisArg\,args);}}); $1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, Object.prototype.adBlocksFound, 0)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(ysr)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig.audioConfig.loudnessDb)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, '/"adPlacements.*?([A-Z]"\}|"\}{2,4})\}\],/', , player?)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(replace-node-text, script, /^(\(function serverContract\(\))/s, /*start*/(function(){const nativeArrayFilter=Array.prototype.filter;const wrapper=(target\,thisArg\,args)=>{const ads=["adPlacements"\,"adSlots"\,"adBreakHeartbeatParams"\,"playerResponse"\,"playerAds"];if(thisArg&&Array.isArray(thisArg)){thisArg=nativeArrayFilter.call(thisArg\,e=>!ads.includes(e))}return Reflect.apply(target\,thisArg\,args)};const handler={apply:wrapper};Array.prototype.filter=new Proxy(Array.prototype.filter\,handler);const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}}());/*end*/$1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, /\"adPlacements.*?\"\}\}\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, *.audioConfig.loudnessDb)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /"adPlacements.*?privateDoNotAccessOrElseTrustedResourceUrlWrappedValue":"https:\/\/www\.youtube\.com\/aboutthisad\?pf=web&source=youtube&reasons=A.*?"\}\}\}\]\,/, , player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-node-text, script, /^(\(function serverContract\(\))/s, caches.open('yt-appshell-assets').then(a=>['1c21ae68'\,'1adc386e'\,'d133835b'].forEach(i=>a.delete(`/s/desktop/${i}/jsbin/desktop_polymer.vflset/desktop_polymer.js`)));$1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, '/"adPlacements.*?([A-Z]"\}|"\}{2,4})\}\],/', , /playlist\?list=|player\?|watch\?[tv]=|youtubei\/v1\/player/)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /("mimeType":"[^"]{3\,}".*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /"adPlacements.*?("getAdBreakUrl":"https:\/\/www\.youtube\.com\/get_midroll_info\S+&token=ALHj|"(base)?[Uu]rl":"https:\/\/(secure)?pubads\.g\.doubleclick\.net).*?"\}\}\}\]\,/, , player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, '/\"adSlots.*?\}\]\}\}\],/', , player?)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playabilityStatus.liveStreamability)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(replace-node-text, script, /(\(function serverContract\(\))/, /*start*/(function(){const handler={apply:(target\,thisArg\,args)=>{if(Array.isArray(args)){const arr=args[0];if(arr.adPlacements||arr.adSlots||arr.adBreakHeartbeatParams||arr.playerResponse){args=[{}]}}return Reflect.apply(target\,thisArg\,args)}};Object.getOwnPropertyNames=new Proxy(Object.getOwnPropertyNames\,handler);const cleanup=function(){const scripts=document.querySelectorAll("script");for(let i=scripts.length-1;i>=0;i--){if(scripts[i].textContent.startsWith("/*start*/")){scripts[i].textContent=scripts[i].textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g\,"");break}}};if(document.readyState!=="loading"){cleanup()}else{document.addEventListener("DOMContentLoaded"\,cleanup)}}());/*end*/ $1)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /"adPlacements.*?\/(aclk\?sa=L&ai=C[-_0-9A-Za-z]+__________|get_midroll_info\S+&token=ALHj).*?"\}\}\}\]\,/, , url:player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, streamingData.adaptiveFormats.6)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig.audioConfig.loudnessDb)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 !
 ! ------ gruporpp ------
 !
@@ -5537,6 +5545,12 @@ pcgamesn.com##.ad-mobile
 pcgamesn.com##.ad
 pcgamesn.com###nn_astro_wrapper:style(height: 50px !important;)
 pcgamesn.com###nn_astro_wrapper
+!
+! ------ pcgamingwiki.com ------
+!
+pcgamingwiki.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
+pcgamingwiki.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc.mashable.com/v1/"],[href^="https://go.skimresources.com?"],href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+pcgamingwiki.com###mpu
 !
 ! ------ pelis/series online ------
 !
@@ -7269,3 +7283,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||djxmaza.in
 ||thirtyluceres.top^
 ||roborativemysideansloucher.com^
+||adt598.com^
+||vntsm.com^
+||alwingulla.com^
