@@ -4240,7 +4240,7 @@ elamigos-games.*##.iframeDiv
 elamigos-games.*##h3.my-4:has-text(/^Advertising/)
 elamigos-games.*##[class*="_chat"]
 elamigos-games.*##div.portfolio-item:has-text(/NETFLIX/)
-||elamigos-games.*^$script,domain=elamigos-games.*
+!||elamigos-games.*^$script,domain=elamigos-games.*
 gamesfull.*##.ads
 !
 ! ------ elblogdecineespanol ------
