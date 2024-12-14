@@ -496,6 +496,8 @@ _728_90.
 /probance_tracker-min.js
 /sc4fr/rwff/f9ef/*$3p
 /728x90.
+##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ###bottom-adhesion
 ##.ad-header-container
 ##.block_newsletter
@@ -1443,7 +1445,6 @@ _728_90.
 @@||omtrdc.net/rest/$xhr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,from=gamereactor.asia|gamereactor.de|gamereactor.es|gamereactor.eu|gamereactor.fi|gamereactor.it|gamereactor.nl|gamereactor.no|gamereactor.pt
 @@||amazon.*/*uedata$image,1p
-@@||accounts.google.com^$generichide
 @@||github.com^$generichide
 @@||translate.googleapis.com/element/
 @@||seur.com^$document
@@ -4781,6 +4782,7 @@ google.*###tads[aria-label]
 google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
 google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
+@@||accounts.google.com^
 ! ------ Youtube ------
 /generate_204$~xhr
 *_ad_$media,domain=youtube.com,3p
@@ -5134,6 +5136,15 @@ imgur.com##body:style(overflow-y: auto !important;)
 ! ------ ios-repo-updates.com ------
 !
 ios-repo-updates.com##.blockads.text-center
+!
+! ------ ipalibrary.me ------
+!
+ipalibrary.me##+js(no-setTimeout-if, afterRedirectUrl)
+ipalibrary.me##+js(adjust-setInterval, countdown, *, 0.001)
+ipalibrary.me##+js(adjust-setInterval, countdown)
+ipalibrary.me##+js(no-setInterval-if, offsetHeight)
+ipalibrary.me##+js(no-setInterval-if, _0x)
+ipalibrary.me##+js(abort-on-stack-trace, fetch, checkDomain)
 !
 ! ------ juntadeandalucia.es ------
 !
@@ -7208,8 +7219,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||nsstatic.com^$3p
 ||uniconsent.com^$3p
 ||realtimely.io^
-||accounts.google.com/gsi/$script,3p
-||accounts.google.com/gsi/$xhr,3p
 ||adthrive.com^$3p
 ||metrics.mzstatic.com^
 ||metrics.icloud.com^
@@ -7289,3 +7298,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||adt598.com^
 ||vntsm.com^
 ||alwingulla.com^
+||liadm.com^
+||rubiconproject.com^
+||c2shb.pubgw.yahoo.com^
