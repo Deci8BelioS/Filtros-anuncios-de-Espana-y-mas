@@ -496,6 +496,16 @@ _728_90.
 /probance_tracker-min.js
 /sc4fr/rwff/f9ef/*$3p
 /728x90.
+/detectBlockers.js$script
+##[aria-label="Back to top"]
+://affiliates.$3p
+/wp-content/plugins/eazy-ad-unblocker/*
+/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.
+/snow-storm.js
+/plugins/adrotate/*$script
+##[aria-label="Back to top"]
+##.generate-back-to-top
+##.adsBanner
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ###bottom-adhesion
@@ -4955,6 +4965,7 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /player?)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /\/player(?:\?.+)?$/)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.web_bind_fetch, false)
+youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 !
 ! ------ gruporpp ------
 !
@@ -6325,6 +6336,15 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##.consent-banner:has-text(/cookies/)
+twitch.tv##[class*="find-me"]
+twitch.tv##[data-target="following__follow-games-cta"]
+twitch.tv##h2[data-a-target="upcoming-streams-header"]
+twitch.tv##button[data-a-target="share-button"]
+twitch.tv##.scrollable-area--suppress-scroll-y:has([aria-label*="avatar de canal"])
+twitch.tv##button[class*="ScCoreButton-sc-"]:has-text("/publicidad/")
+twitch.tv##.top-nav__external-link
+twitch.tv##+js(prevent-window-open, amazon-adsystem)
 twitch.tv##.stream-display-ad__wrapper
 twitch.tv##.subtember-gradient
 twitch.tv##.side-info-container
@@ -6475,8 +6495,18 @@ winaero.com##div > p[style="margin: 20px"]
 winaero.com##p:has-text(Advertisement)
 winaero.com##+js(abort-current-script, jQuery, tweaker)
 !
+! ------ wowroms.com ------
+!
+wowroms.com###footer-content div[id="newsletter"] > div.group > h5:style(visibility: hidden !important;)
+wowroms.com###footer-content div[id="newsletter"] > div.group > div.mail_action:style(visibility: hidden !important;)
+wowroms.com##+js(adjust-setInterval, second)
+!
 ! ------ x (Twitter) ------
 !
+x.com,twitter.com##+js(addEventListener-defuser, mouseleave)
+x.com,twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
+x.com,twitter.com##div[data-testid="trend"]:has(> div[class]:only-child svg + span)
+x.com,twitter.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 x.com,twitter.com##a[href="/jobs"]
 x.com,twitter.com##a[href="/i/premium_sign_up"]
 x.com,twitter.com##a[href="/i/verified-orgs-signup"]
@@ -7302,3 +7332,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||liadm.com^
 ||rubiconproject.com^
 ||c2shb.pubgw.yahoo.com^
+||electranowel.com^
+||rafikfangas.com^
+||trinitymedia.ai/api/collect?
+||waspilysagene.com^
