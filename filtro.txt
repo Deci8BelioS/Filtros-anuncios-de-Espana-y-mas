@@ -503,6 +503,8 @@ _728_90.
 /wp-content/plugins/creame-whatsapp-me/public/js/joinchat.
 /snow-storm.js
 /plugins/adrotate/*$script
+###outbrain
+##.adSky
 ###ad_728x90
 ##a[href^="https://theporndude.com"]
 ##a[href*="/jump/next.php?r="]
@@ -816,6 +818,7 @@ _728_90.
 ##div.cookie-message
 ##.quickshare
 ##.OUTBRAIN
+##.outbrain
 ##.heateor_sss_sharing_container
 ##.heateor_sss_sharing_ul
 ##.push-overlay
@@ -3785,7 +3788,6 @@ apkmirror.*##div.appRow[style]
 apkmirror.*##html > body:style(padding-top: 0 !important;)
 apkmirror.*#@#.google-ad-leaderboard
 apkmirror.*##.ains-apkm_outbrain_ad
-apkmirror.*##.OUTBRAIN
 apkmirror.*##+js(remove-node-text, script, KCgpPT57bGV0IGU)
 apkmirror.*##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 apkmirror.*##+js(remove-node-text, script, "'.ains'")
@@ -4390,7 +4392,6 @@ impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramad
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.w_tx
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.w-cta.w
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.w-cta
-impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##.outbrain
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co###containerIncognitoLayer:remove()
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##body:style(overflow: visible !important;)
 impactoespananoticias.com,meteorologiaenred.com,desdelinux.net,lawebdelprogramador.com,soydemac.com,as.com,cadenaser.com,cincodias.com,destinia.com,elpais.com,lavozlibre.com,elmundo.es,abc.es,marca.com,expansion.com,mp3xd.mom,escuchasmusica.com,goomusica.com,huffingtonpost.es,los40.com,podiumpodcast.com,caracol.com.co##div[id="ctn_premium_article"]
@@ -5258,6 +5259,16 @@ larazon.es##.advertising
 larazon.es###floorad__portada
 larazon.es##+js(set-constant, gfkS2sExtension, {})
 larazon.es##+js(set-constant, gfkS2sExtension.HTML5VODExtension, noopFunc)
+!
+! ------ lavozdegalicia.es ------
+!
+lavozdegalicia.es##.ad_fixed_h
+lavozdegalicia.es##.adpos
+lavozdegalicia.es##.tophead-ad
+lavozdegalicia.es##body:style(padding-top: 0 !important;)
+lavozdegalicia.es##div[class^="ad"]
+lavozdegalicia.es##div[data-suscripcion]
+lavozdegalicia.es##+js(addEventListener-defuser, load, adb)
 !
 ! ------ liveworksheets.com ------
 !
