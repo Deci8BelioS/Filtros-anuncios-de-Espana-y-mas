@@ -503,6 +503,10 @@ _728_90.
 /wp-content/plugins/creame-whatsapp-me/public/js/joinchat.
 /snow-storm.js
 /plugins/adrotate/*$script
+###ad_728x90
+##a[href^="https://theporndude.com"]
+##a[href*="/jump/next.php?r="]
+*$document,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',from=coomer.su|thumbs.pro
 ##[aria-label="Back to top"]
 ##.generate-back-to-top
 ##.adsBanner
@@ -4010,6 +4014,15 @@ cdromance.*##.game-container > ins.adsbygoogle:upward(1)
 cdromance.*##.game-container[style="grid-column: span 2;"]
 cdromance.*##.widget_custom_html > .widget-title:contains(/^Advertisements$/):upward(1)
 !
+! ------ chatgpt.com ------
+!
+chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
+chatgpt.com##+js(prevent-fetch, method:/post/i url:/^https?:\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
+chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
+chatgpt.com##+js(prevent-fetch, method:/post/i url:/^https?:\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
+chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
+chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
+!
 ! ------ chollometro.com ------
 !
 chollometro.com##div.cept-banner
@@ -4049,6 +4062,17 @@ coolrom.*##+js(set-cookie, modal_cookie, yes)
 coolrom.*##+js(abort-current-script, confirm, location)
 coolrom.*##+js(set-constant, time, 0)
 coolrom.*##+js(adjust-setTimeout, download())
+!
+! ------ coomer.su ------
+!
+coomer.su##+js(abort-current-script, globalThis, break;case)
+coomer.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+coomer.su##+js(abort-current-script, WebAssembly, atob)
+coomer.su##+js(abort-current-script, String.fromCharCode, \x)
+coomer.su##+js(addEventListener-defuser, , popMagic)
+coomer.su##.ad-container
+coomer.su##[href^="//a.adtng.com/get/"]
+coomer.su##a[href^="//a.adtng.com/"]
 !
 ! ------ ¿Difoosion? ------
 !
@@ -4606,7 +4630,9 @@ elespanol.com##.full-suscriptor-container
 !
 ! ------ facebook.com ------
 !
-! facebook.com##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com##+js(addEventListener-defuser, mouseleave)
+facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, '', propsToMatch, /api/graphql)
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.sponsored_auction_distance)
 facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
 facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"[^"]+":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
@@ -4680,6 +4706,7 @@ firesticktricks.com##.top-banner
 !
 ! ------ Forocoches ------
 !
+forocoches.com###collapseobj_sidebar
 forocoches.com##table.tborder#threadslist > tbody[id^="threadbits_forum_"] > tr:has(> [id^="td_threadtitle_"][style^="background-color: #"].alt1 > .smallfont > span)
 forocoches.com##section[style^="min-width: 300px;"]
 forocoches.com###h1
@@ -5100,8 +5127,19 @@ independentespanol.com##div[id*="partners"]
 independentespanol.com###top-banner-wrapper
 independentespanol.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
 !
+! ------ infoestancos.es ------
+!
+infoestancos.es##[class*="brave_popup"]
+infoestancos.es##[class*="js-sticky"]
+infoestancos.es##[id*="-audio"]
+infoestancos.es##.joinchat__button
+infoestancos.es/wp-content/uploads/$image
+!
 ! ------ instagram ------
 !
+instagram.com##+js(addEventListener-defuser, mouseleave)
+instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
+instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 instagram.com##main > div div[style*="flex-direction: column;"] > article > div:has(> div:first-child span:has-text(/Anzeige|Gesponsert|Sponsored|Geborg|Maksettu kumppanuus|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
@@ -6097,6 +6135,13 @@ religiondigital.org##.onsite-social
 !
 rtve.es##.arrow
 !
+! ------ rumble.com ------
+!
+rumble.com##.body-container > .block:has(> button[hx-get="/-premium/htmx/premium-value-prop"]:only-child)
+rumble.com##.a-break
+rumble.com##+js(set-cookie, premium_popup, 1)
+rumble.com##.media-page-chat-body-content > .block:has(> button[hx-get="/-premium/htmx/premium-value-prop"]:only-child)
+!
 ! ------ salamanca24horas ------
 !
 salamanca24horas.com##.row-top.row > div.col-lg-12.col-md-12.col-sm-12.col-xs-12:nth-of-type(1) > .csl-hot.csl-inner
@@ -6336,6 +6381,8 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##.bonus-round-gradient
+twitch.tv##.bonus-round-gradient-urgent
 twitch.tv##.consent-banner:has-text(/cookies/)
 twitch.tv##[class*="find-me"]
 twitch.tv##[data-target="following__follow-games-cta"]
@@ -7336,3 +7383,11 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||rafikfangas.com^
 ||trinitymedia.ai/api/collect?
 ||waspilysagene.com^
+||ads.rmbl.ws^
+||rumble.com/l/
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,from=rumble.com
+||sift.com^$3p
+||adtng.com^
+||puabvo.com^
+||dsail-tech.com^$3p
+||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
