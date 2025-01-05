@@ -6595,8 +6595,6 @@ x.com,twitter.com##html:style(overflow: auto !important; padding-right: 0 !impor
 x.com,twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 x.com,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 x.com,twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
-x.com,twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Who to follow|Show more|A quién seguir|Mostrar más|lo siguen|others follow| follow|lo sigue|follows|Promocionado|Promoted/):not(:has(article))
-x.com,twitter.com##div[data-testid="cellInnerDiv"] > div:not(:has-text(/Following|Follow|Siguiendo|Seguir|Personas|People|Trending|Tendencia|trends|Tendencias|Ganó|won|Ver todo|View all/)):not(:has(article))
 x.com,twitter.com##aside[aria-label*="Get Verified"]:has([class*="css-"]),
 x.com,twitter.com##aside[aria-label*="Obtener verificación"]:has([class*="css-"])
 ||x.com^*/log.json
