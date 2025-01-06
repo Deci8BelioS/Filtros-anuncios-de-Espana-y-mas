@@ -510,6 +510,7 @@ _728_90.
 ##a[href^="https://theporndude.com"]
 ##a[href*="/jump/next.php?r="]
 *$document,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',from=coomer.su|thumbs.pro
+##.glyphicon-arrow-up
 ##[aria-label="Back to top"]
 ##.generate-back-to-top
 ##.adsBanner
@@ -3809,27 +3810,45 @@ arstechnica.com##.ad
 !
 ! ------ Atresmedia ------
 !
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(addEventListener-defuser, contextmenu)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##[class*="publi"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.mod-ligatus
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##aside[class^="mod-ad-top"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.mod-ad-middle
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(no-setTimeout-if, _creatBait)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(nofab)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(no-fetch-if, /conversion_async.js)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##body:style(overflow: visible !important;)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(no-fetch-if, doubleclick)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##div[class*="style__StyledModalWrapper-sc-"]:has([class*="StyledAdBlocker"])
 ||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=atresplayer.com,important
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 ||publi.atresmediapublicidad.com^$media,domain=lasexta.com,redirect=noopmp3-0.1s
 ||statics.atresmedia.com/atresplayer/webapp/bundle.bf8cfecf79.js
-antena3.com##[class*="publi"]
+cdnjs.atresmedia.com
 /freewheel-adManager-$script,domain=antena3.com|lasexta.com
 /googleAdServer.$script,domain=antena3.com|lasexta.com
-antena3.com,lasexta.com,atresmedia.com##+js(addEventListener-defuser, contextmenu)
-atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
-cdnjs.atresmedia.com
-lasexta.com##.mod-ligatus
-lasexta.com##aside[class^="mod-ad-top"]
-lasexta.com##.mod-ad-middle
-lasexta.com##.article-main__social-embed
-atresplayer.com##+js(no-setTimeout-if, _creatBait)
-atresplayer.com##+js(nofab)
-atresplayer.com##+js(no-fetch-if, /conversion_async.js)
-atresplayer.com##body:style(overflow: visible !important;)
-atresplayer.com##+js(no-fetch-if, doubleclick)
-atresplayer.com##+js(adjust-setTimeout, [native code], 1000)
-atresplayer.com##div[class*="style__StyledModalWrapper-sc-"]:has([class*="StyledAdBlocker"])
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##div.article-main__social-embed
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##div[id^="taboola-container-"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com###faldon-whatsapp
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##div[data-mod="ads"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com###FaldonAD
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.adv
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.bombo
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.bannerApp
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.nolazy
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com###form_newsletter
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.L6-news-detail__aside:has(a.L6-channel-link--telegram)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.ads
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##[data-type="ads"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##[data-type="ads-no-lazy"]
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##.headerDirecto
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com###live-section-header
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(prevent-fetch, www3.doubleclick.net)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(adjust-setTimeout, [native code], 5000)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(adjust-setTimeout, [native code], 1000)
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(prevent-fetch, doubleclick)
 @@||atresplayer.com^$generichide
 @@||assets.adobedtm.com^$xhr,from=atresplayer.com
 !
@@ -7376,3 +7395,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||puabvo.com^
 ||dsail-tech.com^$3p
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
+||id5-sync.com^
