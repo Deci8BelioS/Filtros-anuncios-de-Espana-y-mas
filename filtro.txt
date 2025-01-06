@@ -503,6 +503,7 @@ _728_90.
 /wp-content/plugins/creame-whatsapp-me/public/js/joinchat.
 /snow-storm.js
 /plugins/adrotate/*$script
+##.td-scroll-up
 ###outbrain
 ##.adSky
 ###ad_728x90
@@ -3475,33 +3476,6 @@ _europecookielaw.
 1fichier.com##.ui-dialog
 1fichier.com##.ui-dialog[aria-describedby="modal-msg"]:has(a[href$="/console/abo.pl"][style^="text-decoration:underline"])
 !
-! ------ 20minutos ------
-!
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds > div.henneoHB
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.social
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, __tnt.adBlockEnabled)
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.prometeoArticleBottom
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.share-options
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es###sidebarADefault
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##+js(abort-on-property-read, hb_now)
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es#$##axds-Top { min-height: 0 !important; }
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.banner-header
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds-lane
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.ad-fixed
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.editorial-banner
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.taboola_container
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.top_ads_container
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.module1colAds
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.module-coupons
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.axds
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##.free-content
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="adspace"]
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[role*="dialog"]
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="form-nl"]
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[class*="sidebar"],[id*="sidebar"]
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[id*="rmp"]
-lainformacion.com,metropoles.com,20minutos.es,heraldo.es,petitchef.es##[data-ad-text="PUBLICITE"]
-!
 ! ------ 4pda ------
 !
 4pda.to##[id*="_ad"]
@@ -3930,48 +3904,6 @@ audioz.download##[src*="/promo/"]
 audioz.download##+js(abort-current-script, String.fromCharCode, 'shift')
 audioz.download##+js(addEventListener-defuser, , break;case $.)
 ||audioz.download/templates/default/img/promo/
-!
-! ------ Axel Springer España ------
-!
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="default_aside"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="megaAd"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="megaad"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="embedAarticle"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="roba_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="roba_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="mega_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="mega_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="home_containerAdSlot"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_spacingTop"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_aside"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="content-aside"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="column-right"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="columnAside"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="embed-card_card__"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="block-newsletter"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="newsletter-block"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="block-as-sunmedia-block"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="outbrain_container__"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="river_gridPosition__"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="pager__"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="sidebar"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.i-amphtml-layout-fixed
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[data-widgetids*="AMP_"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="i-amphtml-svc"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="dailymotion"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="dailymotion"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]:has( > [class*="dailymotion"])
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.wrapper-editorial
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.article-share-list
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.special-related-header
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="ad-"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="-ad"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="-ad"]
-computerhoy.com,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-slot_"]
-||cmpsp.
 !
 ! ------ bing.com ------
 !
@@ -5044,6 +4976,50 @@ hackyouriphone.org##+js(no-setInterval-if, visibility, 1000)
 !
 happymod.com##.appx
 happymod.com##.cbox.appx
+!
+! ------ Henneo Magazines ------
+!
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-on-property-read, hb_now)
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-on-property-read, __tnt.adBlockEnabled)
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="ad-"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="home_containerAdSlot"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="mega_"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_aside"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="region-section-aside_spacingTop"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="ad-"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="mega_"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="megaad"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="roba_"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-catfish"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="ad-slot_"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="home_containerAdSlot__"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##section[class^="home_spacingBlock"] aside[class^="region-section-aside_"]:has(> div[class^="region-section-aside"] > div[class^="ad-slot_container__"])
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="embedAarticle"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="outbrain_container__"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="lazyload-wrapper"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="default_aside"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.social
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.free-content
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.axds-lane
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.axds > div.henneoHB
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.axds
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com###axds-Top:style(min-height: 0 !important;)
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##div[class^="freehtml-"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="sidebar"], [id*="sidebar"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.taboola_container
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.module-coupons
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[data-ad-text="PUBLICITE"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.module1colAds
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.ad-fixed
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##.prometeoArticleBottom
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="adspace"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="-ad"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[id*="-ad"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="megaAd"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[data-widgetids*="AMP_"]
+20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##[class*="i-amphtml-svc"]
+||cmpsp.
 !
 ! ------ hd-tecnologia.com ------
 !
