@@ -503,6 +503,14 @@ _728_90.
 /wp-content/plugins/creame-whatsapp-me/public/js/joinchat.
 /snow-storm.js
 /plugins/adrotate/*$script
+/streamsense.min.js
+/nonadblock/*
+##.ad-desktop
+##.ad-inline
+##.ad-interstitial
+##.ad-wrapper
+##.dfpAd
+##.sticky-navbar-ad-container
 ##.td-scroll-up
 ###outbrain
 ##.adSky
@@ -5114,7 +5122,6 @@ ign.com##+js(abort-current-script, addEventListener, iframe-network)
 ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
 ign.com##+js(set-constant, Object.prototype.iadb, undefined)
 ign.com##.zad
-ign.com##.ad-wrapper
 !
 ! ------ independentespanol.com ------
 !
@@ -5130,6 +5137,12 @@ infoestancos.es##[class*="js-sticky"]
 infoestancos.es##[id*="-audio"]
 infoestancos.es##.joinchat__button
 infoestancos.es/wp-content/uploads/$image
+!
+! ------ infobae.com ------
+!
+infobae.com##.page-container.top:style(margin-top: 60px!important;)
+infobae.com##+js(addEventListener-defuser, /load|error/, .head.removeChild()
+infobae.com##.span-rail
 !
 ! ------ instagram ------
 !
@@ -5339,12 +5352,16 @@ bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##.compartir
 bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es,yasss.es,niusdiario.es,publiesp.es,atlas-news.com,eldesmarque.com##[class*="publicidad_"]
 mitele.es##div[class^="coreCarousel__advertisementBox-"]
-mitele.es##.ad-wrapper
 mitele.es##.titleList.DestacadoBox.clearfix.ModuleSimple:last-child
 mitele.es##A[href="http://www.premiercasino.es/redirect?provenanceCode=CONECTA5CASINO"]
 mitele.es##a[href="http://www.eltiempohoy.es/"]
 mitele.es##a[href="http://www.tiendagranhermano.com"]
 mitele.es##body,html:style(overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important)
+imasdk.googleapis.com##+js(xml-prune, VAST, '', barstoolsports.com)
+imasdk.googleapis.com##+js(prevent-fetch, secure.adnxs.com/ptv, war:noop-vast4.xml)
+@@||mitele.es^$generichide
+@@/adjs.js$from=bemad.es|cuatro.com|divinity.es|eltiempohoy.es|energytv.es|factoriadeficcion.com|mitele.es|mtmad.es|telecinco.es
+@@||imasdk.googleapis.com/js/core/bridge*.html$from=~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/$script,domain=libremercado.com|mitele.es|mundoprimaria.com|shares.enetres.net|vodgc.net
 @@||mdsrwdassets-a.akamaihd.net^$script,domain=mitele.es
 @@||akamaihd.net/*/defaultview/*/fuckadblock.js$script,third-party,xmlhttprequest,domain=mitele.es
@@ -7396,3 +7413,9 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||dsail-tech.com^$3p
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||id5-sync.com^
+||applets.ebxcdn.com^
+||adnami.io^
+||servg1.net^
+||lma.npaw.com^
+||youboranqs01.com^
+||omtrdc.net^
