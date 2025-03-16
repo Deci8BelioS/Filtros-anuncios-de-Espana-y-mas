@@ -3657,6 +3657,12 @@ shrinkme.*##+js(remove-attr, href, a[href][target="_blank"])
 shrinkme.*##+js(abort-on-property-read, AdservingModule)
 shrinkme.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
 !
+! ------ Amazfitwatchfaces ------
+!
+amazfitwatchfaces.com##.col-md-12 > .panel:has(> .panel-body > .advp)
+amazfitwatchfaces.com##.advpanel
+amazfitwatchfaces.com##.advp
+!
 ! ------ Amazon ------
 !
 ||aiv-delivery.net/v1/reportevent
@@ -4478,6 +4484,7 @@ impactoespananoticias.com##.extra2
 !
 ! ------ elotrolado ------
 !
+elotrolado.net##.visible-xs-block
 elotrolado.net##.anno
 elotrolado.net##.dfp-queue
 elotrolado.net##div.news-ad
@@ -5883,6 +5890,7 @@ pluto.tv##div[class*="loadingLayout"]
 !
 ! ------ Porno ------
 !
+chaturbate.com##.ad
 pornhub.*###js-abContainterMain
 pornhub.*###singleFeedSection > .alpha
 pornhub.*##[src*="data:image/png;base64,"]
@@ -6401,6 +6409,7 @@ forums.tomshardware.*###rightcol_top
 !
 ! ------ tpnet ------
 !
+muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##img.aligncenter
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com###mrf-deepLinkingHomepage
 muycomputer.com,muyseguridad.net,muycomputerpro.com,muycanal.com,muypymes.com,muylinux.com##.mrf-adv__wrapper
@@ -6603,6 +6612,9 @@ wowroms.com##+js(adjust-setInterval, second)
 !
 ! ------ x (Twitter) ------
 !
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Libérate de los anuncios con Premium+/)
+x.com,twitter.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
+x.com,twitter.com##+js(set-constant, navigator.globalPrivacyControl, false)
 x.com,twitter.com##+js(addEventListener-defuser, mouseleave)
 x.com,twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
 x.com,twitter.com##div[data-testid="trend"]:has(> div[class]:only-child svg + span)
@@ -7458,3 +7470,8 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||fastly.jsdelivr.net/npm/disable-devtool^
 ||c.hit.ua^$3p
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js
+||nwr.static.mmcdn.com^
+||reactful.com^$3p
+||toprevenuegate.com^$popup
+||rating-widget.com^$3p
+||displayvertising.com^
