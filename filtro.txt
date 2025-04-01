@@ -505,6 +505,8 @@ _728_90.
 /plugins/adrotate/*$script
 /streamsense.min.js
 /nonadblock/*
+##.back-top
+###back-top
 ###adContainer
 ###ads-bottom
 ###ads-left
@@ -3669,6 +3671,10 @@ amazfitwatchfaces.com##.advp
 ||amazon.com/1/aiv-web-player/1/oe^
 primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]] | //*[name()="Period"]/@start), [value="Ad"], .mpd)
 primevideo.com##+js(json-prune, cuepointPlaylist)
+amazon.*###px-profile_feature_div
+amazon.*##.maple-banner
+amazon.*##div[id^="dp-ads-"]
+amazon.*##div[data-slot="auto-sparkle-hsa-tetris"]
 amazon.*###sponsoredProducts_feature_div
 amazon.*##div[class*="_dpNoOverflow_"][data-idt]
 amazon.*###tellAFriendBox_feature_div
@@ -3705,6 +3711,7 @@ amazon.*##div.s-result-item[data-asin=""]:has(> .sg-col-inner > div[cel_widget_i
 scorecardresearch.com/beacon.js$script
 amazon-adsystem.com/aax2/apstag.js$script
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
+||ssl-images-amazon.com/images/s/apesafeframe/ape/sf/$script
 !
 ! ------ Adslzone y demás ------
 !
@@ -7475,3 +7482,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||toprevenuegate.com^$popup
 ||rating-widget.com^$3p
 ||displayvertising.com^
+||to.getnitropack.com^
