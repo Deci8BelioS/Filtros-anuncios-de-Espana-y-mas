@@ -4278,8 +4278,24 @@ elamigos-games.*##.iframeDiv
 elamigos-games.*##h3.my-4:has-text(/^Advertising/)
 elamigos-games.*##[class*="_chat"]
 elamigos-games.*##div.portfolio-item:has-text(/NETFLIX/)
-!||elamigos-games.*^$script,domain=elamigos-games.*
 gamesfull.*##.ads
+elamigosgames.*##div.iframe-responsive
+elamigosgames.*##.col-lg-12
+elamigosgames.*##+js(no-setTimeout-if, checkAdblockUser)
+elamigosgames.*##.content_store
+elamigosgames.*##.iframeDiv
+elamigosgames.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
+elamigosgames.*##h3.my-4:has-text(/^Advertising/)
+elamigosgames.*##.store_fondo
+elamigosgames.*##.content_store
+elamigosgames.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
+elamigosgames.*##+js(abort-on-property-read, CryptoJS)
+elamigosgames.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
+elamigosgames.*##.iframeDiv
+elamigosgames.*##h3.my-4:has-text(/^Advertising/)
+elamigosgames.*##[class*="_chat"]
+elamigosgames.*##div.portfolio-item:has-text(/NETFLIX/)
+elamigosgames.*##.warp-content-container
 !
 ! ------ elblogdecineespanol ------
 !
@@ -4682,6 +4698,7 @@ facebook.com##:matches-path(/^\/(\?[a-z]+=\w+)?$/) div[aria-posinset] :is(h3, h4
 ||facebook.com/ajax/qm/
 ||facebook.com/plugins/$from=~facebook.com|~freepresets.com
 ||www.facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/{}/g
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.{-}.comet_sections.content.story.*.ad_id)
 !
 ! ------ fapello.com ------
 !
@@ -5592,6 +5609,10 @@ okdiario.com###native-addthis
 ! ------ overclock ------
 !
 overclock.net##body:style(overflow: auto !important;)
+!
+! ------ opensubtitles ------
+!
+opensubtitles.com##+js(set-constant, extInstalled, true)
 !
 ! ------ pccomponentes ------
 !
