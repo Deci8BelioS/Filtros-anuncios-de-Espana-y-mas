@@ -4853,7 +4853,6 @@ google.*##div[jsaction^="mouseover:"]:has(a[href^="/aclk?sa="][href$="&adurl="])
 google.*###tads[aria-label]
 google.*###atvcap > .cu-container div[data-pla="1"]
 google.*###gws-product_ads__plalightbox
-google.*##[class*="MjjYud"]:has-text(/Vídeos cortos|Short videos/)
 @@||accounts.google.com^
 google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
 google.*##iframe[role="presentation"][src*="ogs.google."][src*="widget/callout"]:upward(div[style^="overflow: hidden; position: absolute; top: 0px; width: 370px;"])
