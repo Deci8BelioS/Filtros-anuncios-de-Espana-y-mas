@@ -507,6 +507,11 @@ _728_90.
 /nonadblock/*
 /rum?ddsource=
 /atrk.js
+_300x250.
+##a[href^="https://go.skinstrip.net"][href*="?campaignId="]
+##a[href^="https://go.xlirdr.com"]
+##a[href^="https://twitter.com/share"]
+##.socials-container
 ##a[href^="https://go.xlivrdr.com"]
 ##.adcode
 ###header_adcode
@@ -3973,6 +3978,9 @@ audioz.download##+js(addEventListener-defuser, , break;case $.)
 !
 ! ------ bing.com ------
 !
+bing.com##+js(prevent-xhr, /fd/ls/lsp.aspx)
+bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
+bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
 bing.com##body .b_adLastChild:style(display: block !important; position: absolute !important; top: -9999px !important;)
 bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
 bing.com##.b_ad:style(position: absolute !important; top: -9999px !important;)
@@ -4623,6 +4631,9 @@ elchapuzasinformatico.com##[id*="ads_single"]
 !
 ! ------ elespanol.com ------
 !
+elespanol.com###footer_tools_share
+elespanol.com##.article-adv__content
+elespanol.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 elespanol.com###bannerarriba
 elespanol.com##.msg-middle
 elespanol.com##.comments-adv
@@ -5336,6 +5347,7 @@ lacasadeel.net##[class*="td_separator_center"]
 !
 ! ------ larazon.es ------
 !
+larazon.es##body .ad
 larazon.es##.article-body section aside
 larazon.es##.content__ad
 larazon.es##.ad
@@ -5557,6 +5569,9 @@ mundokodi.com###header-text-nav-wrap
 !
 ! ------ nexusmods.com ------
 !
+nexusmods.com##[data-testid="ad-container-player"]
+nexusmods.com##.items-center:has(> div[data-testid^="ad-container-"])
+nexusmods.com##+js(remove-cookie, ab)
 nexusmods.com##+js(set-constant, blockingAds, false)
 nexusmods.com##+js(trusted-replace-node-text, script, = getSetTimeout(), '= function newTimeout(func, timer) {func()}')
 nexusmods.com##[title="Back to top"]
@@ -7534,3 +7549,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||to.getnitropack.com^
 ||mnaspm.com^
 ||litix.io^$3p
+||xis.vipergirls.to^
+||xlirdr.com^
