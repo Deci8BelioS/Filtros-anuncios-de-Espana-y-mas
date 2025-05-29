@@ -508,6 +508,11 @@ _728_90.
 /rum?ddsource=
 /atrk.js
 _300x250.
+/yandex-metrica-watch/*
+/ahoy/visits
+##[data-freestar-ad][id]
+##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 ##a[href^="https://go.skinstrip.net"][href*="?campaignId="]
 ##a[href^="https://go.xlirdr.com"]
 ##a[href^="https://twitter.com/share"]
@@ -3656,6 +3661,8 @@ myuploadedpremium.*##+js(abort-on-stack-trace, $, /(?=^(?!.*(https)))/)
 myuploadedpremium.*##.adsbygoogle:style(position: absolute!important; left: -3000px!important;)
 myuploadedpremium.*##.copyright > .card
 myuploadedpremium.*##ins.adsbygoogle
+myuploadedpremium.*##.copyright
+myuploadedpremium.*##+js(remove-attr, height, body > iframe[height][width][style])
 uploadedpremiumlink.*##div[class^="blue-grey"][style^="width"] > ins[data-ad-client]:upward(1)
 deepbrid.com##+js(abort-current-script, document.getElementById, adblock)
 deepbrid.com##+js(abort-current-script, document.getElementById, undefined)
@@ -3668,6 +3675,7 @@ shrinkme.*##+js(set-constant, blurred, false)
 shrinkme.*##+js(remove-attr, href, a[href][target="_blank"])
 shrinkme.*##+js(abort-on-property-read, AdservingModule)
 shrinkme.*##+js(abort-on-property-read, app_vars.force_disable_adblock)
+rapidgator.net##a[href="https://play.google.com/store/apps/details?id=net.rapidgator"]
 !
 ! ------ Amazfitwatchfaces ------
 !
@@ -3974,6 +3982,7 @@ audioz.download###PromoHead
 audioz.download##[src*="/promo/"]
 audioz.download##+js(abort-current-script, String.fromCharCode, 'shift')
 audioz.download##+js(addEventListener-defuser, , break;case $.)
+audioz.download##body main header.page ul#PromoHead
 ||audioz.download/templates/default/img/promo/
 !
 ! ------ bing.com ------
@@ -4099,6 +4108,17 @@ crunchyroll.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, fal
 crunchyroll.com##.erc-premium-upsell-banner
 crunchyroll.com##button[data-t="share-btn"]
 !
+! ------ crdroid.net ------
+!
+crdroid.net##+js(prevent-fetch, googlesyndication)
+crdroid.net##+js(adjust-setInterval, count)
+crdroid.net##+js(prevent-fetch, pagead2.googlesyndication.com)
+crdroid.net##+js(adjust-setInterval, dl-links, *, 0.02)
+crdroid.net##+js(set-constant, AdBlockChecker, noopFunc)
+crdroid.net##+js(set-constant, AdBlockChecker.checkAdBlock, noopPromiseResolve)
+||crdroid.net/js/adblock-checker.min.js
+||crdroid.net/js/checker.js
+!
 ! ------ ¿Difoosion? ------
 !
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.visible
@@ -4202,6 +4222,14 @@ decrypt.day##+js(trusted-replace-node-text, script, 'G-69Q453PG98');, 'G-69Q453P
 decrypt.day##+js(adjust-setInterval, update, 1000)
 decrypt.day##+js(adjust-setInterval, update, *, 0.001)
 decrypt.day##ins.adsbygoogle:style(height: 1px !important; visibility: hidden !important;)
+!
+! ------ dev.to ------
+!
+dev.to##+js(remove-cookie, ahoy_visitor)
+dev.to##+js(remove-cookie, ahoy_visit)
+dev.to###runtime-banner-container
+dev.to##.js-billboard-container
+dev.to##div[data-display-unit]:has(span:has-text(Promoted))
 !
 ! ------ Grupo El Comercio ------
 !
@@ -4408,6 +4436,14 @@ elmundotoday.com##[class*="paywall"]
 elmundotoday.com##[class*="-anun"]
 elmundotoday.com##.td_mod_wrap:has-text(/boletín|gratuito/)
 elmundotoday.com##.td_block_text_with_title
+!
+! ------ emurom.net ------
+!
+emurom.net##+js(set-constant, dvsize, 52)
+emurom.net##+js(abort-on-stack-trace, jQuery, removeDLElements)
+emurom.net##+js(set-constant, dvsize, 258)
+emurom.net###annonce
+emurom.net##div[id="altcontent"]:has(img[id="altadblock"])
 !
 ! ------ pelmorex ------
 !
@@ -5315,6 +5351,11 @@ katfile.com##+js(abort-current-script, document.createElement, onerror)
 katfile.com##+js(nano-setTimeout-booster)
 katfile.com##+js(window.open-defuser)
 katfile.com##+js(set-constant, adblock, false)
+katfile.com##+js(trusted-replace-node-text, script, (adEnable), (true))
+katfile.com##+js(set-constant, download_click, true)
+katfile.com##+js(addEventListener-defuser, click, '', elements, a#dlink)
+katfile.com##+js(adjust-setTimeout, #freebtn, '', 0.02)
+katfile.com##+js(addEventListener-defuser, load, Notification.permission)
 !
 ! ------ kick.com ------
 !
@@ -5416,6 +5457,14 @@ mediafire.com##+js(set-constant, InfCustomFPSTAFunc, noopFunc)
 mediafire.com##+js(set-constant, InfCustomSTAMobileFunc, noopFunc)
 mediafire.com##+js(addEventListener-defuser, load, IsAdblockRequest)
 mediafire.com##+js(no-setTimeout-if, InfMediafireMobileFunc, 1000)
+mediafire.com##+js(adjust-setTimeout, download_link, *, 0.001)
+mediafire.com##+js(set-constant, google_tag_manager, false)
+mediafire.com##.sidebar > div.apps
+mediafire.com##.nonDLContentWrap:style(min-height: 1300px !important;)
+mediafire.com##.ezoic_ad_unit
+mediafire.com##.center:style(margin-top:50px !important)
+mediafire.com##.MFUltra > div.MFUltra-content:has(> div.UltraPlan-options)
+mediafire.com##.DlBtnUltraUpsell
 !
 ! ------ mega.nz ------
 !
@@ -5588,6 +5637,9 @@ nitroflare.com##+js(abort-current-script, $, window.open)
 nitroflare.com##+js(abort-current-script, pop3, window.open)
 nitroflare.com##div[id*="superbox"]
 nitroflare.com###popupContent
+nitroflare.com##p > a[href="https://t.me/nitroflarecom"]:upward(div[style*="background:"])
+nitroflare.com###superbox-overlay
+nitroflare.com###superbox-wrapper
 !
 ! ------ noticias3d.com ------
 !
@@ -6743,6 +6795,8 @@ xda-developers.com##+js(abort-on-property-read, googletag)
 xda-developers.com##+js(remove-cookie, articlesRead)
 xda-developers.com##+js(remove-cookie, /articlesRead|previousPage/)
 xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
+xdaforums.com##.uix_sidebarNav
+xdaforums.com###xdaforums_leaderboard_atf
 !
 ! ------ zona-leros ------
 !
@@ -6813,6 +6867,10 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 /^https:\/\/[.\w]+\.[a-z]{2,3}\/z-[5-7]\d{6}$/$script,1p,match-case,strict1p
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,redirect-rule=noopjs,match-case,to=com
+/^https:\/\/[a-z-]{6,15}\.(?:com|net|tv|xyz)\/(?:40[01]|50?0?)\/\d{6,7}\??\S*$/$script,3p
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|site|space(?!(\/socket\/websocket\?vsn\=))|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$websocket,3p,from=~arium.events|~file.pizza|~instant.io|~kli.one|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~redirect-ads.com|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz
+/^https?:\/\/[a-z]{7,}\.com\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,400}$/$image,3p,match-case,from=~edu|~gov,to=com
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$popup,3p,match-case,to=com
 ||static.chartbeat.com/js/chartbeat.js$script,redirect-rule=chartbeat.js
 ||boundlessveil.com^
 ||browser.sentry-cdn.com^
@@ -7551,3 +7609,13 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||litix.io^$3p
 ||xis.vipergirls.to^
 ||xlirdr.com^
+||tomlldahehun.org^$popup
+||ukankingwithea.com^
+||profitablecreativeformat.com^
+||highcpmrevenuegate.com^
+||sentinelpro.com^$3p
+||vemtoutcheeg.com^
+||groleegni.net^
+||dev.to/fallback_activity_recorder
+||rtmark.net^
+||littlecdn.com^
