@@ -513,6 +513,15 @@ _300x250.
 /webpush-ui.js$from=aliexpress.com|aliexpress.us
 /468x60/*
 /468x60/*$object,redirect-rule=noopjs
+/api/ad/*
+/analytics-ingress-
+/b/ss/*&aqe=$image,redirect-rule=1x1.gif
+&cx=c&gtm=
+##.back-to-top-link
+##.ad-content:not(:empty)
+##.ad-top-container
+##.adk-slot
+##.ad-box:not(#ad-banner):not(:empty)
 ##a[href^="https://click.ggpickyaff.com/"]
 ##a[href^="https://s.eunow4u.com/"]
 ##[data-freestar-ad][id]
@@ -3673,6 +3682,10 @@ deepbrid.com##+js(abort-current-script, document.getElementById, adblock)
 deepbrid.com##+js(abort-current-script, document.getElementById, undefined)
 deepbrid.com##+js(set-constant, adsenseadBlock, noopFunc)
 deepbrid.com##.content > div.rounded-md.text-theme-10
+leechpremium.*##+js(prevent-setInterval, iframe)
+leechpremium.*##+js(abort-current-script, document.addEventListener, /google_ad_client/)
+leechpremium.*##+js(abort-on-property-read, atob)
+@@||leechpremium.net^$generichide
 shorttrick.in##+js(noeval-if, /chp_?ad/)
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 shrinkme.*##+js(remove-node-text, script, window.open)
@@ -3877,6 +3890,8 @@ arstechnica.com##.ad
 !
 ! ------ Atresmedia ------
 !
+||smetrics.atresplayer.com^
+atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com###root main[class] > div[class] > section[class] + aside[class]:has(> div[class] > p[class]:contains(PUBLICIDAD))
 atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(addEventListener-defuser, contextmenu)
 atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##+js(no-fetch-if, adpass.atresmedia.com)
 atresmedia.com,antena3.com,lasexta.com,ondacero.es,europafm.com,melodia-fm.com,atresplayer.com##[class*="publi"]
@@ -3967,6 +3982,12 @@ androidpc.es##[class*="robainfpc"]
 androidpc.es##.sidebar
 androidpc.es##[class*="roba"]
 androidpc.es##[class*="splitmov"]
+!
+! ------ androidfilehost ------
+!
+androidfilehost.com##.download-file > div.col-md-4[style="max-width: 320px;"]
+||androidfilehost.com/libs/otf/stats.otf.php?
+||androidfilehost.com/assets/images/*-bg-*g$image
 !
 ! ------ audiotools, multimediatools ------
 !
@@ -4229,6 +4250,11 @@ decrypt.day##+js(trusted-replace-node-text, script, 'G-69Q453PG98');, 'G-69Q453P
 decrypt.day##+js(adjust-setInterval, update, 1000)
 decrypt.day##+js(adjust-setInterval, update, *, 0.001)
 decrypt.day##ins.adsbygoogle:style(height: 1px !important; visibility: hidden !important;)
+decrypt.day##+js(prevent-fetch, adsbygoogle)
+decrypt.day##div[id^="kofi-widget"]
+@@||decrypt.day^$generichide
+@@||fundingchoicesmessages.google.com^$script,from=decrypt.day
+decrypt.day##div[class] > center:has(> div.w-full > ins.adsbygoogle)
 !
 ! ------ dev.to ------
 !
@@ -5122,6 +5148,7 @@ www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##[class*="merch
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##ytd-reel-shelf-renderer
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com###merch-shelf
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-suggested-action > .ytp-suggested-action-badge
 !
 ! ------ gruporpp ------
 !
@@ -5989,6 +6016,9 @@ hdsplus.*##.gh-post-upgrade-cta-content
 hdsplus.*##.accent.gh-announcement-bar
 hdsplus.*##.gh-footer-signup
 hdsplus.*##.floatingchat-container-wrap
+wolfmax4k.com###WolfTelegram
+||war.pe/warp.js
+||wolfmax4k.com/assets/js/telegram.js
 !
 ! ------ periodistadigital ------
 !
@@ -6340,6 +6370,12 @@ preview.redd.it##shreddit-async-loader[bundlename="reddit_cookie_banner"]
 preview.redd.it##div[class*="cdn-media-page "] > [class*="border-"]:has-text(/Visitar/)
 ||redditstatic.com/shreddit/sentry-$from=reddit.com
 !
+! ------ retrostic ------
+!
+retrostic.com##+js(adjust-setInterval, timeLeft--, '', 0.02)
+retrostic.com###ad-header
+retrostic.com###romstable > tbody > tr:not([itemscope]):has(> td.d-none > div[style="min-height:300px"])
+!
 ! ------ religiondigital ------
 !
 religiondigital.org##.ad-holder
@@ -6537,12 +6573,18 @@ throneandliberty.es###widgets
 !
 tiktok.com##.tiktok-atuaas-DivCookieBannerContainer
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-||tiktok.com/ttwid/check/
-||tiktokv.com/monitor_browser/
 tiktok.com##+js(addEventListener-defuser, visibilitychange, pagehide)
 tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
+tiktok.com##+js(addEventListener-defuser, keydown)
+tiktok.com##+js(aeld, contextmenu, preventDefault)
+tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, '', propsToMatch, url:api/recommend/item_list/)
+||tiktok.com/ttwid/check/
+||tiktokv.com/monitor_browser/
+||mcs-ie.tiktokw.eu^
+||sgali-mcs.byteoversea.com^
+@@||tiktok.com^$generichide
 !
 ! ------ tomshardware ------
 !
@@ -7658,3 +7700,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||g.doubleclick.net^
 ||creativecdn.com^
 ||wary-corner.com^
+||ads.sportslocalmedia.com^
