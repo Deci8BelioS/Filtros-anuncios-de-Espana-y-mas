@@ -522,6 +522,9 @@ _300x250.
 /?oo=1&aab=1|$xhr,3p,redirect-rule=noop.js
 /ajax/banner/vpn|$xhr
 /ajax/banners?page=$xhr,1p
+##.ad-leaderboard
+##.ad-skyscraper
+##.ad-margin
 ##.back-to-top-link
 ##.ad-content:not(:empty)
 ##.ad-top-container
@@ -3578,6 +3581,22 @@ a2zapk.*##+js(set-constant, notifyMe, noopFunc)
 *$script,redirect-rule=noopjs,from=ouo.*
 ouo.*##+js(adjust-setInterval, stop())
 ouo.*##+js(adjust-setInterval, stop(), , 0.02)
+tpi.*###link-view a[target="_blank"] > img
+tpi.*##.banner-inner:style(display: block; width: 0 !important;)
+tpi.*##.td-post-template-default.td-container, .banner-inner
+tpi.*##a[href][target="_blank"]
+tpi.*##center > a[target="_blank"] > img
+tpi.*##+js(abort-current-script, document.createElement, break;case $.)
+tpi.*##+js(abort-on-property-write, zfgproxyhttp)
+tpi.*##+js(set-constant, app_vars.force_disable_adblock, undefined)
+tpi.*##+js(set-constant, blurred, false)
+tpi.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+tpi.*##+js(prevent-xhr, /pagead2\.googlesyndication\.com|inklinkor\.com/)
+tpi.*##+js(prevent-fetch, googlesyndication)
+tpi.*##+js(prevent-window-open)
+tpi.*##+js(remove-node-text, script, /adb_detected|;break;case \$\./)
+tpi.*##.banner > a
+tpi.*##.box-main > a[target="_blank"] > img
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,tii.*##+js(remove-class, disabled, .btn, stay)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,webhostingpost.*,referen.*,filecrypt.*,tii.*##+js(oib)
 financerites.*,howifx.*,enit.*,zpaste.*,ouo.*,shrinke.*,fc-lc.*,oko.*,referen.*,mgnetu.*,filecrypt.*,keeplinks.*##+js(nowebrtc)
@@ -3757,6 +3776,8 @@ amazon-adsystem.com/aax2/apstag.js$script
 !
 ! ------ Adslzone y demás ------
 !
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.leaderboard
+softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.gaz-ad
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="skyscraper-"]
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##[class*="leaderboard"]
 softzone.es,hardzone.es,redeszone.net,movilzona.es,topesdegama.com,lamanzanamordida.net,testdevelocidad.es,adslzone.net##.ad-block
@@ -7733,3 +7754,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||valueclick.cc^
 ||rndskittytor.com^
 ||waufooke.com^
+||ptichoolsougn.net^
