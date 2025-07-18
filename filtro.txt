@@ -522,6 +522,7 @@ _300x250.
 /?oo=1&aab=1|$xhr,3p,redirect-rule=noop.js
 /ajax/banner/vpn|$xhr
 /ajax/banners?page=$xhr,1p
+##.cnt-publi
 ##.ad-leaderboard
 ##.ad-skyscraper
 ##.ad-margin
@@ -6694,6 +6695,10 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##div[class="scrollable-area"]:has-text(/Historias/)
+twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
+twitch.tv##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
+twitch.tv##.channel-skins-banner__interactive
 twitch.tv##.bonus-round-gradient
 twitch.tv##.bonus-round-gradient-urgent
 twitch.tv##.consent-banner:has-text(/cookies/)
@@ -7755,3 +7760,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||rndskittytor.com^
 ||waufooke.com^
 ||ptichoolsougn.net^
+||dai.google.com/*/id3-events.json
+||smetrics.seguro.mediaset.es^
+||aswpsdkeu.com^$3p
