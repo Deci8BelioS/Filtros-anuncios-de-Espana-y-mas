@@ -522,6 +522,28 @@ _300x250.
 /?oo=1&aab=1|$xhr,3p,redirect-rule=noop.js
 /ajax/banner/vpn|$xhr
 /ajax/banners?page=$xhr,1p
+.com/g.gif?
+_prebid.js$script
+/js/counter.js?
+_728x90_
+/pingback|
+/_ga?send&
+##div[id^="dfp-ad-"]
+##.dfp-tag-wrapper
+##.dfp-ad-lazy
+##.block-fusion-ads
+###dfp-ad-top-wrapper
+###dfp-ad-right4-wrapper
+###dfp-ad-right3-wrapper
+###dfp-ad-right2-wrapper
+###dfp-ad-right1-wrapper
+###dfp-ad-right4
+###dfp-ad-right3
+###dfp-ad-right2
+###dfp-ad-right1
+###dfp-ad-bottom-wrapper
+###ad-top-wrapper
+###ad-bottom-wrapper
 ##.cnt-publi
 ##.ad-leaderboard
 ##.ad-skyscraper
@@ -3732,6 +3754,10 @@ amazfitwatchfaces.com##.advp
 ||amazon.com/1/aiv-web-player/1/oe^
 primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]] | //*[name()="Period"]/@start), [value="Ad"], .mpd)
 primevideo.com##+js(json-prune, cuepointPlaylist)
+amazon.*##.sbv-ad-content-container
+amazon.*##.s-result-item:has([data-ad-feedback])
+amazon.*##.s-result-item:has([data-ad-feedback-label-id])
+amazon.*##div[data-ad-id]
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*###px-profile_feature_div
 amazon.*##.maple-banner
@@ -4385,6 +4411,8 @@ dzoom.org.es##.dz-social-share-buttons
 !
 ! ------ elamigos-games mas gamefull ------
 !
+gamesfull.*##section[class*="smartv"]:has([href*="picvenxs"])
+||gamesfull.*/api/ads/*
 elamigos-games.*##div.iframe-responsive
 elamigos-games.*##.col-lg-12
 elamigos-games.*##+js(no-setTimeout-if, checkAdblockUser)
@@ -4896,8 +4924,12 @@ forococheselectricos.com##.bloque-relacionadas
 forococheselectricos.com##.rrss-container
 forococheselectricos.com##.site-footer
 !
-! ------ flaticon.com ------
-flaticon.com###bn-icon-list
+! ------ flaticon ------
+flaticon.*###bn-icon-list
+flaticon.*##[class*="ads"]
+flaticon.*##.banner-craft__container
+flaticon.*##.a-wrapper
+flaticon.*##.soul-p-nsba.hide-mobile.spirit-a
 !
 ! ------ gamebanana ------
 !
@@ -4937,6 +4969,7 @@ goluchas.com##[class*="sgpb-popup-overlay"]
 google.*##div[data-q][data-al]
 accounts.google.*##+js(set-local-storage-item, wf-promo-1::d, 1)
 *$3p,denyallow=googleapis.com|google.com|googleusercontent.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,from=shrinkme.*
+google.*##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 google.*###searchform ~ div div.rsir2d > div[role="button"] > span
 google.*###taw > div > [data-ved]
 docs.google.*##+js(no-xhr-if, method:POST url:/logImpressions)
@@ -5005,6 +5038,10 @@ youtube.*/generate_204
 ||ads.youtube.com^$domain=~ads.youtube.com
 @@||www.youtube.com^$generichide
 *o097znze.googlevideo.com^$xhr,3p,method=get,from=www.youtube.com
+youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
+youtube.com##ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope
+youtube.com##.ytd-watch-flexy > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
+
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-rpnt, script, (function serverContract(), /*START*/"YOUTUBE_PREMIUM_LOGO"!==ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType&&(location.href.startsWith("https://youtube.com/tv#/")||location.href.startsWith("https://youtube.com/embed/")||document.addEventListener("DOMContentLoaded"\,(function(){const t=()=>{const t=document.getElementById("movie_player");if(!t)return;if(!t.getStatsForNerds?.()?.debug_info?.startsWith?.("SSAP\, AD"))return;const e=t.getProgressState?.();e&&e.duration>0&&(e.loaded<e.duration||e.duration-e.current>1)&&t.seekTo?.(e.duration)};t()\,new MutationObserver((()=>{t()})).observe(document\,{childList:!0\,subtree:!0})})));(()=>{const t={apply:(t\,o\,n)=>{const e=n[0];return"function"==typeof e&&e.toString().includes("onAbnormalityDetected")&&(n[0]=function(){})\,Reflect.apply(t\,o\,n)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,t)})();(()=>{const e={construct:(e\,c\,n)=>{const t=c[0]\,o=c[1]?.body;return t?.includes("youtubei")&&o?.includes('"clientScreen":"WATCH"')&&(c[1].body=o.replace('"clientScreen":"WATCH"'\,'"clientScreen":"ADUNIT"'))\,Reflect.construct(e\,c\,n)}};window.Request=new Proxy(window.Request\,e)})();(function serverContract(), sedCount, 1)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(nano-stb, [native code], 17000, 0.001)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, , propsToMatch, /player\?|get_watch|^\W+$/)
@@ -5530,6 +5567,14 @@ lavozdegalicia.es##body:style(padding-top: 0 !important;)
 lavozdegalicia.es##div[class^="ad"]
 lavozdegalicia.es##div[data-suscripcion]
 lavozdegalicia.es##+js(addEventListener-defuser, load, adb)
+!
+! ------ listaspam.com ------
+!
+listaspam.com##.snigelAdHorizontal
+listaspam.com##.right_side
+listaspam.com##[style="min-height:250px"]
+listaspam.com##[style="height:280px"]
+!
 !
 ! ------ liveworksheets.com ------
 !
@@ -6467,6 +6512,9 @@ scrapywar.com##.stream-item-widget
 !
 ! ------ scribd.com ------
 !
+scribd.com##div[data-testid="sticky-wrapper"]
+scribd.com##.between_page_portal_root
+scribd.com##+js(set-constant, docManager.doDynamicBlurring, noopFunc)
 scribd.com##div[data-testid="desktop-leaderboard"]
 scribd.com##.sharing_btn
 scribd.com##.modal_open:style(height: auto !important; overflow: auto !important;)
@@ -7763,3 +7811,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||dai.google.com/*/id3-events.json
 ||smetrics.seguro.mediaset.es^
 ||aswpsdkeu.com^$3p
+||7eer.net^$3p
+||ssm.codes^
+||try.abtasty.com^
+||statsigapi.net^$3p
