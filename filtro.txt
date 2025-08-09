@@ -708,7 +708,6 @@ _728x90_
 ###mvp-foot-soc
 ##body .twitter-share-button
 ##.twitter-share-button
-##.social-media-link
 ##.mobile-social
 ##.share-button
 ##.share-buttons
