@@ -6751,6 +6751,7 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+twitch.tv##+js(prevent-window-open, /amazon-adsystem|example\.com/)
 twitch.tv##div[class="scrollable-area"]:has-text(/Historias/)
 twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
 twitch.tv##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
@@ -7779,8 +7780,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||lma.npaw.com^
 ||youboranqs01.com^
 ||omtrdc.net^
-||assets.twitch.tv/assets/features.video-player.components.video-ads.*.js^$script
-||assets.twitch.tv/assets/features.ads.*.js^$script
 ||steepto.com/g/$image,redirect-rule=noop.txt,from=a2zapk.io
 ||steepto.com^
 ||googlesyndication.com^$image,redirect-rule=1x1.gif,from=a2zapk.*
