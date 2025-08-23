@@ -3870,7 +3870,14 @@ appdb.to##.cookies:not(html, body)
 appdb.to##.banner
 appdb.to##.vue-notification-group
 appdb.to##.app::before
-
+!
+! ------ apple ------
+!
+@@||cdn-apple.com/*/analytics.js^$script
+||metrics.icloud.com^
+||iadsdk.apple.com^
+||music.apple.com^$removeparam=/^ign-/|app|at|cc|cId|ct|itscg|itsct|lId|ls|sr|src|uo
+||supportmetrics.apple.com^
 !
 ! ------ apkmirror ------
 !
@@ -6751,6 +6758,7 @@ trakt.tv##div:has(> span[id^="adn"])
 !
 ! ------ twitch.tv ------
 !
+@@||assets.twitch.tv/assets/features.ads.*.js^$script
 twitch.tv##+js(prevent-window-open, /amazon-adsystem|example\.com/)
 twitch.tv##div[class="scrollable-area"]:has-text(/Historias/)
 twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
@@ -7068,7 +7076,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ads.facebook.com^
 ||advertising.x.com^
 ||widgets.pinterest.com^
-||supportmetrics.apple.com^
 ||ads.vidoomy.com^
 ||powerad.ai^
 ||googletagmanager.com^
@@ -7539,7 +7546,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||adligature.com^
 ||amazon.com^$removeparam=channel|crid|field-lbr_brands_browse-bin|sprefix
 ||google.com/search$removeparam=aqs|bih|biw|cshid|ei|gs_lcp|gs_ssp|ie|iflsig|oq|rlz|sa|sclient|source|sourceid|uact|ved
-||music.apple.com^$removeparam=/^ign-/|app|at|cc|cId|ct|itscg|itsct|lId|ls|sr|src|uo
 ||old.reddit.com^$removeparam=rdt
 ||open.spotify.com^$removeparam=referral|nd|flow_id|flow_ctx
 ||ab.blogs.es/abtest.png^$image,3p,important,redirect-rule=1x1.gif,from=trendencias.com|xataka.com
@@ -7681,8 +7687,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||realtimely.io^
 ||adthrive.com^$3p
 ||metrics.mzstatic.com^
-||metrics.icloud.com^
-||iadsdk.apple.com^
 ||analytics-api.samsunghealthcn.com^
 ||2o7.net^$3p
 ||nmetrics.samsung.com^
