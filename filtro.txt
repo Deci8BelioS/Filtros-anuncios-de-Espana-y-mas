@@ -527,6 +527,7 @@ _prebid.js$script
 _728x90_
 /pingback|
 /_ga?send&
+/pxtrack.js
 ://analytics-cdn.
 ##._mo_recs_vi
 ##div[id^="dfp-ad-"]
@@ -1533,6 +1534,7 @@ _728x90_
 #@#div[id^="div-gpt-"]
 #@#.ad-placement
 #@#.sidebar-ad
+@@||dzcdn.net^*ads*
 @@||2mdn.net/instream/
 @@||as.com^$generichide
 @@||omtrdc.net/rest/$xhr
@@ -4051,6 +4053,12 @@ androidfilehost.com##.download-file > div.col-md-4[style="max-width: 320px;"]
 !
 ! ------ audiotools, multimediatools ------
 !
+audiotools.*,multimediatools.*##+js(addEventListener-defuser, load, /-ad-block-|adsbygoogle/)
+audiotools.*,multimediatools.*##+js(noeval-if, pagead2.googlesyndication.com)
+audiotools.*,multimediatools.*##+js(abort-current-script, document.ondragstart)
+audiotools.*,multimediatools.*##+js(abort-on-property-read, disable_copy)
+audiotools.*,multimediatools.*##+js(acs, document.oncontextmenu)
+audiotools.*,multimediatools.*##+js(nobab)
 @@||audiotools.*,multimediatools.*$generichide
 audiotools.*,multimediatools.*###top-info
 audiotools.*,multimediatools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
@@ -7826,3 +7834,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ssm.codes^
 ||try.abtasty.com^
 ||statsigapi.net^$3p
+||gofundme.com/*/widget/$frame,3p
