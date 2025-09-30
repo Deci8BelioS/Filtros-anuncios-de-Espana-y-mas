@@ -6793,6 +6793,7 @@ twitch.tv##+js(twitch-videoad)
 twitch.tv##.extensions-dock__dock
 twitch.tv##.extension-view__iframe
 twitch.tv##[class*="disclosure-card"]
+@@*ads*$domain=twitch.tv
 ||vod-secure.twitch.tv^
 !
 ! ------ unknowncheats ------
