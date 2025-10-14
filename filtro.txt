@@ -512,7 +512,6 @@ _300x250.
 /webpush-ui.js$from=aliexpress.com|aliexpress.us
 /468x60/*
 /468x60/*$object,redirect-rule=noopjs
-/api/ad/*
 /analytics-ingress-
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
 &cx=c&gtm=
@@ -587,7 +586,6 @@ _728x90_
 ##a[href*="/jump/next.php?r="]
 *$document,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',from=coomer.su|thumbs.pro
 ##.glyphicon-arrow-up
-##[aria-label="Back to top"]
 ##.generate-back-to-top
 ##.adsBanner
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
@@ -1143,7 +1141,6 @@ _728x90_
 ##.PostFooter__share
 ##.HeaderAd
 ##.sponsorPost
-##.AdBox
 ##.post-ads
 ##.post-ad
 *##amp-ad
@@ -1192,7 +1189,6 @@ _728x90_
 ##.PublicidadArriba
 ##.ad-cabecera
 ##.banner-publicidad
-##.cnt-publi
 ##.contenedorAdcentrado
 ##.content_gpt_caja1_ads
 ##.content_gpt_caja2_ads
@@ -1606,7 +1602,6 @@ _728x90_
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@||cdn.viglink.com/api/vglnk.js$from=9to5mac.com|electrek.co
-@@||static.doubleclick.net/instream/ad_status.js$from=youtube.com
 @@||cookielaw.org^$3p
 @@||b.cdnst.net/javascript/amazon.js$from=speedtest.net
 @@||open.spotify.com^$generichide
@@ -4064,7 +4059,6 @@ audiotools.*,multimediatools.*###top-info
 audiotools.*,multimediatools.*##+js(abort-current-script, EventTarget.prototype.addEventListener, blocker_detector)
 audiotools.*,multimediatools.*###sidebar > #custom_html-6
 audiotools.*,multimediatools.*##.widget_custom_html
-audiotools.*,multimediatools.*##+js(nobab)
 audiotools.*,multimediatools.*/wp-content/uploads/2019/02/Audiotorrentz_Back_To_School.jpg$image
 audiotools.*,multimediatools.*##+js(abort-on-property-read, adsBlocked)
 audiotools.*,multimediatools.*##+js(abort-on-property-read, chp_adblock_browser)
@@ -4119,7 +4113,6 @@ brainly.*##+js(set-constant, jsData.hasVideoMeteringUnlogEnabled, undefined)
 !
 cdromance.*##.cls
 cdromance.*##div[class="game-container"]:has-text(Advertisements)
-cdromance.*##.cls
 cdromance.*##.sidebar
 cdromance.*##svg[xmlns*="svg"]
 cdromance.*###custom_html-8
@@ -4131,10 +4124,6 @@ cdromance.*##.widget_custom_html > .widget-title:contains(/^Advertisements$/):up
 !
 chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
 chatgpt.com##+js(prevent-fetch, method:/post/i url:/^https?:\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
-chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
-chatgpt.com##+js(prevent-fetch, method:/post/i url:/^https?:\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
-chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
-chatgpt.com##+js(prevent-fetch, method:/post/i url:ab.chatgpt.com/v1/rgstr)
 !
 ! ------ chollometro.com ------
 !
@@ -4436,12 +4425,9 @@ elamigos-games.*##.iframeDiv
 elamigos-games.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
 elamigos-games.*##h3.my-4:has-text(/^Advertising/)
 elamigos-games.*##.store_fondo
-elamigos-games.*##.content_store
 elamigos-games.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
 elamigos-games.*##+js(abort-on-property-read, CryptoJS)
 elamigos-games.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
-elamigos-games.*##.iframeDiv
-elamigos-games.*##h3.my-4:has-text(/^Advertising/)
 elamigos-games.*##[class*="_chat"]
 elamigos-games.*##div.portfolio-item:has-text(/NETFLIX/)
 gamesfull.*##.ads
@@ -4456,7 +4442,6 @@ elamigosgames.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_bl
 elamigosgames.*##+js(abort-on-property-read, CryptoJS)
 elamigosgames.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
 elamigosgames.*##.iframeDiv
-elamigosgames.*##h3.my-4:has-text(/^Advertising/)
 elamigosgames.*##[class*="_chat"]
 elamigosgames.*##div.portfolio-item:has-text(/NETFLIX/)
 elamigosgames.*##.warp-content-container
@@ -5031,7 +5016,6 @@ google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link
 google.*##iframe[role="presentation"][src*="ogs.google."][src*="widget/callout"]:upward(div[style^="overflow: hidden; position: absolute; top: 0px; width: 370px;"])
 ! ------ Youtube ------
 youtube.*/generate_204
-/generate_204$~xhr
 *_ad_$media,domain=youtube.com,3p
 ||youtube.com/api/stats/atr?
 ||youtube.com/pcs/activeview?
@@ -5056,7 +5040,6 @@ youtube.*/generate_204
 youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
 youtube.com##ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope
 youtube.com##.ytd-watch-flexy > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
-
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-rpnt, script, (function serverContract(), /*START*/"YOUTUBE_PREMIUM_LOGO"!==ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType&&(location.href.startsWith("https://youtube.com/tv#/")||location.href.startsWith("https://youtube.com/embed/")||document.addEventListener("DOMContentLoaded"\,(function(){const t=()=>{const t=document.getElementById("movie_player");if(!t)return;if(!t.getStatsForNerds?.()?.debug_info?.startsWith?.("SSAP\, AD"))return;const e=t.getProgressState?.();e&&e.duration>0&&(e.loaded<e.duration||e.duration-e.current>1)&&t.seekTo?.(e.duration)};t()\,new MutationObserver((()=>{t()})).observe(document\,{childList:!0\,subtree:!0})})));(()=>{const t={apply:(t\,o\,n)=>{const e=n[0];return"function"==typeof e&&e.toString().includes("onAbnormalityDetected")&&(n[0]=function(){})\,Reflect.apply(t\,o\,n)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,t)})();(()=>{const e={construct:(e\,c\,n)=>{const t=c[0]\,o=c[1]?.body;return t?.includes("youtubei")&&o?.includes('"clientScreen":"WATCH"')&&(c[1].body=o.replace('"clientScreen":"WATCH"'\,'"clientScreen":"ADUNIT"'))\,Reflect.construct(e\,c\,n)}};window.Request=new Proxy(window.Request\,e)})();(function serverContract(), sedCount, 1)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(nano-stb, [native code], 17000, 0.001)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, , propsToMatch, /player\?|get_watch|^\W+$/)
@@ -5079,7 +5062,6 @@ www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-re
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-node-text, script, (function serverContract(), `/*START*/"YOUTUBE_PREMIUM_LOGO"!==ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType&&(location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/")||document.addEventListener("DOMContentLoaded",(function(){const t=()=>{const t=document.getElementById("movie_player");if(!t)return;if(!t.getStatsForNerds?.()?.debug_info?.startsWith?.("SSAP, AD"))return;const e=t.getProgressState?.();e&&e.duration>0&&(e.loaded<e.duration||e.duration-e.current>1)&&t.seekTo?.(e.duration)};t(),new MutationObserver((()=>{t()})).observe(document,{childList:!0,subtree:!0})})));(()=>{const t={apply:(t,o,n)=>{const e=n[0];return"function"==typeof e&&e.toString().includes("onAbnormalityDetected")&&(n[0]=function(){}),Reflect.apply(t,o,n)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,t)})();(()=>{const e={construct:(e,c,n)=>{const t=c[0],o=c[1]?.body;return t?.includes("youtubei")&&o?.includes('"clientScreen":"WATCH"')&&(c[1].body=o.replace('"clientScreen":"WATCH"','"clientScreen":"ADUNIT"')),Reflect.construct(e,c,n)}};window.Request=new Proxy(window.Request,e)})();(function serverContract()`, sedCount, 1)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-outbound-text, JSON.stringify, '"clientScreen":"WATCH"', '"clientScreen":"ADUNIT"', condition, contentPlaybackContext)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com###^script[id]:has-text(window,"fetch")
-www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##@##player-ads
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(ysr)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, ytplayer.config.args.raw_player_response.adPlacements, [])
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(set-constant, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
@@ -5252,6 +5234,15 @@ www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##ytd-reel-shelf
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com###merch-shelf
 www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##.ytp-suggested-action > .ytp-suggested-action-badge
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-json-edit-fetch-request, ..playbackContext[?.contentPlaybackContext]+={"adPlaybackContext":{"pyv":true}}, propsToMatch, /\/(player\
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-outbound-text, JSON.stringify, {"contentPlaybackContext", '{"adPlaybackContext":{"pyv":true},"contentPlaybackContext"', condition, currentUrl":"/watch)
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, adPlacements adSlots no_ads playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /player?)
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, '/"adPlacements.*?([A-Z]"\}\
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"\
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', /get_watch?)
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-node-text, script, (function serverContract(), '(()=>{if("YOUTUBE_PREMIUM_LOGO"===ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType\
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-json-edit-xhr-request, [?..originalUrl^="https://www.youtube.com/watch"]..playbackContext[?.contentPlaybackContext]+={"adPlaybackContext":{"pyv":true}}, propsToMatch, /player)
+www.youtube.com,youtube.com,youtubekids.com,youtube-nocookie.com##+js(prevent-xhr, '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
 !
 ! ------ gruporpp ------
 !
@@ -6208,7 +6199,6 @@ pornhub.*##.sniperModeEngaged
 pornhub.*##div.container:style(margin-top: 0px !important)
 pornhub.*###vpContentContainer #hd-rightColVideoPage
 pornhub.*###welcome
-pornhub.*##.sniperModeEngaged
 pornhub.*##.video-wrapper .clear
 pornhub.*##.video-wrapper .underplayerAd
 pornhub.*##iframe[data-embeddedads="true"]
@@ -6248,7 +6238,6 @@ pornhub.*,youporngay.*##div[onclick*="bp1.com"]
 pornhub.*,tube8.*,xvideos.*,youjizz.*,youporngay.*##img[src*="blob:" i]:not(video)
 mature.community,mature.mom,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy,pornhub.*,sports.sexy##img[width="300"]
 pornhub.*#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
-pornhub.*##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 pornhub.*##+js(set-constant, page_params.holiday_promo, true)
 pornhub.*##+js(set-constant, abp1, 0)
 pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
@@ -6476,7 +6465,6 @@ reddit.com##.XPromoPopupRpl.m-active
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##body[style$="overflow: hidden;"]:style(overflow: auto !important;)
 i.redd.it##shreddit-async-loader
-reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 reddit.com##+js(replace-node-text, script, outboundUrl, outbound)
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 reddit.com##+js(remove-attr, data-outbound-url, .outbound)
@@ -6592,7 +6580,6 @@ slideshare.net##+js(set-constant, feature_flags.interstitial_ads_flag, false)
 softonic.c*om##+js(nofab)
 softonic.*##+js(no-window-open-if)
 softonic.*##+js(addEventListener-defuser, , [native code])
-softonic.*##.sam-slot
 softonic.*##.sam-slot
 softonic.*###slide-in-wrapper
 !
@@ -7369,7 +7356,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||cloudfront.net/test.png
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net^*.mp3|$media,redirect=noopmp3-0.1s,domain=music.amazon.com|music.amazon.ca|music.amazon.co.uk|music.amazon.fr|music.amazon.de|music.amazon.it|music.amazon.es|music.amazon.co.jp|music.amazon.com.au|music.amazon.com.mx
-||amazon-adsystem.com^
 ||alexa-sitestats.s3.amazonaws.com^
 ||assoc-amazon.com^
 ||entrecard.s3.amazonaws.com^
@@ -7460,7 +7446,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||appboycdn.com^$3p
 ||advgo.net/mushroom/
 ||google.com/adsense/search/
-||x.com/i/api/1.1/jot
 ||coinblocktyrusmiram.com^
 ||a-mo.net^
 ||p.typekit.net^
@@ -7473,7 +7458,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||julymedian2022news.com^
 ||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||qualtrics.com/sie/$script,3p
-||julymedian2022news.com^
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
 ||wpadmngr.com^
 ||subscribers.com^$3p
@@ -7516,7 +7500,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||mediavine.com^$3p
 ||sentry-cdn.com^$3p,from=~sentry.dev|~sentry.io
 ||pemsrv.com^
-||play.google.com/log
 ||protagcdn.com^
 ||media.net^$object,redirect-rule=noopjs
 ||secure.quantserve.com^$object,redirect-rule=noopjs
@@ -7524,7 +7507,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||clickiocdn.com/utr/
 ||clickiocdn.com/clickiotag_log/
 ||pathosacetals.com^
-||geeknetic.es/ajax/renderads.asp
 ||googleadapis.l.google.com^$3p
 ||hotjar.com^$3p
 ||enthusiastgaming.net^
@@ -7734,20 +7716,15 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ads-api.twitter.com^$from=d3ward.github.io
 ||an.facebook.com^
 ||pixel.facebook.com^
-||app.getsentry.com^
-||browser.sentry-cdn.com^
 ||luckyorange.net^$3p
 ||freshmarketer.com^$3p
 ||mouseflow.com^$3p
 ||hotjar.io^$3p
 ||analytics.google.com^$3p
 ||adcolony.com^
-||googlesyndication.com^
 ||googleadservices.com^
 ||advice-ads.s3.amazonaws.com^$from=d3ward.github.io
 ||adtago.s3.amazonaws.com^
-||ads.youtube.com^$xhr,redirect-rule=noop.txt
-||ads.pinterest.com^$xhr,redirect-rule=noop.txt
 ||ezojs.com/ezoic/
 ||intrustedzone.site^
 ||browser-update.org^$3p
