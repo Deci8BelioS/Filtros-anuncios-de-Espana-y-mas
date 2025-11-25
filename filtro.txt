@@ -528,6 +528,12 @@ _728x90_
 /_ga?send&
 /pxtrack.js
 ://analytics-cdn.
+##a[href^="https://www.pinterest.com/pin/create/button/"]
+##a[href^="https://twitter.com/intent/tweet?"]
+##.ad-mod-section
+##.ad-mobile-flex-inc
+###ad--sidebar
+##.ad__container
 ##._mo_recs_vi
 ##div[id^="dfp-ad-"]
 ##.dfp-tag-wrapper
@@ -4134,6 +4140,17 @@ chollometro.com##body:style(overflow: auto !important;)
 chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
 chollometro.com##+js(set-cookie, cookie_policy_agreement, 3)
 chollometro.com##+js(set-cookie-reload, cookie_policy_agreement, 3)
+chollometro.com##[id*="customBannerList-id-"]
+chollometro.com###eventThemingPortal
+chollometro.com###keywordSuggestionsWidgetPortal
+chollometro.com###relatedDealsWidgetPortal
+chollometro.com###voteSecondarySectionPortal
+chollometro.com###relatedVouchersWidgetPortal
+chollometro.com###internalLinkingWidgetPortal
+chollometro.com###footer-portal
+chollometro.com###groupHeaderPortal
+chollometro.com###exploreMoreRelatedWidget
+chollometro.com###eventBannerPortal
 !
 ! ------ chomikuj.pl ------
 !
@@ -4417,37 +4434,24 @@ dzoom.org.es##.dz-social-share-buttons
 !
 gamesfull.*##section[class*="smartv"]:has([href*="picvenxs"])
 ||gamesfull.*/api/ads/*
-elamigos-games.*##div.iframe-responsive
-elamigos-games.*##.col-lg-12
-elamigos-games.*##+js(no-setTimeout-if, checkAdblockUser)
-elamigos-games.*##.content_store
-elamigos-games.*##.iframeDiv
-elamigos-games.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
-elamigos-games.*##h3.my-4:has-text(/^Advertising/)
-elamigos-games.*##.store_fondo
-elamigos-games.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
-elamigos-games.*##+js(abort-on-property-read, CryptoJS)
-elamigos-games.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
-elamigos-games.*##[class*="_chat"]
-elamigos-games.*##div.portfolio-item:has-text(/NETFLIX/)
 gamesfull.*##.ads
-elamigosgames.*##div.iframe-responsive
-elamigosgames.*##.col-lg-12
-elamigosgames.*##+js(no-setTimeout-if, checkAdblockUser)
-elamigosgames.*##.content_store
-elamigosgames.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
-elamigosgames.*##h3.my-4:has-text(/^Advertising/)
-elamigosgames.*##.store_fondo
-elamigosgames.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
-elamigosgames.*##+js(abort-on-property-read, CryptoJS)
-elamigosgames.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
-elamigosgames.*##.iframeDiv
-elamigosgames.*##[class*="_chat"]
-elamigosgames.*##div.portfolio-item:has-text(/NETFLIX/)
-elamigosgames.*##.warp-content-container
-elamigosgames.*##.portfolio-item:has-text(/Offer/)
-elamigosgames.*##+js(prevent-setTimeout, checkAdblockUser)
-elamigosgames.*##.store_text
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##div.iframe-responsive
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.content_store
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##a[href^="https://www.instant-gaming.com/"][href*="?igr="]
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##h3.my-4:has-text(/^Advertising/)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.store_fondo
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.row > .col-lg-2:first-child:has( > .card > a[href][target="_blank"])
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##+js(abort-on-property-read, CryptoJS)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##+js(addEventListener-defuser, DOMContentLoaded, shortener)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.iframeDiv
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.warp-content-container
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.store_text
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##+js(prevent-setTimeout, checkAdblockUser, 1000)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##+js(prevent-setTimeout, /adblock/i)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*###xdbqsk
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##.banner-lateral
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##div[id^="ig-banner"]
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##div.portfolio-item:has-text(/Offer|Pre-Order|NETFLIX/)
 !
 ! ------ elblogdecineespanol ------
 !
@@ -4818,7 +4822,7 @@ facebook.com##+js(addEventListener-defuser, mouseleave)
 facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, '', propsToMatch, /api/graphql)
 facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.sponsored_auction_distance)
 facebook.com##+js(remove-class, _31e, body > ._li)
-facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
+facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)
 facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^,]+,"[^"]+":"SPONSORED"[^\n]+"cursor":"[^}]+\}/g', {}, /api/graphql)
 facebook.com##+js(trusted-replace-xhr-response, /\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/g, {}, /api/graphql)
 facebook.com##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported require.0.3.0.__bbox.define.[].2.click_ids)
@@ -4863,6 +4867,12 @@ facebook.com##:matches-path(/^\/(\?[a-z]+=\w+)?$/) div[aria-posinset] :is(h3, h4
 ||facebook.com/plugins/$from=~facebook.com|~freepresets.com
 ||www.facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"category":"ENGAGEMENT[^\n]+?"cursor":"[^"]+"\}/{}/g
 facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.{-}.comet_sections.content.story.*.ad_id)
+facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, '', /api/graphql)
+facebook.com##+js(jsonl-edit-xhr-response, .data.viewer.marketplace_feed_stories.edges.*[?@.node.__typename=="MarketplaceFeedAdStory"], /graphql)
+facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data)
+facebook.com##+js(json-prune-xhr-response, data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data, '', propsToMatch, /graphql)
+facebook.com##+js(json-edit, ..sideFeed.nodes.*[?.__typename=="AdsSideFeedUnit"])
+facebook.com##+js(trusted-replace-xhr-response, '/,"category_sensitive"[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', }, /api/graphql)
 !
 ! ------ fapello.com ------
 !
@@ -5792,6 +5802,7 @@ nexusmods.com##.donation-form
 nexusmods.com###rj-vortex
 nexusmods.com###rj-logo-social
 nexusmods.com###rj-footer
+nexusmods.com##.ads-holder
 !
 ! ------ nitroflare.com ------
 !
@@ -6780,6 +6791,8 @@ twitch.tv##+js(twitch-videoad)
 twitch.tv##.extensions-dock__dock
 twitch.tv##.extension-view__iframe
 twitch.tv##[class*="disclosure-card"]
+twitch.tv##.channel-info-content div[class^="Layout-sc-"][style^="background-image: url(\"https://static-cdn.jtvnw.net/subs-image-assets/banner/subtember2025/banner-"]
+@@||twitch.tv^$generichide
 @@*ads*$domain=twitch.tv
 ||vod-secure.twitch.tv^
 !
@@ -6929,6 +6942,10 @@ wowroms.com##+js(adjust-setInterval, second)
 !
 ! ------ x (Twitter) ------
 !
+x.com,twitter.com##div[role="group"] > div[data-testid="mask"]
+x.com,twitter.com##div[data-testid="super-upsell-UpsellCardRenderProperties"]
+x.com,twitter.com##html[style]:style(overflow: auto !important; position: static !important;)
+x.com,twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /graphql)
 x.com,twitter.com##div[data-testid="cellInnerDiv"]:has-text(/Libérate de los anuncios con Premium+/)
 x.com,twitter.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
 x.com,twitter.com##+js(set-constant, navigator.globalPrivacyControl, false)
@@ -7065,6 +7082,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|site|space(?!(\/socket\/websocket\?vsn\=))|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$websocket,3p,from=~arium.events|~file.pizza|~instant.io|~kli.one|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~redirect-ads.com|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz
 /^https?:\/\/[a-z]{7,}\.com\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,400}$/$image,3p,match-case,from=~edu|~gov,to=com
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$popup,3p,match-case,to=com
+/^https?:\/\/[-a-z]{5,13}\.[a-z]{3,}\/[0-9a-z]{1,20}\?(?=[A-Za-z]{0,21}\d?)(?=[0-9a-z]{0,21}[A-Z])[0-9A-Za-z]{15,24}=(?=[%a-z]*[0-9A-Z])[%0-9A-Za-z]{35,2000}$/$xhr,3p,match-case,method=get,header=via:/^2\.\d (apache|tomcat|nginx)$/,to=~com|~dev|~edu|~gov|~net|~org|~tv
 ||static.chartbeat.com/js/chartbeat.js$script,redirect-rule=chartbeat.js
 ||boundlessveil.com^
 ||browser.sentry-cdn.com^
@@ -7813,3 +7831,4 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||try.abtasty.com^
 ||statsigapi.net^$3p
 ||gofundme.com/*/widget/$frame,3p
+||usrpubtrk.com^
