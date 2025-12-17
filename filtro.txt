@@ -528,6 +528,8 @@ _728x90_
 /_ga?send&
 /pxtrack.js
 ://analytics-cdn.
+/ajax/bz?_
+##.ad-block
 ##a[href^="https://www.pinterest.com/pin/create/button/"]
 ##a[href^="https://twitter.com/intent/tweet?"]
 ##.ad-mod-section
@@ -5876,6 +5878,9 @@ okdiario.com###disqus_recommendations
 okdiario.com##.aux-col
 okdiario.com###main-video-anchor
 okdiario.com###native-addthis
+okdiario.com##.outofpageHome
+okdiario.com##.envoltorio-intext1
+okdiario.com##.content > .megaContainer:empty
 !
 ! ------ overclock ------
 !
@@ -6828,6 +6833,10 @@ wabetainfo.*##.wpra-plugin-container
 wabetainfo.*##.sd-sharing
 wabetainfo.*##.widget-area
 wabetainfo.*##.site-footer
+!
+! ------ whatsapp ------
+!
+web.whatsapp.com###side > div[role="button"]:has(> div:only-child div[class] > span[data-icon="wa-square-icon"] + span)
 !
 ! ------ webmedia ------
 !
