@@ -5866,7 +5866,9 @@ olarila.com##.adsbygoogle:style(height: 1px!important; display: block!important;
 ! ------ okdiario ------
 !
 okdiario.com##.publicidad
-okdiario.com##.ad-slot-ph
+okdiario.com##.ad-slot-ph::before
+okdiario.com##aside.ad-slot-ph
+okdiario.com##.mega
 okdiario.com##[id*="okd-catfish"]
 okdiario.com##[id*="sky-publi"]
 okdiario.com##[class*="mega"]
