@@ -4944,6 +4944,14 @@ forococheselectricos.com##.botones-sociales-wrapper
 forococheselectricos.com##.bloque-relacionadas
 forococheselectricos.com##.rrss-container
 forococheselectricos.com##.site-footer
+forococheselectricos.com##[class*="AdContainer-"]
+forococheselectricos.com##[class*="subscription"]
+forococheselectricos.com##[class*="nativery-first"]
+forococheselectricos.com##[class*="sticky"]
+/motorsw.js$script
+||forococheselectricos.com/fcesw.js$script
+||forococheselectricos.com/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
+||forococheselectricos.com/_next/static/chunks/turbopack-*.js$script
 !
 ! ------ flaticon ------
 flaticon.*###bn-icon-list
