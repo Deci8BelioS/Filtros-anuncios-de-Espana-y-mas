@@ -529,6 +529,11 @@ _728x90_
 /pxtrack.js
 ://analytics-cdn.
 /ajax/bz?_
+/monitor_browser/collect/*
+/exitpopup.js$script
+/v1/rgstr^
+##.ads-top
+##.ads-bottom
 ##.ad-block
 ##a[href^="https://www.pinterest.com/pin/create/button/"]
 ##a[href^="https://twitter.com/intent/tweet?"]
@@ -3562,6 +3567,10 @@ _europecookielaw.
 !
 ! ------ 1fichier ------
 !
+1fichier.com##+js(adjust-setTimeout, ctt(), 1000, 0.001)
+1fichier.com##form > .ct_warn:contains(disable any advertising)
+1fichier.com##.ct_warn
+1fichier.com##a[href="https://1fichier.com/console/abo.pl"]
 1fichier.com##.ct_warn:has-text(adblock)
 1fichier.com##+js(nowebrtc)
 1fichier.com##.ui-widget-overlay
@@ -5792,6 +5801,8 @@ mundokodi.com###header-text-nav-wrap
 !
 ! ------ nexusmods.com ------
 !
+nexusmods.com##free-trial-banner
+nexusmods.com##+js(adjust-setInterval, remaining--;)
 nexusmods.com##[data-testid="ad-container-player"]
 nexusmods.com##.items-center:has(> div[data-testid^="ad-container-"])
 nexusmods.com##+js(remove-cookie, ab)
@@ -6541,6 +6552,13 @@ scrapywar.com##.stream-item-widget
 !
 ! ------ scribd.com ------
 !
+scribd.com##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, '', condition, /error-report|new Promise/)
+scribd.com##div[class^="GridContainer-module_wrapper_"] div[data-e2e="dismissible-ad-header-scribd_adhesion"]:upward(div[class^="GridContainer-module_wrapper_"])
+scribd.com##div[class]:has(> [data-e2e="dismissible-ad-header-scribd_adhesion"])
+scribd.com##+js(json-prune, ad_slot_recs)
+scribd.com##+js(trusted-json-edit-xhr-response, .smartAdsForAccessNoAds=true, propsToMatch, /doc-page/afa)
+scribd.com##+js(json-prune-xhr-response, ad_slot_recs, '', propsToMatch, /doc-page/recommenders)
+scribd.com##+js(remove-node-text, script, /\(async\s*\(\)\s*=>\s*\{\s*try\s*\{\s*(const|var)/)
 scribd.com##div[data-testid="sticky-wrapper"]
 scribd.com##.between_page_portal_root
 scribd.com##+js(set-constant, docManager.doDynamicBlurring, noopFunc)
@@ -7843,3 +7861,6 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||statsigapi.net^$3p
 ||gofundme.com/*/widget/$frame,3p
 ||usrpubtrk.com^
+||pbjs-stream.bydata.com^
+||script.ac^
+||wknd.ai^
