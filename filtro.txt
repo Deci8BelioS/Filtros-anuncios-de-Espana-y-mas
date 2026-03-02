@@ -532,6 +532,138 @@ _728x90_
 /monitor_browser/collect/*
 /exitpopup.js$script
 /v1/rgstr^
+##.adsbytrafficjunky
+##amp-ad
+##.robapaginas
+##.robapagina
+##.roba-container
+##.ad-disclaimer-container
+##.AdHolder
+##.advertisement-text
+##.ad-box-auto
+##.js-ad-slot
+##.ad_fullwidth
+##.ad_crown
+##.brn-ads-box
+###fixedban
+###sky-right
+##.home-ads
+##.header-ad
+##.adv-link
+###Player_Playoncontent_footer
+###AdSlot_megabanner
+##.single-ad
+##.fixed_adslot
+##.AdTagModule
+##.ads-ad
+##.wp_bannerize_banner_box
+##.content__ad
+###outbrain-id
+##.ads-holder
+##.van_vid_carousel
+##.van_taboola
+##.nn_mobile_mpu_wrapper
+##.legion_primiswrapper
+##.content-kuss-ads
+###admobiletop
+###admobilemiddle
+##.widget-ad-image
+###ad_main_top
+##.ad-holder
+###zdcFloatingBtn
+##div[data-ad-placeholder]
+##.gadsense-ad
+###banner-728x90-area
+###banner-300x600-area
+##div[id^="banner-300x250-"]
+##div[id^="banner-970x250-"]
+##a[href*="/jump/next.php"][id="gpujs_link"]
+##a[href^="https://ads.impulsosocial.online/"]
+##.pubContainer
+##.cnt-publi
+##.dfp-tag-wrapper-container
+##.voc-advertising
+##.publicity-content
+##.publicidad
+###PublicidadCentro
+###PublicidadSuperior
+###Publicidade
+###ad-230x100-1
+###ad-300x40-5
+###ad-635x40-1
+###ad4
+###ad_publicidad
+###adhome
+###ads_top
+###adsense2
+###adsense2pos
+###adsensePreCuerpo
+###adsensepo
+###adv_bottom_1
+###adv_left_1
+###adv_middle
+###adv_middle_2
+###adv_position_1
+###adv_position_4
+###adv_top_1
+###adv_top_right
+###advertising_header
+###anunciosGoogle
+###avazu_ads_slide
+###barraPublicidade
+###liBannerDireita
+###liPublicidadeAdsense
+###pmocntr2
+###publiEspecial
+###publicidad-02
+###publicidad-contextual
+###publicidad-top
+###publicidadTop
+###publicidad_button_home
+###publicidade-topo
+###publicidadeIsland
+###publicidade_not
+###publicidades_top
+###publicidadhead
+###publicidadheadernota
+###publicidadsky
+###publicidadtop_content
+###queTooltip
+###topopublicidade
+##.AdsPot
+##.Publicidade
+##.PublicidadeSidebarSuperior
+##.ad-superbanner
+##.arriba-publicidad
+##.bannerBox
+##.bb-lt-adv
+##.bb-pub-120_600
+##.bb-pub-300_250
+##.ctn-advertising
+##.esp_publicidad
+##.google-ads-obj
+##.google-ads-rodape
+##.googleAdFoot
+##.hpPublicidadTop
+##.lomadee-wp-related-offers
+##.lv24hpublicidad
+##.main-ads
+##.publicidad-bg
+##.publicidad-ct
+##.publicidadMiddle
+##.publicidadSuperior
+##.publicidad_big
+##.publicidad_especial
+##.publicidad_top
+##.publicidade
+##.publicidade-abre_padrao
+##.publicidade-dotted
+##.publicidade_superbanner
+##.publicidades
+##.publicidadright
+##.publicidadtxt
+##.standard-ad
+##.video_ads_overdiv
 ##.ads-top
 ##.ads-bottom
 ##.ad-block
@@ -558,7 +690,6 @@ _728x90_
 ###dfp-ad-bottom-wrapper
 ###ad-top-wrapper
 ###ad-bottom-wrapper
-##.cnt-publi
 ##.ad-leaderboard
 ##.ad-skyscraper
 ##.ad-margin
@@ -1019,7 +1150,6 @@ _728x90_
 ###video-sponsor-links
 ##.exo-ad-ins-container
 ###video-ad
-*##.adsbytrafficjunky
 ##.clever-core-ads
 ##iframe[width="300"][height="250"]
 ##.ad-mpu
@@ -1156,32 +1286,8 @@ _728x90_
 ##.sponsorPost
 ##.post-ads
 ##.post-ad
-*##amp-ad
 *##amp-dailymotion
-##.publicidad
-###ad-230x100-1
-###ad-300x40-5
-###ad-635x40-1
-###ad4
-###ad_publicidad
-###adhome
-###ads_top
-###adsense2
-###adsense2pos
-###adsensepo
-###advertising_header
-###pmocntr2
-##.AdsPot
-##.bannerBox
-##.ctn-advertising
-##.google-ads-obj
-##.google-ads-rodape
-##.googleAdFoot
 ##.googleAd
-##.main-ads
-##.publicidade-dotted
-##.standard-ad
-##.video_ads_overdiv
 ##[href^="http://ads.glispa.com/"]
 ###Publi300600x
 ###audimaAdDesktop
@@ -1215,7 +1321,6 @@ _728x90_
 ##.publicidad_dfp
 ##.publicolumna
 ##.ue-c-ad
-##.voc-advertising
 ##.voc-article--sponsored
 ##.voc-sponsored
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
@@ -1397,7 +1502,6 @@ _728x90_
 ##.publicidad_pc
 ##.publicidad_titulo
 ##.publicidad_tras_bajada
-##.publicity-content
 ##.publicity-content-google
 ##.publitop
 ##.pubslider
@@ -1449,63 +1553,6 @@ _728x90_
 ##.adblockInfo
 ##.deadblocker-header-bar
 ##.regular.closable
-###adsensePreCuerpo
-###adv_bottom_1
-###adv_left_1
-###adv_middle
-###adv_middle_2
-###adv_position_1
-###adv_position_4
-###adv_top_1
-###adv_top_right
-###anunciosGoogle
-###avazu_ads_slide
-###barraPublicidade
-###liBannerDireita
-###liPublicidadeAdsense
-###publicidad-02
-###publicidad-contextual
-###publicidad-top
-###publicidad_button_home
-###PublicidadCentro
-###Publicidade
-###publicidade-topo
-###publicidade_not
-###publicidadeIsland
-###publicidades_top
-###publicidadhead
-###publicidadheadernota
-###publicidadsky
-###PublicidadSuperior
-###publicidadTop
-###publicidadtop_content
-###publiEspecial
-###queTooltip
-###topopublicidade
-##.ad-superbanner
-##.arriba-publicidad
-##.bb-lt-adv
-##.bb-pub-120_600
-##.bb-pub-300_250
-##.esp_publicidad
-##.hpPublicidadTop
-##.lomadee-wp-related-offers
-##.lv24hpublicidad
-##.publicidad-bg
-##.publicidad-ct
-##.publicidad_big
-##.publicidad_especial
-##.publicidad_top
-##.Publicidade
-##.publicidade
-##.publicidade-abre_padrao
-##.publicidade_superbanner
-##.publicidades
-##.PublicidadeSidebarSuperior
-##.publicidadMiddle
-##.publicidadright
-##.publicidadSuperior
-##.publicidadtxt
 ###link-view > a[href][target="_blank"] > img
 ##a[href^="https://taghaugh.com/"]
 *###credential_picker_container
@@ -1531,11 +1578,6 @@ _728x90_
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 *##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 *##.adsbox
-*##.robapaginas
-*##.robapagina
-*##.roba-container
-*##.envoltorio_publi
-*##.publi
 *##.grecaptcha-badge
 ##.newspack_global_ad
 ##.widget_newspack-ads-widget
@@ -3528,7 +3570,6 @@ _europecookielaw.
 ||usercentrics.eu^$third-party
 ||consensu.org^$domain=~consensu.org
 ||cmp.uniconsent.com^$third-party,domain=~xda-developers.com
-! for Safari ('||' covers one sub-domain only)
 ||clickio.mgr.consensu.org^$third-party
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
@@ -3575,7 +3616,6 @@ _europecookielaw.
 1fichier.com##+js(nowebrtc)
 1fichier.com##.ui-widget-overlay
 1fichier.com##+js(nano-setTimeout-booster, dlw, 40000)
-1fichier.com###cookie_box
 1fichier.com##.ui-dialog
 1fichier.com##.ui-dialog[aria-describedby="modal-msg"]:has(a[href$="/console/abo.pl"][style^="text-decoration:underline"])
 !
@@ -3593,7 +3633,6 @@ _europecookielaw.
 9to5mac.com##.related-guides
 9to5mac.com##.sidebar
 9to5mac.com##.ad-disclaimer-container,.inlinead,.ad-container
-9to5mac.com##.ad-disclaimer-container
 9to5mac.com##.ad-container
 9to5mac.com##.xs.container
 *$script,redirect-rule=noopjs,from=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co|marketrealist.com
@@ -3739,7 +3778,6 @@ myuploadedpremium.*##+js(abort-current-script, $, /setInterval[\s\S]*?_0x[\s\S]*
 myuploadedpremium.*##+js(abort-on-stack-trace, $, /(?=^(?!.*(https)))/)
 myuploadedpremium.*##.adsbygoogle:style(position: absolute!important; left: -3000px!important;)
 myuploadedpremium.*##.copyright > .card
-myuploadedpremium.*##ins.adsbygoogle
 myuploadedpremium.*##.copyright
 myuploadedpremium.*##+js(remove-attr, height, body > iframe[height][width][style])
 uploadedpremiumlink.*##div[class^="blue-grey"][style^="width"] > ins[data-ad-client]:upward(1)
@@ -3798,7 +3836,6 @@ amazon.*##.s-search-results > div[data-asin]:has(> div[class] > div[cel_widget_i
 amazon.*##.s-search-results > div[data-asin] div[data-component-props*="Sponsored"]
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
 amazon.*##.amzn-safe-frame-container
-amazon.*##.AdHolder
 amazon.*##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
 amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
 amazon.*##div[cel_widget_id="sp_phone_detail_thematic"]
@@ -3905,7 +3942,6 @@ appdb.to##.app::before
 apkmirror.*##div[id^="adtester-container-"]
 apkmirror.*###bottom-slider
 apkmirror.*###sidebar > div.listWidget:has(> h5:contains(Follow APK Mirror))
-apkmirror.*##.advertisement-text
 apkmirror.*##.ains
 apkmirror.*##.apkm-timed-slider
 apkmirror.*##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
@@ -3937,15 +3973,12 @@ apkpure.*##div[dt-eid="pwa_subscribe_button"]
 apkpure.*##:not(.item) > .share-box
 apkpure.*##.share-toolbox
 apkpure.*##.share-fixed
-apkpure.com##.ad-box:not(#ad-banner)
 apkpure.com##.aegon-down-item
 apkpure.com###policy-info
 apkpure.*##body:style(overflow: auto !important;)
 apkpure.*##.float-request-notification-permission-button
 apkpure.*##.chrome-install-pop
-apkpure.*##.ad-box-auto
 apkpure.*###policy-info
-apkpure.*##.js-ad-slot
 apkpure.*##.debut-game
 apkpure.*##[class*="-banner"]
 apkpure.*##div[class*="right"]:has(div[class*="editor-choice"])
@@ -3964,9 +3997,7 @@ aptoide.*##div[class*="editorial-slide__EditorialSlideContainer"]
 !
 arstechnica.com##.ad_xrail:style(position: absolute!important; left: -10000px!important;)
 arstechnica.com##.ad_fullwidth:style(position: absolute!important; left: -10000px!important;)
-arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad_crown:style(position: absolute!important; left: -10000px!important;)
-arstechnica.com##.ad_crown
 arstechnica.com##.ad
 !
 ! ------ Atresmedia ------
@@ -4127,7 +4158,6 @@ brainly.*##[data-testid="brainly_ads_placeholder"]
 brainly.*##[class^="BrainlyAdsPlaceholder"]
 brainly.*##.js-react-adblock-banner
 brainly.*##.js-new-ad-placeholder
-brainly.*##.brn-ads-box
 brainly.*##+js(abort-on-property-read, __brn_private_mode)
 brainly.*##+js(no-setTimeout-if, trigger, 0)
 brainly.*##+js(set-local-storage-item, social-qa/machineId, $remove$)
@@ -4269,11 +4299,6 @@ mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ip
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##.ads-sticky
 mundodeportivo.com,lavanguardia.com,milenio.com,mediotiempo.com,2trendies.com,ipadizate.com,andro4all.com,alfabetajuega.com##li > ul > li.module-box:has(> div.modulo-container > span.ad-unit)
 !
-! ------ cotilleando.com ------
-!
-cotilleando.com###fixedban
-cotilleando.com##.samCodeUnit
-!
 ! ------ cultura-informatica.com ------
 !
 cultura-informatica.com##.amp-ad-wrap
@@ -4305,7 +4330,6 @@ dailymail.*##.mol-img > noscript + div[class^="container-"]
 dailymail.*##.mol-ads-label-container
 dailymail.*##.dms-puff
 dailymail.*###sky-right-container
-dailymail.*###sky-right
 dailymail.*###floating-share-bar-container > ul
 dailymail.*###dms-txt
 dailymail.*###articleIconLinksContainer
@@ -4406,7 +4430,6 @@ diariosanitario.com##.bannersubheader
 diariosanitario.com##.cabecera
 diariosanitario.com##.e3lan-bottom
 diariosanitario.com##.e3lan-post
-diariosanitario.com##.home-ads
 diariosanitario.com##.sidebar-narrow
 diariosanitario.com##.sidebar
 diariosanitario.com##[class*="addtoany"]
@@ -4508,15 +4531,12 @@ eleconomista.es##.AD_Content
 !
 ! ------ eldiario.es ------
 !
-eldiario.es##.header-ad
-eldiario.es##.header-adds
 eldiario.es##.header-links
 eldiario.es##[id^="ad_container_"]
 eldiario.es##.dailymotion-library
 eldiario.es##.news-outlook
 eldiario.es##.bbnx-module
 eldiario.es##.bulletin-subscription
-eldiario.es##.edi-advertising
 eldiario.es##.branded-content
 eldiario.es##.embed-container
 eldiario.es##.news-know-more
@@ -4530,14 +4550,11 @@ eldiario.es##.news-sponsored-content
 !
 ! ------ eldigitaldealbacete ------
 !
-eldigitaldealbacete.com##.adv-link
 eldigitaldealbacete.com##.stream-item
-eldigitaldealbacete.com##.share-buttons
 !
 ! ------ elindependiente.com ------
 !
 elindependiente.com##.top-desktop
-elindependiente.com##.social-share
 elindependiente.com###skyder
 elindependiente.com##.sidebar
 elindependiente.com###skyizq
@@ -4553,11 +4570,9 @@ elnortedecastilla.es##.v-mdl-c-nws
 elnortedecastilla.es##.v-c-cmp
 elnortedecastilla.es##[class*="-adv"]
 elnortedecastilla.es##body:style(overflow: auto !important;)
-elnortedecastilla.es##.voc-advertising
 !
 ! ------ elmundotoday.com ------
 !
-elmundotoday.com##.td-a-rec
 elmundotoday.com##[class*="paywall"]
 elmundotoday.com##[class*="-anun"]
 elmundotoday.com##.td_mod_wrap:has-text(/boletín|gratuito/)
@@ -4693,7 +4708,6 @@ impactoespananoticias.com##.extra2
 !
 elotrolado.net##.visible-xs-block
 elotrolado.net##.anno
-elotrolado.net##.dfp-queue
 elotrolado.net##div.news-ad
 aquiacontece.com.br,elotrolado.net,xvideoz.es##.banners
 ||elotrolado.net/styles/estiloeol/imageset/banner_
@@ -4706,7 +4720,6 @@ elplural.com##.row-sky-banners
 elplural.com###sn-social-share
 elplural.com##.c-banner__mobile
 elplural.com##.subscribe-block
-elplural.com###Player_Playoncontent_footer
 !
 ! ------ Eurogamer ------
 !
@@ -4756,7 +4769,6 @@ esquire.com##header[class*="cover-story-marquee"]
 !
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
 @@||diariodenavarra.es^$ghide
-diariodenavarra.es###AdSlot_megabanner
 diariodenavarra.es##.sticky_roba
 !
 ! ------ elchapuzasinformatico ------
@@ -4774,7 +4786,6 @@ elchapuzasinformatico.com##[class*="addtoany_"]
 elchapuzasinformatico.com###colophon > .wrap
 elchapuzasinformatico.com##.social-links
 elchapuzasinformatico.com##[id*="post-"][class*=-noticia-patrocinada]
-elchapuzasinformatico.com##.single-ad
 elchapuzasinformatico.com##[class*="size_fixed"]
 elchapuzasinformatico.com##div[id*="lx"]:matches-attr(class="/lxG/")
 elchapuzasinformatico.com##.amp-ad-wrapper
@@ -4927,7 +4938,6 @@ forocoches.com##section[style^="min-width: 300px;"]
 forocoches.com###h1
 forocoches.com###fcthread
 forocoches.com###td_post_
-forocoches.com##.fixed_adslot
 forocoches.com###sidebar > section:has(.fixed_adslot)
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 forocoches.com###notices
@@ -4984,7 +4994,6 @@ flightradar24.com###pb-slot-fr24-airport
 !
 ! ------ gamebanana ------
 !
-gamebanana.com##.AdTagModule
 !
 ! ------ gamereactor ------
 !
@@ -5037,7 +5046,6 @@ google.*##div[data-flt-ve="sponsored_search_ads"]
 google.*##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
 google.*##div[role="navigation"] + c-wiz > div > .kxhcC
 google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
-google.*##.ads-ad
 google.*###sqh
 google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) a[href*="/aclk?"][data-al]:upward(2)
 google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
@@ -5394,9 +5402,7 @@ happymod.com##.cbox.appx
 hd-tecnologia.com##.i-amphtml-layout-fixed
 hd-tecnologia.com##.a-wrap
 hd-tecnologia.com##[class*="bg-custom-class-"]
-hd-tecnologia.com##.heateor_sss_sharing_container
 hd-tecnologia.com##.widget-social-b
-hd-tecnologia.com##.wp_bannerize_banner_box
 hd-tecnologia.com##.spc-newsletter
 hd-tecnologia.com##.post-share-float
 hd-tecnologia.com##.block-posts-small
@@ -5584,7 +5590,6 @@ kotaku.com##+js(set-constant, ga, noopFunc)
 ! ------ lacasadeel.net ------
 !
 lacasadeel.net###webpushr-prompt-wrapper
-lacasadeel.net##.td-a-rec
 lacasadeel.net##.td-is-sticky
 lacasadeel.net##.td-post-sharing
 lacasadeel.net##[class*="td_block_social"]
@@ -5595,10 +5600,8 @@ lacasadeel.net##[class*="td_separator_center"]
 !
 larazon.es##body .ad
 larazon.es##.article-body section aside
-larazon.es##.content__ad
 larazon.es##.ad
 larazon.es##.ads
-larazon.es###outbrain-id
 larazon.es##.floorad__container
 larazon.es##.henneoHB
 larazon.es##.prometeo-reserved-space
@@ -5848,7 +5851,6 @@ nexusmods.com##.donation-form
 nexusmods.com###rj-vortex
 nexusmods.com###rj-logo-social
 nexusmods.com###rj-footer
-nexusmods.com##.ads-holder
 !
 ! ------ nitroflare.com ------
 !
@@ -5909,7 +5911,6 @@ olarila.com##.adsbygoogle:style(height: 1px!important; display: block!important;
 !
 ! ------ okdiario ------
 !
-okdiario.com##.publicidad
 okdiario.com##.ad-slot-ph::before
 okdiario.com##aside.ad-slot-ph
 okdiario.com##.mega
@@ -5990,9 +5991,7 @@ pccomponentes.com##.flagship-ad
 ! ------ pcgamer.com ------
 !
 pcgamer.com##.slice-container
-pcgamer.com##.dfp-leaderboard-container
 pcgamer.com###sidebar
-pcgamer.com###taboola-below-article-thumbnails
 pcgamer.com##.related-articles-block
 pcgamer.com##.socialite-widget
 pcgamer.com##.buttons-social
@@ -6003,18 +6002,13 @@ pcgamer.com##.listingResult:has(> .sponsored-post)
 pcgamer.com##.listingResult > div.sponsored-post:upward(1)
 pcgamer.com##+js(set-constant, handleHeaderError, noopFunc)
 pcgamer.com##+js(abort-on-property-read, _sp_._networkListenerData)
-pcgamer.com##.van_vid_carousel
-pcgamer.com##.van_taboola
 !
 ! ------ pcgamesn.com ------
 !
 pcgamesn.com##header:style(top:0 !important)
 pcgamesn.com##body header.banner:not(#style_important):style(top: 0 !important;)
-pcgamesn.com##.nn_mobile_mpu_wrapper
-pcgamesn.com##.legion_primiswrapper
 pcgamesn.com##.nn_mobile_mpu2_wrapper
 pcgamesn.com##.curated-spotlight
-pcgamesn.com##.ad-mobile
 pcgamesn.com##.ad
 pcgamesn.com###nn_astro_wrapper:style(height: 50px !important;)
 pcgamesn.com###nn_astro_wrapper
@@ -6145,7 +6139,6 @@ my.mail.*##+js(window.open-defuser, /:\/\/r\.mail\.ru\//)
 my.mail.*##+js(abort-on-property-read, AdmanHTML)
 my.mail.*##+js(window.open-defuser, clb670603)
 my.mail.*###b-video-wrapper > div.b-video-html5__overlay-container
-peliculas24.*##.content-kuss-ads
 peliculas24.*##div[itemprop="description"] h3
 pelis-123.*##.head-main-nav i
 pelis24.*##.post a[rel="noopener"]
@@ -6192,7 +6185,6 @@ periodistadigital.com##.m4p-position-down.m4p-post-meta
 periodistadigital.com##.fluid-width-video-wrapper
 periodistadigital.com##.overlay
 periodistadigital.com##.pos_relative.bgImg.cta2-banner
-periodistadigital.com##.mrf-adv__wrapper
 periodistadigital.com##.mrf-page.stickyPage
 periodistadigital.com###mrf-footer
 periodistadigital.com##.mrf-widget
@@ -6361,8 +6353,6 @@ eporner.*###movieplayer-box-adv
 eporner.*###infopopup
 eporner.*###deskadmiddle
 eporner.*###btasd
-eporner.*###admobiletop
-eporner.*###admobilemiddle
 eporner.*##+js(no-setTimeout-if, /click[\s\S]*?window.location.replace/)
 eporner.*##+js(set-cookie, ADBp, yes)
 eporner.*##+js(abort-on-property-read, BetterJsPop)
@@ -6414,7 +6404,6 @@ sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com##.redessocialespeque
 sport.es,lne.es,epe.es,cambalache.es,neomotor.com,elperiodico.com,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,stilo.es,iberempleos.es,iberpisos.es,informacion.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,emporda.info,mallorcazeitung.es,regio7.cat,superdeporte.es,tucasa.com#@#.following-ad-container
 areajugones.sport.es##.miniHeader
-areajugones.sport.es##.publicidad
 sport.es##.popup-location
 ||trafico.prensaiberica.es^
 !
@@ -6424,7 +6413,6 @@ profesionalreview.com###footer-widgets-container
 profesionalreview.com###share-buttons-bottom
 profesionalreview.com##[class*="__lxG__"]
 profesionalreview.com##.stream-item
-profesionalreview.com##.widget-ad-image
 profesionalreview.com###cl-consent
 profesionalreview.com##body:style(background-image:none!important;)
 profesionalreview.com###ez-toc-container
@@ -6507,7 +6495,6 @@ reddit.com#?#div[style="margin-left:24px;margin-top:0"][class] > div[class] > di
 reddit.com#?#.ListingLayout-outerContainer > div[class] > div[style][class] > div[style][class] > div[class] div[class]:not([data-redditstyle]):has(> div[class] > div[class] > .SidebarAd)
 reddit.com#?#div[style*="fakelightbox-overlay-"] ~ div[tabindex] > div >  div > div > div[data-redditstyle="false"]:has(> div > div > div[data-before-content="advertisement"])
 reddit.com##div[data-before-content]
-reddit.com###ad_main_top
 reddit.com##body:style(pointer-events:auto !important;)
 reddit.com##body,html.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##+js(set-constant, Object.prototype.allowClickTracking, false)
@@ -6547,7 +6534,6 @@ retrostic.com###romstable > tbody > tr:not([itemscope]):has(> td.d-none > div[st
 !
 ! ------ religiondigital ------
 !
-religiondigital.org##.ad-holder
 religiondigital.org##.sharebar
 religiondigital.org##aside
 religiondigital.org##center
@@ -6581,7 +6567,6 @@ scenebeta.com##.block-block
 !
 scrapywar.com##+js(abort-on-property-read, mdpDeBlocker)
 scrapywar.com##+js(abort-current-script, eval, replace)
-scrapywar.com##.stream-item-widget
 !
 ! ------ scribd.com ------
 !
@@ -6656,13 +6641,11 @@ softonic.*###slide-in-wrapper
 !
 speedtest.net##.privacy-update
 speedtest.net##div[data-view-name="privacy-updated-notice"]
-speedtest.net###zdcFloatingBtn
 speedtest.net##+js(set-constant, isBlocked, false)
 speedtest.net##+js(abort-on-property-read, _sp_)
 speedtest.net##.eot-box-wrapper > div.pure-g
 speedtest.net##.pure-u-custom-ad-rectangle
 speedtest.net##.top-placeholder
-speedtest.net##div[data-ad-placeholder]
 speedtest.net##.notification
 speedtest.net##.footer
 speedtest.net##.lower-content-blend.lower-content
@@ -6767,14 +6750,12 @@ tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, '', props
 ! ------ tomshardware ------
 !
 tomshardware.*##.future__jwplayer--carousel
-tomshardware.*##.van_vid_carousel
 tomshardware.*##.vid-present
 tomshardware.*##[id="widgetArea17"]
 tomshardware.*##div[class*="ad-unit"]
 tomshardware.*##+js(abort-on-property-write, tmnramp)
 tomshardware.*##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl=http"], ?murl)
 tomshardware.*##.xenforo-comment-widget:style(height: auto !important;)
-tomshardware.*##.van_taboola
 tomshardware.*##.socialite-widget-ul
 tomshardware.*##.socialite-widget
 tomshardware.*##.related-articles-block
@@ -6883,7 +6864,6 @@ wabetainfo.*##.adsTextHeader
 wabetainfo.*##body > script[id] + div[id][class*=" "]
 wabetainfo.*##.custom-header
 wabetainfo.*##.wpra-plugin-container
-wabetainfo.*##.sd-sharing
 wabetainfo.*##.widget-area
 wabetainfo.*##.site-footer
 !
@@ -6990,7 +6970,6 @@ wccftech.com##.wccf_video_tag
 winaero.com###diodfoihdfsd
 winaero.com##.entry-content > div[style^="text-align:center;"][style$="font-weight:bold;"]
 winaero.com##.gadadsense
-winaero.com##.gadsense-ad
 winaero.com##aside:has(.adsbygoogle)
 winaero.com##div > p[style="margin: 20px"]
 winaero.com##p:has-text(Advertisement)
