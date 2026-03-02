@@ -3698,6 +3698,10 @@ filecrypt.*,keeplinks.*##+js(set-constant, YPOP, noopFunc)
 filecrypt.*,keeplinks.*##+js(set-constant, _popsThisDay, 999)
 filecrypt.*,keeplinks.*##+js(abort-current-script, Number, popWait)
 filecrypt.*,keeplinks.*##+js(set-constant, absda, noopFunc)
+filecrypt.*##.fiIItheadblockqueue4
+filecrypt.*##div:has(> [href*=".html"])
+filecrypt.*##+js(abort-current-script, EventTarget.prototype.addEventListener, key in document)
+filecrypt.*##+js(remove-node-text, script, {delete window[)
 peeplink.in##+js(abort-current-script, String.fromCharCode, 'shift')
 peeplink.in##+js(abort-on-property-read, _pop)
 peeplink.in##+js(popads-dummy)
@@ -3810,6 +3814,8 @@ amazon.*##.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]
 amazon.*###similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
 amazon.*##[class*="-widget-"]:has-text(Patrocinado)
 amazon.*##div.s-result-item[data-asin=""]:has(> .sg-col-inner > div[cel_widget_id^="MAIN-VIDEO_SINGLE_PRODUCT-"])
+amazon.*##div[data-idt="AXIOM"]
+amazon.*##.featured-brand-container
 scorecardresearch.com/beacon.js$script
 amazon-adsystem.com/aax2/apstag.js$script
 ||d1lxz4vuik53pc.cloudfront.net^$from=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
@@ -3836,6 +3842,7 @@ testdevelocidad.es##[class*="site-menu"]
 !
 ! ------ aliexpress ------
 !
+aliexpress.*##div[class^="share-and-wish--share--"]
 aliexpress.*##+js(addEventListener-defuser, mouseleave)
 aliexpress.*##.top-banner-container
 aliexpress.*###J_xiaomi_dialog
@@ -4463,6 +4470,8 @@ elamigos-games.*,elamigosgames.*,elamigosgamez.*###xdbqsk
 elamigos-games.*,elamigosgames.*,elamigosgamez.*##.banner-lateral
 elamigos-games.*,elamigosgames.*,elamigosgamez.*##div[id^="ig-banner"]
 elamigos-games.*,elamigosgames.*,elamigosgamez.*##div.portfolio-item:has-text(/Offer|Pre-Order|NETFLIX/)
+elamigos-games.*,elamigosgames.*,elamigosgamez.*###floatingBanner
+elamigos-games.*,elamigosgames.*,elamigosgamez.*##+js(prevent-setTimeout, checkAdblockUser)
 !
 ! ------ elblogdecineespanol ------
 !
@@ -4954,11 +4963,24 @@ forococheselectricos.com##[class*="sticky"]
 ||forococheselectricos.com/_next/static/chunks/turbopack-*.js$script
 !
 ! ------ flaticon ------
+!
+flaticon.*###modal-attribution
 flaticon.*###bn-icon-list
 flaticon.*##[class*="ads"]
 flaticon.*##.banner-craft__container
 flaticon.*##.a-wrapper
 flaticon.*##.soul-p-nsba.hide-mobile.spirit-a
+!
+! ------ flightradar24 ------
+!
+flightradar24.com##.right-sidebar:style(right: 0 !important)
+flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
+flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
+flightradar24.com##aside > article:has(> section a[data-testid="sidebar__free-trial-button"])
+flightradar24.com##[data-testid="sidebar__container"]
+flightradar24.com##.right-sidebar:style(right: 0 !important;)
+flightradar24.com##[data-testid="sidebar__container"]:style(display: none !important;)
+flightradar24.com###pb-slot-fr24-airport
 !
 ! ------ gamebanana ------
 !
@@ -5700,6 +5722,9 @@ mitele.es##a[href="http://www.tiendagranhermano.com"]
 mitele.es##body,html:style(overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important)
 imasdk.googleapis.com##+js(xml-prune, VAST, '', barstoolsports.com)
 imasdk.googleapis.com##+js(prevent-fetch, secure.adnxs.com/ptv, war:noop-vast4.xml)
+||static-cloud.mediaset.net/misc/ad/adanalytics.js^$important,from=mediasetinfinity.es
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$from=mediasetinfinity.es
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$from=mediasetinfinity.es
 @@||mitele.es^$generichide
 @@/adjs.js$from=bemad.es|cuatro.com|divinity.es|eltiempohoy.es|energytv.es|factoriadeficcion.com|mitele.es|mtmad.es|telecinco.es
 @@||imasdk.googleapis.com/js/core/bridge*.html$from=~spotify.com
@@ -7872,3 +7897,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||pbjs-stream.bydata.com^
 ||script.ac^
 ||wknd.ai^
+||googleapis.com^*/gen_204?
+||images.whoer.com/image/*.gif
+||www.loquosex.com/wp-content/uploads/ac_uploads/22375037.jpg$image
+||www.loquosex.com/wp-content/uploads/ac_uploads/15253104.jpg$image
