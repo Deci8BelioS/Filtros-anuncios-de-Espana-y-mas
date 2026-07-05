@@ -1694,6 +1694,7 @@ _728x90_
 @@||sentry.io^$3p
 @@||braze.com^$3p
 @@||rudderlabs.com^$3p
+@@||challenges.cloudflare.com^$generichide
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -4407,6 +4408,14 @@ deepl.com##div[data-testid="dl-cookieBanner"]
 !
 ! ------ decrypt.day ------
 !
+decrypt.day##.jar
+decrypt.day###abgc
+decrypt.day###ad_unit
+decrypt.day###mys-wrapper
+decrypt.day##iframe[width="300"][height="250"]
+decrypt.day##a[href^="https://www.googleadservices.com/pagead/aclk?"]
+decrypt.day##div[class] > center:has(> div.w-full > ins.adsbygoogle):style(display: block !important; position: absolute !important; left: -9999px !important;)
+decrypt.day##[style*="border"]:not(.checker):is([id="aswift_0_host"], [id="aswift_1_host"], [id="aswift_2_host"], [id="aswift_3_host"], [id="aswift_4_host"], [id="aswift_5_host"]):style(opacity: 0 !important; pointer-events: none !important;)
 decrypt.day##body:style(overflow: auto !important;)
 decrypt.day##+js(trusted-replace-node-text, script, 'G-69Q453PG98');, 'G-69Q453PG98'); window.addEventListener("DOMContentLoaded"\,function(){document.getElementsByClassName("adsbygoogle")[0].setAttribute("style"\,"display: block; height: 280px;")});)
 decrypt.day##+js(adjust-setInterval, update, 1000)
@@ -4416,7 +4425,15 @@ decrypt.day##+js(prevent-fetch, adsbygoogle)
 decrypt.day##div[id^="kofi-widget"]
 @@||decrypt.day^$generichide
 @@||fundingchoicesmessages.google.com^$script,from=decrypt.day
+||googleads.g.doubleclick.net/pagead/html/*.html$frame,redirect-rule=noop.html,from=decrypt.day
+@@||googleads.g.doubleclick.net/pagead/ads?gdpr=$frame,from=decrypt.day
+@@||pagead2.googlesyndication.com/pagead/$xhr,from=decrypt.day
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$from=decrypt.day
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_*.js$from=decrypt.day
+
+
 decrypt.day##div[class] > center:has(> div.w-full > ins.adsbygoogle)
+*$frame,redirect-rule=noopframe,from=decrypt.day
 !
 ! ------ dev.to ------
 !
@@ -4985,6 +5002,7 @@ firesticktricks.com##.top-banner
 !
 ! ------ Forocoches ------
 !
+forocoches.com##.fc-custom-promo
 forocoches.com###collapseobj_sidebar
 forocoches.com##table.tborder#threadslist > tbody[id^="threadbits_forum_"] > tr:has(> [id^="td_threadtitle_"][style^="background-color: #"].alt1 > .smallfont > span)
 forocoches.com##section[style^="min-width: 300px;"]
@@ -7213,6 +7231,11 @@ zona-leros.*##[class*="Anime alt B"] > [title*="Comprar"]
 !
 ! ------ Varios ------
 !
+*$from=googleads.g.doubleclick.net
+*$removeparam=bih
+*$removeparam=biw
+*$removeparam=correlator
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/$/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 *$removeparam='/^__s=[A-Za-z0-9]{6,}/',from=~univis.th-koeln.de|~univis.uni-bamberg.de|~univis.uni-erlangen.de|~univis.uni-kiel.de|~univis.uni-luebeck.de
 /^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
@@ -7999,3 +8022,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||ptawhood.net^
 ||pqrxmqmrbwx.com^
 ||d33f51dyacx7bd.cloudfront.net^
+||adtrafficquality.google^$3p
+||doubleverify.com^$3p
+||2mdn.net^$3p,~media
+||google.com/ads/measurement/
