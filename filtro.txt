@@ -538,6 +538,7 @@ _728x90_
 /assets/ads/*$~image,from=~outlook.live.com
 /script/suv5.js|$script
 ://plausible.*/js/script.
+##a[href^="https://s.happyleafmotion.com/"]
 ##.ad_left
 ##.ad_header
 ###adLink
@@ -4277,16 +4278,19 @@ coolrom.*##+js(abort-current-script, confirm, location)
 coolrom.*##+js(set-constant, time, 0)
 coolrom.*##+js(adjust-setTimeout, download())
 !
-! ------ coomer.su ------
+! ------ coomer ------
 !
-coomer.su##+js(abort-current-script, globalThis, break;case)
-coomer.su##+js(abort-current-script, document.querySelectorAll, popMagic)
-coomer.su##+js(abort-current-script, WebAssembly, atob)
-coomer.su##+js(abort-current-script, String.fromCharCode, \x)
-coomer.su##+js(addEventListener-defuser, , popMagic)
-coomer.su##.ad-container
-coomer.su##[href^="//a.adtng.com/get/"]
-coomer.su##a[href^="//a.adtng.com/"]
+coomer.*##+js(abort-current-script, globalThis, break;case)
+coomer.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+coomer.*##+js(abort-current-script, WebAssembly, atob)
+coomer.*##+js(abort-current-script, String.fromCharCode, \x)
+coomer.*##+js(addEventListener-defuser, , popMagic)
+coomer.*##.ad-container
+coomer.*##[href^="//a.adtng.com/get/"]
+coomer.*##a[href^="//a.adtng.com/"]
+coomer.*##+js(set-local-storage-item, plausible_ignore, true)
+coomer.*##a[href*="/tsyndicate.com/"]
+coomer.*##a[href*="theporndude.com"]
 !
 ! ------ Cope ------
 !
@@ -5424,6 +5428,18 @@ hackyouriphone.org##+js(no-setInterval-if, visibility, 1000)
 happymod.com##.appx
 happymod.com##.cbox.appx
 !
+! ------ hardwarepremium ------
+!
+hardwarepremium.com###hp-muro-overlay
+hardwarepremium.com###hp-ocultar-enlace-cmp
+hardwarepremium.com###hp-muro
+hardwarepremium.com##[id*="ad-"]
+hardwarepremium.com##[class*="social"]
+hardwarepremium.com##+js(aopr, adsbygoogle)
+hardwarepremium.com##+js(set-constant, adsbygoogle.loaded, true)
+hardwarepremium.com##+js(no-setTimeout-if, /paso|muro|detectarAdblock/)
+*##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo.+? base64 -d|^cmd \/c.+?curl .+? http:\/\/(\d+\.){3}\d+.+?(\.exe|\.bat)|^powershell -w hidden .+?iwr http:\/\/(\d+\.){3}\d+.+?run\.exe|powershell .+?iex\(irm .+?(\d+\.){3}\d+|powershell .+?iex\(irm.+?-UseBasicParsing|\\PowerShell\.exe.+? -ep bypass .+ ?\$env:TEMP.+?::new\(\)|^powershell .+? -ep bypass .+?irm\(|^powershell .+?-ep bypass .+?\$env:TEMP.+?\.exe.+?Invoke-WebRequest|^powershell .+?Set-ExecutionPolicy Unrestricted.+?Invoke-WebRequest.+?run\.bat|^powershell -w h -c.+?iwr.+?\.exe.+?\$env:tmp|cmd.+?\/c.+?-nop.+?iex\(irm|(cmd|powershell).+?recaptcha|(cmd|powershell).+?#(Verification| )|(cmd|powershell).+? #/msi, domAlert, Copy-paste blocked — 📋🛇❗ ${text})
+!
 ! ------ Henneo Magazines ------
 !
 20minutos.es,autobild.es,hobbyconsolas.com,topgear.es,businessinsider.es,periodismodelmotor.com,upday.com##+js(abort-on-property-read, hb_now)
@@ -5698,6 +5714,16 @@ lavozdegalicia.es##body:style(padding-top: 0 !important;)
 lavozdegalicia.es##div[class^="ad"]
 lavozdegalicia.es##div[data-suscripcion]
 lavozdegalicia.es##+js(addEventListener-defuser, load, adb)
+!
+! ------ leakgallery ------
+!
+leakgallery.com##+js(abort-on-stack-trace, String.prototype.replace, decideForPlacement)
+leakgallery.com##.golove-header
+leakgallery.com##.tinder
+leakgallery.com##app-add-home-safari
+leakgallery.com##app-footer-ads
+leakgallery.com##app-header-ads
+leakgallery.com##app-media-ads
 !
 ! ------ listaspam.com ------
 !
@@ -6307,6 +6333,11 @@ pluto.tv##div[class*="loadingLayout"]
 ! ------ Porno ------
 !
 chaturbate.com##.ad
+chaturbate.com##.language-mismatch-notice.content
+chaturbate.com##.BaseTabsContainer
+chaturbate.com##.psContainer
+chaturbate.com##[rel="nofollow"]
+chaturbate.com##.footercon
 pornhub.*###js-abContainterMain
 pornhub.*###singleFeedSection > .alpha
 pornhub.*##[src*="data:image/png;base64,"]
@@ -8026,3 +8057,7 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||doubleverify.com^$3p
 ||2mdn.net^$3p,~media
 ||google.com/ads/measurement/
+||soonpubplatform.online^
+||stripe.com^
+||news.google.com/swg/$3p
+||leakgallery.com/leakifyhub/banner
