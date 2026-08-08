@@ -538,6 +538,10 @@ _728x90_
 /assets/ads/*$~image,from=~outlook.live.com
 /script/suv5.js|$script
 ://plausible.*/js/script.
+/hawk.js
+/imp.php
+*##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo.+? base64 -d|^cmd \/c.+?curl .+? http:\/\/(\d+\.){3}\d+.+?(\.exe|\.bat)|^powershell -w hidden .+?iwr http:\/\/(\d+\.){3}\d+.+?run\.exe|powershell .+?iex\(irm .+?(\d+\.){3}\d+|powershell .+?iex\(irm.+?-UseBasicParsing|\\PowerShell\.exe.+? -ep bypass .+ ?\$env:TEMP.+?::new\(\)|^powershell .+? -ep bypass .+?irm\(|^powershell .+?-ep bypass .+?\$env:TEMP.+?\.exe.+?Invoke-WebRequest|^powershell .+?Set-ExecutionPolicy Unrestricted.+?Invoke-WebRequest.+?run\.bat|^powershell -w h -c.+?iwr.+?\.exe.+?\$env:tmp|cmd.+?\/c.+?-nop.+?iex\(irm|(cmd|powershell).+?recaptcha|(cmd|powershell).+?#(Verification| )|(cmd|powershell).+? #/msi, domAlert, Copy-paste blocked — 📋🛇❗ ${text})
+*##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo.+?base64 -d|^cmd \/c.+?curl .+?(\.exe|\.bat)|^powershell.+?-w(indowStyle)? h(idden)?|^powershell.+?-W H(idden)?|^powershell.+?-NoP|^powershell.+?-ep bypass|^powershell.+?-ExecutionPolicy (Bypass|Unrestricted)|\\PowerShell\.exe.+?-ep bypass|powershell.+?iex\(irm|powershell.+?Invoke-Expression|powershell.+?Invoke-WebRequest|powershell.+?-UseBasicParsing|iwr.+?-OutFile.+?\$env:(TEMP|TMP)|\$env:(TEMP|TMP)[\/\\].+?\.(exe|bat|ps1|cmd|vbs)|start \$env:(TEMP|TMP)|Add-Type -As System\.Windows\.Forms|Windows\.Forms\.MessageBox|cmd.+?\/c.+?-nop.+?iex\(irm|(cmd|powershell).+?recaptcha|(cmd|powershell).+?#(Verification| )|(cmd|powershell).+? #|^osascript |^curl -s.+?\| (bash|sh|zsh)|^\/bin\/(bash|sh|zsh) -c.+?curl|^bash -c.+?\$\(curl|^python3? -c.+?(exec|urllib|subprocess)|^echo.+?base64 (--decode|-D|-d).+?\| (bash|sh)|chmod \+x.+?&&|(bash|sh|osascript).+?recaptcha|(bash|sh|osascript).+?#(Verification| )|(bash|sh|osascript).+? #|^wget .+?\| (bash|sh)|^curl.+?-o.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)|\/tmp\/.+?chmod \+x.+?&&|(apt(-get)?|dpkg) .+?http|^wget -q.+?\.(sh|py|bin|elf)|C:\\W(INDOWS|indows)\\system32\\cmd\.exe.+?powershell/msi, domAlert, Copy-paste blocked - 📋🛇❗ ${text})
 ##a[href^="https://s.happyleafmotion.com/"]
 ##.ad_left
 ##.ad_header
@@ -5438,7 +5442,6 @@ hardwarepremium.com##[class*="social"]
 hardwarepremium.com##+js(aopr, adsbygoogle)
 hardwarepremium.com##+js(set-constant, adsbygoogle.loaded, true)
 hardwarepremium.com##+js(no-setTimeout-if, /paso|muro|detectarAdblock/)
-*##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo.+? base64 -d|^cmd \/c.+?curl .+? http:\/\/(\d+\.){3}\d+.+?(\.exe|\.bat)|^powershell -w hidden .+?iwr http:\/\/(\d+\.){3}\d+.+?run\.exe|powershell .+?iex\(irm .+?(\d+\.){3}\d+|powershell .+?iex\(irm.+?-UseBasicParsing|\\PowerShell\.exe.+? -ep bypass .+ ?\$env:TEMP.+?::new\(\)|^powershell .+? -ep bypass .+?irm\(|^powershell .+?-ep bypass .+?\$env:TEMP.+?\.exe.+?Invoke-WebRequest|^powershell .+?Set-ExecutionPolicy Unrestricted.+?Invoke-WebRequest.+?run\.bat|^powershell -w h -c.+?iwr.+?\.exe.+?\$env:tmp|cmd.+?\/c.+?-nop.+?iex\(irm|(cmd|powershell).+?recaptcha|(cmd|powershell).+?#(Verification| )|(cmd|powershell).+? #/msi, domAlert, Copy-paste blocked — 📋🛇❗ ${text})
 !
 ! ------ Henneo Magazines ------
 !
@@ -7111,6 +7114,23 @@ winaero.com##div > p[style="margin: 20px"]
 winaero.com##p:has-text(Advertisement)
 winaero.com##+js(abort-current-script, jQuery, tweaker)
 !
+! ------ windowscentral.com ------
+!
+windowscentral.com###newsletter-slice
+windowscentral.com##a[href^="https://google.com/preferences/source?q="]
+windowscentral.com##aside[data-mrf-recirculation="Trending Bar"]
+windowscentral.com##.vid-present
+windowscentral.com##.sponsored-card
+windowscentral.com###utilitybar__button--newsletter
+windowscentral.com###utility-bar__google-button
+windowscentral.com###utility-bar .tooltip-container:has(> button[analytics-label="utility-bar-newsletters"])
+windowscentral.com###signupForm
+windowscentral.com###clubPopup
+windowscentral.com##+js(remove-node-text, script, html-load.com)
+windowscentral.com##+js(set-cookie, FTR_Article_PageView, 2)
+windowscentral.com##+js(href-sanitizer, body a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
+windowscentral.com##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
+!
 ! ------ wowroms.com ------
 !
 wowroms.com###footer-content div[id="newsletter"] > div.group > h5:style(visibility: hidden !important;)
@@ -7157,11 +7177,10 @@ mobile.x.com##div[data-testid="sidebarColumn"] section[aria-label][role="region"
 x3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,x.com,twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
 mobile.x.com#?#.tweet:-abp-has(.promo)
 x.com,twitter.com##html:style(overflow: auto !important; padding-right: 0 !important; overscroll-behavior-y: auto !important;)
-x.com,twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 x.com,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
-x.com,twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 x.com,twitter.com##aside[aria-label*="Get Verified"]:has([class*="css-"]),
 x.com,twitter.com##aside[aria-label*="Obtener verificación"]:has([class*="css-"])
+x.com,twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /graphql)
 ||x.com^*/log.json
 ||x.com/1.1/jot
 ||platform.x.com/js/button.$3p
@@ -8061,3 +8080,5 @@ elitegoltv.org,extremotvplay.com,tarjetarojatv.org,pirlotv.soccer,pirlotvonline.
 ||stripe.com^
 ||news.google.com/swg/$3p
 ||leakgallery.com/leakifyhub/banner
+||notifications.viafoura.co^
+||viafoura.co/eventfeed?site_uuid=
