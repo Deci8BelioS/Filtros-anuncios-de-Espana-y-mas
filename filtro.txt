@@ -1713,6 +1713,7 @@ _728x90_
 @@||braze.com^$3p
 @@||rudderlabs.com^$3p
 @@||challenges.cloudflare.com^$generichide
+@@||disqus.com/embed/comments^
 !
 ! ------ SECCIÓN: Cookies - Ocultación general de elementos ------
 !
@@ -4865,6 +4866,7 @@ diariodenavarra.es##.sticky_roba
 !
 ! ------ elchapuzasinformatico ------
 !
+elchapuzasinformatico.com##.post-content-pbl
 elchapuzasinformatico.com##div[class*="-pbl"]
 elchapuzasinformatico.com###pc_sidebar_300x600_1
 elchapuzasinformatico.com##body .ads:not(#style_important)
@@ -4896,6 +4898,18 @@ elchapuzasinformatico.com##[id*="ads_single"]
 !
 ! ------ elespanol.com ------
 !
+elespanol.com###publi400
+elespanol.com##div[id*="publi_intext"]
+elespanol.com##.articulo_wrapper:style(margin-top: 88px !important;)
+elespanol.com##.publimovil
+elespanol.com##.exco-lazy-slot
+elespanol.com##.anuncio-fixed
+elespanol.com##div[id*="-ad-"]
+elespanol.com##div[id*="carril_derecho"]
+elespanol.com##div[id*="publi_wrapper"]
+elespanol.com##.md-subscription
+elespanol.com##section.article__footer-navV2
+elespanol.com###right_column
 elespanol.com###footer_tools_share
 elespanol.com##.article-adv__content
 elespanol.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
